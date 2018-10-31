@@ -79,14 +79,14 @@ def random_list(size,max_value):            #função auxiliar para
     return temp
 
 # Bubble Sort
-print "Bubble Sort"
+print("Bubble Sort")
 lista = random_list(10, 1000)     #cria lista aleatória
 print(lista)                      #imprime não-ordenada
 bubble_sort(lista)                #ordena
 print(lista)                      #imprime ordenada
 
 # Insertion Sort
-print "\nInsertion Sort"
+print("\nInsertion Sort")
 lista = random_list(10, 1000)     #cria lista aleatória
 print(lista)                      #imprime não-ordenada
 insertion_sort(lista)             #ordena
