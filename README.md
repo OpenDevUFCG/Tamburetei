@@ -27,7 +27,7 @@ Caso deseje adicionar alguma disciplina ou compartilhar sua experiência, basta 
 
 É normal uma cadeira não funcionar da mesma maneira que antes, se você notou que existe alguma informação defasada, não se incomode de abrir uma issue alertando e quem sabe contribuir pra mudar.
 
-## Contribuidores
+## Tambureteiros
 
 [![](https://sourcerer.io/fame/thayannevls/OpenDevUFCG/Tamburetei/images/0)](https://sourcerer.io/fame/thayannevls/OpenDevUFCG/Tamburetei/links/0)[![](https://sourcerer.io/fame/thayannevls/OpenDevUFCG/Tamburetei/images/1)](https://sourcerer.io/fame/thayannevls/OpenDevUFCG/Tamburetei/links/1)[![](https://sourcerer.io/fame/thayannevls/OpenDevUFCG/Tamburetei/images/2)](https://sourcerer.io/fame/thayannevls/OpenDevUFCG/Tamburetei/links/2)[![](https://sourcerer.io/fame/thayannevls/OpenDevUFCG/Tamburetei/images/3)](https://sourcerer.io/fame/thayannevls/OpenDevUFCG/Tamburetei/links/3)[![](https://sourcerer.io/fame/thayannevls/OpenDevUFCG/Tamburetei/images/4)](https://sourcerer.io/fame/thayannevls/OpenDevUFCG/Tamburetei/links/4)[![](https://sourcerer.io/fame/thayannevls/OpenDevUFCG/Tamburetei/images/5)](https://sourcerer.io/fame/thayannevls/OpenDevUFCG/Tamburetei/links/5)[![](https://sourcerer.io/fame/thayannevls/OpenDevUFCG/Tamburetei/images/6)](https://sourcerer.io/fame/thayannevls/OpenDevUFCG/Tamburetei/links/6)[![](https://sourcerer.io/fame/thayannevls/OpenDevUFCG/Tamburetei/images/7)](https://sourcerer.io/fame/thayannevls/OpenDevUFCG/Tamburetei/links/7)
 
