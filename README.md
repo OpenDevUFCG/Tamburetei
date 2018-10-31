@@ -1,10 +1,9 @@
 # Tamburetei
-Tamburetei vai te ajudar a fazer de tamburete aquela cadeira de CC. Direcionado pro curso de Ciência da Computação da UFCG, esse repositório é um trabalho colaborativo contendo dicas, links úteis e leites das cadeiras do curso. A ideia é que veteranos ajudem novatos e ninguém mais passe sufoco em nenhuma cadeia :)
+Tamburetei vai te ajudar a fazer de tamburete aquela cadeira de CC. Direcionado pro curso de Ciência da Computação da UFCG, esse repositório é um trabalho colaborativo contendo dicas, links úteis e leites das cadeiras do curso. A ideia é que veteranos ajudem novatos e ninguém mais passe sufoco em nenhuma cadeira :)
 
 ## Como funciona
 
-Cada cadeira do curso possui uma pasta separada, dentro de cada pastas vão existir os seguintes conteúdos:
-
+Cada cadeira do curso vai possuir uma pasta separada, dentro de cada pasta irá existir os seguintes conteúdos:
 
 Arquivo | Finalidade
 ------- | -----------
@@ -13,17 +12,17 @@ Arquivo | Finalidade
 **dificuldadesComuns.md** | Aqui é permitido relatos e descrever dificuldades comuns na cadeira, e como superar essas dificuldades.
 **extras.md** | Se for necessário algum tópico a mais, cabe nesse arquivo.
 **leites/** | Pasta que contém leites dos períodos passados. Os mesmos devem estar separados por período em pastas.
-**implementacoes/** | Caso a cadeira possibilite, aqui vale colocar algumas implementações úteis, devem ser fáceis de entender e simples.
+**implementacoes/** | Caso a cadeira possibilite, aqui vale colocar algumas implementações úteis, devem ser fáceis de entender e bem documentadas.
 
 ## Regras
 
 - Respeite o código de conduta.
-- Proibido publicar soluções de atividades avaliativas das disciplinas que são as mesmas todos os anos. Você tem como exemplo disso LEDA e LP2.
-- Proibido falar mal de professores. Evitem comentar sobre professores ao máximo.
+- Proibido publicar soluções de atividades avaliativas das disciplinas que são as mesmas todos os anos. Como exemplo roteiros de LEDA e laboratórios de LP2.
+- Proibido falar mal dos professores. Evitem comentar sobre professores ao máximo.
 
 ## Como contribuir
 
-Caso deseje adicionar alguma disciplina ou compartilhar sua experiência, basta dar fork nesse repositório e escrever no arquivo apropriado. Discussões são bem vindas, compartilhem experiências por meio das issues usando a label **discussion**, isso ajuda a transformar as informações aqui nesse repositório mais verdadeiras.
+Caso deseje adicionar alguma disciplina ou compartilhar sua experiência, basta dar fork nesse repositório e escrever no arquivo apropriado. Discussões também são bem vindas, compartilhem experiências por meio das issues usando a label **discussion**, isso ajuda a transformar as informações aqui nesse repositório mais verdadeiras.
 
 É normal uma cadeira não funcionar da mesma maneira que antes, se você notou que existe alguma informação defasada, não se incomode de abrir uma issue alertando e quem sabe contribuir pra mudar.
 
