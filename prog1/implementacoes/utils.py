@@ -5,7 +5,8 @@
 #======================================================================#
 # Abaixo existem algumas funções já presentes em python que na         #
 # disciplina você geralmente precisará implementar asua própria, pois  #
-# a utilização das mesmas resultará em impugnação.                     #
+# a utilização das mesmas resultará em impugnação, e também algumas    #
+# funções úteis que você provavelmente utilizará na disciplina.        #
 #======================================================================#
 #         IMPLEMENTAÇÕES                                               #
 #======================================================================#
@@ -39,10 +40,9 @@ def mySplit(s, key=' '):
 #======================================================================#
 
 def mySum(l, start=0):
-    end = start
     for i in l:
-        end += i
-    return end
+        start += i
+    return start
 
 #======================================================================#
 # myInsert                                                             #
@@ -64,6 +64,42 @@ def myInsert(l, index, value):
 def myReverse(l):
     for i in range(len(l)/2):
         l[i], l[-i-1] = l[-i-1], l[i]
+
+#======================================================================#
+# myMax                                                                #
+#     A função max() retorna o valor máximo de uma lista.              #
+#======================================================================#
+
+def myMax(l):
+    result = l[0]
+    for i in l:
+        if i > result:
+            result = i
+    return result
+
+#======================================================================#
+# Fatorial Recursivo                                                   #
+#     A ideia de uma função recursiva é que em algum momento ela chame #
+#     a si mesma, na disciplina de Programação 1 você provavelmente    #
+#     não encontrará problemas que você PRECISA utilizar recursão,     #
+#     porém é um uso de código extremamente útil que muitas vezes pode #
+#     até simplificar seu algoritmo.                                   #
+#     Um caso simples para compreender a idéia de recursão é o cálculo #
+#     de um número fatorial, como apresentado abaixo.                  #
+#======================================================================#
+
+def recursive_factorial(n):
+    if n > 0:
+        return n * recursive_factorial(n-1)
+    return 1                #OBS: na disciplina de EDA/LEDA do terceiro
+                            #período você irá se deparar com um padrão
+                            #de código exigido no qual usa-se apenas um
+                            #retorno, então para este caso basta apenas
+                            #modificar para:
+                            #  result = 1
+                            #  if n > 0:
+                            #    result = n * recursive_factorial(n-1)
+                            #  return result
 
 #======================================================================#
 #         DEMONSTRAÇÃO                                                 #
@@ -93,3 +129,14 @@ lista = ['um', 'dois', 'tres', 'quatro', 'cinco']
 myReverse(lista)
 print(lista)
 # saida: ['cinco', 'quatro', 'tres', 'dois', 'um']
+
+lista = [4, 0, 0, 2, 8, 9, 2, 2]
+print(myMax(lista))
+# saida: 9
+
+s = ''
+for i in range(1,11):
+    s += '%d! = %d' % (i, recursive_factorial(i))
+    if i < 10: s += ', '
+print(s)
+# saida: 1! = 1, 2! = 2, 3! = 6, 4! = 24, 5! = 120, 6! = 720, 7! = 5040, 8! = 40320, 9! = 362880, 10! = 3628800
