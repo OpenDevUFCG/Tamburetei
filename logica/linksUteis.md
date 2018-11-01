@@ -5,4 +5,6 @@
 ## Projetos Antigos ##
 
   - [Condomínio em construção](https://github.com/SpinnelSun/ProjetoAlloy)
+  - [PetShop](https://github.com/jessesouza21/ProjetoLogica)
   - [Sistema hospitalar](https://github.com/FannyVieira/projeto-alloy)
+
