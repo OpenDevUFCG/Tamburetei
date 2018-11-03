@@ -12,12 +12,3 @@
 
 - [Pro Git](https://git-scm.com/book/pt-br/v2)
 - [Guia prático](http://rogerdudler.github.io/git-guide/index.pt_BR.html)
-- [Apresentação sobre Git e Github utilizada no período 2018.2](https://docs.google.com/presentation/d/1RRqpbSnEDrUSBNzo-QwsLoUz5hM4UXboj8SjucJKiH4/edit?usp=sharing)
-
-## JUnit ##
-
-  - [Apresentação sobre JUnit 5 utilizada no período 2018.2](https://docs.google.com/presentation/d/1RjFY9V1IqCkvruc5i56Vby4VZ0-ZpByfdZVvqyWHpjk/edit?usp=sharing)
-
-## EasyAccept ##
-
-  - [Material sobre EasyAccept utilizado no período 2018.2](https://github.com/hericlesme/EasyAcceptLesson)
