@@ -13,6 +13,7 @@ Arquivo | Finalidade
 **extras.md** | Se for necessário algum tópico a mais, cabe nesse arquivo.
 **leites/** | Pasta que contém leites dos períodos passados. Os mesmos devem estar separados por período em pastas.
 **implementacoes/** | Caso a cadeira possibilite, aqui vale colocar algumas implementações úteis, devem ser fáceis de entender e bem documentadas.
+**resumos/** | Resumos sobre algum assunto especifício, que seja bem dividido e fácil de entender.
 
 ## Regras
 
