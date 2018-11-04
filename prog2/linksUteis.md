@@ -11,6 +11,11 @@
 
 ## Git ##
 
-- [Pro Git](https://git-scm.com/book/pt-br/v2)
-- [Guia prático](http://rogerdudler.github.io/git-guide/index.pt_BR.html)
-- [Git Tutorials - Corey Schafer](https://www.youtube.com/playlist?list=PL-osiE80TeTuRUfjRe54Eea17-YfnOOAx)
+  - [Pro Git](https://git-scm.com/book/pt-br/v2)
+  - [Guia prático](http://rogerdudler.github.io/git-guide/index.pt_BR.html)
+  - [Git Tutorials - Corey Schafer](https://www.youtube.com/playlist?list=PL-osiE80TeTuRUfjRe54Eea17-YfnOOAx)
+
+## Ferramentas para criação de Diagramas de Classe ##
+  - [Astah](http://astah.net/download) - *Consiga uma Licença Acadêmica Gratuita [aqui](http://astah.net/student-license-request)*
+  - [ObjectAid](http://www.objectaid.com/)
+  - [Lucidchart](https://www.lucidchart.com/pages/pt)
