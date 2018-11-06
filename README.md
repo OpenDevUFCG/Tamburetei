@@ -23,7 +23,7 @@ Arquivo | Finalidade
 
 ## Como contribuir
 
-Caso deseje adicionar alguma disciplina ou compartilhar sua experiência, basta dar fork nesse repositório e escrever no arquivo apropriado. Discussões também são bem vindas, compartilhem experiências por meio das issues usando a label **discussion**, isso ajuda a transformar as informações aqui nesse repositório mais verdadeiras.
+Leia o [CONTRIBUTING.md](CONTRIBUTING.md)
 
 É normal uma cadeira não funcionar da mesma maneira que antes, se você notou que existe alguma informação defasada, não se incomode de abrir uma issue alertando e quem sabe contribuir pra mudar.
 
