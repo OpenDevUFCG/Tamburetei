@@ -1,4 +1,4 @@
-# Introdução à Probabilidade 
+# Programação I e Laboratório de Programação I 
 
 ## O que tem
 
@@ -6,6 +6,6 @@
 - [Links Úteis](linksUteis.md)
 - [Dificuldades Comuns](dificuldadesComuns.md)
 - [Extras](extras.md)
-- [Resumos](resumos)
+- [Implementações](implementacoes)
 
-> Atualizado no 18.2.
+> Atualizado no 17.2.
