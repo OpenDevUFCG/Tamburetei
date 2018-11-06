@@ -1,22 +1,22 @@
 # Visão Geral e Dicas
 
-Programação 1 você irá aprendes conceitos básicos de programação, ao fim da disciplina você saberá usar estruturas de condição, de repetição e algumas estruturas de dados.
+Em Programação 1 você irá aprender conceitos básicos de programação, ao fim da disciplina você saberá usar estruturas de condição, de repetição e algumas estruturas de dados.
 
 ## Visão Geral
 
-A cadeira é divida em 10 unidades, se você concluir pelo menos 7 unidades você paga a cadeira, se você concluir 10 unidades, será passada a tarefa de implementar um jogo usando o [PyGame](https://www.pygame.org/).
+A cadeira é divida em 10 unidades, se você concluir pelo menos 7 unidades você paga a cadeira, se concluir 10 unidades, será passada a tarefa de implementar um jogo usando o [PyGame](https://www.pygame.org/).
 
 As 10 unidades consistem em:
 
-1. .
-2. .
-3. .
+1. Conceitos elementares de programação
+2. Escrevendo programas simples
+3. Condições
 4. For
 5. While
-6. Função
-7. .
-8. .
-9. .
+6. Funções
+7. Arrays
+8. Listas
+9. Matrizes
 10. Dicionário
 
 
