@@ -12,3 +12,6 @@
   - [Petshop](https://github.com/jessesouza21/ProjetoLogica)
   - [Xbox](https://github.com/jadsonluan/sistema-xbox-alloy)
   - [Dropbox](https://github.com/hadrizia/ProjetoAlloy)
+
+## Listas de Exercícios 
+- [Listas de exercícios (2014 a 2018)](https://sites.google.com/site/logicamatematicaufcg/listas-de-exercicios)
