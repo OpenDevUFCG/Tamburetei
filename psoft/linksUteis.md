@@ -19,7 +19,7 @@
 - [Brackets](http://brackets.io/)
 - [Atom](https://atom.io/)
 
-# Utilitários
+## Utilitários
 - [Codepen](http://codepen.io/)
 - [JsFiddle](http://jsfiddle.net/)
 - [jsBeutify](http://tool.lu/js/)
