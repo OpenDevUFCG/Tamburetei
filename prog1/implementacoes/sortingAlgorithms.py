@@ -66,6 +66,39 @@ def selection_sort(lista):
         lista[i], lista[n] = lista[n], lista[i]
 
 #======================================================================#
+# Quick Sort                                                           #
+#     O algoritmo a seguir possui uma boa eficiência, no entanto, em   #
+#     seu pior caso tem complexidade O(n^2). Ele funciona fazendo      #
+#     sucessivos particionamentos com uso de recursão. O               #
+#     particionamento basicamente pega um valor pivô e move todos      #
+#     valores menores para trás dele e todos os maiores para depois,   #
+#     dessa forma o pivô ficará posicionado corretamente. Já a recursão# 
+#     atua fazendo sucessivos particionamentos nas sublistas antes e   #
+#     depois de cada pivô particionado até chegar em sublistas com     #
+#     menos que 2 elementos.                                           #
+#======================================================================#
+
+def quick_sort(lista):
+    quick_sort_recursion(lista,0,len(lista)-1) 
+
+def quick_sort_recursion(lista, low, high):
+    if (low < high):
+        p = partition(lista, low, high)
+        quick_sort_recursion(lista, low, p - 1)
+        quick_sort_recursion(lista, p + 1, high)
+
+def partition(lista, low, high):
+    pivot = lista[high]
+    i = (low - 1) 
+    for j in range(low,high):
+        if (lista[j] <= pivot):
+            i+= 1
+            lista[i],lista[j] = lista[j],lista[i]
+    lista[i+1],lista[high] = lista[high],lista[i+1]
+    return i + 1
+
+
+#======================================================================#
 #         DEMONSTRAÇÃO                                                 #
 #======================================================================#
 # Abaixo você pode ver os algoritmos sendo utilizados e funcionando,   # 
@@ -97,4 +130,11 @@ print("\nSelection Sort")
 lista = random_list(10, 1000)     #cria lista aleatória
 print(lista)                      #imprime não-ordenada
 selection_sort(lista)             #ordena
+print(lista)                      #imprime ordenada
+
+# Quick Sort
+print("\nQuick Sort")
+lista = random_list(10, 1000)     #cria lista aleatória
+print(lista)                      #imprime não-ordenada
+quick_sort(lista)                 #ordena
 print(lista)                      #imprime ordenada
