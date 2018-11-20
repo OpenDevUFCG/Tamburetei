@@ -73,10 +73,10 @@ def insertion_sort(values):
             values[j], values[j+1] = values[j+1], values[j]
             j -= 1
  
-def quick_sort(lista):
+def quick_sort(values):
     """ Ordena uma lista, em ordem crescente, usando o Quick Sort.
 
-    O Quick Sort é, possui uma boa eficiência, no entanto, em
+    O Quick Sort possui uma boa eficiência, no entanto, em
     seu pior caso tem complexidade O(n^2).Ele funciona fazendo      
     sucessivos particionamentos com uso de recursão. O               
     particionamento basicamente pega um valor pivô e move todos      
@@ -91,22 +91,22 @@ def quick_sort(lista):
     values : list
         A lista que deve ser ordenada 
     """
-    quick_sort_recursion(lista,0,len(lista)-1) 
+    quick_sort_recursion(values,0,len(values)-1) 
 
-def quick_sort_recursion(lista, low, high):
+def quick_sort_recursion(values, low, high):
     if (low < high):
-        p = partition(lista, low, high)
-        quick_sort_recursion(lista, low, p - 1)
-        quick_sort_recursion(lista, p + 1, high)
+        p = partition(values, low, high)
+        quick_sort_recursion(values, low, p - 1)
+        quick_sort_recursion(values, p + 1, high)
 
-def partition(lista, low, high):
-    pivot = lista[high]
+def partition(values, low, high):
+    pivot = values[high]
     i = (low - 1) 
     for j in range(low,high):
-        if (lista[j] <= pivot):
+        if (values[j] <= pivot):
             i+= 1
-            lista[i],lista[j] = lista[j],lista[i]
-    lista[i+1],lista[high] = lista[high],lista[i+1]
+            values[i],values[j] = values[j],values[i]
+    values[i+1],values[high] = values[high],values[i+1]
     return i + 1
 
 # DEMONSTRAÇÃO
@@ -158,7 +158,7 @@ insertion_sort(values)
 print values                      # Imprime lista ordenada.
 
 print("\nQuick Sort")
-lista = random_list(10, 1000)     
-print(lista)                      # Imprime lista não-ordenada.
-quick_sort(lista)                 
-print(lista)                      # Imprime lista ordenada.
+values = random_list(10, 1000)     
+print values                      # Imprime lista não-ordenada.
+quick_sort(values)                 
+print values                      # Imprime lista ordenada.
