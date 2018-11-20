@@ -72,7 +72,42 @@ def insertion_sort(values):
         while (j >= 0) and (values[j] > key):
             values[j], values[j+1] = values[j+1], values[j]
             j -= 1
+ 
+def quick_sort(values):
+    """ Ordena uma lista, em ordem crescente, usando o Quick Sort.
 
+    O Quick Sort possui uma boa eficiência, no entanto, em
+    seu pior caso tem complexidade O(n^2).Ele funciona fazendo      
+    sucessivos particionamentos com uso de recursão. O               
+    particionamento basicamente pega um valor pivô e move todos      
+    valores menores para trás dele e todos os maiores para depois,   
+    dessa forma o pivô ficará posicionado corretamente. Já a recursão 
+    atua fazendo sucessivos particionamentos nas sublistas antes e   
+    depois de cada pivô particionado até chegar em sublistas com     
+    menos que 2 elementos.                      
+
+    Parameters
+    ----------
+    values : list
+        A lista que deve ser ordenada 
+    """
+    quick_sort_recursion(values,0,len(values)-1) 
+
+def quick_sort_recursion(values, low, high):
+    if (low < high):
+        p = partition(values, low, high)
+        quick_sort_recursion(values, low, p - 1)
+        quick_sort_recursion(values, p + 1, high)
+
+def partition(values, low, high):
+    pivot = values[high]
+    i = (low - 1) 
+    for j in range(low,high):
+        if (values[j] <= pivot):
+            i+= 1
+            values[i],values[j] = values[j],values[i]
+    values[i+1],values[high] = values[high],values[i+1]
+    return i + 1
 
 # DEMONSTRAÇÃO
 #
@@ -120,4 +155,10 @@ print "\nInsertion Sort"
 values = random_list(10, 1000)     
 print values                      # Imprime lista não-ordenada.
 insertion_sort(values)
+print values                      # Imprime lista ordenada.
+
+print("\nQuick Sort")
+values = random_list(10, 1000)     
+print values                      # Imprime lista não-ordenada.
+quick_sort(values)                 
 print values                      # Imprime lista ordenada.
