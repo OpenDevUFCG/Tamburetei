@@ -55,12 +55,12 @@ else:
     print "O número digitado é ímpar."
 
 
-if (0 < value < 10):
+if (0 <= value < 10):
     print "O número digitado está entre 0 e 10."
-elif (10 < value < 20):
+elif (10 <= value < 20):
     print "O número digitado está entre 10 e 20."
-elif (20 < value < 100):
-    if (20 < value < 50):
+elif (20 <= value <= 100):
+    if (20 <= value < 50):
         print "O número digitado está entre 20 e 50."
     else:
         print "O número digitado está entre 50 e 100."
