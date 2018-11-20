@@ -1,0 +1,93 @@
+# Extras
+
+Algumas informações extras sobre a disciplina
+
+## Sumário
+- [Extras](#extras)
+    - [Sumário](#sum%C3%A1rio)
+    - [Como usar o TST](#como-usar-o-tst)
+        - [Instalar](#instalar)
+        - [Comandos](#comandos)
+        - [Exemplo de Uso](#exemplo-de-uso)
+            - [Login](#login)
+        - [Checkout](#checkout)
+        - [Testando](#testando)
+        - [Enviando](#enviando)
+
+## Como usar o TST
+
+TST é o sistema de submissão das questões realizadas por alunos nas provas e exercícios. Aqui vai alguns guias de como usar a ferramenta.
+
+### Instalar
+O script abaixo baixa e configura o tst de maneira automática. Não use a permissão root nele.
+
+```sh
+bash -c "$(curl -q -sSL http://bit.ly/tst-install)"
+```
+
+### Comandos
+
+** O comando `tst --help` mostra todos os comandos disponíveis do tst e se você usar `tst <command> -- help` vai te mostrar mais detalhas sobre um comando específico.
+
+Agora uma lista de todos os comandos:
+
+Comando | Descrição
+------- | -----------
+**checkout** | Baixa uma questão do TST, cria um objeto e um diretório contendo o nome da questão passada como argumento.
+**commit** | Envia a sua resposta para o servidor
+**login** | Faz o login para o tst-online usando um token e seu email. Automaticamente abrirá uma página no seu browser requisitando o token.
+**ls** | Lista todos os objetos do TST disponíveis.
+**test** | Valida sua resposta e roda os testes.
+**update** | Atualiza o TST para a última versão estável
+
+### Exemplo de Uso
+
+Nessa seção iremos simular como se tivesse usando o TST pela primeira vez, fazendo o login, resolvendo uma questão do TST, a testando e submentendo para o servidor.
+
+#### Login
+Primeiro você precisar se logar no [TST-ONLINE](http://tst-online.appspot.com/) e depois no seu terminal logar na sua conta usando:
+
+```sh
+tst login
+```
+
+Esse comando irá abrir uma nova tab no seu browser mostrando o token necessário para realizar o login e seu email usado no TST-Online. Copie o Token e cole no terminal como indicado.
+
+### Checkout
+Agora vamos resolver uma questão, copie o checkout código de alguma questão do [TST](http://tst-online.appspot.com/#/) que você queria resolver e rode o seguinte comando:
+
+```sh
+$ tst checkout <codigo_questao>
+```
+Esse comando irá criar um novo repositório, vá para o diretório e comece a implementar a sua solução:
+
+```sh
+cd <codigo_questao>
+```
+
+### Testando
+Após implementar sua solução, você pode testá-la usando:
+```sh
+tst test <arquivo_da_questao>
+```
+Onde `<arquivo_da_questao>` é seu arquivo **.py**.
+
+Se você tiver apenas um arquivo **.py** no seu diretório você apenas precisa usar:
+
+```sh
+tst
+```
+Se você recebeu uma saída contendo apenas pontos(Ex: `.`, `...`), vocês passou em todos os testes públicos e agora você pode submeter sua questão apra o servidor.
+
+### Enviando
+
+Envie sua questão para o servidor:
+
+```sh
+tst commit <arquivo_da_questao>
+```
+Para verificar se você passou em todos os testes do servidor e sua resposta foi aceita use:
+
+```sh
+tst -s
+```

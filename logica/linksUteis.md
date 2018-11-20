@@ -4,7 +4,14 @@
 
 ## Projetos Antigos ##
 
-  - [Condomínio em construção](https://github.com/SpinnelSun/ProjetoAlloy)
-  - [PetShop](https://github.com/jessesouza21/ProjetoLogica)
-  - [Sistema hospitalar](https://github.com/FannyVieira/projeto-alloy)
-  - [Sistema Xbox](https://github.com/jadsonluan/sistema-xbox-alloy)
+  - [Telecomunicações](https://github.com/emanueljoivo/UsingAlloyAnalyzer)
+  - [Condomínio](https://github.com/SpinnelSun/ProjetoAlloy)
+  - [Arquivos](https://github.com/AndersonVidal/ProjetoAlloy)
+  - [Hospital](https://github.com/FannyVieira/projeto-alloy)
+  - [Clínica](https://github.com/hericlesme/ProjetoAlloy)
+  - [Petshop](https://github.com/jessesouza21/ProjetoLogica)
+  - [Xbox](https://github.com/jadsonluan/sistema-xbox-alloy)
+  - [Dropbox](https://github.com/hadrizia/ProjetoAlloy)
+
+## Listas de Exercícios 
+- [Listas de exercícios (2014 a 2018)](https://sites.google.com/site/logicamatematicaufcg/listas-de-exercicios)
