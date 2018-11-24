@@ -1,10 +1,10 @@
-# Resumo de dados - 18.2
+# Resumo de dados
 
 Feito com base neste [slide](https://www.dropbox.com/s/3rubq11f0f4035j/Aula%202_Resumo%20de%20Dados.pdf?dl=0) e [esse](https://www.dropbox.com/s/d6j661koffx2mbx/Aula%203_Resumo%20de%20Dados%20%28continua%C3%A7%C3%A3o%29.pdf?dl=0).
 
 ## Sumário
 
-- [Resumo de dados - 18.2](#resumo-de-dados---182)
+- [Resumo de dados](#resumo-de-dados)
     - [Sumário](#sum%C3%A1rio)
     - [Estatística](#estat%C3%ADstica)
         - [Tipos](#tipos)

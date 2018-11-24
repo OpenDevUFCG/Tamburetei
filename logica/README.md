@@ -1,4 +1,4 @@
-# Introdução à Probabilidade 
+# Lógica
 
 ## O que tem
 
@@ -6,4 +6,4 @@
 - [Links Úteis](linksUteis.md)
 - [Dificuldades Comuns](dificuldadesComuns.md)
 - [Extras](extras.md)
-- [Resumos](resumos)
+- [leites](leites)

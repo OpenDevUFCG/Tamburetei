@@ -1,4 +1,4 @@
-# Introdução à Probabilidade 
+# Cálculo I
 
 ## O que tem
 
@@ -6,4 +6,5 @@
 - [Links Úteis](linksUteis.md)
 - [Dificuldades Comuns](dificuldadesComuns.md)
 - [Extras](extras.md)
-- [Resumos](resumos)
+- [leites](leites)
+- [implementacoes](implementacoes)

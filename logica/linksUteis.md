@@ -15,3 +15,8 @@
 
 ## Listas de Exercícios 
 - [Listas de exercícios (2014 a 2018)](https://sites.google.com/site/logicamatematicaufcg/listas-de-exercicios)
+
+
+## Links externos
+
+[Material de lógica da *DAINF*](http://www.dainf.ct.utfpr.edu.br/~adolfo/Disciplinas/LogicaParaComputacao_novo/)
