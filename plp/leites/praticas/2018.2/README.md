@@ -2,4 +2,4 @@
 
 ## Implementações das práticas
 
-- [Link para o repositório com implementação das práticas](https://github.com/OpenDevUFCG/Tamburetei)
+- [Link para o repositório com implementação das práticas](https://github.com/LukeHxH/praticasPLP)
