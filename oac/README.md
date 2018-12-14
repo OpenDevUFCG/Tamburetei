@@ -1,4 +1,4 @@
-# Lógica
+# Organização e Arquitetura de Computadores
 
 ## O que tem
 
@@ -6,5 +6,4 @@
 - [Links Úteis](linksUteis.md)
 - [Dificuldades Comuns](dificuldadesComuns.md)
 - [Extras](extras.md)
-- [leites](leites)
-- [resumos](resumos)
+- [Leites](leites)
