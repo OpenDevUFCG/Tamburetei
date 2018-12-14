@@ -21,3 +21,5 @@ A cadeira possui um projeto no final da disciplina com especificação que será
 
 - Alguns assuntos exigem que você pratique para poder entender verdadeiramente, então sempre fazer as listas já ajuda muito.
 
+- No assunto de dedução o segredo é praticar para entender o assunto de verdade, faça muitas questões sobre.
+

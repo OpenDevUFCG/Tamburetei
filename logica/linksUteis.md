@@ -20,3 +20,9 @@
 ## Links externos
 
 [Material de lógica da *DAINF*](http://www.dainf.ct.utfpr.edu.br/~adolfo/Disciplinas/LogicaParaComputacao_novo/)
+
+## Assuntos 
+
+- Dedução natural
+  - https://galdino.catalao.ufg.br/up/635/o/deducaonatural.pdf
+  
