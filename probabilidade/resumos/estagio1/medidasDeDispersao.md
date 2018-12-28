@@ -3,7 +3,11 @@
 Feito com basse nesse [slide](https://www.dropbox.com/s/5byiyz93n9fr0gj/Aula%205_Medidas_Dispers%C3%A3o.pdf?dl=0)
 
 ## Desvio médio
-Denotado por *dm(X)*
+Considere um conjunto de observações de uma variável *x*, dado por ![](http://latex.codecogs.com/gif.latex?%5Cinline%20%5Cfn_cm%20%5Csmall%20x_%7B1%7D),  ![](http://latex.codecogs.com/gif.latex?%5Cinline%20%5Cfn_cm%20%5Csmall%20x_%7B2%7D), . . . , ![](http://latex.codecogs.com/gif.latex?%5Cinline%20%5Cfn_cm%20%5Csmall%20x_%7Bk%7D) com respectivas frequências ![](http://latex.codecogs.com/gif.latex?%5Cinline%20%5Cfn_cm%20%5Csmall%20n_%7B1%7D), ![](http://latex.codecogs.com/gif.latex?%5Cinline%20%5Cfn_cm%20%5Csmall%20n_%7B2%7D), . . . , ![](http://latex.codecogs.com/gif.latex?%5Cinline%20%5Cfn_cm%20%5Csmall%20n_%7Bk%7D). Definimos o desvio médio de *x*, denotado por *dm(x)*, como sendo a medida:
+
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Clarge%20dm%28x%29%3D%5Cfrac%7B%5Csum_%7Bi%3D1%7D%5E%7B10%7D%7Bn_%7Bi%7D%7Cx_%7Bi%7D-%5Coverline%7Bx%7D%7C%7D%7D%7Bn%7D">
+</p>
 
 
 ## Variância
