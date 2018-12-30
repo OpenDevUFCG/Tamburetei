@@ -82,3 +82,55 @@ Os comprimentos, em centímetros, de 30 peças estão dados abaixo:
 
 ## Questão 2
 O número de divórcios numa certa idade, de acordo com a duração do casamento, está representado na tabela abaixo:
+
+**Anos de casamento** | **Número de divórcios**
+--- | ---
+![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%200%20%5Cvdash%206) | 2800
+![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%206%20%5Cvdash%2012) | 1400
+![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%2012%20%5Cvdash%2018) | 600
+![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%2018%20%5Cvdash%2024) | 150
+![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%2024%20%5Cvdash%2030) | 50
+**Total** | 5000
+
+**a)** Construa o histograma da distribuição
+  - O esboço do histograma deve seguir o seguinte modelo:
+  
+ <p align="center">
+    <a href="https://plot.ly/~grabowski74/4/?share_key=frofwwSVKTIVUeYrZAlBj6" target="_blank" title="Plot 4" style="display: block; text-align: center;"><img src="https://plot.ly/~grabowski74/4.png?share_key=frofwwSVKTIVUeYrZAlBj6" alt="Plot 4" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    
+</p>
+
+**b)** Qual a duração média dos casamentos?
+  - Para isto, devemos calcular a média com a seguinte fórmula:
+  <p align="center">
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20%5Cbar%7Bx%7D%20%3D%20%5Cfrac%7B1%7D%7Bn%7D%5Csum_%7Bi%3D1%7D%5E%7Bk%7Dn_%7Bi%7D.s_%7Bi%7D">
+</p>
+ <p align="center">
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20%5Cbar%7Bx%7D%20%3D%20%5Cfrac%7B1%7D%7B5000%7D%282800.3%20&plus;%201400.9%20&plus;%20600.15%20&plus;%20150.21%20&plus;%2050.27%29">
+   <p align="center">
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20%5Cbar%7Bx%7D%20%5Csimeq%206%2C97">
+</p>
+
+**c)** Encontre a variância e o desvio padrâo de duração de casamentos.
+  - Para a variância, usaremos a seguinte fórmula:
+  <p align="center">
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20var%28x%29%20%3D%20%5Csum_%7Bi%3D1%7D%5E%7Bk%7Df_%7Bi%7D%28x_%7Bi%7D-%5Cbar%7Bx%7D%29%5E2">
+</p>
+   <p align="center">
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20var%28x%29%20%3D%200%2C56.%283-6%2C97%29%5E2%20&plus;0%2C28.%289-6%2C97%29%5E2&plus;0%2C12.%2815-6%2C97%29%5E2&plus;0%2C03.%2821-6%2C97%29%5E2%20&plus;%200%2C01.%2827-6%2C97%29%5E2">
+</p>
+  <p align="center">
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20var%28x%29%20%3D%2027%2C61">
+</p>
+
+  - Para o desvio padrão, temos a seguinte fórmula:
+   <p align="center">
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20dp%28x%29%20%3D%20%5Csqrt%7Bvar%28x%29%7D">
+</p>
+    <p align="center">
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20dp%28x%29%20%3D%205%2C25">
+</p>
+    
+
+## Questão 3
+Uma companhia de seguros analisou a frequência com que 2000 segurados usaram o hospital.
