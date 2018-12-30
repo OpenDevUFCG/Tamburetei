@@ -92,7 +92,9 @@ O número de divórcios numa certa idade, de acordo com a duração do casamento
 ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%2024%20%5Cvdash%2030) | 50
 **Total** | 5000
 
-**a)** Construa o histograma da distribuição
+**a)** Construa o histograma da distribuição.
+
+**Resolução**
   - O esboço do histograma deve seguir o seguinte modelo:
   
  <p align="center">
@@ -101,6 +103,8 @@ O número de divórcios numa certa idade, de acordo com a duração do casamento
 </p>
 
 **b)** Qual a duração média dos casamentos?
+
+**Resolução**
   - Para isto, devemos calcular a média com a seguinte fórmula:
   <p align="center">
   <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20%5Cbar%7Bx%7D%20%3D%20%5Cfrac%7B1%7D%7Bn%7D%5Csum_%7Bi%3D1%7D%5E%7Bk%7Dn_%7Bi%7D.s_%7Bi%7D">
@@ -112,6 +116,8 @@ O número de divórcios numa certa idade, de acordo com a duração do casamento
 </p>
 
 **c)** Encontre a variância e o desvio padrâo de duração de casamentos.
+
+**Resolução**
   - Para a variância, usaremos a seguinte fórmula:
   <p align="center">
   <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20var%28x%29%20%3D%20%5Csum_%7Bi%3D1%7D%5E%7Bk%7Df_%7Bi%7D%28x_%7Bi%7D-%5Cbar%7Bx%7D%29%5E2">
@@ -134,3 +140,79 @@ O número de divórcios numa certa idade, de acordo com a duração do casamento
 
 ## Questão 3
 Uma companhia de seguros analisou a frequência com que 2000 segurados usaram o hospital.
+
+**Dados** | **Homens** | **Mulheres** | **Total**
+--- | --- | --- | ---
+**Usaram o hospital** | 100 | 150 | 250
+**Não usaram o hospital** | 900 | 850 | 1750
+**Total** | 1000 | 1000 | 2000
+
+**a)** Calcule a proporção de homens entre os indíviduos que usaram o hospital.
+
+**Resolução**
+  - Para isto, vamos usar regra de três simples:
+  <p align="center">
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20%5Cfrac%7B250%7D%7B100%5C%25%7D%20%3D%20%5Cfrac%7B100%7D%7Bx%7D%20%5CRightarrow%20250x%20%3D%20100%20%5CRightarrow%20x%20%3D%2040%5C%25">
+</p>
+
+**b)** Calcule a proporção de homens entre os indivíduos que não usaram o hospital.
+
+**Resolução**
+  - Novamente, vamos usar regra de três simples:
+  <p align="center">
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20%5Cfrac%7B1750%7D%7B100%5C%25%7D%20%3D%20%5Cfrac%7B900%7D%7Bx%7D%20%5CRightarrow%201750x%20%3D%20900%20%5CRightarrow%20x%20%3D%2051%2C42%5C%25">
+</p>
+
+**c)** O uso do hospital independe do sexo do segurado? Justifique a sua resposta utilizando uma medida adequada de associação.
+
+**Resolução**
+  - Para isto, precisamos encontrar o coeficiente de associação *T*, que é dado pela fórumla:
+  <p align="center">
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20T%20%3D%20%5Csqrt%7B%5Cfrac%7B%5Cfrac%7Bx%5E2%7D%7Bn%7D%7D%7B%28r-1%29%28s-1%29%7D%7D">
+</p>
+  
+  - Onde:
+  <p align="center">
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20x%5E2%20%3D%20%5Csum_%7Bi%3D1%7D%5E%7Br%7D%5Csum_%7Bj%3D1%7D%5E%7Bs%7D%5Cfrac%7B%28n_%7Bij%7D-n_%7Bij%7D%5E%7B*%7D%29%5E2%7D%7Bn_%7Bij%7D%5E%7B*%7D%7D">
+</p>
+  <p align="center">
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20x%5E2%20%3D%20%5Cfrac%7B%28100-125%29%5E2%7D%7B125%7D&plus;%5Cfrac%7B%28150-125%29%5E2%7D%7B125%7D%20&plus;%20%5Cfrac%7B%28900-875%29%5E2%7D%7B875%7D&plus;%5Cfrac%7B%28850-875%29%5E2%7D%7B875%7D">
+</p>
+  <p align="center">
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20x%5E2%20%3D%2011%2C43">
+</p>
+
+  - Daí temos:
+  
+    <p align="center">
+      <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20T%20%3D%20%5Csqrt%7B%5Cfrac%7B%5Cfrac%7B11%2C43%7D%7B2000%7D%7D%7B1%7D%7D%5CRightarrow%20T%20%3D%200%2C07">
+    </p>
+    
+  - Portanto, com o resultado obtido, definimos que há uma **associação fraca**.
+  
+  ## Questão 4
+  Numa amostra de cinco operários de uma dada empresa foram observadas duas variáveis: *X = anos de experiência num dado cargo* e *Y = tempo, em minutos, gasto na execução de uma certa tarefa relacionada com esse cargo*. 
+  
+  *X* | 1 | 2 | 4 | 4 | 5
+  --- | --- | --- | --- | --- | ---
+  *Y* | 7 | 8 | 3 | 2 | 2
+  
+  Você diria que a variável *X* pode ser usada para explicar a variação de *Y*? Justifique a sua resposta utilizando uma medida adequada de associação.
+  - Cálculos auxiliares:
+   <p align="center">
+      <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20%5Csum%20x%20%3D%2016%3B%20%5Csum%20y%20%3D%2022%3B%20%5Csum%20xy%20%3D%2053%3B%5Csum%20x%5E2%3D62%3B%20%5Csum%20y%5E2%3D130">
+    </p>
+    
+**Resolução:**
+  - Vamos usar a seguinte fórmula:
+  <p align="center">
+      <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20corr%28x%2C%20y%29%20%3D%20%5Cfrac%7B%5Csum_%7Bi%3D1%7D%5E%7Bn%7Dx_%7Bi%7Dy_%7Bi%7D%20-%20n%5Cbar%7Bx%7D%5Cbar%7By%7D%7D%7B%5Csqrt%7B%28%5Csum_%7Bi%3D1%7D%5E%7Bn%7Dx_%7Bi%7D%5E2%20-%20n%5Cbar%7Bx%7D%5E2%29%28%5Csum_%7Bi%3D1%7D%5E%7Bn%7Dy_%7Bi%7D%5E2%20-%20n%5Cbar%7By%7D%5E2%29%7D%7D">
+    </p>
+    <p align="center">
+      <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20corr%28x%2C%20y%29%20%3D%20%5Cfrac%7B53%20-%285x3%2C2x4%2C4%29%7D%7B%5Csqrt%7B%5B62%20-%205x%283%2C2%29%5E2%5D%5B130%20-%205x%284%2C4%29%5E2%5D%7D%7D">
+    </p>
+    <p align="center">
+      <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20%7Ccorr%28x%2C%20y%29%7C%20%3D%20%5Cfrac%7B-17%2C4%7D%7B18%2C9%7D%20%5CRightarrow%20%7Ccorr%28x%2Cy%29%7C%20%3D%200%2C92">
+    </p>
+    
+  - Portanto, dizemos que há uma **associação forte** entre as variáveis.
