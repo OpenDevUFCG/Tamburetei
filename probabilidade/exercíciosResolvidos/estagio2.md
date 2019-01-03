@@ -83,3 +83,110 @@ Um lote é composto por 10 artigos bons, 4 com defeitos menores e 2 com defeitos
 <p align="center"> 
   <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20P%28%5Coverline%7Bc%7D%29%20%3D%201%20-%20P%28c%29%20%3D%20%5Cfrac%7B1%7D%7B8%7D">
 </p>
+
+## Questão 3
+Em uma indústria, a experiência indica que há uma probabilidade de 90% de um operário novato, que tenha feito um curso prévio de treinamento, cumprir sua cota de produção; e que essa probabilidade para um novato que não tenha feito o curso prévio é de 45%. Sabe-se que 80% de todos os operários novatos frequentaram o curso prévio de treinamento. Selecionando-se um operário novato ao acaso, calcule:
+
+**a)** A probabilidade de um operário novato não cumprir sua cota de produção.
+
+**Resolução**
+
+  - Para isto, vamos usar probabilidade condicional:
+  <p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20P%28N_%7Bc%7D%29%20%3D%2080%5C%25">
+</p>
+
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20P%28N_%7Bs%7D%29%20%3D%2020%5C%25">
+</p>
+
+  - Sendo *C* o evento *"cumpriu a cota"*, temos que:
+  <p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20P%28C%29%20%3D%20P%28N_%7Bc%7D%29.P%28C%7CN_%7Bc%7D%29&plus;P%28N_%7Bs%7D%29.P%28C%7CN_%7Bs%7D%29">
+</p>
+
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20P%28C%29%20%3D%200.8*0.9&plus;0.2*0.45">
+</p>
+
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20P%28C%29%20%3D%200.81">
+</p>
+
+**b)** A probabilidade de ele ter feito o curso de treinamento, dado que ele não cumpriu a cota de produção.
+
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20P%28N_%7Bc%7D%7CC%29%20%3D%20%5Cfrac%7BP%28%5Coverline%7BC%7D%7CN_%7Bc%7D%29.P%28N_%7Bc%7D%29%7D%7BP%28%5Coverline%7BC%7D%29%7D">
+</p>
+
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20P%28N_%7Bc%7D%7CC%29%20%3D%20%5Cfrac%7B0.1*0.8%7D%7B0.19%7D">
+</p>
+
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20P%28N_%7Bc%7D%7CC%29%20%3D%200.421">
+</p>
+
+## Questão 4
+Suponha que a demanda por certa peça, numa loja de automóveis siga o seguinte modelo:
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20P%28X%3Dk%29%20%3D%5Cfrac%7Ba*2%5E%7Bk%7D%7D%7Bk%21%7D%2C%20k%20%3D%201%2C%202%2C%203%2C%204.">
+</p>
+
+**a)** Encontre o valor de *a*.
+
+  - Para isto, vamos deduzir que o somatório das probabilidades seja igual a 1, então temos:
+  <p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20P%28X%3Dk%29%20%3D%20a%28%5Cfrac%7B2%5E%7B1%7D%7D%7B1%7D%20&plus;%20%5Cfrac%7B2%5E%7B2%7D%7D%7B2%7D%20&plus;%20%5Cfrac%7B2%5E%7B3%7D%7D%7B6%7D%20&plus;%20%5Cfrac%7B2%5E%7B4%7D%7D%7B24%7D%29%20%3D%201">
+</p>
+
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20a%282%20&plus;%202%20&plus;%20%5Cfrac%7B4%7D%7B3%7D%20&plus;%20%5Cfrac%7B2%7D%7B3%7D%29%20%3D%201">
+</p>
+
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20a%20%3D%20%5Cfrac%7B1%7D%7B6%7D">
+</p>
+
+**b)** Calcule a probabilidade da demanda ser inferior a duas peças.
+
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20P%28X%20%3C%202%29%3D%5Cfrac%7B1*2%5E%7B1%7D%7D%7B6*1%21%7D%3D%5Cfrac%7B1%7D%7B3%7D">
+</p>
+
+**c)** Calcule a F.d.a. de X.
+
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20F%28X%29%20%3D%20%5Cleft%20%5C%7B%20%5Cbegin%7Bmatrix%7D%200%2C%20%26%20%5Cmbox%7Bse%20%7Dx%20%3C%201%2C%20%5C%5C%20%5Cfrac%7B1%7D%7B3%7D%2C%20%26%20%5Cmbox%7Bse%20%7D%201%5Cleq%20x%20%3C%202%2C%20%5C%5C%20%5Cfrac%7B1%7D%7B3%7D%2C%20%26%20%5Cmbox%7Bse%20%7D%202%5Cleq%20x%20%3C%203%2C%20%5C%5C%20%5Cfrac%7B2%7D%7B9%7D%2C%20%26%20%5Cmbox%7Bse%20%7D%203%5Cleq%20x%20%3C%204%2C%20%5C%5C%20%5Cfrac%7B1%7D%7B9%7D%2C%20%26%20%5Cmbox%7Bse%20%7D%20x%20%5Cgeq%204%20%5C%5C%20%5Cend%7Bmatrix%7D%20%5Cright.">
+</p>
+
+## Questão 5:
+Dada a função:
+
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20f%28x%29%20%3D%20%5Cleft%20%5C%7B%20%5Cbegin%7Bmatrix%7D%202e%5E%7B-2x%7D%2C%20%26%20%5Cmbox%7Bse%20%7Dx%20%5Cgeq%200%2C%20%5C%5C%200%2C%20%26%20%5Cmbox%7Bse%20%7D%20x%20%3C%200%20%5C%5C%20%5Cend%7Bmatrix%7D%20%5Cright.">
+</p>
+
+**a)** Mostre que esta função é uma *f.d.p.*.
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20%5Cint_%7B0%7D%5E%7B%5Cinfty%7D2e%5E%7B-2x%7Ddx%20%3D%202%20%5Cleft%20%5B%20%5Cfrac%7Be%5E%7B-2x%7D%7D%7B-2%7D%20%5Cright%20%5D_%7B0%7D%5E%7B%5Cinfty%7D">
+</p>
+
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20%3D%202%5Cleft%20%5B%200%20&plus;%20%5Cfrac%7Be%5E%7B-0%7D%7D%7B2%7D%20%5Cright%20%5D%20%3D%201">
+</p>
+
+**b)** Obtenha a função de distribuição de *x* e calcule a probabilidade de *x > 10*.
+
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20F%28x%29%20%3D%5Cint_%7Bx%7D%5E%7B%5Cinfty%7D%202e%5E%7B-2x%7Ddx%20%3D%202%5Cleft%20%5B%20%5Cfrac%7Be%5E%7B-2x%7D%7D%7B-2%7D%20%5Cright%20%5D_%7Bx%7D%5E%7B%5Cinfty%7D%20%3D%202%5Cleft%20%5B%200%20&plus;%20%5Cfrac%7Be%5E%7B-2x%7D%7D%7B2%7D%20%5Cright%20%5D">
+</p>
+
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20F%28x%29%20%3D%20e%5E%7B-2x%7D">
+</p>
+
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20F%2810%29%20%3D%20P%28x%3E10%29%20%3D%20e%5E%7B-20%7D">
+</p>
+
