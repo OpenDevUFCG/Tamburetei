@@ -160,7 +160,7 @@ Suponha que a demanda por certa peça, numa loja de automóveis siga o seguinte 
   <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20F%28X%29%20%3D%20%5Cleft%20%5C%7B%20%5Cbegin%7Bmatrix%7D%200%2C%20%26%20%5Cmbox%7Bse%20%7Dx%20%3C%201%2C%20%5C%5C%20%5Cfrac%7B1%7D%7B3%7D%2C%20%26%20%5Cmbox%7Bse%20%7D%201%5Cleq%20x%20%3C%202%2C%20%5C%5C%20%5Cfrac%7B1%7D%7B3%7D%2C%20%26%20%5Cmbox%7Bse%20%7D%202%5Cleq%20x%20%3C%203%2C%20%5C%5C%20%5Cfrac%7B2%7D%7B9%7D%2C%20%26%20%5Cmbox%7Bse%20%7D%203%5Cleq%20x%20%3C%204%2C%20%5C%5C%20%5Cfrac%7B1%7D%7B9%7D%2C%20%26%20%5Cmbox%7Bse%20%7D%20x%20%5Cgeq%204%20%5C%5C%20%5Cend%7Bmatrix%7D%20%5Cright.">
 </p>
 
-## Questão 5:
+## Questão 5
 Dada a função:
 
 <p align="center"> 
@@ -190,3 +190,62 @@ Dada a função:
   <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20F%2810%29%20%3D%20P%28x%3E10%29%20%3D%20e%5E%7B-20%7D">
 </p>
 
+## Questão 6
+Uma variável aleatória *x* tem distribuição triangular no intervalor [0, 1] se fua *f.d.p.* for dada por:
+
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20f%28x%29%20%3D%5Cleft%5C%7B%5Cbegin%7Bmatrix%7D%200%2C%20%26%20x%20%3C%200%20%5C%5C%20Cx%2C%20%26%200%5Cleq%20x%20%5Cleq%20%5Cfrac%7B1%7D%7B2%7D%20%5C%5C%20C%281-x%29%2C%20%26%20%5Cfrac%7B1%7D%7B2%7D%20%5Cleq%20x%20%5Cleq%201%20%5C%5C%200%2C%20%26%20x%20%3E%201%20%5Cend%7Bmatrix%7D%5Cright.">
+</p>
+
+**a)** Qual valor deve ter a constante *C*?
+
+**Resolução**
+
+  - Para isto, vamos usar o somatório de integral:
+  
+  <p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20%5Cint_%7B-%5Cinfty%7D%5E%7B%5Cinfty%7Df%28x%29.dx%20%3D%20%5Cint_%7B-%5Cinfty%7D%5E%7B0%7D0.dx%20&plus;%20%5Cint_%7B0%7D%5E%7B%5Cfrac%7B1%7D%7B2%7D%7DCx.dx%20&plus;%20%5Cint_%7B%5Cfrac%7B1%7D%7B2%7D%7D%5E%7B1%7DC%281-x%29.dx%20&plus;%20%5Cint_%7B1%7D%5E%7B%5Cinfty%7D0.dx%20%3D%201">
+</p>
+
+ <p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20%5Cint_%7B-%5Cinfty%7D%5E%7B%5Cinfty%7Df%28x%29.dx%20%3D%20C%5Cleft%20%28%20%5Cleft%20%5B%20%5Cfrac%7Bx%5E2%7D%7B2%7D%20%5Cright%20%5D_%7B0%7D%5E%7B%5Cfrac%7B1%7D%7B2%7D%7D%20&plus;%20%5Cleft%20%5B%20x%20-%20%5Cfrac%7Bx%5E2%7D%7B2%7D%20%5Cright%20%5D_%7B%5Cfrac%7B1%7D%7B2%7D%7D%5E%7B1%7D%20%5Cright%20%29">
+</p>
+
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20C%5Cleft%20%28%20%5Cfrac%7B1%7D%7B8%7D%20&plus;%201%20-%20%5Cfrac%7B1%7D%7B2%7D%20-%20%5Cfrac%7B1%7D%7B2%7D%20&plus;%20%5Cfrac%7B1%7D%7B8%7D%20%5Cright%20%29%20%3D%201">
+</p>
+
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20C%20%3D%204">
+</p>
+
+**b)** Determine *P(x < 1/2)*, *P(x > 1/2)*, e *P(1/4 < x < 3/4)*.
+
+**Resolução**
+
+  - Para P(x < 1/2):
+  <p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20P%28x%20%3C%201/2%29%20%3D%20%5Cint_%7B0%7D%5E%7B%5Cfrac%7B1%7D%7B2%7D%7Df%28x%29.dx%20%5CRightarrow%20%5Cint_%7B0%7D%5E%7B%5Cfrac%7B1%7D%7B2%7D%7D4x.dx%20%5CRightarrow%204%5Cleft%20%5B%20%5Cfrac%7Bx%5E2%7D%7B2%7D%20%5Cright%20%5D_%7B0%7D%5E%7B%5Cfrac%7B1%7D%7B2%7D%7D">
+</p>
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20P%28x%20%3C%201/2%29%20%3D%20%5Cfrac%7B1%7D%7B2%7D">
+</p>
+
+  - Para P(x > 1/2), temos o complemento do item anterior, então:
+  
+  <p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20P%28x%20%3E%201/2%29%20%3D%20%5Cfrac%7B1%7D%7B2%7D">
+</p>
+
+  - Para P(1/4 < x < 3/4):
+  
+  <p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20P%5Cleft%20%28%20%5Cfrac%7B1%7D%7B4%7D%20%3C%20x%20%3C%20%5Cfrac%7B3%7D%7B4%7D%20%5Cright%20%29%20%3D%20%5Cint_%7B%5Cfrac%7B1%7D%7B4%7D%7D%5E%7B%5Cfrac%7B3%7D%7B4%7D%7Df%28x%29.dx%20%5CRightarrow%20%5Cint_%7B%5Cfrac%7B1%7D%7B4%7D%7D%5E%7B%5Cfrac%7B1%7D%7B2%7D%7D4x.dx%20&plus;%20%5Cint_%7B%5Cfrac%7B1%7D%7B2%7D%7D%5E%7B%5Cfrac%7B3%7D%7B4%7D%7D4%281-x%29.dx">
+</p>
+
+  <p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20P%5Cleft%20%28%20%5Cfrac%7B1%7D%7B4%7D%20%3C%20x%20%3C%20%5Cfrac%7B3%7D%7B4%7D%20%5Cright%20%29%20%3D%20%5Cfrac%7B3%7D%7B4%7D">
+</p>
+
+
+## Questão 7
