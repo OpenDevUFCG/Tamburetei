@@ -249,3 +249,106 @@ Uma variável aleatória *x* tem distribuição triangular no intervalor [0, 1] 
 
 
 ## Questão 7
+Suponha que estamos atirando dardos num alvo circular de raio 10cm, e seja *x* a distância do ponto atingido pelo dardo ao centro do alvo. A *f.d.p.* de *x* é:
+
+ <p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20f%28x%29%3D%5Cleft%5C%7B%5Cbegin%7Bmatrix%7D%20kx%2C%20%26%200%20%5Cleq%20x%20%5Cleq%2010%20%5C%5C%200%2C%20%26%20c.c.%20%5Cend%7Bmatrix%7D%5Cright.">
+</p>
+
+**a)** Qual a probabilidade de acertar o centro do alvo, se esse for um círculo de 1cm de raio?
+
+**Resolução:**
+
+  - Como *P(x < 10) = 1*, temos que:
+  
+  <p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20%5Cint_%7B0%7D%5E%7B10%7Dkx.dx%20%3D%201%20%5CRightarrow%20k%5Cleft%20%5B%20%5Cfrac%7Bx%5E2%7D%7B2%7D%20%5Cright%20%5D_%7B0%7D%5E%7B10%7D%20%3D%201%20%5CRightarrow%20k%20%3D%200.02">
+</p>
+
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20%5Ctherefore%20F%28x%29%20%3D%20%5Cint_%7B0%7D%5E%7Bx%7D0.02x.dx%20%3D%200%2C01x%5E2">
+</p>
+
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20F%281%29%20%3D%20P%28x%5Cleq%201%29%20%3D%200%2C01">
+</p>
+
+**b)** Mostre que a probabilidade de acertar qualquer círculo concêntrico é proporcional â sua área.
+
+**Resolução**
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20P%28x%20%3C%20r%29%20%3D%200.01r%5E2%20%3D%20%5Cfrac%7B%5Cpi%20r%5E2%7D%7B%5Cpi%2010%5E2%7D">
+</p>
+
+## Questão 8
+Encontre o valor da constante *C* se
+
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20f%28x%29%3D%5Cleft%5C%7B%5Cbegin%7Bmatrix%7D%20%5Cfrac%7BC%7D%7Bx%5E2%7D%2C%20%26%20x%5Cgeq%2010%20%5C%5C%200%2C%20%26%20x%20%3C%2010%20%5Cend%7Bmatrix%7D%5Cright.">
+</p>
+
+for uma densidade, e encontre *P(x > 15)*.
+
+**Resolução**
+
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20%5Cint_%7B-%5Cinfty%7D%5E%7B%5Cinfty%7Df%28x%29.dx%20%3D%20%5Cint_%7B-%5Cinfty%7D%5E%7B10%7D0.dx%20&plus;%20%5Cint_%7B10%7D%5E%7B%5Cinfty%7D%5Cfrac%7BC%7D%7Bx%5E2%7D.dx">
+</p>
+
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20C%5Cint_%7B10%7D%5E%7B%5Cinfty%7Dx%5E%7B-2%7D%3D%20C%5Cleft%20%5B%20-2x%5E%7B-3%7D%20%5Cright%20%5D_%7B10%7D%5E%7B%5Cinfty%7D">
+</p>
+
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20%5Cfrac%7BC%7D%7B10%7D%20%3D1%20%5CRightarrow%20C%20%3D%2010">
+</p>
+
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20%5Ctherefore%20P%28x%20%3E%2015%29%20%3D%20%5Cint_%7B15%7D%5E%7B%5Cinfty%7D%5Cfrac%7B10%7D%7Bx%5E2%7D.dx%20%3D%2010.%5Cleft%20%5B%20%5Cfrac%7B1%7D%7Bx%7D%20%5Cright%20%5D_%7B15%7D%5E%7B%5Cinfty%7D">
+</p>
+
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20P%28x%20%3E%2015%29%20%3D%20%5Cfrac%7B2%7D%7B3%7D">
+</p>
+
+## Questão 9 
+Um fabricante afirma que apenas 5% de todas as válvulas que produz têm duração inferior a 20 horas. Uma indústria compra semanalmente um grande lote de válvulas desse fabricante, mas sob a seguinte condição:
+  - ela aceita o lote se, em dez válvulas escolhidas ao acaso, no máximo uma tiver duração inferior a 20 horas;
+  - caso contrário, o lote todo é rejeitado.
+
+**a)** se o fabricante de fato tem razão, qual a probabilidade de um lote ser rejeitado?
+
+**Resolução**
+
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20P%28v%29%20%3D%2095%5C%25">
+</p>
+
+  - Sendo *A* o evento *"o lote será aceito"*, temos:
+  
+  <p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20P%28A%29%20%3D%20P%28v%29.P%28A%7Cv%29%20%5CRightarrow%20P%28A%29%20%3D%200.95x0.90">
+</p>
+
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20P%28A%29%20%3D%200.855">
+</p>
+
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20P%28%5Coverline%7BA%7D%29%20%3D%200.145">
+</p>
+
+  - Para encontrarmos a probabilidade esperada, vamos usar binomial:
+  
+  <p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20%5Ctherefore%20P%28x%20%5Cgeq%202%29%20%3D%201%20-%20P%28x%20%3C%202%29">
+</p>
+
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20P%28x%20%5Cgeq%202%29%20%3D%201%20-%20%5Cleft%20%5B%20%5Cleft%20%28%200%2C95%20%5Cright%20%29%5E%7B10%7D%20&plus;%20%5Cbinom%7B10%7D%7B9%7D.%5Cleft%20%28%200.05%20%5Cright%20%29%5E1.%280.95%29%5E9%20%5Cright%20%5D">
+</p>
+
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20P%28x%20%5Cgeq%202%29%20%3D%200.086">
+</p>
+  
