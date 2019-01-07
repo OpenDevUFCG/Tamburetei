@@ -30,7 +30,7 @@ De 120 estudantes, 60 estudam francês, 50 espanhol, e 20 estudam francês e esp
 
 **c)** não estude nem francês nem espanhol.
 
-**Resolução** 
+**Resolução:** 
   
   - Para isto, usaremos a Lei de De Morgan:
    <p align="center"> 
@@ -89,7 +89,7 @@ Em uma indústria, a experiência indica que há uma probabilidade de 90% de um 
 
 **a)** A probabilidade de um operário novato não cumprir sua cota de produção.
 
-**Resolução**
+**Resolução:**
 
   - Para isto, vamos usar probabilidade condicional:
   <p align="center"> 
@@ -115,6 +115,8 @@ Em uma indústria, a experiência indica que há uma probabilidade de 90% de um 
 
 **b)** A probabilidade de ele ter feito o curso de treinamento, dado que ele não cumpriu a cota de produção.
 
+**Resolução:**
+
 <p align="center"> 
   <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20P%28N_%7Bc%7D%7CC%29%20%3D%20%5Cfrac%7BP%28%5Coverline%7BC%7D%7CN_%7Bc%7D%29.P%28N_%7Bc%7D%29%7D%7BP%28%5Coverline%7BC%7D%29%7D">
 </p>
@@ -135,6 +137,8 @@ Suponha que a demanda por certa peça, numa loja de automóveis siga o seguinte 
 
 **a)** Encontre o valor de *a*.
 
+**Resolução:**
+
   - Para isto, vamos deduzir que o somatório das probabilidades seja igual a 1, então temos:
   <p align="center"> 
   <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20P%28X%3Dk%29%20%3D%20a%28%5Cfrac%7B2%5E%7B1%7D%7D%7B1%7D%20&plus;%20%5Cfrac%7B2%5E%7B2%7D%7D%7B2%7D%20&plus;%20%5Cfrac%7B2%5E%7B3%7D%7D%7B6%7D%20&plus;%20%5Cfrac%7B2%5E%7B4%7D%7D%7B24%7D%29%20%3D%201">
@@ -150,11 +154,15 @@ Suponha que a demanda por certa peça, numa loja de automóveis siga o seguinte 
 
 **b)** Calcule a probabilidade da demanda ser inferior a duas peças.
 
+**Resolução:**
+
 <p align="center"> 
   <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20P%28X%20%3C%202%29%3D%5Cfrac%7B1*2%5E%7B1%7D%7D%7B6*1%21%7D%3D%5Cfrac%7B1%7D%7B3%7D">
 </p>
 
 **c)** Calcule a F.d.a. de X.
+
+**Resolução:**
 
 <p align="center"> 
   <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20F%28X%29%20%3D%20%5Cleft%20%5C%7B%20%5Cbegin%7Bmatrix%7D%200%2C%20%26%20%5Cmbox%7Bse%20%7Dx%20%3C%201%2C%20%5C%5C%20%5Cfrac%7B1%7D%7B3%7D%2C%20%26%20%5Cmbox%7Bse%20%7D%201%5Cleq%20x%20%3C%202%2C%20%5C%5C%20%5Cfrac%7B1%7D%7B3%7D%2C%20%26%20%5Cmbox%7Bse%20%7D%202%5Cleq%20x%20%3C%203%2C%20%5C%5C%20%5Cfrac%7B2%7D%7B9%7D%2C%20%26%20%5Cmbox%7Bse%20%7D%203%5Cleq%20x%20%3C%204%2C%20%5C%5C%20%5Cfrac%7B1%7D%7B9%7D%2C%20%26%20%5Cmbox%7Bse%20%7D%20x%20%5Cgeq%204%20%5C%5C%20%5Cend%7Bmatrix%7D%20%5Cright.">
@@ -168,6 +176,9 @@ Dada a função:
 </p>
 
 **a)** Mostre que esta função é uma *f.d.p.*.
+
+**Resolução:**
+
 <p align="center"> 
   <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20%5Cint_%7B0%7D%5E%7B%5Cinfty%7D2e%5E%7B-2x%7Ddx%20%3D%202%20%5Cleft%20%5B%20%5Cfrac%7Be%5E%7B-2x%7D%7D%7B-2%7D%20%5Cright%20%5D_%7B0%7D%5E%7B%5Cinfty%7D">
 </p>
@@ -177,6 +188,8 @@ Dada a função:
 </p>
 
 **b)** Obtenha a função de distribuição de *x* e calcule a probabilidade de *x > 10*.
+
+**Resolução:**
 
 <p align="center"> 
   <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20F%28x%29%20%3D%5Cint_%7Bx%7D%5E%7B%5Cinfty%7D%202e%5E%7B-2x%7Ddx%20%3D%202%5Cleft%20%5B%20%5Cfrac%7Be%5E%7B-2x%7D%7D%7B-2%7D%20%5Cright%20%5D_%7Bx%7D%5E%7B%5Cinfty%7D%20%3D%202%5Cleft%20%5B%200%20&plus;%20%5Cfrac%7Be%5E%7B-2x%7D%7D%7B2%7D%20%5Cright%20%5D">
@@ -199,7 +212,7 @@ Uma variável aleatória *x* tem distribuição triangular no intervalor [0, 1] 
 
 **a)** Qual valor deve ter a constante *C*?
 
-**Resolução**
+**Resolução:**
 
   - Para isto, vamos usar o somatório de integral:
   
@@ -221,7 +234,7 @@ Uma variável aleatória *x* tem distribuição triangular no intervalor [0, 1] 
 
 **b)** Determine *P(x < 1/2)*, *P(x > 1/2)*, e *P(1/4 < x < 3/4)*.
 
-**Resolução**
+**Resolução:**
 
   - Para P(x < 1/2):
   <p align="center"> 
@@ -275,7 +288,8 @@ Suponha que estamos atirando dardos num alvo circular de raio 10cm, e seja *x* a
 
 **b)** Mostre que a probabilidade de acertar qualquer círculo concêntrico é proporcional â sua área.
 
-**Resolução**
+**Resolução:**
+
 <p align="center"> 
   <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20P%28x%20%3C%20r%29%20%3D%200.01r%5E2%20%3D%20%5Cfrac%7B%5Cpi%20r%5E2%7D%7B%5Cpi%2010%5E2%7D">
 </p>
@@ -289,7 +303,7 @@ Encontre o valor da constante *C* se
 
 for uma densidade, e encontre *P(x > 15)*.
 
-**Resolução**
+**Resolução:**
 
 <p align="center"> 
   <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20%5Cint_%7B-%5Cinfty%7D%5E%7B%5Cinfty%7Df%28x%29.dx%20%3D%20%5Cint_%7B-%5Cinfty%7D%5E%7B10%7D0.dx%20&plus;%20%5Cint_%7B10%7D%5E%7B%5Cinfty%7D%5Cfrac%7BC%7D%7Bx%5E2%7D.dx">
@@ -318,7 +332,7 @@ Um fabricante afirma que apenas 5% de todas as válvulas que produz têm duraç�
 
 **a)** se o fabricante de fato tem razão, qual a probabilidade de um lote ser rejeitado?
 
-**Resolução**
+**Resolução:**
 
 <p align="center"> 
   <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Csmall%20P%28v%29%20%3D%2095%5C%25">
