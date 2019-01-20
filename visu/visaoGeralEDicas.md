@@ -10,6 +10,13 @@ para novos formatos. Além disso, você ganhará vocabulário mais técnico, des
 uma visão mais crítica de visualizações e desenvolverá seu portifólio pessoal de
 visualizações.
 
+### Ferramentas utilizadas
+
+- HTML, CSS e Javascript
+- Vega
+- Observable
+- D3
+
 ### Dicas
 
 - A cadeira não exige conhecimento avançado em análise de dados, mas é uma boa ideia
