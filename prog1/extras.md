@@ -22,7 +22,7 @@ TST é o sistema de submissão das questões realizadas por alunos nas provas e 
 O script abaixo baixa e configura o tst de maneira automática. Não use a permissão root nele.
 
 ```sh
-bash -c "$(curl -q -sSL http://bit.ly/tst-install)"
+bash -c "$(curl -q -sSL http://bit.ly/tst084)"
 ```
 
 ### Comandos
@@ -42,7 +42,7 @@ Comando | Descrição
 
 ### Exemplo de Uso
 
-Nessa seção iremos simular como se tivesse usando o TST pela primeira vez, fazendo o login, resolvendo uma questão do TST, a testando e submentendo para o servidor.
+Nessa seção iremos simular como se tivesse usando o TST pela primeira vez, fazendo o login, resolvendo uma questão do TST, a testando e submetendo para o servidor.
 
 #### Login
 Primeiro você precisar se logar no [TST-ONLINE](http://tst-online.appspot.com/) e depois no seu terminal logar na sua conta usando:
@@ -53,16 +53,32 @@ tst login
 
 Esse comando irá abrir uma nova tab no seu browser mostrando o token necessário para realizar o login e seu email usado no TST-Online. Copie o Token e cole no terminal como indicado.
 
+Além dessa maneira, você pode fazer o seguinte:
+
+Logar no [TST-ONLINE](http://tst-online.appspot.com/) e depois acessar diretamente o [LINK PARA GERAR O TOKEN](http://tst-online.appspot.com/activate). Por último logar no terminal usando:
+```sh
+tst login <token>
+```
+
 ### Checkout
 Agora vamos resolver uma questão, copie o checkout código de alguma questão do [TST](http://tst-online.appspot.com/#/) que você queria resolver e rode o seguinte comando:
 
 ```sh
-$ tst checkout <codigo_questao>
+tst checkout <codigo_questao>
 ```
 Esse comando irá criar um novo repositório, vá para o diretório e comece a implementar a sua solução:
 
 ```sh
 cd <codigo_questao>
+```
+Caso queira fazer o checkout com um nome mais amigável, como por exemplo o nome da própria questão ao invés de seu código, também é possível fazer diretamente no checkout:
+
+```sh
+tst checkout <codigo_questao> <nome_questao>
+```
+E em seguida:
+```sh
+cd <nome_questao>
 ```
 
 ### Testando
@@ -77,7 +93,7 @@ Se você tiver apenas um arquivo **.py** no seu diretório você apenas precisa 
 ```sh
 tst
 ```
-Se você recebeu uma saída contendo apenas pontos(Ex: `.`, `...`), vocês passou em todos os testes públicos e agora você pode submeter sua questão apra o servidor.
+Se você recebeu uma saída contendo apenas pontos(Ex: `.`, `...`), vocês passou em todos os testes públicos e agora você pode submeter sua questão para o servidor.
 
 ### Enviando
 
