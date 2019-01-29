@@ -14,7 +14,9 @@
 # que uma lista que contém outras
 # listas como elementos.
 
-matriz = [[0, 1, 2], [3, 4, 5], [6, 7, 8]]          # A lista matriz contém três listas de tamanhos iguais.
+matriz = [[0, 1, 2],
+          [3, 4, 5],
+          [6, 7, 8]]          # A lista matriz contém três listas de tamanhos iguais.
 
 # Uma observação importante é que
 # toda matriz na unidade 9 é uma
@@ -22,7 +24,8 @@ matriz = [[0, 1, 2], [3, 4, 5], [6, 7, 8]]          # A lista matriz contém tr�
 # lista de listas é uma matriz. Um
 # exemplo pode ser visto abaixo.
 
-nao_eh_matriz = [[1, 2, 3], [4, 5, 6, 7, 8, 9]]     # A lista nao_eh_matriz contém duas listas de tamanhos diferentes.
+nao_eh_matriz = [[1, 2, 3],
+                 [4, 5, 6, 7, 8, 9]]     # A lista nao_eh_matriz contém duas listas de tamanhos diferentes.
 
 # Para operar uma lista de listas
 # o mais comum é utilizar duas
