@@ -35,16 +35,56 @@ for instrumento in instrumentos:
 # iterar pelos índices de uma
 # lista usando as funções auxiliares
 # range() e len().
-#
-# Segue os links para as duas funções
-# retirados da documentação oficial do
-# python.
-#
-# .. [1] Função range, PythonDocs 2, PSF.
-#        https://docs.python.org/2/library/functions.html#range
-# .. [2] Função len, PythonDocs 2, PSF.
-#        https://docs.python.org/2/library/functions.html#len
-#
+
+# range()
+""" Gera uma lista de números inteiros
+
+A função range é nativa do python e
+é utilizada quando há a necessidade
+de se gerar uma sequência de números.
+Por padrão, a sequência começa do 0 e
+vai até o número anterior ao passado
+como parâmetro (stop), incrementando
+de 1 em 1.
+
+Parameters
+----------
+start : int, optional
+    Número inteiro que especifica a posição inicial
+stop : int
+    Número inteiro que especifica a posição final
+step : int, optional
+    Número inteiro que especifica o pulo ou incremento
+
+Return
+------
+numbers : list
+    Lista contendo a sequência de números
+"""
+
+# len()
+""" Retorna o comprimento de um objeto
+
+A função len é nativa do python e
+é utilizada quando há a necessidade
+de retornar o comprimento de um objeto.
+No caso do objeto ser uma string, é
+retornado a quantidade de caracteres
+que a string possui. No caso de uma
+coleção, é retornado a quantidade de
+elementos que contém.
+
+Parameters
+----------
+object : sequence | collection
+    Objeto que se quer saber o comprimento
+
+Return
+------
+length : int
+    Comprimento do objeto dado como parâmetro
+"""
+
 for indice in range(len(instrumentos)):
     print "O instrumento %s está no índice %d da lista." % (instrumentos[indice], indice)
 
