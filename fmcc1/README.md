@@ -1,4 +1,4 @@
-# Programação I e Laboratório de Programação I 
+# Fundamentos de Matemática para Ciência da Computação I
 
 ## O que tem
 
@@ -6,4 +6,3 @@
 - [Links Úteis](linksUteis.md)
 - [Dificuldades Comuns](dificuldadesComuns.md)
 - [Extras](extras.md)
-- [Implementações](implementacoes)

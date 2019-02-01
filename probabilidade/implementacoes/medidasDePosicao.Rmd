@@ -1,0 +1,38 @@
+---
+title: "Medidas de Posição"
+---
+
+# Medidas de posição
+
+## Dados
+Vamos criar uma lista que contém o número de filhos dos empregados de uma companhia
+```{r}
+filhos <- c(0, 1,2,3,5)
+freq_filhos <- c(4,5,7,3,1)
+```
+
+Adiciona a uma tabela de frequência
+```{r}
+filhos_data <- data.frame("num_filhos" = filhos, "freq_absoluta"= freq_filhos )
+filhos_data
+```
+
+## Média
+```{r}
+weighted.mean(filhos, freq_filhos)
+```
+
+## Moda
+O que mais aparece nos dados
+```{r}
+filhos_data[which.max(filhos_data$freq_absoluta), ]
+```
+## Mediana
+Divide os dados em 50%
+
+```{r}
+filhos_total <- rep(filhos_data$num_filhos, filhos_data$freq_absoluta)
+median(filhos_total)
+```
+
+

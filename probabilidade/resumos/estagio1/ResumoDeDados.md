@@ -5,20 +5,20 @@ Feito com base neste [slide](https://www.dropbox.com/s/3rubq11f0f4035j/Aula%202_
 ## Sumário
 
 - [Resumo de dados](#resumo-de-dados)
-    - [Sumário](#sum%C3%A1rio)
-    - [Estatística](#estat%C3%ADstica)
-        - [Tipos](#tipos)
-        - [Conceitos Fundamentais](#conceitos-fundamentais)
-    - [Organização de dados](#organiza%C3%A7%C3%A3o-de-dados)
-        - [Tabela de distribuição de frequências](#tabela-de-distribui%C3%A7%C3%A3o-de-frequ%C3%AAncias)
-    - [Agrupamento de variáveis por classes](#agrupamento-de-vari%C3%A1veis-por-classes)
-        - [Como fazer](#como-fazer)
-    - [Gráficos](#gr%C3%A1ficos)
-        - [Gráfico de colunas](#gr%C3%A1fico-de-colunas)
-        - [Gráfico de pizza](#gr%C3%A1fico-de-pizza)
-            - [Construção](#constru%C3%A7%C3%A3o)
-        - [Histograma](#histograma)
-            - [Construção](#constru%C3%A7%C3%A3o-1)
+  - [Sumário](#sum%C3%A1rio)
+  - [Estatística](#estat%C3%ADstica)
+    - [Tipos](#tipos)
+    - [Conceitos Fundamentais](#conceitos-fundamentais)
+  - [Organização de dados](#organiza%C3%A7%C3%A3o-de-dados)
+    - [Tabela de distribuição de frequências](#tabela-de-distribui%C3%A7%C3%A3o-de-frequ%C3%AAncias)
+  - [Agrupamento de variáveis por classes](#agrupamento-de-vari%C3%A1veis-por-classes)
+    - [Como fazer](#como-fazer)
+  - [Gráficos](#gr%C3%A1ficos)
+    - [Gráfico de colunas](#gr%C3%A1fico-de-colunas)
+    - [Gráfico de pizza](#gr%C3%A1fico-de-pizza)
+      - [Construção](#constru%C3%A7%C3%A3o)
+    - [Histograma](#histograma)
+      - [Construção](#constru%C3%A7%C3%A3o-1)
 
 
 ## Estatística
@@ -72,6 +72,8 @@ A variável | Quantas vezes aparece | Quantas vezes aparece dividido pelo total 
 
 1. Tenha os dados
 2. Determine o número de classes(***k***) 
+   1. n <= 25 -> k = 5
+   2. n > 25 -> k = √n
 3. Tenha a *Amplitude total*(***A_total = X_max - X_min***)
 4. Amplitude da classe(***∆=A_total / k***)
 5. Delimite as classes ~~intervalos~~
