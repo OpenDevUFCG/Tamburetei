@@ -6,5 +6,3 @@
 - [Links Úteis](linksUteis.md)
 - [Dificuldades Comuns](dificuldadesComuns.md)
 - [Extras](extras.md)
-- [leites](leites)
-- [implementacoes](implementacoes)
