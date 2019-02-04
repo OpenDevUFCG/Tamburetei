@@ -7,3 +7,4 @@
 - [Dificuldades Comuns](dificuldadesComuns.md)
 - [Extras](extras.md)
 - [Leites](leites)
+- [Resumos](resumos)
