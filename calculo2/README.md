@@ -1,9 +1,10 @@
-# Introdução a Computação
+# Cálculo II
 
-## O que tem
+## O que tem?
 
-- [Visão Geral e Dicas](visaoGeralEDicas.md)
-- [Links Úteis](linksUteis.md)
 - [Dificuldades Comuns](dificuldadesComuns.md)
 - [Extras](extras.md)
 - [Leites](leites)
+- [Links Úteis](linksUteis.md)
+- [Visão Geral e Dicas](visaoGeralEDicas.md)
+
