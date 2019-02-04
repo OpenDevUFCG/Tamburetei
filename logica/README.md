@@ -1,10 +1,10 @@
-# Lógica
+# Lógica para Computação
 
-## O que tem
+## O que tem?
 
-- [Visão Geral e Dicas](visaoGeralEDicas.md)
-- [Links Úteis](linksUteis.md)
 - [Dificuldades Comuns](dificuldadesComuns.md)
 - [Extras](extras.md)
-- [leites](leites)
-- [resumos](resumos)
+- [Leites](leites)
+- [Links Úteis](linksUteis.md)
+- [Resumos](resumos)
+- [Visão Geral e Dicas](visaoGeralEDicas.md)
