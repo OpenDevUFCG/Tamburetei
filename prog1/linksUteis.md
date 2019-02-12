@@ -1,4 +1,4 @@
-
+# Links Úteis
 
 ## Plataformas de estudo
 
@@ -18,3 +18,7 @@
 - [Coding bat](https://codingbat.com/python)
 - [Codewars](https://www.codewars.com/)
 - [CodingGame](https://www.codingame.com/)
+
+## Visualizar algoritmos
+
+- [pythontutor](http://www.pythontutor.com/visualize.html#mode=edit)

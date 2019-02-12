@@ -1,6 +1,6 @@
 # Links Úteis #
 
-<p align="justify">Um conjunto de links que irão auxiliá-lo em seus estudos de Programação 2.</p>
+Um conjunto de links que irão auxiliá-lo em seus estudos de Programação 2.
 
 ## Java ##
 
