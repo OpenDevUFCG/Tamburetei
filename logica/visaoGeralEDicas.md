@@ -1,25 +1,25 @@
-# Lógica para computação
+# Visão Geral e Dicas
 
-O principal objetivo do curso é apresentar ao aluno as lógicas formais utilizadas na verificação e análise de programas.
+Informações que irão auxiliá-lo a cursar bem a disciplina e a compreender sua importância para o curso.
 
 ## Ementa
 
-- Noção de argumento, validade. 
-- Lógica proposicional: sintaxe e semântica. 
-- Formas normais. Métodos de decisão. 
-- Lógica de 1a ordem: linguagem e modelos. 
-- Formas normais. 
-- Resolução. 
-- Métodos e estratégias de resolução.
+- Noção de argumento e validade. 
+- Lógica proposicional (sintaxe e semântica)
+- Formas normais
+-  Métodos de decisão.
+- Lógica de 1ª ordem (linguagem e modelos)
+- Formas normais 
+- Resolução
+- Métodos e estratégias de resolução
 
+## Visão Geral
 
-A cadeira possui um projeto no final da disciplina com especificação que será passada pelo professor, e geralmente é feita usando Alloy.
+O principal objetivo do curso é apresentar ao aluno as lógicas formais utilizadas na verificação e análise de programas. A cadeira possui um projeto final, geralmente usando Alloy, cuja especificação será passada pelo professor.
 
 ## Dicas
 
-- Deixar a primeira prova para repor pode ser uma péssima ideia, já que pode dificultar o entendimento de assuntos que serão dados nas outras provas.
-
-- Alguns assuntos exigem que você pratique para poder entender verdadeiramente, então sempre fazer as listas já ajuda muito.
-
-- No assunto de dedução o segredo é praticar para entender o assunto de verdade, faça muitas questões sobre.
+- Deixar a primeira prova para repor pode ser uma péssima ideia, pois pode dificultar o entendimento de assuntos que serão necessários nas provas seguintes.
+- Alguns assuntos exigem que você pratique para poder realmente entender. Então, sempre faça as listas de exercícios.
+- No assunto de dedução, o segredo é praticar para entender o assunto de verdade, faça muitas questões!
 
