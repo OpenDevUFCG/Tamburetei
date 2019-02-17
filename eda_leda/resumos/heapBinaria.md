@@ -1,6 +1,6 @@
 # Heap Binária
 
-## O que é
+## O que é?
 
 Árvore binária que possui as propriedades:
 

@@ -1,12 +1,10 @@
 # Árvore PV
 
-## O que é
+## O que é?
 
-É uma árvore binária de busca(*BST*) que irá conter uma informação extra em cada nó, **cor**. A cor ajuda a árvore a ter um balanceamento bom, mas não perfeito(bem menos que a *AVL*). Suas operações de pesquisa, inserção e remoção são feitas em **O(log n)**. E altura(*h*) em **h <= 2.lg(n+1)**
+É uma árvore binária de busca (*BST*) que irá conter uma informação extra em cada nó, a **cor**. A cor ajuda a árvore a ter um balanceamento bom, mas não perfeito (bem menos que a *AVL*). Suas operações de pesquisa, inserção e remoção são feitas em **O(log n)**. E altura(*h*) em **h <= 2.lg(n+1)**.
 
-## Invariantes
-
-Suas propriedades são:
+## Propriedades
 
 - Todo nó possui cor **PRETA** ou **VERMELHA**
 - Todo folha NIL é *preta*
