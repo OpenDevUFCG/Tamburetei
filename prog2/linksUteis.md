@@ -1,25 +1,31 @@
-# Links Úteis #
+# Links Úteis
 
-Um conjunto de links que irão auxiliá-lo em seus estudos de Programação 2.
+Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 
-## Java ##
+## Sumário
 
-  - [Java e Orientação a Objetos](https://www.caelum.com.br/apostila-java-orientacao-objetos/)
-  - [Java com Testes, JSF e Design Patterns](https://www.caelum.com.br/apostila-java-testes-jsf-web-services-design-patterns/)
-  - [Introdução à CC com Java e Orientação a Objetos](https://www.caelum.com.br/apostila-java-orientacao-objetos/)
-  - [Curso de Java Básico Gratuito - Loiane Groner](https://www.youtube.com/playlist?list=PLGxZ4Rq3BOBq0KXHsp5J3PxyFaBIXVs3r)  
+- [Java](#java)
+- [Git](#git)
+- [Diagramas de Classes](#diagramas-de-classe)
+- [Projetos Antigos](#projetos-antigos)
 
-## Git ##
+## Java
 
-  - [Pro Git](https://git-scm.com/book/pt-br/v2)
-  - [Guia prático](http://rogerdudler.github.io/git-guide/index.pt_BR.html)
-  - [Git Tutorials - Corey Schafer](https://www.youtube.com/playlist?list=PL-osiE80TeTuRUfjRe54Eea17-YfnOOAx)
+- [Java e Orientação a Objetos](https://www.caelum.com.br/apostila-java-orientacao-objetos/)
+- [Java com Testes, JSF e Design Patterns](https://www.caelum.com.br/apostila-java-testes-jsf-web-services-design-patterns/)
+- [Introdução à CC com Java e Orientação a Objetos](https://www.caelum.com.br/apostila-java-orientacao-objetos/)
+- [Curso de Java Básico Gratuito - Loiane Groner](https://www.youtube.com/playlist?list=PLGxZ4Rq3BOBq0KXHsp5J3PxyFaBIXVs3r)  
 
-## Ferramentas para criação de Diagramas de Classe ##
-  - [Astah](http://astah.net/download) - *Consiga uma Licença Acadêmica Gratuita [aqui](http://astah.net/student-license-request)*
-  - [ObjectAid](http://www.objectaid.com/)
-  - [Lucidchart](https://www.lucidchart.com/pages/pt)
+## Git
 
-## Projetos antigos
+- [Pro Git](https://git-scm.com/book/pt-br/v2)
+- [Guia prático](http://rogerdudler.github.io/git-guide/index.pt_BR.html)
+- [Git Tutorials - Corey Schafer](https://www.youtube.com/playlist?list=PL-osiE80TeTuRUfjRe54Eea17-YfnOOAx)
 
-- https://github.com/thayannevls/ListaPraMim
+## Diagramas de Classe
+- [Astah](http://astah.net/download) - *Consiga uma Licença Acadêmica Gratuita [aqui](http://astah.net/student-license-request)*
+- [ObjectAid](http://www.objectaid.com/)
+- [Lucidchart](https://www.lucidchart.com/pages/pt)
+
+## Projetos Antigos
+- [Lista pra Mim](https://github.com/thayannevls/ListaPraMim)

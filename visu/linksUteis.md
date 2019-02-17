@@ -1,15 +1,21 @@
-# Links Úteis #
+# Links Úteis
 
-<p align="justify">Um conjunto de links que irão auxiliá-lo em seus estudos de Visualização da Informação.</p>
+Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 
-## Visualizações ##
+## Sumário
 
-  - [Galeria D3](https://github.com/d3/d3/wiki/Gallery)
+- [D3](#d3)
+- [Visualizações](#visualizações)
+- [Cores](#cores)
 
-## Cores ##
+## D3
 
-  - [Guia de cores para mapas](http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3)
+- [Material avançado sobre visualizações com D3](http://www.puzzlr.org/category/d3/)
 
-## D3 ##
+## Visualizações
 
-  - [Material avançado sobre visualizações com D3](http://www.puzzlr.org/category/d3/)
+- [Galeria D3](https://github.com/d3/d3/wiki/Gallery)
+
+## Cores
+
+- [Guia de cores para mapas](http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3)
