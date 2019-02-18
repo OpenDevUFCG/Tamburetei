@@ -1,34 +1,60 @@
+# Links Úteis
 
-## Plataformas de aprendizado
+Uma lista de links que irão auxiliá-lo no estudo da disciplina.
+
+## Sumário
+
+- [Material de Estudo](#material-de-estudo)
+    - [Front-end](#front-end)
+- [Ferramentas](#ferramentas)
+    - [IDEs](#ides)
+    - [Outros](#outros)
+- [Blogs](#blogs)
+- [Imagens](#imagens)
+- [Ícones](#ícones)
+- [Fontes](#fontes)
+- [Cores](#cores)
+
+## Material de Estudo
 
 ### Front-end
 - [FreeCodeCamp](https://learn.freecodecamp.org/)
 - [Google Web Design Fundamentals](https://developers.google.com/web/fundamentals/)
-- [Team threehouse](http://teamtreehouse.com/)
+- [Team Threehouse](http://teamtreehouse.com/)
 - [SitePoint](http://www.sitepoint.com/)
 - [Khan Academy](https://www.khanacademy.org/computing/cs)
+
+## Ferramentas
+
+### IDES
+- [VSCode](https://code.visualstudio.com/download)
+- [Sublime](http://www.sublimetext.com/)
+- [Brackets](http://brackets.io/)
+- [Atom](https://atom.io/)
+
+### Outros
+- [Codepen](http://codepen.io/)
+- [JsFiddle](http://jsfiddle.net/)
+- [jsBeutify](http://tool.lu/js/)
+- [jsbeautifier](http://jsbeautifier.org/)
 
 ## Blogs
 
 - [Scotch](https://scotch.io/)
 - [Team threehouse](http://blog.teamtreehouse.com/)
 
-## IDES
-- [VSCode](https://code.visualstudio.com/download)
-- [Sublime](http://www.sublimetext.com/)
-- [Brackets](http://brackets.io/)
-- [Atom](https://atom.io/)
-
-## Utilitários
-- [Codepen](http://codepen.io/)
-- [JsFiddle](http://jsfiddle.net/)
-- [jsBeutify](http://tool.lu/js/)
-- [jsbeautifier](http://jsbeautifier.org/)
-
 ## Imagens
 
 - [Unsplash](https://unsplash.com/)
 - [Pinterest](https://br.pinterest.com/)
+
+## Ícones
+
+- [Fontatisc](http://fontastic.me/)
+- [GlyphSearch](https://glyphsearch.com/)
+- [Icomoon](https://icomoon.io/)
+- [Flaticon](https://www.flaticon.com/)
+- [Fontello](http://fontello.com/)
 
 ## Fontes
 
@@ -43,15 +69,6 @@
 - [FontSquirrel](http://www.fontsquirrel.com/)
 - [Fontface Ninja](http://fontface.ninja/)
 
-
-## Icones
-
-- [Fontatisc](http://fontastic.me/)
-- [GlyphSearch](https://glyphsearch.com/)
-- [Icomoon](https://icomoon.io/)
-- [Flaticon](https://www.flaticon.com/)
-- [Fontello](http://fontello.com/)
-
 ## Cores
 
 - [nipponcolors](http://nipponcolors.com/)
@@ -64,7 +81,3 @@
 - [colourco.de](http://colourco.de)
 - [flatuicolorpicker](http://www.flatuicolorpicker.com/)
 - [krmp.cc](https://github.com/dadleyy/krmp.cc)
-
-
-
-

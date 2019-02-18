@@ -1,5 +1,6 @@
-# Dificuldades comuns
+# Dificuldades Comuns
 
-## Debugar
+Uma lista de comentários sobre as principais dificuldades enfrentadas pelos alunos enquanto cursam a disciplina.
 
-Debugar pode ser uma parte complicada no processo de desenvolver. Pergunte ao professor como usar a ferramenta de Debug do Eclipse, e sempre pesquise os erros que aparecem no Console, em breve você irá decorá-los e saber exatamente o que está acontecendo
+### Debugar
+A depuração pode ser uma parte complicada no processo de desenvolvimento. Pergunte aos professores como utilizar a ferramenta de Debug do Eclipse e sempre pesquise os erros que aparecem no Console. Em breve você irá decorá-los e saber exatamente o que está acontecendo!

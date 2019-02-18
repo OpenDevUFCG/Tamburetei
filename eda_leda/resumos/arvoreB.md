@@ -1,6 +1,8 @@
 # Árvore B
 
-É uma árvore balanceada que permite pesquisa, inserção e remoção em tempo logaritimico. Muito usado em sistemas de armazenamento que possuem grande volume de dados.
+## O que é?
+
+É uma árvore balanceada que permite pesquisa, inserção e remoção em tempo logaritímico. Muito usado em sistemas de armazenamento que possuem grande volume de dados.
 
 ## Propriedades
 

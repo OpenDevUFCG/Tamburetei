@@ -1,12 +1,10 @@
 # Árvore AVL
 
-## O que é
+## O que é?
 
-É uma árvore binária de busca(**BST**) cujo objetivo é remover o problema do pior caso onde a altura é O(n), evitando que a árvore fique *"pesando"* muito para um lado só.
+É uma árvore binária de busca (**BST**) cujo objetivo é remover o problema do pior caso, onde a altura é O(n), evitando que a árvore fique *"pesando"* muito para um lado só.
 
-## Invariante
-
-Suas propriedades:
+## Propriedades
 
 - Balanceamento
     - A altura das sub-árvores diferem no máximo em 1
@@ -15,9 +13,9 @@ Suas propriedades:
         - $>$ 0 a árvore pesa para a esquerda
         - = 0 a árvore está balanceada
   
-## Implementações
+## Implementação
 
-Operações de inserção e remoção podem desbalancear a árvore, para isso usamos **operações de rotação**
+Operações de inserção e remoção podem desbalancear a árvore, para isso usamos **operações de rotação**.
 
 ### Rotação
 

@@ -1,5 +1,6 @@
 # Dificuldades Comuns
 
-## Entender loops
+Uma lista de comentários sobre as principais dificuldades enfrentadas pelos alunos enquanto cursam a disciplina.
 
-Estrutuas de repetição podem ser difíceis de entender, por isso muitas pessoas travam na unidade 4 e 5. O melhor a se fazer é ver visualizações de loop que existem na internet e testar usar `for` e `while` usando print para que você possa entender o que acontece a cada interaçãog
+### Entender os loops
+Estruturas de repetição podem ser difíceis de entender. Por issos muitas pessoas travam nas unidades 4 e 5. O melhor a se fazer é buscar visualizações de *loop* que existem na internet e testar usar `for` e `while` usando *prints*. Dessa forma, você conseguirá entender o que acontece a cada interação.

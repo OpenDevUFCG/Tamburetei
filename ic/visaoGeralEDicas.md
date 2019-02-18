@@ -1,10 +1,8 @@
-# Visão geral e dicas
+# Visão Geral e Dicas
 
-Em *introdução a computação* você irá ter uma visão geral sobre o Curso de Computação e aprenderá conceitos básicos de hardware e software.
+Informações que irão auxiliá-lo a cursar bem a disciplina e a compreender sua importância para o curso.
 
-## Visão Geral
-
-Ementa:
+## Ementa
 
 - Histórico. 
 - Tecnologias e aplicações de computadores. 
@@ -20,7 +18,10 @@ Ementa:
 - Sistemas de entrada e saída. Software, encadeamento e conjunto de instruções. 
 - Sistemas distribuídos de informação.
 
-Além de provas, é comum se ter listas de exércicios valendo pontos. 
+## Visão Geral
+
+Em Introdução à Computação você irá ter uma visão geral sobre o curso de Ciência da Computação e aprenderá conceitos básicos de hardware e software. Ela lhe ajudará a compreender como a área de Tecnologia da Informação chegou ao ponto atual.
 
 ## Dicas
-- As questões das provas são muito semelhantes com as listas.
+
+- Apesar de não envolver conteúdos extremamente complexos, a disciplina envolve uma grande quantidade de conteúdo. Portanto, é uma péssima ideia começar a estudar na véspera das provas.
