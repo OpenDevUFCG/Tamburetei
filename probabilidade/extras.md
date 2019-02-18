@@ -1,4 +1,3 @@
 # Extras
 
-
-## Como aplicar probabilidade em computação
+Informações e conteúdos extras sobre a disciplina.

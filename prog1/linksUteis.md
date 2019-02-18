@@ -1,6 +1,19 @@
 # Links Úteis
 
-## Plataformas de estudo
+Uma lista de links que irão auxiliá-lo no estudo da disciplina.
+
+## Sumário
+
+- [Livros e Apostilas](#livros-e-apostilas)
+- [Plataformas de Estudo](#plataformas-de-estudo)
+- [Ferramentas](#ferramentas)
+- [Exercícios](#exercícios)
+
+## Livros e Apostilas
+
+- [Free-programming-books](https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books-pt_BR.md#python)
+
+## Plataformas de Estudo
 
 - [Codecademy](http://www.codecademy.com/)
 - [Gibbon](https://gibbon.co/topics/programming)
@@ -8,9 +21,9 @@
 - [Learn Python the Hard Way](http://learnpythonthehardway.org/book/)
 - [University of Reddit](http://ureddit.com/category/23442/computer-science)
 
-## Livros gratuitos em português de Python
+## Ferramentas
 
-- [Free-programming-books](https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books-pt_BR.md#python)
+- [Python Tutor](http://www.pythontutor.com/visualize.html#mode=edit)
 
 ## Exercícios
 
@@ -18,7 +31,3 @@
 - [Coding bat](https://codingbat.com/python)
 - [Codewars](https://www.codewars.com/)
 - [CodingGame](https://www.codingame.com/)
-
-## Visualizar algoritmos
-
-- [pythontutor](http://www.pythontutor.com/visualize.html#mode=edit)
