@@ -29,3 +29,4 @@ if __name__ == '__main__':
     _, discipline = sys.argv
     create_folders(discipline)
     create_files(discipline)
+    print("Criado!")
