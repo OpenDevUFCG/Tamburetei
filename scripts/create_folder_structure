@@ -1,0 +1,65 @@
+#! /usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import os
+import sys
+class bcolors:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+
+BASE_PATH = '../{discipline}'
+FILES = {
+        'visaoGeralEDicas.md': '# Visão Geral e Dicas',
+        'linksUteis.md': '# Links Úteis',
+        'dificuldadesComuns.md': '# Dificuldades Comuns',
+        'extras.md': '# Extras',
+        'README.md': '# {discipline}\n\n## O que tem?\n\n- [Dificuldades Comuns](dificuldadesComuns.md)\n- [Extras](extras.md)\n- [Implementações](implementacoes)\n- [Leites](leites)\n- [Links Úteis](linksUteis.md)\n- [Resumos](resumos)\n- [Visão Geral e Dicas](visaoGeralEDicas.md)'}
+
+def _create_folder(discipline, dir_name):
+    path = BASE_PATH + '/{dir_name}'
+    path = path.format(discipline=discipline, dir_name=dir_name)
+    os.makedirs(path)
+
+def _create_file(discipline, filename):
+    path = BASE_PATH + '/{filename}'
+    path = path.format(discipline=discipline, filename=filename)
+
+    file = open(path, 'wb')
+    file.write(FILES[filename])
+    file.close()
+
+def create_folders(discipline):
+    dir_names = ['implementacoes', 'resumos', 'leites']
+    for dir_name in dir_names:
+        _create_folder(discipline, dir_name)
+        print(bcolors.OKBLUE + '-' + dir_name + bcolors.ENDC)
+
+def create_files(discipline):
+    for file in FILES:
+        _create_file(discipline, file)
+        print(bcolors.OKGREEN + '-' + file + bcolors.ENDC)
+
+def check_discipline(discipline):
+    if(not discipline.isalnum()):
+        raise Exception('O nome da disciplina não pode conter caracteres especiais!')
+
+if __name__ == '__main__':
+    try:
+        discipline = raw_input("Digite o nome da nova disciplina: ").lower()
+        check_discipline(discipline)
+        
+        print('Criando ' + bcolors.UNDERLINE + discipline + bcolors.ENDC + '...')
+        
+        create_folders(discipline)
+        create_files(discipline)
+
+        print(bcolors.BOLD + "Criado!" + bcolors.ENDC)
+
+    except Exception as error:
+        print(bcolors.FAIL + str(error) + bcolors.ENDC)

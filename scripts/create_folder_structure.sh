@@ -9,7 +9,7 @@ read subject
 
 CREATE_FOLDERS="mkdir -p $subject/leites $subject/implementacoes $subject/resumos"
 CHANGE_TO_DIR="cd $subject" 
-CREATE_FILES="touch extras.md dificuldadesComuns.md linksUteis.md visaoGeralEDicas.md"
+CREATE_FILES="touch extras.md dificuldadesComuns.md linksUteis.md visaoGeralEDicas.md README.md"
 SHOW_DIR="tree $suject"
 
 $CREATE_FOLDERS && $CHANGE_TO_DIR && $CREATE_FILES && $SHOW_DIR

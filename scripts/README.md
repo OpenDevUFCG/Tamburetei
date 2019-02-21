@@ -8,11 +8,11 @@
 ### Executando o arquivo
 Execute o comando abaixo:
 
-`python create_folder_structure.py {disciplina}`
+`python create_folder_structure {disciplina}`
 
 Ex:
 
-`python create_folder_structure.py eda`
+`python create_folder_structure eda`
 
 ### Resultado
 "Criado!"
