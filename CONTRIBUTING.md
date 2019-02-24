@@ -21,7 +21,7 @@ Atualmente, temos a seguintes tags para issues:
 
 ## Como ajudar?
 
-Se você tem interesse em contribuir e não sabe como, procure issues com a tag `Good First Issue`. Não tenha medo de pedir por orientação ou ajuda, mas, acima de tudo seja corajoso e respeitoso. Você também pode participar de discussões para ajudar a comunidade a realizar boas escolhas!
+Se você tem interesse em contribuir e não sabe como, procure issues com a tag `Good First Issue`. Não tenha medo de pedir por orientação ou ajuda, mas, acima de tudo, seja corajoso e respeitoso. Você também pode participar de discussões para ajudar a comunidade a realizar boas escolhas!
 
 ## Como funciona?
 
