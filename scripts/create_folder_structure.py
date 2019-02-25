@@ -45,7 +45,7 @@ def create_folders(discipline):
 def create_files(discipline):
     for file in FILES:
         _create_file(discipline, file)
-        print(bcolors.OKGREEN + '-' + file + bcolors.ENDC)
+        print('  ' + bcolors.OKGREEN + '-' + file + bcolors.ENDC)
 
 def check_discipline(discipline):
     if(not discipline.isalnum()):
