@@ -7,9 +7,8 @@ Informações que irão auxiliá-lo a cursar bem a disciplina e a compreender su
 - Noção de argumento e validade. 
 - Lógica proposicional (sintaxe e semântica)
 - Formas normais
--  Métodos de decisão.
+- Métodos de decisão.
 - Lógica de 1ª ordem (linguagem e modelos)
-- Formas normais 
 - Resolução
 - Métodos e estratégias de resolução
 
