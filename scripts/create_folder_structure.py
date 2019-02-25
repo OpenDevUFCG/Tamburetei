@@ -3,6 +3,7 @@
 
 import os
 import sys
+
 class bcolors:
     HEADER = '\033[95m'
     OKBLUE = '\033[94m'
@@ -15,11 +16,12 @@ class bcolors:
 
 BASE_PATH = '../{discipline}'
 FILES = {
-        'visaoGeralEDicas.md': '# Visão Geral e Dicas',
+        'visaoGeralEDicas.md': '# Visão Geral e Dicas\n\nInformações que irão auxiliá-lo a cursar bem a disciplina e a compreender sua importância para o curso.',
         'linksUteis.md': '# Links Úteis',
-        'dificuldadesComuns.md': '# Dificuldades Comuns',
-        'extras.md': '# Extras',
-        'README.md': '# {discipline}\n\n## O que tem?\n\n- [Dificuldades Comuns](dificuldadesComuns.md)\n- [Extras](extras.md)\n- [Implementações](implementacoes)\n- [Leites](leites)\n- [Links Úteis](linksUteis.md)\n- [Resumos](resumos)\n- [Visão Geral e Dicas](visaoGeralEDicas.md)'}
+        'dificuldadesComuns.md': '# Dificuldades Comuns\n\nUma lista de comentários sobre as principais dificuldades enfrentadas pelos alunos enquanto cursam a disciplina.',
+        'extras.md': '# Extras\n\nInformações e conteúdos extras sobre a disciplina.',
+        'README.md': '# {discipline}\n\n## O que tem?\n\n- [Dificuldades Comuns](dificuldadesComuns.md)\n- [Extras](extras.md)\n- [Implementações](implementacoes)\n- [Leites](leites)\n- [Links Úteis](linksUteis.md)\n- [Resumos](resumos)\n- [Visão Geral e Dicas](visaoGeralEDicas.md)'
+    }
 
 def _create_folder(discipline, dir_name):
     path = BASE_PATH + '/{dir_name}'
