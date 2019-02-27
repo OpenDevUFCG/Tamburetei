@@ -2,12 +2,15 @@
 #
 # BUSCA BINÁRIA
 #
-# A busca binária é um algoritmo de busca em vetores que segue o paradigma de divisão e conquista. 
-# Ela parte do pressuposto de que o vetor está ordenado e realiza sucessivas divisões do espaço de busca 
-# comparando o elemento buscado (chave) com o elemento no meio do vetor. Se o elemento do meio do vetor for 
-# a chave, a busca termina com sucesso. Caso contrário, se o elemento do meio vier antes do elemento buscado, 
-# então a busca continua na metade posterior do vetor. E finalmente, se o elemento do meio vier depois da 
-# chave, a busca continua na metade anterior do vetor.
+#   A busca binária é um algoritmo de busca em vetores que segue o paradigma
+# de divisão e conquista.
+#   Ela parte do pressuposto de que o vetor está ordenado e realiza sucessivas
+# divisões do espaço de busca comparando o elemento buscado (chave) com o
+# elemento no meio do vetor. Se o elemento do meio do vetor for a chave,
+# a busca termina com sucesso. Caso contrário, se o elemento do meio vier
+# antes do elemento buscado, então a busca continua na metade posterior do
+# vetor. E finalmente, se o elemento do meio vier depois da chave, a busca
+# continua na metade anterior do vetor.
 
 # @author: Vinicius Barbosa
 # @tema: Busca binária
@@ -25,26 +28,27 @@ def buscaBinariaIterativa(alvo, array):
         mid = (min + max)/2
         if array[mid] == alvo:
             return mid
-        else :
-            if array[mid] < alvo: # Eliminamos os numeros a esquerda de mid da nossa busca
+        else:
+            if array[mid] < alvo:
                 min = mid + 1
-            else: 				  # Eliminamos os números a direita de mid da nossa busca
+            else:
                 max = mid - 1
     return -1
 
-	
+
 def buscaBinariaRecursiva(alvo, array):
     return buscaBinariaRecursivaAux(alvo, array, 0, len(array) - 1)
+
 
 def buscaBinariaRecursivaAux(alvo, array, min, max):
     if min <= max:
         mid = (min + max)/2
         if array[mid] == alvo:
             return mid
-        else :
-            if array[mid] < alvo: # Eliminamos os numeros a esquerda de mid da nossa busca
+        else:
+            if array[mid] < alvo:
                 return buscaBinariaRecursivaAux(alvo, array, mid + 1, max)
-            else: 				  # Eliminamos os números a direita de mid da nossa busca
+            else:
                 return buscaBinariaRecursivaAux(alvo, array, min, mid - 1)
     else:
         return -1
@@ -52,7 +56,8 @@ def buscaBinariaRecursivaAux(alvo, array, min, max):
 
 # TESTES
 
-array = ['amanda', 'ana', 'carlos', 'gabriela', 'luana', 'lucas', 'marcos', 'pedro', 'stephanne', 'victor', 'vinicius']
+array = ['amanda', 'ana', 'carlos', 'gabriela', 'luana', 'lucas',
+         'marcos', 'pedro', 'stephanne', 'victor', 'vinicius']
 
 # testa a busca binária iterativa
 assert 8 == buscaBinariaIterativa('stephanne', array)
