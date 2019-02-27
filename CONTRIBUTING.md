@@ -37,6 +37,17 @@ Arquivo | Finalidade
 **implementacoes/** | Caso a disciplina possibilite, esse diretório se destina a implementações úteis, fáceis de entender e bem documentadas.
 **resumos/** | Esse diretório se destina a resumos sobre assuntos especifícos da disciplina. Devem ser bem divididos e fáceis de entender.
 
+Nós temos um script que cria essa estrutura, você só precisa ter o python instalado na sua máquina. 
+
+Dito isso, navegue até a pasta [scripts](scripts/):
+
+`cd scripts`
+
+E em seguida, execute o comando:
+
+`python create_folder_structure.py`
+
+## Como Contribuir
 ## Regras
 - Respeite o código de conduta.
 - Proibido falar mal dos professores. Evite, ao máximo, comentar opiniões pessoais de qualquer natureza sobre professores.
