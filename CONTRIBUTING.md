@@ -34,6 +34,16 @@ Arquivo | Finalidade
 **implementacoes/** | Caso a cadeira possibilite, aqui vale colocar algumas implementações úteis, devem ser fáceis de entender e bem documentadas.
 **resumos/** | Resumos sobre algum assunto especifício, que seja bem dividido e fácil de entender.
 
+Nós temos um script que cria essa estrutura, você só precisa ter o python instalado na sua máquina. 
+
+Dito isso, navegue até a pasta [scripts](scripts/):
+
+`cd scripts`
+
+E em seguida, execute o comando:
+
+`python create_folder_structure.py`
+
 ## Como Contribuir
 
 Se você escolheu uma issue para contribuir, não esqueça de avisar lá que você está trabalhando naquilo. Se é algo que ainda não exista uma issue, crie! É importante notificar o que você está fazendo.
