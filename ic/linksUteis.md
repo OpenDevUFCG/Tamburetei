@@ -10,7 +10,7 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 ## Ferramentas
 
 - [Simulator IO](https://simulator.io/)
-- [Tinkercad](tinkercad.com)
+- [Tinkercad](https://tinkercad.com/)
 
 ## Material de Estudo
 
