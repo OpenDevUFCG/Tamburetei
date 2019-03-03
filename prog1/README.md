@@ -7,3 +7,4 @@
 - [Implementações](implementacoes)
 - [Links Úteis](linksUteis.md)
 - [Visão Geral e Dicas](visaoGeralEDicas.md)
+- [Tutoriais](tutoriais)*
