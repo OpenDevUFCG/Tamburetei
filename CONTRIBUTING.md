@@ -47,7 +47,6 @@ E em seguida, execute o comando:
 
 `python create_folder_structure.py`
 
-## Como Contribuir
 ## Regras
 - Respeite o código de conduta.
 - Proibido falar mal dos professores. Evite, ao máximo, comentar opiniões pessoais de qualquer natureza sobre professores.
