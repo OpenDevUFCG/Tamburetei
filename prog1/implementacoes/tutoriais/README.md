@@ -1,9 +1,10 @@
 # Tutoriais
 
-Tutoriais com assuntos ensinados em Programação 1 e Laboratório de Programação 1.
+Tutoriais sobre os assuntos ensinados em Programação I e Laboratório de Programação I.
 
 ## O que tem?
-Para seguir a mesma ordem no qual os assuntos são ensinados na disciplina, siga esse roteiro:
+
+Para seguir a mesma ordem em que os assuntos são ensinados na disciplina, siga esse roteiro:
 
 1. [Hello World](helloWorld.ipynb)
 2. [Formatação de Strings](formatacaoDeStrings.ipynb)
@@ -13,31 +14,31 @@ Para seguir a mesma ordem no qual os assuntos são ensinados na disciplina, siga
 6. [Listas](listas.ipynb)
 7. [Matrizes](matrizes.ipynb)
 8. [Algoritmos de Ordenação](algoritmosOrdenacao.ipynb)
-9.  [Dicionários](dicionarios.ipynb)
+9. [Dicionários](dicionarios.ipynb)
 
 
-## Como rodar
-Os tutoriais são feitos usando Jupyter notebooks, que são estruturas que permitem que adicionememos blocos de código, de texto, imagens e etc. São mais poderosos que arquivos `.py` e facilitam o aprendizado.
+## Como executar
 
-Aqui no github você consegue vê-los de maneira estática, mas caso você queira se aventurar, modificar o código e ver saídas novas, você precisar rodar os notebooks.
+Os tutoriais são feitos usando Jupyter notebooks, que são estruturas que permitem que adicionememos blocos de código, de texto, imagens,e etc. Eles são mais poderosos que os arquivos `.py` e facilitam o aprendizado.
 
-Para rodar os notebooks, vocês tem duas opções: Usando [Jupyter Notebook](https://jupyter.org/) localmente ou usando o [Google Colab](https://colab.research.google.com/)
+Aqui no GitHub você consegue vê-los de maneira estática, mas, caso você queira se aventurar, modificar o código e ver saídas novas, você precisar executar esses notebooks.
+
+Para executá-los, vocês tem duas opções: Usando o [Google Colab](https://colab.research.google.com/) ou usando o [Jupyter Notebook](https://jupyter.org/) localmente.
 
 ### Google Colab
 
-O Google Colab é uma plataforma cloud gratuita que permite rodar código Python. Para utilizá-lo nesse repositório e visualizar os notebooks, siga os passos:
+O Google Colab é uma plataforma cloud gratuita que permite executar código Python. Para utilizá-lo nesse repositório e visualizar os notebooks, siga os passos:
 
 #### Plugin
 Usando este [plugin](https://chrome.google.com/webstore/detail/open-in-colab/iogfkhleblhcpcekbiedikdehleodpjo) é a maneira mais fácil e rápida para abrir os notebooks. Basta ter uma conta no [Google Colab](https://colab.research.google.com/), adicionar este plugin ao seu navegador e ir para o tutorial que você deseja abrir.
 
 #### Pelo site
-
 No site, você vai pedir para que ele abra os Notebooks do nosso repositório, seguindo os passos:
 
 1. Entre no site do [Google Colab](https://colab.research.google.com/) e faça seu login.
 2. Ele vai pedir para você importar notebooks de algum lugar, escolha a opção *Github*
 3. Coloque nossa URL `https://github.com/OpenDevUFCG/Tamburetei` e confirme.
-4. Pronto agora você pode mexer nos notebooks a vontade!
+4. Pronto. Agora você pode modificar os notebooks à vontade!
 
 ### Localmente
 
@@ -51,9 +52,9 @@ git clone https://github.com/OpenDevUFCG/Tamburetei/
 
 Caso você não queira usar o terminal, você pode usar o [Github Desktop](https://desktop.github.com/).
 
-Após você ter o repositório baixado na sua máquina, você deve instalar o **Jupyter Notebook**, você pode seguir esse [tutorial](https://medium.com/horadecodar/como-instalar-o-jupyter-notebook-windows-e-linux-20701fc583c).
+Após ter o repositório em sua máquina, você deve instalar o **Jupyter Notebook**. Esse [tutorial](https://medium.com/horadecodar/como-instalar-o-jupyter-notebook-windows-e-linux-20701fc583c) pode ajudá-lo nessa tarefa.
 
-Agora é só você ir para este repositório no terminal e rodar o *jupyter*:
+Agora basta ir ao repositório através de seu terminal e executar o *jupyter*:
 
 ```sh
 cd Tamburetei/
