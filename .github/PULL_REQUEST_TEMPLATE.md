@@ -2,7 +2,7 @@
 
 <!-- 1. Seja descritivo no nome de sua PR. -->
 
-<!-- 2. Informe o número da issue a que sua PR se refere (usando #ISSUE_NUMBER). -->
+<!-- 2. Informe o número da issue a que sua PR se refere (usando #NUMERO_DA_ISSUE). -->
 
 <!-- 3. Nos conte mais sobre sua PR e o que você fez! (: -->
 
