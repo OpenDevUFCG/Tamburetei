@@ -1,0 +1,373 @@
+\documentclass[]{book}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+
+%These tell TeX which packages to use.
+\usepackage{array,epsfig}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsxtra}
+\usepackage{amsthm}
+\usepackage{mathrsfs}
+\usepackage{color}
+
+%Here I define some theorem styles and shortcut commands for symbols I use often
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}
+\newtheorem{thm}{Theorem}
+\newtheorem{cor}{Corollary}
+\newtheorem*{rmk}{Remark}
+\newtheorem{lem}{Lemma}
+\newtheorem*{joke}{Joke}
+\newtheorem{ex}{Example}
+\newtheorem*{soln}{Solution}
+\newtheorem{prop}{Proposition}
+
+\newcommand{\lra}{\longrightarrow}
+\newcommand{\ra}{\rightarrow}
+\newcommand{\surj}{\twoheadrightarrow}
+\newcommand{\graph}{\mathrm{graph}}
+\newcommand{\bb}[1]{\mathbb{#1}}
+\newcommand{\Z}{\bb{Z}}
+\newcommand{\Q}{\bb{Q}}
+\newcommand{\R}{\bb{R}}
+\newcommand{\C}{\bb{C}}
+\newcommand{\N}{\bb{N}}
+\newcommand{\M}{\mathbf{M}}
+\newcommand{\m}{\mathbf{m}}
+\newcommand{\MM}{\mathscr{M}}
+\newcommand{\HH}{\mathscr{H}}
+\newcommand{\Om}{\Omega}
+\newcommand{\Ho}{\in\HH(\Om)}
+\newcommand{\bd}{\partial}
+\newcommand{\del}{\partial}
+\newcommand{\bardel}{\overline\partial}
+\newcommand{\textdf}[1]{\textbf{\textsf{#1}}\index{#1}}
+\newcommand{\img}{\mathrm{img}}
+\newcommand{\ip}[2]{\left\langle{#1},{#2}\right\rangle}
+\newcommand{\inter}[1]{\mathrm{int}{#1}}
+\newcommand{\exter}[1]{\mathrm{ext}{#1}}
+\newcommand{\cl}[1]{\mathrm{cl}{#1}}
+\newcommand{\ds}{\displaystyle}
+\newcommand{\vol}{\mathrm{vol}}
+\newcommand{\cnt}{\mathrm{ct}}
+\newcommand{\osc}{\mathrm{osc}}
+\newcommand{\LL}{\mathbf{L}}
+\newcommand{\UU}{\mathbf{U}}
+\newcommand{\support}{\mathrm{support}}
+\newcommand{\AND}{\;\wedge\;}
+\newcommand{\OR}{\;\vee\;}
+\newcommand{\Oset}{\varnothing}
+\newcommand{\st}{\ni}
+\newcommand{\wh}{\widehat}
+
+%Pagination stuff.
+\setlength{\topmargin}{-.3 in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+\setlength{\textheight}{9.in}
+\setlength{\textwidth}{6.5in}
+\pagestyle{empty}
+
+
+
+\begin{document}
+
+
+\begin{center}
+{\Large FMCC$2$ Elixir v0.4}\\
+Prof. Thiago Emmanuel Pereira
+%\textbf{NAME}\\ %You should put your name here
+%Due: DATE %You should write the date here.
+\end{center}
+
+\vspace{0.2 cm}
+
+\textbf{Métodos de prova}
+
+\begin{enumerate}
+
+\item\label{caushw} Prove se a seguinte afirmação é verdadeira ou não: a soma de quatro números inteiros consecutivos não é divisível por 4.
+
+\item\label{caushw} Prove que a conjectura $2^{n} > n^{2}$ \'{e} verdadeira se $n$ \'{e} um inteiro maior que $4$.
+
+\item\label{caushw} Prove que para um inteiro n, n³ + 5 é ímpar, se e somente se n é par, usando os seguintes métodos:
+
+\begin{itemize}
+\item demonstração por contraposição
+\item demonstração por contradição
+\end{itemize}
+
+\item\label{caushw} Usando demonstração por contradição, mostre que a soma de um número irracional e racional, resulta em um irracional.
+
+\item\label{caushw} Prove, usando contraposi\c{c}\~{a}o ou contradi\c{c}\~{a}o, que dado um $n$ inteiro, se $n^{3} + 5$ \'{e} \'{i}mpar ent\~{a}o {n} \'{e} par.
+
+\item\label{caushw} Use a indução matemática para demonstrar que os resultados são válidos para qualquer inteiro positivo $n$.
+
+\begin{itemize}
+\item $4 + 10 + 16 + … + (6n - 2) = n(3n + 1)$
+\item $1^{2} + 3^{2} + … + (2n - 1)^{2} = \frac{n(2n - 1)(2n + 1)}{3}$
+\item $ 2 \times 1 + 2 \times 2 + 2 \times 3 + ... + 2n = n^{2} + n$
+\end{itemize}
+
+\item\label{caushw} Prove que $7^{n} - 2^{n}$ é divisível por $5$.
+
+\item\label{caushw} Prove, usando indução forte, que é possível pagar qualquer quantia (inteira) maior que R\$ 7 usando notas de R\$ 3 (caso existissem) e de R\$ 5.
+
+\item\label{caushw} Prove que $\forall a,b,c \in \Z$ se $a|b$ e $a|c$ então $a|(b+c)$.
+
+\item\label{caushw} Sendo $m$ a m\'{e}dia de $n$ n\'{u}meros $x_{1}, x_{2},\cdot\cdot\cdot, x_{n}$, prove por contradi\c{c}\~{a}o que ao menos um dos $n$ n\'{u}meros \'{e} maior ou igual a $m$.
+
+\item\label{caushw} Dado dois n\'{u}meros reais positivos, $x$ e $y$, a m\'{e}dia aritm\'{e}tica entre eles \'{e} dada por $(x+y)/2$ enquanto que a m\'{e}dia geom\'{e}trica \'{e} dada por $\sqrt{xy}$. Prove que a m\'{e}dia aritm\'{e}tica \'{e} sempre maior ou igual que a geom\'{e}trica.
+
+\item\label{caushw} Prove que  as seguintes conjecturas est\~{a}o corretas (ou n\~{a}o).
+
+\begin{enumerate}
+\item Todo n\'{u}mero inteiro positivo pode ser escrito como a soma dos quadrados de dois n\'{u}meros inteiros.
+\item O n\'{u}mero $log_{2}5$ \'{e} irracional.
+\end{enumerate}
+
+\item\label{caushw} Prove que a soma de dois n\'{u}meros racionais \'{e} um n\'{u}mero racional.
+
+\item\label{caushw} Seja $H_{j}$ um n\'{u}mero harm\^{o}nico definido como $H_{j} = 1 + \frac{1}{2} + \frac{1}{3} + \cdot\cdot\cdot + \frac{1}{j}$, para $j=1,2,3,\cdot\cdot\cdot$. 
+
+\vspace{0.5cm}
+Por exemplo, para $j=4$, temos $H_{4} = 1 + \frac{1}{2} + \frac{1}{3} + \frac{1}{4} = \frac{25}{12}$
+
+\vspace{0.5cm}
+Use indu\c{c}\~{a}o para provar que
+\vspace{0.5cm}
+
+$H_{2^{n}} \geq 1+\frac{n}{2}$
+
+\vspace{0.5cm}
+para todo $n$ inteiro n\~{a}o negativo.
+
+\item\label{caushw} Prove que ``se $x$ e $y$ s\~{a}o \'{i}mpares ent\~{a}o $x+y$ \'{e} par''.
+\begin{enumerate}
+\item prova direta
+\item por contraposi\c{c}\~{a}o
+\item por contradi\c{c}\~{a}o
+\end{enumerate}
+
+\item\label{caushw} Prove por indu\c{c}\~{a}o que o \textbf{produto} de tr\^{e}s inteiros positivos consecutivos quaisquer \'{e} divis\'{i}vel por $3$.
+
+\end{enumerate}
+
+\vspace{0.2 cm}
+
+%%%%%%%%%%% RECURSIVIDADE
+
+\textbf{Recursividade}
+
+\begin{enumerate}
+
+\item \label{caushw} Ache a forma fechada da recorrência abaixo usando a técnica de expandir, conjecturar e provar.
+
+\begin{equation}
+T(n) := \left\{
+  \begin{array}{lr}
+    1, & se\ n = 1\\
+    T(n-1) + 3, & se\ n > 1
+  \end{array}
+\right.
+\end{equation}
+
+\item\label{caushw} Seja $a_{1},a_{2},\ldotp\ldotp\ldotp$ uma sequ\^{e}ncia definida recursivamente como
+
+\begin{enumerate}
+\item $a_{1} = 1$
+\item $a_{2} = 2$
+\item $a_{3} = 3$
+\item $a_{n} = a_{n-1} + a_{n-2} + a_{n-3}$ para todo $n$ inteiro $n >3$
+\end{enumerate}
+
+prove que $a_{n} \leq 2^{n}$ para todo $n \geq 1$.
+
+\end{enumerate}
+
+\vspace{0.2 cm}
+
+
+%%%%%%%%%%% TEORIA DOS NÚMEROS
+
+\textbf{Teoria dos números}
+
+\begin{enumerate}
+
+\item\label{caushw} Represente cada uma das razões abaixo na forma $a = dq + r$.
+\begin{enumerate}
+\item 51/3
+\item 1024/29
+\item 103/8
+\end{enumerate}
+
+\item\label{caushw} Suponha que $a$ e $b$ são inteiros, $a \equiv 4 (mod 3)$ e $b \equiv 9 (mod 13)$. Encontre o inteiro $c$ com $0\le c \le 12$ tal que:
+\begin{enumerate}
+\item $c \equiv 9a(mod 13)$
+\item $c \equiv 2a + 3b(mod 13)$
+\item $c \equiv 11b(mod 13)$
+\end{enumerate}
+
+
+\item\label{caushw} Determine se $a$ é congruente a $b$ módulo $m$ nos itens abaixo:
+\begin{enumerate}
+
+\item $73 \equiv 8(mod 13)$
+\item $51 \equiv 17(mod 5)$
+\item $431 \equiv 255(mod 11)$
+
+\end{enumerate}
+
+\item\label{caushw} Se $a, b$ e $c$ são números inteiros, em que $a \ne 0$ e $c \ne 0$, mostre que, se: $ac \mid bc$, então $a \mid b$.
+
+\item\label{caushw} O trem de Taperoá deixa a cidade a cada 7h, sempre em ponto. Mostre que é possível pegar esse ônibus, um dia, às 9h.
+
+\item\label{caushw} Sejam $m,n$ primos entre si. Suponha que $a$ é um inteiro divisível tanto por $m$ quanto por $n$. Prove que $mn$ divide $a$.
+
+\item\label{caushw} FP toma cerveja a cada três dias enquanto que seu amigo FB come galetos a cada quarto dias. Em um certo domingo, aconteceu que FP tomou cerveja e FB comeu galetos. Quanto tempo demorará até que isso aconteça novamente em um domingo.
+
+\item\label{caushw} Sendo $a$ e $m$ inteiros primos entre si. Com $x,y \in \mathbb{Z}$ tal que $xa \equiv ya\ mod\ b$, temos que $x \equiv y\ mod\ b$
+
+\item\label{caushw} Prove que se $n$ é um inteiro positivo ímpar, então $n^2 = 1\ (mod\ 8)$.
+
+\item\label{caushw} Mostre que, se $a, b, k$ e $m$ são inteiros $k \geq 1$, $m \geq 2$ e $a \equiv b\ (mod\ m)$, então  $ak \equiv bk\ (mod\ m)$.
+
+\item\label{caushw} 17 divide os seguintes números: a) 68 b) 84 c) 357 d) 1001?
+
+\item\label{caushw} Prove que se $a$ é um inteiro diferente de $0$, então: a) $1$ divide $a$. b) $a$ divide $0$.
+
+\item\label{caushw} Mostre que se $a | b$ e  $b | a$,  onde $a$ e  $b$ são inteiros, então $a = b$ ou  $a = -b$.
+
+\item\label{caushw} Seja $m$ um inteiro positivo, mostre que $a \equiv b\ (\textrm{mod}\ m)$ se $a\ \textrm{mod}\ m = b\ \textrm{mod}\ m$.
+
+\item\label{caushw} Qual a marcação de um relógio do tipo $24h$: a) $100$ horas depois que ele marcar $2:00$, b) $45$ horas antes de marcar $12:00$?, c) $168$ horas após ele marcar $19:00$?
+
+\item\label{caushw} Mostre que, se $a, b, c$ e  $m$ são inteiros tal que $m \geq 2$, $c > 0$, e $a \equiv b\ (mod\ m)$, então  $ac \equiv bc\ (mod\ mc)$.
+
+\item\label{caushw} Se $n$ é um inteiro composto, então $n$ tem um divisor primo menor ou igual que $\sqrt{n}$
+
+\item\label{caushw} Com base no teorema de fermat, encontre $7^{222}\  \textrm{mod}\ 11$
+
+\item\label{caushw} Se $a | b$ e $a | c$, então $a | (b + c)$
+\item\label{caushw} Se $a | b$, então $a | bc$, para qualquer inteiro $c$
+\item\label{caushw} Se $a | b$ e $b | c$, então $a | c$
+\item\label{caushw} Se $a | b$ e $a | c$ , então $a | sb + tc$ quaisquer que sejam $b$ e $t$ (se $a$ divide $b$ e $c$ então $a$ divide qualquer combinação linear de $b$ e $c$)
+
+\item\label{caushw} Seja $n$ um inteiro positivo. Prove que $\sqrt n$ é racional, se e somente se $n$ é um quadrado perfeito.
+
+\item\label{caushw} Sejam $a$ e $b$ inteiros positivos co-primos. Caso $ab$ seja um número quadrado, então $a$ e $b$ também são números quadrados.
+
+\item \label{caushw} Prove que, caso $a \equiv b \mod m$, com $n$ sendo um inteiro positivo, então $a^{n} \equiv b^{n} \mod m$.
+
+
+\end{enumerate}
+
+%%%%%%%%%%% TEORIA DOS NÚMEROS
+
+\textbf{Relações}
+\begin{enumerate}
+\item \label{caushw} Para o conjunto $A=\{1, 2, 3\}$, indique e justifica se as seguintes relações apresentam as propriedades reflexiva, simétrica, transitiva, antisimétrica e transitiva.
+
+\begin{itemize}
+\item $R = \{ (1, 1), (2,2), (3, 3), (1, 3), (1, 2)\}$
+\item $R = \{ (1, 1), (2,2), (1, 3), (3, 1)\}$
+\item $R = \{ (1, 1), (2,2), (3, 3), (1, 2), (2, 1), (2, 3), (3, 2)\}$
+\end{itemize}
+
+\item \label{caushw} Demonstre que a relação, no conjunto do inteiros, dada por $(x,y)$ quando $x^{2}=y^{2}$, é uma relação de equivalência. Descreva de maneira informal qual o significado das classes de equivalência.
+
+
+\item \label{caushw} Dentre as contribui\c{c}\~{o}es de Gauss para a matem\'{a}tica, uma de particular interesse para computa\c{c}\~{a}o \'{e} a aritm\'{e}tica modular. Dizemos que $a$ \'{e} congruente \`{a} $b$ m\'{o}dulo $n$ se e somente se a diferen\c{c}a $a-b$ \'{e} um m\'{u}ltiplo de $n$, para $n$ inteiro positivo. Essa rela\c{c}\~{a}o \'{e} escrita como: $$a \equiv b \pmod{n}$$  Por exemplo, $29 \equiv 15 \pmod{7}$, uma vez que $7|(29-15)$.
+
+\begin{enumerate}
+\item Prove que esta \'{e} uma rela\c{c}\~{a}o de equival\^{e}ncia para os inteiros.
+\item Considerando o subconjunto dos naturais $\{x \in N | x \geq 0  \land x \leq 24\}$, quais são as classes de equival\^{e}ncia para $0$, $3$, $5$, $8$, $24$ considerando $n$ igual \`{a} $12$.
+\end{enumerate}
+
+\item \label{caushw}  Sejam as seguintes propriedades da relação binária $\rho$ em um conjunto $S$:
+
+\begin{itemize}
+\item	 irreflexiva, quando $\forall x \in S$, temos que $(x,x) \notin \rho$
+\item assimétrica quando $\forall x,y \in S$, temos que $(x,y) \in \rho \implies (y,x) \notin \rho$
+\end{itemize}
+
+Responda:
+\begin{itemize}
+\item Construa uma relação binária em $S = \{1,2,3\}$ que é assimétrica e anti-simétrica. Obtenha o fecho transitivo desta relação.
+\item	Analise o conjunto $(N, <),$ ou seja, os naturais com a relação 'menor que', com respeito às duas propriedades definidas aqui bem como as propriedades de reflexividade, transitividade e anti-simetria.
+\end{itemize}
+
+
+
+\end{enumerate}
+%%%%%%%%%%% ALGEBRA ABSTRATA
+\textbf{Álgebra abstrata}
+\begin{enumerate}
+
+\item \label{caushw} Mostre que, em qualquer grupo $G$, $(x^{-1})^{-1} = x$.
+
+\item \label{caushw} Mostre que o grupo $[G, \cdot]$ no qual $x \cdot x = i$ (elemento identidade) para todo $x \in G$, é comutativo.
+
+\item \label{caushw} Prove que para toda Álgebra de Boole  $B = \langle B,+, \cdot, \neg, 0, 1 \rangle$ vale $x=y$  se e somente se $  x\cdot \neg y+ y \cdot \neg x= 0$.
+
+\item \label{caushw} Mostre a validade da idempotência do produto $(x \cdot x  =  x)$ para álgebras de Boole.
+
+\item \label{caushw} Determine se a estrutura $[S, \cdot]$, onde $S = \{1,2,3,5,6,10,15,30\}$ e $x \cdot y =$ mínimo múltiplo comum de $x$ e $y$ é semigrupo, monóide, grupo ou nenhum deles.
+
+\item \label{caushw} Dada uma álgebra de Boole $B = \langle B,+, \cdot, \neg, 0, 1 \rangle$ podemos definir um novo operador $\oplus$ (ou exclusivo) como sendo $x \oplus y = x \cdot \neg y +  y \cdot \neg x$ . Mostre que valem:
+
+\begin{itemize}
+\item $x \oplus y = y \oplus x$
+\item $x \oplus x = 0$
+\item $0 \oplus x = x$
+\end{itemize}
+
+\item \label{caushw} No caso abaixo, \textbf{mostre} se a estrutura $\langle S, \circ \rangle$ forma um semigrupo, um mon\'{o}ide, um grupo, ou um grupo abeliano (ou nenhum deles) e identifique os elementos neutros (identidade), se existirem.
+
+\begin{enumerate}
+ \item $S=\mathbb{R}$ e $x\circ y=(x+y)^2$ onde $+$ \'{e} a soma usual.
+\end{enumerate}
+
+\item \label{caushw} No caso abaixo, mostre se a estrutura $ \langle S , \cdot \rangle$ forma um semigrupo, um monóide, um grupo, um grupo abeliano, ou nenhum destes, e e identifique o elemento neutro se existir.
+
+\begin{itemize}
+\item $S=\mathbb{N} \times \mathbb{N}$ e $(x_{1}, y_{1}) \circ (x_{2}, y_{2}) = (x_{1} + x_{2}, y_{1} . y_{2})$, onde $+$ e $\cdot$ são a soma e o produtos usais.
+\end{itemize}
+
+\end{enumerate}
+
+\textbf{Álgebra vetorial}
+\begin{enumerate}
+
+\item \label{caushw} Prove que, para os escalares $\alpha$ e $\beta$, e o vetor $\textbf{v}$, temos que $\alpha (\beta \textbf{v}) = (\alpha \beta) \textbf{v}$.
+
+\item \label{caushw} Prove que, para o escalar $\alpha$ e os vetores $\textbf{u}$ e $\textbf{v}$, temos que $\alpha (\textbf{u} + \textbf{v}) = \alpha \textbf{u} + \alpha \textbf{v}$.
+
+\item \label{caushw} Prove que, para os escalares $\alpha$ e $\beta$, e o vetor $\textbf{u}$, temos que $(\alpha + \beta) \textbf{u} = \alpha \textbf{u} + \beta \textbf{u}$.
+
+\item \label{caushw} Prove que, para o escalar $\alpha$ e os vetores $\textbf{u}$ e $\textbf{v}$, temos que $(\alpha \textbf{u}) \cdot \textbf{v} = \alpha (\textbf{u} \cdot \textbf{v})$.
+
+\item \label{caushw} Prove que, para os vetores $\textbf{u}$, $\textbf{v}$ e $\textbf{w}$, temos que $(\textbf{u} + \textbf{v}) \cdot \textbf{w} = \textbf{u} \cdot \textbf{w} + \textbf{v} \cdot \textbf{w}$.
+
+\item \label{caushw} Mostre que, para os vetores $u, v, w$ e $x$, a proposição $ (u + v) \cdot (w + x) = u \cdot w + v \cdot x$ é falsa.
+
+\item \label{caushw} Mostre que, para os vetores $u$ e $v$, e o escalar $\alpha$, a proposição $(\alpha u) \cdot (\alpha v) = \alpha (u \cdot v)$ é falsa.
+
+\item \label{caushw} Mostre que:
+
+\begin{itemize}
+\item $\Vec{x} \cdot \Vec{x} \geq 0$
+\item $\Vec{x} \cdot \Vec{x} = 0 \iff \Vec{x} = \Vec{0}$
+\end{itemize}
+
+\item \label{caushw} Um método de recomendação de filmes em sites de streaming, tais como o Netflix, consiste em encontrar usuários similares. Assume-se que um usuário gostará de filmes que foram bem avaliados por usuários similares. Considerando que avaliação se dá, após assistir um filme, em torno de "like" e "unlike" (o usuário pode também ignorar o pedido de avaliação), modele o método para a definição de similaridade entre dois usuários desse sistema de streaming hipotético.
+
+
+\end{enumerate}
+
+
+\end{document}
