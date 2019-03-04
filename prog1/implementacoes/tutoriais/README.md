@@ -6,15 +6,16 @@ Tutoriais sobre os assuntos ensinados em Programação I e Laboratório de Progr
 
 Para seguir a mesma ordem em que os assuntos são ensinados na disciplina, siga esse roteiro:
 
-1. [Hello World](helloWorld.ipynb)
-2. [Formatação de Strings](formatacaoDeStrings.ipynb)
-3. [Estruturas de Condição](estruturasDeCondicao.ipynb)
-4. [Estruturas de Repetição](estruturasDeRepeticao.ipynb)
-5. [Funções](funcoes.ipynb)
-6. [Listas](listas.ipynb)
-7. [Matrizes](matrizes.ipynb)
-8. [Algoritmos de Ordenação](algoritmosOrdenacao.ipynb)
-9. [Dicionários](dicionarios.ipynb)
+1. [Entrada e Saída](entradaESaida.ipynb)
+2. [Hello World](helloWorld.ipynb)
+3. [Formatação de Strings](formatacaoDeStrings.ipynb)
+4. [Estruturas de Condição](estruturasDeCondicao.ipynb)
+5. [Estruturas de Repetição](estruturasDeRepeticao.ipynb)
+6. [Funções](funcoes.ipynb)
+7. [Listas](listas.ipynb)
+8. [Matrizes](matrizes.ipynb)
+9. [Algoritmos de Ordenação](algoritmosOrdenacao.ipynb)
+10. [Dicionários](dicionarios.ipynb)
 
 
 ## Como executar
