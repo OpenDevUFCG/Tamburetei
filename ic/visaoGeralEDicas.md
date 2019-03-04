@@ -26,7 +26,7 @@ O conteúdo lecionado na disciplina introduz conceitos básicos de portas lógic
 
 Além disso, os conhecimentos gerais adquiridos contribuem bastante para a formação de um cientista da computação completo, que deve entender desde o funcionamento do hardware até o funcionamento do software, incluindo a evolução do computador e compreender seu papel como cientista da área.
 
-Portanto, Introdução à Computação é a disciplina que vai te dar uma noção do que vem pela frente, te mostrando o funcionamento de um computador de maneira geral e também a lógica que ele utiliza para funcionar, permitindo a você avançar melhor pelas outras disciplinas do curso, sejam estas de programação ou não. 
+Portanto, Introdução à Computação é a cadeira que vai te dar uma noção do que vem pela frente, te mostrando o funcionamento de um computador de maneira geral e também a lógica que ele utiliza para funcionar, permitindo a você avançar melhor pelas outras disciplinas do curso, sejam estas de programação ou não. 
 
 ## Dicas
 
