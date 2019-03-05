@@ -48,7 +48,7 @@ cd scripts
 E em seguida, execute o comando:
 
 ```sh
-python create_folder_structure.py
+./create_folder_structure
 ```
 
 Agora basta informar o nome da disciplina e a nova pasta será criada!
