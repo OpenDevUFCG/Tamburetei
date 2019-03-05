@@ -6,8 +6,8 @@ Tutoriais sobre os assuntos ensinados em Programação I e Laboratório de Progr
 
 Para seguir a mesma ordem em que os assuntos são ensinados na disciplina, siga esse roteiro:
 
-1. [Entrada e Saída](entradaESaida.ipynb)
-2. [Hello World](helloWorld.ipynb)
+1. [Hello World](helloWorld.ipynb)
+2. [Entrada e Saída](entradaESaida.ipynb)
 3. [Formatação de Strings](formatacaoDeStrings.ipynb)
 4. [Estruturas de Condição](estruturasDeCondicao.ipynb)
 5. [Estruturas de Repetição](estruturasDeRepeticao.ipynb)
