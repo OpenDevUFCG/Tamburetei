@@ -44,7 +44,10 @@ Para facilitar a criação dessa estrutura, você pode utilizar um *script* que 
 ```sh
 cd scripts
 ```
-
+Dê permissão ao arquivo:
+```
+chmod +x create_folder_structure
+```
 E em seguida, execute o comando:
 
 ```sh
