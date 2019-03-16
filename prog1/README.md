@@ -1,11 +1,10 @@
-# Programação I e Laboratório de Programação I 
+# Programação I e Laboratório de Programação I
 
-## O que tem
+## O que tem?
 
-- [Visão Geral e Dicas](visaoGeralEDicas.md)
-- [Links Úteis](linksUteis.md)
 - [Dificuldades Comuns](dificuldadesComuns.md)
 - [Extras](extras.md)
 - [Implementações](implementacoes)
-
-> Atualizado no 17.2.
+  - [Tutoriais](implementacoes/tutoriais)
+- [Links Úteis](linksUteis.md)
+- [Visão Geral e Dicas](visaoGeralEDicas.md)

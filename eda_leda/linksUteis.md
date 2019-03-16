@@ -1,17 +1,22 @@
-# Links Úteis #
+# Links Úteis
 
-<p align="justify">Um conjunto de links que irão auxiliá-lo em seus estudos de Laboratório de Estruturas de Dados e 
-Algoritmos (LEDA).</p>
+Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 
-## Implementações ##
+## Sumário
 
-  - [Algoritmos de ordenação](https://github.com/SpinnelSun/MySortingAlgorithms)
-  - [Estruturas de dados](https://github.com/SpinnelSun/MyDataStructures)
+- [Livros e Apostilas](#livros-e-apostilas)
+- [Ferramentas](#ferramentas)
+- [Implementações](#implementações)
 
-## Material ## 
+## Livros e Apostilas
 
-- [Livro Cracking the Coding Interview](https://www.pdfdrive.com/cracking-the-coding-interview-e52072841.html)
+- [Cracking the Coding Interview](https://www.pdfdrive.com/cracking-the-coding-interview-e52072841.html)
 
-## Ferramentas ##
+## Ferramentas
 
 - [VisuAlgo](https://visualgo.net/pt)
+
+## Implementações
+
+- [Algoritmos de ordenação](https://github.com/SpinnelSun/MySortingAlgorithms)
+- [Estruturas de dados](https://github.com/SpinnelSun/MyDataStructures)

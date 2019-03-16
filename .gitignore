@@ -291,7 +291,6 @@ dmypy.json
 [Ll]ib
 [Ll]ib64
 [Ll]ocal
-[Ss]cripts
 pyvenv.cfg
 pip-selfcheck.json
 
@@ -326,5 +325,9 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+### JupyterNotebook ###
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
 
 # End of https://www.gitignore.io/api/c,c++,java,linux,macos,python,windows,haskell,visualstudiocode
