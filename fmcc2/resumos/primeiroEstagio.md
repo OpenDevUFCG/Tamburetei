@@ -117,3 +117,32 @@ portanto, concluímos que *n²* também é ímpar.
   - **i)** Prove a base da indução;
   - **ii)** Suponha *P(k)*;
   - **iii)** Prove *P(k + 1)*.
+  
+- **Exemplo 7:** Mostre que a equação *1 + 3 + 5 + ... + (2n - 1) = n²* é verdadeira para todo  <img src="http://latex.codecogs.com/gif.latex?%5Cinline%20n%20%5Cin%20%5Cmathbb%7BZ%7D%5E%7B&plus;%7D">.
+- **i)** Para *n = 1*, *1 = 1²* é verdadeiro. Agora supomos *P(k)* verdadeiro:
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%201%20&plus;%203%20&plus;%205%20&plus;%20...&plus;%20%282k%20-1%29%20%3D%20k%5E%7B2%7D">
+</p>
+<br/>
+
+- **ii)** Usando a hipótese da indução, queremos mostrar *P(k + 1)*, ou seja:
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%201%20&plus;%203%20&plus;%205%20&plus;%20...&plus;%20%282k%20-%201%29&plus;%20%282%28k&plus;1%29%20-1%29%20%3D%20%28k&plus;1%29%5E%7B2%7D">
+</p>
+<br/>
+
+- **iii)** Mostrando-se a penúltima parcela , procedemos como segue:
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%201%20&plus;%203%20&plus;%205%20&plus;%20...&plus;%20%282k%20-%201%29&plus;%20%282%28k&plus;1%29%20-1%29%20%3D%20%28k&plus;1%29%5E%7B2%7D">
+</p>
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%20k%5E%7B2%7D%20&plus;%202%28k&plus;1%29%20-%201%20%3D%20%28k&plus;1%29%5E%7B2%7D">
+</p>
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%20k%5E%7B2%7D%20&plus;%202k%20&plus;%201%3D%20%28k&plus;1%29%5E%7B2%7D">
+</p>
+
+
+## Observações:
+- Para uma maior fixação do assunto, recomenda-se a resolução *by yourself* dos exercícios propostos;
+- Pode haver diferenças entre o conteúdo disponibilizado e o conteúdo programado da disciplina. Verifique com o professor e/ ou monitores.
