@@ -26,6 +26,7 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 - [Symbolab](https://www.symbolab.com/)
 - [Wolfram Alpha](http://www.wolframalpha.com/)
 - [Desmos](https://www.desmos.com/calculator)
+- [Geogebra](https://www.geogebra.org/graphing)
 
 ## Fóruns
 
@@ -38,5 +39,6 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 
 ## Videoaulas
 
-- [Ferretto](https://www.youtube.com/watch?v=DkCHV5Kbx4o&list=PLTPg64KdGgYhACfQUtMf3CuhWOfLoTf_a)
-- [Grings](https://www.youtube.com/watch?v=v-VYli2XQo0&list=PL95JHFoW6_nwDfye0AjWC2UZcLDek1LG-)
+- [Cálculo 1 com Ferretto](https://www.youtube.com/watch?v=DkCHV5Kbx4o&list=PLTPg64KdGgYhACfQUtMf3CuhWOfLoTf_a)
+- [Cálculo 1 com Grings](https://www.youtube.com/watch?v=v-VYli2XQo0&list=PL95JHFoW6_nwDfye0AjWC2UZcLDek1LG-)
+- [Pré-cálculo com Matemática Rio](https://www.youtube.com/playlist?list=PL83s8LGM84J62ahewE-sVGbnJdOqGp8lJ)
