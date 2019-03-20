@@ -24,5 +24,5 @@ Cálculo Diferencial Integral é um ramo da matemática que estuda taxas de vari
 - Resolva todas (ou quase todas) as questões ímpares do livro de Thomas referentes ao assunto da prova.
 - Sempre olhe as resoluções que existem na internet. Você pode encontrar maneiras mais simples de resolver um problema.
 - Utilize provas antigas para estudar, elas irão lhe fazer compreender bem o nível e o perfil das avaliações.
-- É interessante assistir algum curso de pré-cálculo no YouTube, para ficar seguro nos conceitos básicos da disciplina. 
+- É interessante assistir algum curso de pré-cálculo, para ficar seguro nos conceitos básicos da disciplina. Você pode encontrar referências bacanas nas [vídeo aulas de links uteis](https://github.com/OpenDevUFCG/Tamburetei/blob/master/calculo1/linksUteis.md#videoaulas).
 - É importante sempre ver a correção da sua prova para aprender com seus erros e revisar algum erro de correção.
