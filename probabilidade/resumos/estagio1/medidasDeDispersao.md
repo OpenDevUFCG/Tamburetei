@@ -11,7 +11,6 @@ Feito com basse nesse [slide](https://www.dropbox.com/s/5byiyz93n9fr0gj/Aula%205
         
 
 ## Desvio médio
-<<<<<<< HEAD
 Considere um conjunto de observações de uma variável *x*, dado por *x_{1}*, *x_{2}*, ..., *x_{k}* com respectivas frequências *n_{1}*, *n_{2}*, ..., *n_{k}*. Definimos o desvio médio de *x*, denotado por *dm(x)*, como sendo a medida:
 
 dm(x) = \frac{\sum_{i=1}^10{n_i|x_i-\overline{x}}}{n}
@@ -46,7 +45,6 @@ O **desvio padrão** de *x*, *dp(x)*, é definido como:
 
 ## Coeficiente de variação
 É uma medida relativa de variabilidade. O seu valor é determinado por intermédio do quociente entre o desvio padrão e a média aritmética dos dados:
->>>>>>> upstream/master
 
 <p align="center"> 
   <img src="http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5Clarge%20Cv%28x%29%3D%5Cfrac%7Bdp%28x%29%7D%7B%5Cbar%7Bx%7D%7DX100">
