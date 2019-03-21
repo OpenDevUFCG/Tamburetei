@@ -10,3 +10,17 @@ Informações que irão auxiliá-lo a cursar bem a disciplina e a compreender su
 - Sucessões e Séries Numéricas. 
 - Séries de Potências.
 - Fórmulas e Séries de Taylor-McLaurin.
+
+## Visão Geral
+Uma visão geral sobre Cálculo Diferencial Integral é definida em [calculo1](https://github.com/OpenDevUFCG/Tamburetei/blob/master/calculo1/visaoGeralEDicas.md#vis%C3%A3o-geral), assim como a importância desse ramo matemático para Ciência da Computação. Tudo que está lá pode ser também considerado aqui.
+
+## Dicas
+- Cálculo II pode ser mais desafiador que cálculo I, então não subestime a cadeira.
+- Comece a estudar, pelo menos, 1 ou 2 semanas antes da prova. 
+- É interessante estudar semanalmente, acompanhando o andamento da disciplina. 
+- Saber o assunto não é suficiente, é importante praticar e fazer questões. 
+- Resolva exercícios pelo menos até sentir-se seguro com a resolução de problemas relacionado ao conteúdo.
+- Resolva todas (ou quase todas) as questões ímpares do livro de Thomas referentes ao assunto da prova.
+- Sempre olhe as resoluções que existem na internet. Você pode encontrar maneiras mais simples de resolver um problema.
+- Utilize provas antigas para estudar, elas irão lhe fazer compreender bem o nível e o perfil das avaliações.
+- É importante sempre ver a correção da sua prova para aprender com seus erros e revisar algum erro de correção.
