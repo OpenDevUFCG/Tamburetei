@@ -42,3 +42,53 @@ Dê uma demonstração direta ao teorema *"Se um inteiro é divisível por 6, en
 <br/>
 
 - **iii)** Por definição, a multiplicação entre inteiros resulta em um inteiro. Ou seja, existe um inteiro que multiplicado por *k* resultará em um *n*.
+
+## Questão 3 (Demonstração por contraposição)
+Prove que o número *n* é um inteiro ímpar se, e somente se, 
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%203n%20&plus;%205%20%3D%206k%20&plus;%208">
+</p>
+<br/>
+
+para algum inteiro *k*.
+
+- **i)** Note que se trata de uma implicação bicondicional, deve-se provar ambos os lados da implicação:
+  - *Se n é um inteiro ímpar. então 3n + 5 = 6k + 8 para algum inteiro k*;
+  - *Se 3n + 5 = 6k + 8 para algum inteiro k, então n é um inteiro ímpar*.
+- **ii)** Podemos provar o primeiro caso por demosntração direta, substituindo *n*:
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%203%282k%20&plus;%201%29%20&plus;%205%20%3D%206k%20&plus;%208">
+</p>
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%206k%20&plus;%208%20%3D%206k%20&plus;%208">
+</p>
+
+- **iii)** Na segunda condição, temos que:
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%20P%3A3n&plus;5%20%3D6k%20&plus;%208">
+</p>
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%20Q%3A%20%5Ctextrm%7Bn%20eh%20impar%7D">
+</p>
+
+- **iv)** Por contraposição, temos:
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%20P%5Crightarrow%20Q%5Cequiv%20%5Cneg%20Q%20%5Crightarrow%20%5Cneg%20P">
+</p>
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%20%5Cneg%20Q%3A%20%5Ctextrm%7Bn%20eh%20par%7D">
+</p>
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%20%5Cneg%20P%3A%203n&plus;5%5Cneq%206k%20&plus;%208">
+</p>
+
+- **v)** Substituindo n, temos:
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%203%282k%29&plus;5%20%5Cneq%206k%20&plus;%208%20%5CRightarrow%206k%20&plus;%205%20%5Cneq%206k%20&plus;%208">
+</p>
+
+
+- **vi)** Portanto, por contraposição, demonstra-se a segunda condição, verificando-se o teorema.
+
+## Questão 4 (Demonstração por contradição)
+Mostre por absurdo que <img src="http://latex.codecogs.com/gif.latex?%5Cinline%20%5Csqrt%7B2%7D"> é um número irracional.
