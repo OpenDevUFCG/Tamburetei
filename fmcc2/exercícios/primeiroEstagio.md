@@ -92,3 +92,33 @@ para algum inteiro *k*.
 
 ## Questão 4 (Demonstração por contradição)
 Mostre por absurdo que <img src="http://latex.codecogs.com/gif.latex?%5Cinline%20%5Csqrt%7B2%7D"> é um número irracional.
+
+- **i)** Vamos supor que <img src="http://latex.codecogs.com/gif.latex?%5Cinline%20%5Csqrt%7B2%7D"> seja um número racional;
+- **ii)** Um número racional é um número que pode ser escrito na forma *a/b*, sendo *a* um inteiro e *b* um inteiro diferente de 0;
+- **iii)** Suponhamos que <img src="https://latex.codecogs.com/gif.latex?%5Cinline%20%5Csqrt%7B2%7D%20%3D%20%5Cfrac%7Ba%7D%7Bb%7D">;
+- **iv)** Então, *a* e *b*, não podem ser ambos pares, pois se fossem, daria para simplificar;
+- **v)** Elevando os dois lados ao quadrado, obtemos:
+<p align="center"> 
+  <img src="https://latex.codecogs.com/gif.latex?%5Clarge%20%28%5Csqrt%7B2%7D%29%5E%7B2%7D%20%3D%20%28%5Cfrac%7Ba%7D%7Bb%7D%29%5E%7B2%7D%20%5CRightarrow%202%20%3D%20%5Cfrac%7Ba%5E%7B2%7D%7D%7Bb%5E%7B2%7D%7D">
+</p>
+
+- **vi)** Então, 
+<p align="center"> 
+  <img src="https://latex.codecogs.com/gif.latex?%5Clarge%202b%5E%7B2%7D%20%3D%20a%5E%7B2%7D">
+</p>
+
+- **vii)** Por definição, temos que *a* é par. Então *b* não pode ser par;
+- **viii)** Como *a* é par, pode ser escrito na forma de *a = 2k*:
+<p align="center"> 
+  <img src="https://latex.codecogs.com/gif.latex?%5Clarge%202b%5E%7B2%7D%20%3D%20%282k%29%5E%7B2%7D%20%5CRightarrow%202b%5E%7B2%7D%20%3D%204k%5E%7B2%7D%20%5CRightarrow%20b%5E%7B2%7D%20%3D%202k%5E%7B2%7D">
+</p>
+
+- **ix)** Agora, pelos mesmos motivos do item *vii)*, temos que *b* também é par. O que se mostra um absurdo;
+- **x)** Portanto, prova-se por contradição, a afirmação do enunciado.
+
+
+## Questão 5 (Indução Fraca)
+Mostrar para todo inteiro positivo *n*, 
+<p align="center"> 
+  <img src="https://latex.codecogs.com/gif.latex?%5Clarge%201%20&plus;%202%20&plus;%20...%20&plus;%20n%20%3D%20%5Cfrac%7Bn%28n&plus;1%29%7D%7B2%7D">
+</p>
