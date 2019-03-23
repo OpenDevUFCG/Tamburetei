@@ -31,7 +31,7 @@ E em seguida, execute o comando:
 ./create_folder_structure
 ```
 
-Agora basta informar o nome da disciplina e a nova pasta será criada!
+Informe o nome da pasta de disciplina e ela será criada automaticamente. Lembre de substituir o **{discipline}** no `README.md` pelo nome completo da disciplina.
 
 
 ## Regras
