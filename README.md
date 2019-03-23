@@ -34,6 +34,47 @@ E em seguida, execute o comando:
 Informe o nome da pasta de disciplina e ela será criada automaticamente. Lembre de substituir o **{discipline}** no `README.md` pelo nome completo da disciplina.
 
 
+## Disciplinas
+
+### Primeiro Periodo
+
+- [Fundamentos de Matemática para Ciência da Computação I](fmcc1)
+- [Introdução à Computação](ic)
+- [Programação I](prog1)
+
+### Segundo Periodo
+
+- [Cálculo Diferencial e Integral I](calculo1)
+- [Fundamentos de Matemática para Ciência da Computação II](fmcc2)
+- [Programação II](prog2)
+
+### Terceiro Periodo
+
+- [Álgebra Linear I](linear)
+- [Cálculo Diferencial e Integral II](calculo2)
+- [Estrutura de Dados e Algoritmos](eda_leda)
+- [Lógica para Computação](logica)
+- [Teoria dos Grafos](grafos)
+
+### Quarto Período
+
+- [Banco de Dados I](bd)
+- [Introdução à Probabilidade](probabilidade)
+- [Laboratório de Organização e Arquitetura de Computadores](loac)
+- [Organização e Arquitetura de Computadores](oac)
+- [Paradigmas de Linguagem de Programação](plp)
+- [Projeto de Software](psoft)
+
+### Quinto Período
+
+- [Análise de Sistemas](as)
+- [Engenharia de Software](es)
+- [Estatística Aplicada](estatistica)
+- [Redes de Computadores](redes)
+- [Sistemas Operacionais](so)
+- [Teoria da Computação](tc)
+
+
 ## Regras
 
 - Respeite o código de conduta.
