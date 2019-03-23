@@ -1,21 +1,19 @@
 # Leites
 
-Uma coleção de materiais úteis que foram utilizados na disciplina em períodos passados.
+Uma coleÃ§Ã£o de materiais Ãºteis que foram utilizados na disciplina em perÃ­odos passados.
+
+## Listas de ExercÃ­cios
+
+### 2017.1
+**Lista** | **Assunto** | **Links**  |
+:---: | :---:| :---: |
+1 | 1Âº EstÃ¡gio | [Link](https://drive.google.com/file/d/1mGzx_9xRoYjEQaL0-DZ-L4UmRq_ma4lu/view?usp=sharing) |
 
 ## Provas
 
-### 2016.2 (Grade antiga)
-**Prova** | **Reposição?** | **Links**  |
+### 2016.2
+**Prova** | **ReposiÃ§Ã£o?** | **Links**  |
 :---: | :---:| :---: |
-1º estágio | Não | [Link](https://drive.google.com/file/d/1Ui1pRbLQjds4_kpGKcK5r5cUGogHJZSt/view) |
-1º estágio | Sim | [Link](https://drive.google.com/file/d/1jVglIvj4Gzcsgz90NGm04dSK7aab10WI/view) |
-1º estágio | Não | [Link](https://drive.google.com/open?id=19iujs5W0way4JNQWz0st_8f3moQbEPzQ) |
-
-## Listas de Exercícios
-
-### 2017.1 (Grade nova)
-
-**Listas** | **Links**  |
-:---: | :---: |
-1º estágio | [Link](https://drive.google.com/open?id=1LCJzf7LIW7sdmNKlM6Z97cfpO7XUt6c3) |
-1º estágio | [Link](https://drive.google.com/open?id=1MWWVnKA-RycY0ffQcZfdgdiq9pgIWuo_) |
+1Âº estÃ¡gio (ManhÃ£) | NÃ£o | [Link](https://drive.google.com/file/d/1a0XjFjCshD2eaoYrDZMxXSsaWjhSrIt-/view?usp=sharing) |
+1Âº estÃ¡gio (Tarde) | NÃ£o | [Link](https://drive.google.com/file/d/1Gkaf9PQCMTxB0ulUKmpCULShOQ5taXVD/view?usp=sharing) |
+1Âº estÃ¡gio | Sim | [Link](https://drive.google.com/file/d/1opToh3V4WhJj1MWi3Uw-HHe2EM7SKcm8/view?usp=sharing) |
