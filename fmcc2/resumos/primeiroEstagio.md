@@ -1,4 +1,4 @@
-# Fundamentos Matemáticos para Ciência da Computação II - Primeiro Estágio
+# Fundamentos de Matemática para Ciência da Computação II - Primeiro Estágio
 
 ## Conceitos
 
