@@ -1,3 +1,3 @@
-# Dificuldades comuns
+# Dificuldades Comuns
 
-Algumas dificuldades comuns na disciplina de Redes de Computadores.
+Uma lista de comentários sobre as principais dificuldades enfrentadas pelos alunos enquanto cursam a disciplina.
