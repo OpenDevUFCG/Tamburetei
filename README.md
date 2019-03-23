@@ -39,37 +39,37 @@ Informe o nome da pasta de disciplina e ela será criada automaticamente. Lembre
 ### Primeiro Periodo
 
 - [Fundamentos de Matemática para Ciência da Computação I](fmcc1)
+- [Introdução à Computação](ic)
 - [Programação I](prog1)
-- [Introdução a Computação](ic)
 
 ### Segundo Periodo
 
+- [Cálculo Diferencial e Integral I](calculo1)
 - [Fundamentos de Matemática para Ciência da Computação II](fmcc2)
-- [Cálculo I](calculo1)
 - [Programação II](prog2)
 
 ### Terceiro Periodo
 
-- [Álgebra Linear](linear)
-- [Lógica para Computação](logica)
-- [Cálculo II](calculo2)
+- [Álgebra Linear I](linear)
+- [Cálculo Diferencial e Integral II](calculo2)
 - [Estrutura de Dados e Algoritmos](eda_leda)
+- [Lógica para Computação](logica)
 - [Teoria dos Grafos](grafos)
 
 ### Quarto Período
 
-- [Introdução a Probabilidade](probabilidade)
-- [Projeto de Software](psoft)
-- [Paradigmas de Linguagem de Programação](plp)
 - [Banco de Dados I](bd)
+- [Introdução à Probabilidade](probabilidade)
 - [Laboratório de Organização e Arquitetura de Computadores](loac)
 - [Organização e Arquitetura de Computadores](oac)
+- [Paradigmas de Linguagem de Programação](plp)
+- [Projeto de Software](psoft)
 
 ### Quinto Período
 
 - [Análise de Sistemas](as)
-- [Estatística Aplicada](estatistica)
 - [Engenharia de Software](es)
+- [Estatística Aplicada](estatistica)
 - [Redes de Computadores](redes)
 - [Sistemas Operacionais](so)
 - [Teoria da Computação](tc)
