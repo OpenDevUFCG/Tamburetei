@@ -1,4 +1,4 @@
-# Álgebra Linear I
+# Estatística Aplicada
 
 ## O que tem?
 

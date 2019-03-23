@@ -1,4 +1,4 @@
-# Álgebra Linear I
+# Teoria dos Grafos
 
 ## O que tem?
 

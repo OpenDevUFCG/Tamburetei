@@ -6,7 +6,7 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 
 - [Livros e Apostilas](#livros-e-apostilas)
 - [Ferramentas](#ferramentas)
-- [Implementações](#implementações)
+- [Implementações](#implementacoes)
 
 ## Livros e Apostilas
 

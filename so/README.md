@@ -1,4 +1,4 @@
-# Álgebra Linear I
+# Sistemas Operacionais
 
 ## O que tem?
 

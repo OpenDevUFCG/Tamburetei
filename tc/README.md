@@ -1,4 +1,4 @@
-# Álgebra Linear I
+# Teoria da Computação
 
 ## O que tem?
 
