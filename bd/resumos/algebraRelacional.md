@@ -124,7 +124,7 @@ Maria | 15000
 José | 5000
 Mario | 13000
 
-Uma situação que pode ocorrer é quando selecionamos atributos que não possuem atributos *key*, ou seja, que podem ter valores repetidos. Se isso ocorrer, a operação remove as tuplas repetidas. Exemplo, se fizeremos `π Idade (EMPREGADO)`, Maria e José possuem a mesma idade e ficaria repetido no resultado da operação, invés disso a operação irá mostrar apenas uma tupla com valor *22* na *idade*.
+Uma situação que pode ocorrer é quando selecionamos atributos que não possuem atributos *key*, ou seja, que podem ter valores repetidos. Se isso ocorrer, a operação remove as tuplas repetidas. Exemplo, se fizeremos `π Idade (EMPREGADO)`, Maria e José possuem a mesma idade e ficaria repetido no resultado da operação, ao invés disso a operação irá mostrar apenas uma tupla com valor *22* na *idade*.
 
 **EMPREGADO**
 
