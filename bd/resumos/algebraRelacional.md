@@ -100,7 +100,7 @@ Maria | 15000 | 22
 
 Se pensamos em uma relação como uma tabela, a operação *SELECT* seleciona *linhas* de uma tabela e descarta as outras, seguindo essa lógica, a operação **PROJECT** seleciona *colunas* de uma tabela, e descarta as outras.
 
-A operação é representada por *PROJECT* pelo símbolo do *pi*(π) e segue a seguinte estrutura: `π <lista_de_atributios> (R)`. Na *<lista_de_atributos>* colocamos a lista de colunas que queremos selecionar da relação, o resultado dessa operação será uma *relação* contendo as tuplas na mesma ordem que a relação original(R) porém apenas com as colunas que selecionamos
+A operação é representada por *PROJECT* pelo símbolo do *pi*(π) e segue a seguinte estrutura: `π <lista_de_atributos> (R)`. Na *<lista_de_atributos>* colocamos a lista de colunas que queremos selecionar da relação, o resultado dessa operação será uma *relação* contendo as tuplas na mesma ordem que a relação original(R) porém apenas com as colunas que selecionamos
 
 #### Exemplo
 
