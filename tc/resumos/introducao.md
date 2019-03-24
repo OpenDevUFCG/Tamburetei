@@ -26,4 +26,4 @@ TODO: Exemplo
 
 ## Teoria dos autômatos
 
-Lida com as definições e propriedades de modelos matemáticos de computação.
+Essa teoria se preocupa com as definições e propriedades de modelos matemáticos de computação.
