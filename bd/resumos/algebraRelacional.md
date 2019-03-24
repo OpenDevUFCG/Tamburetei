@@ -378,6 +378,7 @@ A operação **DIVISION** denotado por **÷**, segue a estrutura `R(Z) ÷ S(X)` 
 Imagine as relações **R** e **S**, queremos selecionar as tuplas de **R** que incluem todos os valores de **A** que possuem na tabela **S**.
 
 **R**
+
 **A** | **B**
 :---: | :---:
 a1 | b1
