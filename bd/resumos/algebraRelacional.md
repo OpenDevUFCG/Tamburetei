@@ -135,7 +135,7 @@ Uma situação que pode ocorrer é quando selecionamos atributos que não possue
 
 ### RENAME
 
-É comum termos situações que precisamos aplicar várias operações em sequência, invés de irmos aninhando essas operações em uma única operação, podemos usar a operação **RENAME** para facilitar.
+É comum termos situações que precisamos aplicar várias operações em sequência e o que isso causa é um aninhamento de várioas passos podendo ficar confuso o que está sendo feito. Para solurcionamos esse problema, usamos a operação **RENAME**.
 
 A operação é representada pelo símbolo rho(*ρ*), formalmente ela pode ser representada das seguintes maneira:
 
