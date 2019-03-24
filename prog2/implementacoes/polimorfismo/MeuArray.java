@@ -13,6 +13,7 @@ public class MeuArray<T> {
      * 
      * @param tamanho tamanho do array.
      */
+    @SuppressWarnings("unchecked")
     public MeuArray(int tamanho) {
         this.array = (T[]) new Object[tamanho];
     }
