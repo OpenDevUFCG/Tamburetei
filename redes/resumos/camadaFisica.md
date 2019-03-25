@@ -90,7 +90,7 @@ Trata-se de um modo de comunicação no qual a máquina emissora envia dados sem pr
 
 TCP/IP (Transmission Control Protocol - Protocolo de Controle de Transmissão/ Internet Protocol - Protocolo da Internet), criado em 1969 pela U.S. Department of Defense Advanced Research Projects Agency é um conjunto de protocolos de comunicação em camadas entre computadores em redes. Cada uma dessas camadas é responsável por um determinado grupo de funções e serviços, sendo as camadas mais altas (aplicação) logicamente mais perto dos usuários, e as mais baixas (física) tendo tarefas de menor nível de abstração.
 
-![](https://drive.google.com/open?id=1CDUDR7V5potF-v6NuYLXIgqg6tcUp5Vu)
+![Modelo OSI / Modelo TCP/IP](https://drive.google.com/open?id=1CDUDR7V5potF-v6NuYLXIgqg6tcUp5Vu)
 
 Apesar de ser considerado um protocolo pesado, o TCP/IP hoje é indispensável. Dentre os seus muitos benefícios estão:
 *	Padronização: um padrão, um protocolo roteável que é o mais completo e aceito protocolo disponível atualmente. Todos os sistemas operacionais modernos oferecem suporte para o TCP/IP e a maioria das grandes redes se baseia em TCP/IP para a maior parte de seu tráfego.
@@ -103,9 +103,9 @@ O protocolo TCP/IP se divide em quatro grandes camadas com as seguintes funções 
 
 **Camada** | **Exemplos** | **Função** 
 :---: | :---: | :---:
-**Aplicação** | **HTTP, HTTPS, FTP, DNS.** “Como um web browser deve se comunicar com um servidor da web.” | Faz a comunicação entre os programas e os protocolos de transporte. Contém todos os protocolos para um serviço específico de comunicação de dados em um nível de processo-a-processo.
-**Transporte** | TCP, UDP, SCTP. | Essa camada tem como função controlar a comunicação host-a-host. Ela recebe os dados enviados pela camada de aplicação, transforma-os em pacotes menores e garante que chegarão sem erros e na ordem certa.
-**Internet** | IP: endereçamento IP, fragmentação e montagem dos pacotes. ARP: resolução do endereço da camada de internet para o endereço da camada de interface de rede, tais como um endereço de hardware. | Ela é responsável pelo endereçamento e roteamento do pacote, fazendo a conexão entre as redes locais. Adiciona ao pacote o endereço IP de origem e o de destino, para que ele saiba qual o caminho deve percorrer.
-**Enlace (Com interface de rede)** | LLC, MAC. | Essa camada é responsável pelo envio do datagrama recebido da camada de internet em forma de quadros através da rede física.
+**Aplicação** | **HTTP, HTTPS, FTP, DNS.** <br/> “Como um web browser deve se comunicar com um servidor da web.” | Faz a comunicação entre os programas e os protocolos de transporte. Contém todos os protocolos para um serviço específico de comunicação de dados em um nível de processo-a-processo.
+**Transporte** | **TCP, UDP, SCTP.** | Essa camada tem como função controlar a comunicação host-a-host. Ela recebe os dados enviados pela camada de aplicação, transforma-os em pacotes menores e garante que chegarão sem erros e na ordem certa.
+**Internet** | **IP:** endereçamento IP, fragmentação e montagem dos pacotes. <br/> **ARP:** resolução do endereço da camada de internet para o endereço da camada de interface de rede, tais como um endereço de hardware. | Ela é responsável pelo endereçamento e roteamento do pacote, fazendo a conexão entre as redes locais. Adiciona ao pacote o endereço IP de origem e o de destino, para que ele saiba qual o caminho deve percorrer.
+**Enlace (Com interface de rede)** | **LLC, MAC.** | Essa camada é responsável pelo envio do datagrama recebido da camada de internet em forma de quadros através da rede física.
 
-![](https://drive.google.com/open?id=1jU9a0x1KNwelRvM9ZIjWHIq1piIl9Q4M)
+![Modelo TCP/IP](https://drive.google.com/open?id=1jU9a0x1KNwelRvM9ZIjWHIq1piIl9Q4M)
