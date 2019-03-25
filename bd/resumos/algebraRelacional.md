@@ -351,7 +351,7 @@ Se fizermos `DEPARTAMENTO ⋈ CPF_do_manager=CPF EMPREGADO`, teremos:
 
 
 **CPF_do_manager** |**Nome_departamento** |**Nome** | **Salário** | **Idade** 
---- | --- | --- | --- | --- | --- 
+--- | --- | --- | --- | ---
 123.456.123-21 | Departamento X | Maria | 15000 | 22
 789.392.858-56 | Departamento Y | Mario | 13000 | 23 
 
