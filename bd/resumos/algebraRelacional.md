@@ -167,7 +167,7 @@ RESULTADO ← π Nome, Salário (EMPREGADOS_IDADE22)
 **RESULTADO**
 
 **Nome** | **Salário**
---- | --- | --- 
+--- | --- 
 Maria | 15000 
 José | 5000
 
