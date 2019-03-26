@@ -204,7 +204,7 @@ Técnica baseada em permitir que o transmissor envie até w quadros antes do blo
 > 3.	Se o adaptador transmite o quadro todo sem detectar outra transmissão, a transmissão ocorre com sucesso.
 > 4.	Se o adaptador detecta outra transmissão enquanto transmite, ele aborta e envia um jam signal
 > 5.	Após abortar, o adaptador entra em exponential backoff: após a m-ésima colisão, o adaptador escolhe um K aleatório de {0,1,2,…,2m-1}. O adaptador espera 512.K tempos de bit e retorna ao passo 2.
-> **Jam signal**: garante que todos os outros transmissores estão cientes da colisão.
+> <br/>**Jam signal**: garante que todos os outros transmissores estão cientes da colisão.
 
 ### IEEE 802.11 LAN sem fio
 
