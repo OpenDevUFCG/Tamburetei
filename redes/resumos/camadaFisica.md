@@ -1,111 +1,111 @@
-# Camada FÌsica
+# Camada F√≠sica
 
-## Sum·rio
-- [Camada FÌsica](#camada-fÌsica)
-  - [Sum·rio](#sum·rio)
-  - [HistÛrico](#histÛrico)
-    - [EvoluÁ„o na ComunicaÁ„o e Processamento](#evoluÁ„o-na-comunicaÁ„o-e-processamento)
-  - [DefiniÁıes e Conceitos](#definiÁıes-e-conceitos)
-    - [O que È Internet?](#o-que-È-internet-?)
-    - [O que s„o RFCs e a IETF?](#o-que-s„o-rfcs-e-a-ietf-?)
+## Sum√°rio
+- [Camada F√≠sica](#camada-f√≠sica)
+  - [Sum√°rio](#sum√°rio)
+  - [Hist√≥rico](#hist√≥rico)
+    - [Evolu√ß√£o na Comunica√ß√£o e Processamento](#evolu√ß√£o-na-comunica√ß√£o-e-processamento)
+  - [Defini√ß√µes e Conceitos](#defini√ß√µes-e-conceitos)
+    - [O que √© Internet?](#o-que-√©-internet-?)
+    - [O que s√£o RFCs e a IETF?](#o-que-s√£o-rfcs-e-a-ietf-?)
     - [Conceito de Redes de Computadores](#conceito-de-edes-de-computadores)
-    - [O que È Protocolo?](#o-que-È-protocolo-?)
-    - [ServiÁo Orientado a Conex„o](#serviÁo-orientado-a-conex„o)
+    - [O que √© Protocolo?](#o-que-√©-protocolo-?)
+    - [Servi√ßo Orientado a Conex√£o](#servi√ßo-orientado-a-conex√£o)
   - [TCP/IP](#tcp/ip)
     - [Modelo TCP/IP](#modelo-tcp/ip)    
 
 
-## HistÛrico
+## Hist√≥rico
 
-### EvoluÁ„o na ComunicaÁ„o e Processamento
+### Evolu√ß√£o na Comunica√ß√£o e Processamento
 
-A necessidade de comunicaÁ„o, assim como o instinto de sobrevivÍncia, È inerente aos seres humanos desde seu surgimento. Das pinturas rupestres, pombo-correio, atÈ a popularizaÁ„o da Internet, s„o mais de 30.000 anos de histÛria evolutiva dos meios de comunicaÁ„o.
+A necessidade de comunica√ß√£o, assim como o instinto de sobreviv√™ncia, √© inerente aos seres humanos desde seu surgimento. Das pinturas rupestres, pombo-correio, at√© a populariza√ß√£o da Internet, s√£o mais de 30.000 anos de hist√≥ria evolutiva dos meios de comunica√ß√£o.
 
-> *ìCada um dos trÍs sÈculos anteriores foi dominado por um a ˙nica tecnologia. O SÈculo XVIII foi a Època dos grandes sistemas mec‚nicos que acompanharam a RevoluÁ„o Industrial. O SÈculo XIX foi a era das m·quinas a vapor. As principais conquistas tecnolÛgicas do SÈculo XX se deram no campo da aquisiÁ„o, do processamento e da distribuiÁ„o de informaÁıes. Entre outros desenvolvimentos, vimos a instalaÁ„o das redes de telefonia em escala mundial, a invenÁ„o do r·dio e da televis„o, o nascimento e o crescimento sem precedentes da ind˙stria de inform·tica e o lanÁamento dos satÈlites de comunicaÁ„o.î* (TANENBAUM)
+> *‚ÄúCada um dos tr√™s s√©culos anteriores foi dominado por um a √∫nica tecnologia. O S√©culo XVIII foi a √©poca dos grandes sistemas mec√¢nicos que acompanharam a Revolu√ß√£o Industrial. O S√©culo XIX foi a era das m√°quinas a vapor. As principais conquistas tecnol√≥gicas do S√©culo XX se deram no campo da aquisi√ß√£o, do processamento e da distribui√ß√£o de informa√ß√µes. Entre outros desenvolvimentos, vimos a instala√ß√£o das redes de telefonia em escala mundial, a inven√ß√£o do r√°dio e da televis√£o, o nascimento e o crescimento sem precedentes da ind√∫stria de inform√°tica e o lan√ßamento dos sat√©lites de comunica√ß√£o.‚Äù* (TANENBAUM)
 
-No caso especÌfico do surgimento da Internet, o contexto histÛrico È o seguinte - Guerra Fria. O mundo ainda est· se recuperando dos destroÁos remanescentes da segunda guerra mundial e o clima de paz È mais falso que a amizade entre USA e a antiga URSS. 
+No caso espec√≠fico do surgimento da Internet, o contexto hist√≥rico √© o seguinte - Guerra Fria. O mundo ainda est√° se recuperando dos destro√ßos remanescentes da segunda guerra mundial e o clima de paz √© mais falso que a amizade entre USA e a antiga URSS. 
 
-A comunicaÁ„o entre as bases militares tornou-se algo crucial e assunto de primeira ordem - quem tem mais informaÁ„o consequentemente ganha a guerra. Assim, fica evidente a necessidade da criaÁ„o de algo novo, uma nova forma de inter-comunicar essas basesÖ a internet! Ou pelo menos os primeiros passos dela. A internet surge ent„o, bem como outras incont·veis tecnologias, de forma n„o-exatamente-intencional. 
+A comunica√ß√£o entre as bases militares tornou-se algo crucial e assunto de primeira ordem - quem tem mais informa√ß√£o consequentemente ganha a guerra. Assim, fica evidente a necessidade da cria√ß√£o de algo novo, uma nova forma de inter-comunicar essas bases‚Ä¶ a internet! Ou pelo menos os primeiros passos dela. A internet surge ent√£o, bem como outras incont√°veis tecnologias, de forma *n√£o-exatamente-intencional*. 
 
-Em 1969, a empresa de ARPA (Advanced Research and Projects Agency), resolveu criar a famosa e saudosa (n„o pelos soviÈticos, claro) ARPANet. Ela tinha como principal objetivo interligar as bases militares e os departamentos de pesquisas do governo americano. O projeto nasce com a guerra, mas chegado o seu fim e o sucesso dos americanos, qual o futuro da ARPANet? Depois de ser amplamente utilizada durante os embates, os militares decidiram ìpassar a guardaî para os cientistas, depois para as grandes universidades e assim foi sendo aprimorada e difundida (dando um grande pulo histÛrico). 
+Em 1969, a empresa de ARPA (Advanced Research and Projects Agency), resolveu criar a famosa e saudosa (n√£o pelos sovi√©ticos, claro) ARPANet. Ela tinha como principal objetivo interligar as bases militares e os departamentos de pesquisas do governo americano. O projeto nasce com a guerra, mas chegado o seu fim e o sucesso dos americanos, qual o futuro da ARPANet? Depois de ser amplamente utilizada durante os embates, os militares decidiram ‚Äúpassar a guarda‚Äù para os cientistas, depois para as grandes universidades e assim foi sendo aprimorada e difundida (dando um grande pulo hist√≥rico). 
 
-A tabela abaixo explica um pouco da evoluÁ„o dos computadores e processamento.
+A tabela abaixo explica um pouco da evolu√ß√£o dos computadores e processamento.
 
-**GeraÁ„o** | **Computadores** | **Processamento** 
+**Gera√ß√£o** | **Computadores** | **Processamento** 
 :---: | :---: | :---:
-**Primeira GeraÁ„o (1940-1959)** | Exemplo: ENIAC. V·lvulas e circuitos. Ocupava o espaÁo de um prÈdio. | Processamento batch: ocorre atravÈs de um lote de tarefas enfileiradas. Feito manualmente por uma equipe.
-**Segunda GeraÁ„o (1959-1965)** | Exemplo: IBM 7094. V·lvulas foram substituÌdas por transistores, o que diminuiu o tamanho dos computadores, permitindo o inÌcio de seu uso comercial. | Os primeiros terminais interativos surgiram, onde os usu·rios poderiam acessar o computador central pelas linhas de comunicaÁ„o.
-**Terceira GeraÁ„o (1965-1975)** | A popularizaÁ„o dos circuitos integrados contribuiu para, alÈm de baratear o custo dos computadores, diminuir ainda mais seu tamanho, sendo agora possÌvel a ideia de computadores pessoais. | ComeÁo da descentralizaÁ„o e individualizaÁ„o no processamento e serviÁos, a partir da dÈcada de 70.
-**Quarta GeraÁ„o (1975-hoje)** | PopularizaÁ„o e crescente dos computadores pessoais. | Sistemas distribuÌdos e redes locais.
+**Primeira Gera√ß√£o (1940-1959)** | Exemplo: **ENIAC**. V√°lvulas e circuitos. Ocupava o espa√ßo de um pr√©dio. | Processamento batch: ocorre atrav√©s de um lote de tarefas enfileiradas. Feito manualmente por uma equipe.
+**Segunda Gera√ß√£o (1959-1965)** | Exemplo: **IBM 7094**. V√°lvulas foram substitu√≠das por transistores, o que diminuiu o tamanho dos computadores, permitindo o in√≠cio de seu **uso comercial**. | Os primeiros **terminais interativos** surgiram, onde os usu√°rios poderiam acessar o **computador central** pelas **linhas de comunica√ß√£o**.
+**Terceira Gera√ß√£o (1965-1975)** | A populariza√ß√£o dos **circuitos integrados** contribuiu para, al√©m de baratear o custo dos computadores, diminuir ainda mais seu tamanho, sendo agora poss√≠vel a ideia de computadores pessoais. | Come√ßo da **descentraliza√ß√£o** e **individualiza√ß√£o** no processamento e servi√ßos, a partir da d√©cada de 70.
+**Quarta Gera√ß√£o (1975-hoje)** | Populariza√ß√£o e crescente dos **computadores pessoais**. | Sistemas distribu√≠dos e redes locais.
 
-## DefiniÁıes e Conceitos
+## Defini√ß√µes e Conceitos
 
-### O que È Internet?
+### O que √© Internet?
 
-Kurose-Ross, no livro Redes de Computadores e a Internet, fala que podemos definir a Internet como ìuma infraestrutura de rede que provÍ serviÁos para aplicaÁıes distribuÌdas. î Claro que essa definiÁ„o È bastante rasa, mas por meio dela È possÌvel entender a ponta do iceberg.
+Kurose-Ross, no livro Redes de Computadores e a Internet, fala que podemos definir a Internet como ‚Äú*uma infraestrutura de rede que prov√™ servi√ßos para aplica√ß√µes distribu√≠das*. ‚Äù Claro que essa defini√ß√£o √© bastante rasa, mas por meio dela √© poss√≠vel entender a ponta do iceberg.
 
-Na Internet, existem dois conceitos essenciais para sua forma de comunicaÁ„o: hospedeiros e sistemas finais. Um sistema final s„o todos os computadores interligados na periferia da Internet. Hospedeiros (ou hosts) È um sistema final que, como o nome j· adianta, hospeda uma aplicaÁ„o/serviÁo.
+Na Internet, existem dois conceitos essenciais para sua forma de comunica√ß√£o: **hospedeiros e sistemas finais**. Um sistema final s√£o todos os computadores interligados na periferia da Internet. **Hospedeiros (ou hosts)** √© um sistema final que, como o nome j√° adianta, hospeda uma aplica√ß√£o/servi√ßo.
 
-Segundo Kurose-Ross (vai ter muito ele aqui mesmo), ìSistemas finais n„o s„o interligados diretamente por um ˙nico enlace de comunicaÁ„o. Em vez disso, s„o interconectados indiretamente por equipamentos intermedi·rios de comutaÁ„o conhecidos como comutadores de pacotes.î Um exemplo de comutador de pacotes s„o roteadores, que encaminham pacotes (bloco de dados) para seus destinos finais.
+Segundo Kurose-Ross (vai ter muito ele aqui mesmo), ‚ÄúSistemas finais n√£o s√£o interligados diretamente por um √∫nico enlace de comunica√ß√£o. Em vez disso, s√£o interconectados indiretamente por equipamentos intermedi√°rios de comuta√ß√£o conhecidos como **comutadores de pacotes**.‚Äù Um exemplo de comutador de pacotes s√£o roteadores, que encaminham pacotes (bloco de dados) para seus destinos finais.
 
-Os sistemas finais s„o conectados entre si por enlaces de comunicaÁ„o, como por exemplo: fibra Ûptica (cabeada) e ondas de r·dio (sem fio), e acessam a Internet atravÈs de ISPs (Internet Service Providers). Cada ISP È uma rede de comutadores de pacotes e enlaces de comunicaÁ„o.
+Os sistemas finais s√£o conectados entre si por enlaces de comunica√ß√£o, como por exemplo: fibra √≥ptica (cabeada) e ondas de r√°dio (sem fio), e acessam a Internet atrav√©s de ISPs (Internet Service Providers). Cada ISP √© uma rede de comutadores de pacotes e enlaces de comunica√ß√£o.
 
-### O que s„o RFCs e a IETF?
+### O que s√£o RFCs e a IETF?
 
-IETF - Internet Engineering Task Force. Trata-se de um grupo respons·vel por desenvolver documentos padrıes para tecnologias que cercam a Internet, os RFCs.
+**IETF** - **Internet Engineering Task Force**. Trata-se de um grupo respons√°vel por desenvolver documentos padr√µes para tecnologias que cercam a Internet, os RFCs.
 
-RFC - Request  for Comments. Elas comeÁaram como solicitaÁıes gerais em coment·rios para resolver problemas que a Internet enfrentava no inÌcio. Tendem a ser detalhados e tÈcnicos e existem mais de 7.000.
+**RFC** - **Request  for Comments**. Elas come√ßaram como solicita√ß√µes gerais em coment√°rios para resolver problemas que a Internet enfrentava no in√≠cio. Tendem a ser detalhados e t√©cnicos e existem mais de 7.000.
 
 ### Conceito de Redes de Computadores
 
-Segundo Tanenbaum, Redes de Computadores podem ser definidas como **ìum conjunto de computadores autÙnomos interconectados por uma ˙nica tecnologia.î**
+Segundo Tanenbaum, Redes de Computadores podem ser definidas como **‚Äúum conjunto de computadores aut√¥nomos interconectados por uma √∫nica tecnologia.‚Äù**
 
-> *Dois computadores est„o interconectados quando podem trocar informaÁıes. A conex„o n„o precisa ser feita por um fio de cobre; tambÈm podem ser usadas fibras Ûpticas, micro-ondas, ondas de infravermelho e satÈlite de comunicaÁıes. Existem redes em muitos tamanhos, modelos e formas(...). Embora possa parecer estranho para algumas pessoas, nem a Internet nem a World Wide Web È uma rede de computadores. (...) A resposta simples È que a Internet n„o È uma ˙nica rede, mas uma rede de redes, e a Web È um sistema distribuÌdo que funciona na Internet.î*
+> *Dois computadores est√£o interconectados quando podem trocar informa√ß√µes. A conex√£o n√£o precisa ser feita por um fio de cobre; tamb√©m podem ser usadas fibras √≥pticas, micro-ondas, ondas de infravermelho e sat√©lite de comunica√ß√µes. Existem redes em muitos tamanhos, modelos e formas(...). Embora possa parecer estranho para algumas pessoas, nem a Internet nem a World Wide Web √© uma rede de computadores. (...) A resposta simples √© que a Internet n√£o √© uma √∫nica rede, mas uma rede de redes, e a Web √© um sistema distribu√≠do que funciona na Internet.‚Äù*
 
-### O que È Protocolo?
+### O que √© Protocolo?
 
-Protocolo, no ‚mbito de redes de computadores, pode ser definido como um conjunto de padrıes e regras utilizados a fim de possibilitar a comunicaÁ„o entre dispositivos. Eles controlam o envio e a recepÁ„o de mensagens.
+**Protocolo**, no √¢mbito de redes de computadores, pode ser definido como um conjunto de padr√µes e regras utilizados a fim de possibilitar a comunica√ß√£o entre dispositivos. Eles controlam o envio e a recep√ß√£o de mensagens.
 
-Existem diversos tipos de protocolos, cada um focado em um aspecto e funcionalidade diferente. Por exemplo, o protocolo IP (Internet Protocol), que especifica o formato dos pacotes que s„o enviados e recebidos entre roteadores e sistemas finais; o SMTP (Simple Mail Transfer Protocol) para envio de e-mails e tantos outros.
+Existem diversos tipos de protocolos, cada um focado em um aspecto e funcionalidade diferente. Por exemplo, o protocolo IP (Internet Protocol), que especifica o formato dos pacotes que s√£o enviados e recebidos entre roteadores e sistemas finais; o **SMTP** (Simple Mail Transfer Protocol) para envio de e-mails e tantos outros.
 
-* CaracterÌsticas de Protocolos:
-  * EspecificaÁ„o de protocolo: a descriÁ„o do protocolo È completa e acurada.
+* Caracter√≠sticas de Protocolos:
+  * Especifica√ß√£o de protocolo: a descri√ß√£o do protocolo √© completa e acurada.
   * Safety: um protocolo faz o que deve fazer sempre.
-  *	Liveness: um protocolo È livre de deadlock.
-  *	EficiÍncia: um protocolo utiliza os recursos disponÌveis de forma eficiente.
-  *	JustiÁa (fairness): utilizaÁ„o justa ou contratual dos recursos.
-  * Simplicidade: È desej·vel, mas n„o necess·ria.
+  *	Liveness: um protocolo √© livre de deadlock.
+  *	Efici√™ncia: um protocolo utiliza os recursos dispon√≠veis de forma eficiente.
+  *	Justi√ßa (fairness): utiliza√ß√£o justa ou contratual dos recursos.
+  * Simplicidade: √© desej√°vel, mas n√£o necess√°ria.
 * Desempenho de Protocolos:
-  *	Atraso mÈdio: tempo entre a transmiss„o do primeiro bit e a recepÁ„o do mesmo pelo destino.
-  *	Vaz„o ou Capacidade: n˙mero total de bits transmitidos dividido pelo tempo total de transmiss„o.
+  *	Atraso m√©dio: tempo entre a transmiss√£o do primeiro bit e a recep√ß√£o do mesmo pelo destino.
+  *	Vaz√£o ou Capacidade: n√∫mero total de bits transmitidos dividido pelo tempo total de transmiss√£o.
 
 
-### ServiÁo Orientado a Conex„o
+### Servi√ßo Orientado a Conex√£o
 
-Trata-se de um modo de comunicaÁ„o no qual a m·quina emissora envia dados sem prevenir a m·quina receptora, e a m·quina receptora recebe os dados sem avisos de recepÁ„o ‡ primeira. Os dados s„o assim enviados sob a forma de blocos (datagramas). O UDP È um exemplo de protocolo n„o orientado para a conex„o. No caso do UDP, a transferÍncia de dados n„o È confi·vel, n„o tem controle de fluxo e nem controle de congest„o. AplicaÁıes que utilizam UDP: Streaming media, teleconferÍncia, DNS, telefonia IP.
+Trata-se de um modo de comunica√ß√£o no qual a m√°quina emissora envia dados sem prevenir a m√°quina receptora, e a m√°quina receptora recebe os dados sem avisos de recep√ß√£o √† primeira. Os dados s√£o assim enviados sob a forma de blocos (datagramas). O UDP √© um exemplo de protocolo n√£o orientado para a conex√£o. No caso do UDP, a transfer√™ncia de dados n√£o √© confi√°vel, n√£o tem controle de fluxo e nem controle de congest√£o. Aplica√ß√µes que utilizam UDP: Streaming media, teleconfer√™ncia, DNS, telefonia IP.
 
 ## TCP/IP
 
 ### Modelo TCP/IP
 
-TCP/IP (Transmission Control Protocol - Protocolo de Controle de Transmiss„o/ Internet Protocol - Protocolo da Internet), criado em 1969 pela U.S. Department of Defense Advanced Research Projects Agency È um conjunto de protocolos de comunicaÁ„o em camadas entre computadores em redes. Cada uma dessas camadas È respons·vel por um determinado grupo de funÁıes e serviÁos, sendo as camadas mais altas (aplicaÁ„o) logicamente mais perto dos usu·rios, e as mais baixas (fÌsica) tendo tarefas de menor nÌvel de abstraÁ„o.
+TCP/IP (Transmission Control Protocol - Protocolo de Controle de Transmiss√£o/ Internet Protocol - Protocolo da Internet), criado em 1969 pela U.S. Department of Defense Advanced Research Projects Agency √© um conjunto de protocolos de comunica√ß√£o em camadas entre computadores em redes. Cada uma dessas camadas √© respons√°vel por um determinado grupo de fun√ß√µes e servi√ßos, sendo as camadas mais altas (aplica√ß√£o) logicamente mais perto dos usu√°rios, e as mais baixas (f√≠sica) tendo tarefas de menor n√≠vel de abstra√ß√£o.
 
 ![Modelo OSI / Modelo TCP/IP](https://i.imgur.com/YzbjcYt.png)
 
-Apesar de ser considerado um protocolo pesado, o TCP/IP hoje È indispens·vel. Dentre os seus muitos benefÌcios est„o:
-*	PadronizaÁ„o: um padr„o, um protocolo rote·vel que È o mais completo e aceito protocolo disponÌvel atualmente. Todos os sistemas operacionais modernos oferecem suporte para o TCP/IP e a maioria das grandes redes se baseia em TCP/IP para a maior parte de seu tr·fego.
-*	Interconectividade: uma tecnologia para conectar sistemas n„o similares. Muitos utilit·rios padrıes de conectividade est„o disponÌveis para acessar e transferir dados entre esses sistemas n„o similares, incluindo FTP (File Transfer Protocol) e Telnet (Terminal Emulation Protocol).
-*	Roteamento: permite e habilita as tecnologias mais antigas e as novas a se conectarem ‡ Internet. Trabalha com protocolos de linha como PPP (Point to Point Protocol) permitindo conex„o remota a partir de linha discada ou dedicada. Trabalha como os mecanismos IPCs e interfaces mais utilizados pelos sistemas operacionais, como sockets do Windows e NetBIOS.
-*	Protocolo Robusto: escal·vel, multiplataforma, com estrutura para ser utilizada em sistemas operacionais cliente/servidor, permitindo a utilizaÁ„o de aplicaÁıes desse porte entre dois pontos distantes.
-*	Internet: È atravÈs da suÌte de protocolos TCP/IP que obtemos acesso a Internet. As redes locais distribuem servidores de acesso a Internet (proxy servers) e os hostslocais se conectam a esses servidores para obter o acesso a Internet. Este acesso sÛ pode ser conseguido se os computadores estiverem configurados para utilizar TCP/IP.
+Apesar de ser considerado um protocolo pesado, o TCP/IP hoje √© indispens√°vel. Dentre os seus muitos benef√≠cios est√£o:
+*	Padroniza√ß√£o: um padr√£o, um protocolo rote√°vel que √© o mais completo e aceito protocolo dispon√≠vel atualmente. Todos os sistemas operacionais modernos oferecem suporte para o TCP/IP e a maioria das grandes redes se baseia em TCP/IP para a maior parte de seu tr√°fego.
+*	Interconectividade: uma tecnologia para conectar sistemas n√£o similares. Muitos utilit√°rios padr√µes de conectividade est√£o dispon√≠veis para acessar e transferir dados entre esses sistemas n√£o similares, incluindo FTP (File Transfer Protocol) e Telnet (Terminal Emulation Protocol).
+*	Roteamento: permite e habilita as tecnologias mais antigas e as novas a se conectarem √† Internet. Trabalha com protocolos de linha como PPP (Point to Point Protocol) permitindo conex√£o remota a partir de linha discada ou dedicada. Trabalha como os mecanismos IPCs e interfaces mais utilizados pelos sistemas operacionais, como sockets do Windows e NetBIOS.
+*	Protocolo Robusto: escal√°vel, multiplataforma, com estrutura para ser utilizada em sistemas operacionais cliente/servidor, permitindo a utiliza√ß√£o de aplica√ß√µes desse porte entre dois pontos distantes.
+*	Internet: √© atrav√©s da su√≠te de protocolos TCP/IP que obtemos acesso a Internet. As redes locais distribuem servidores de acesso a Internet (proxy servers) e os hostslocais se conectam a esses servidores para obter o acesso a Internet. Este acesso s√≥ pode ser conseguido se os computadores estiverem configurados para utilizar TCP/IP.
 
-O protocolo TCP/IP se divide em quatro grandes camadas com as seguintes funÁıes principais:
+O protocolo TCP/IP se divide em quatro grandes camadas com as seguintes fun√ß√µes principais:
 
-**Camada** | **Exemplos** | **FunÁ„o** 
+**Camada** | **Exemplos** | **Fun√ß√£o** 
 :---: | :---: | :---:
-**AplicaÁ„o** | **HTTP, HTTPS, FTP, DNS.** <br/> ìComo um web browser deve se comunicar com um servidor da web.î | Faz a comunicaÁ„o entre os programas e os protocolos de transporte. ContÈm todos os protocolos para um serviÁo especÌfico de comunicaÁ„o de dados em um nÌvel de processo-a-processo.
-**Transporte** | **TCP, UDP, SCTP.** | Essa camada tem como funÁ„o controlar a comunicaÁ„o host-a-host. Ela recebe os dados enviados pela camada de aplicaÁ„o, transforma-os em pacotes menores e garante que chegar„o sem erros e na ordem certa.
-**Internet** | **IP:** endereÁamento IP, fragmentaÁ„o e montagem dos pacotes. <br/> **ARP:** resoluÁ„o do endereÁo da camada de internet para o endereÁo da camada de interface de rede, tais como um endereÁo de hardware. | Ela È respons·vel pelo endereÁamento e roteamento do pacote, fazendo a conex„o entre as redes locais. Adiciona ao pacote o endereÁo IP de origem e o de destino, para que ele saiba qual o caminho deve percorrer.
-**Enlace (Com interface de rede)** | **LLC, MAC.** | Essa camada È respons·vel pelo envio do datagrama recebido da camada de internet em forma de quadros atravÈs da rede fÌsica.
+**Aplica√ß√£o** | **HTTP, HTTPS, FTP, DNS.** <br/> ‚ÄúComo um web browser deve se comunicar com um servidor da web.‚Äù | Faz a comunica√ß√£o entre os programas e os protocolos de transporte. Cont√©m todos os protocolos para um servi√ßo espec√≠fico de comunica√ß√£o de dados em um n√≠vel de processo-a-processo.
+**Transporte** | **TCP, UDP, SCTP.** | Essa camada tem como fun√ß√£o controlar a comunica√ß√£o host-a-host. Ela recebe os dados enviados pela camada de aplica√ß√£o, transforma-os em pacotes menores e garante que chegar√£o sem erros e na ordem certa.
+**Internet** | **IP:** endere√ßamento IP, fragmenta√ß√£o e montagem dos pacotes. <br/> **ARP:** resolu√ß√£o do endere√ßo da camada de internet para o endere√ßo da camada de interface de rede, tais como um endere√ßo de hardware. | Ela √© respons√°vel pelo endere√ßamento e roteamento do pacote, fazendo a conex√£o entre as redes locais. Adiciona ao pacote o endere√ßo IP de origem e o de destino, para que ele saiba qual o caminho deve percorrer.
+**Enlace (Com interface de rede)** | **LLC, MAC.** | Essa camada √© respons√°vel pelo envio do datagrama recebido da camada de internet em forma de quadros atrav√©s da rede f√≠sica.
 
 ![Modelo TCP/IP](https://i.imgur.com/F7A7wmr.png)
