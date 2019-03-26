@@ -5,16 +5,16 @@
   - [Sumário](#sumário)
   - [Introdução](#introdução)
   - [Serviços](#serviços)
-  - [Procolos para controle de fluxo](#protocolos-para-controle-de-fluxo)
+  - [Protocolos para controle de fluxo](#protocolos-para-controle-de-fluxo)
     - [Simplex sem restrições](#simplex-sem-restrições)
-    - [Simplex Stop-and-wait](#simples-stop)
-    - [Simplex para um Canal com Ruído](#simplex-para)
-    - [Protocolos de Janela Deslizante](#protocolos-de-janela)
+    - [Simplex Stop-and-wait](#simples-stop-and-wait)
+    - [Simplex para um Canal com Ruído](#simplex-para-um-canal-com-ruído)
+    - [Protocolos de Janela Deslizante](#protocolos-de-janela-deslizante)
     - [Janela Deslizante](#janela-deslizante)
     - [Janela Deslizante de 1 bit](#janela-deslizante-de-1-bit)
     - [Pipeline](#pipeline)
-      - [Estratégias básicas para lidar com erros na presença do pipelining](#estratégias-básicas)
-  - [Protocolos de acesso a meio compartilhado](#protocolo-de-acesso)
+      - [Estratégias básicas para lidar com erros na presença do pipelining](#estratégias-básicas-para-lidar-com-erros-na-presença-de-pipelining)
+  - [Protocolos de acesso a meio compartilhado](#protocolo-de-acesso-a-meio-compartilhado)
     - [Protocolos MAC](#protocolos-mac)
     - [Particionamento de canal](#particionamento-de-canal)
     - [Passagem de permissão](#passagem-de-permissão)
@@ -24,9 +24,9 @@
     - [CSMA](#csma)
     - [CSMA/CD](#csma/cd)
     - [Ethernet](#ethernet)
-    - [IEEE 802.11 LAN sem fio](#ieee)
+    - [IEEE 802.11 LAN sem fio](#ieee-802.11-lan-sem-fio)
     - [Canais e associação](#canais-e-associação)
-    - [O protocolo mac 802.11](#o-protocolo-mac)
+    - [O protocolo mac 802.11](#o-protocolo-mac-802.11)
 
 ## Introdução
 
@@ -73,7 +73,7 @@ A camada de enlace tem como responsabilidade de transferir um datagrama de um n�
   * Limitação da transmissão entre transmissor e receptor
   * O receptor avisa quando o transmissor pode enviar um quadro
 
-## Procolos para controle de fluxo:
+## Protocolos para controle de fluxo:
 
 ### Simplex sem restrições:
 * Transmissão de dados em um único sentido;
