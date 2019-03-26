@@ -102,6 +102,8 @@ Existem duas classes de tipos de roteamento: **estático** e **dinâmico**. Não
  
 ## Cabeçalho IP
 
+![Cabeçalho IP](https://i.imgur.com/ppECWsd.png)
+
 * **Fragmentação e remontagem**
   * MTU - Maximum Transmit Unit é o tamanho máximo que um pacote pode ter; 
   * MTU é padronizado de acordo com a interface física;
