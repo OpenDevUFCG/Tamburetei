@@ -1,100 +1,100 @@
 # Camada De Enlace
 
-## Sum·rio
+## Sum√°rio
 - [Camada De Enlace](#camada-de-enlace)
-  - [Sum·rio](#sum·rio)
-  - [IntroduÁ„o](#introduÁ„o)
-  - [ServiÁos](#serviÁos)
+  - [Sum√°rio](#sum√°rio)
+  - [Introdu√ß√£o](#introdu√ß√£o)
+  - [Servi√ßos](#servi√ßos)
 
 
-## IntroduÁ„o
+## Introdu√ß√£o
 
-A camada de enlace tem como responsabilidade de transferir um datagrama de um nÛ para o nÛ adjacente sobre um enlace. Os protocolos e padrıes desta camada, diferente das camadas superiores que s„o baseados em RFCs, estes geralmente s„o definidos por empresas de comunicaÁıes ou organizaÁıes de engenharias (Como ANSI, IEEE e ITU). Os serviÁos e especificaÁıes desta camada s„o geridos por m˙ltiplos padrıes de acordo com a tecnologia e o meio fÌsico utilizado e integrado por tais protocolos, sendo alguns deles utilizados para ligar os serviÁos da camada de enlace com a camada fÌsica.
+A camada de enlace tem como responsabilidade de transferir um datagrama de um n√≥ para o n√≥ adjacente sobre um enlace. Os protocolos e padr√µes desta camada, diferente das camadas superiores que s√£o baseados em RFCs, estes geralmente s√£o definidos por empresas de comunica√ß√µes ou organiza√ß√µes de engenharias (Como ANSI, IEEE e ITU). Os servi√ßos e especifica√ß√µes desta camada s√£o geridos por m√∫ltiplos padr√µes de acordo com a tecnologia e o meio f√≠sico utilizado e integrado por tais protocolos, sendo alguns deles utilizados para ligar os servi√ßos da camada de enlace com a camada f√≠sica.
 
-## ServiÁos
+## Servi√ßos
 
 * **Enquadramento de dados**
-  * **Encapsula datagramas em quadros acrescentando cabeÁalhos e trailer**;
-  * **DelimitaÁ„o dos quadros:**
+  * **Encapsula datagramas em quadros acrescentando cabe√ßalhos e trailer**;
+  * **Delimita√ß√£o dos quadros:**
     *	Contador de caracteres;
-    *	Caracteres de inicializaÁ„o e finalizaÁ„o, com car·cter de preenchimento;
-    *	Flags de inicializaÁ„o e finalizaÁ„o, com car·cter de enchimento.
-*	**TransferÍncia dados da camada de rede da m·quina de origem para a camada de rede do destino**
-  *	**N„o orientados a conexıes e sem reconhecimento**
-    *	Quadros independentes
-    *	Indicado para taxa de erros muito baixa ou tr·fego em tempo real
-  *	**N„o orientados a conexıes e com reconhecimento**
-    *	Quadros confirmados individualmente
-    *	⁄til em canais n„o confi·veis (ex.: sistemas sem fio)
-  *	**Orientados a conexıes e com reconhecimento**
-    *	Estabelecimento de conex„o antes da transferÍncia de dados
+    *	Caracteres de inicializa√ß√£o e finaliza√ß√£o, com car√°cter de preenchimento;
+    *	Flags de inicializa√ß√£o e finaliza√ß√£o, com car√°cter de enchimento.
+* **Transfer√™ncia dados da camada de rede da m√°quina de origem para a camada de rede do destino**
+  * **N√£o orientados a conex√µes e sem reconhecimento**
+    * Quadros independentes
+    * Indicado para taxa de erros muito baixa ou tr√°fego em tempo real
+  * **N√£o orientados a conex√µes e com reconhecimento**
+    * Quadros confirmados individualmente
+    * √ötil em canais n√£o confi√°veis (ex.: sistemas sem fio)
+  * **Orientados a conex√µes e com reconhecimento**
+    * Estabelecimento de conex√£o antes da transfer√™ncia de dados
 	  * Quadros confirmados individualmente
-	  * Garante que cada quadro ser· recebido uma ˙nica vez e na ordem correta
-*	**DetecÁ„o e CorreÁ„o de erros**
-  * **VerificaÁ„o de Paridade**
-    *	Paridade com bit ˙nico: Detecta erro de um ˙nico bit
-    *	Paridade bidimensional: Detecta e corrige erro de um ˙nico bit
-  * **CÛdigo de hamming:**
-    *	Dada uma palavra cÛdigo: n = m + r
-    *	Os r bits de verificaÁ„o ocupam as posiÁıes que s„o potÍncias de 2
-    *	Os outros (3, 5, 6, 7, 9, etc.) s„o preenchidos com os m bits de dados.
-    *	Os bits de verificaÁ„o resultam de um XOR das posiÁıes de influÍncia
-  * **CÛdigo Polinomial ou CÛdigo de Redund‚ncia CÌclica (CRC)**
-    *	Transmissor e receptor devem concordar em relaÁ„o a um polinÙmio gerador, G(x), antecipadamente. E tanto o bit de mais alta ordem quanto o de mais baixa ordem do polinÙmio gerador devem ser iguais a 1.
-    *	G(x) È usado junto a informaÁ„o no transmissor gerando uma nova sequÍncia de dados a ser enviado, M(x)
-    *	Se M(x) ao chegar no receptor, n„o for divisÌvel pelo polinÙmio gerador, significa que houve erro de transmiss„o.
-    *	Algoritmo
+	  * Garante que cada quadro ser√° recebido uma √∫nica vez e na ordem correta
+* **Detec√ß√£o e Corre√ß√£o de erros**
+  * **Verifica√ß√£o de Paridade**
+    * Paridade com bit √∫nico: Detecta erro de um √∫nico bit
+    * Paridade bidimensional: Detecta e corrige erro de um √∫nico bit
+  * **C√≥digo de hamming:**
+    * Dada uma palavra c√≥digo: n = m + r
+    * Os r bits de verifica√ß√£o ocupam as posi√ß√µes que s√£o pot√™ncias de 2
+    * Os outros (3, 5, 6, 7, 9, etc.) s√£o preenchidos com os m bits de dados.
+    * Os bits de verifica√ß√£o resultam de um XOR das posi√ß√µes de influ√™ncia
+  * **C√≥digo Polinomial ou C√≥digo de Redund√¢ncia C√≠clica (CRC)**
+    * Transmissor e receptor devem concordar em rela√ß√£o a um polin√¥mio gerador, G(x), antecipadamente. E tanto o bit de mais alta ordem quanto o de mais baixa ordem do polin√¥mio gerador devem ser iguais a 1.
+    * G(x) √© usado junto a informa√ß√£o no transmissor gerando uma nova sequ√™ncia de dados a ser enviado, M(x)
+    * Se M(x) ao chegar no receptor, n√£o for divis√≠vel pelo polin√¥mio gerador, significa que houve erro de transmiss√£o.
+    * Algoritmo
       *	Seja G(x) o gerador polinomial de grau r. 
-      *	Acrescente r bits 0 ao quadro que ser· transmitido
+      *	Acrescente r bits 0 ao quadro que ser√° transmitido
       *	Divida o novo quadro pelo gerador G(x)
-      *	Subtraia do quadro original o resto da divis„o
-*	**Controle de fluxo**
-  * LimitaÁ„o da transmiss„o entre transmissor e receptor
+      *	Subtraia do quadro original o resto da divis√£o
+* **Controle de fluxo**
+  * Limita√ß√£o da transmiss√£o entre transmissor e receptor
   * O receptor avisa quando o transmissor pode enviar um quadro
 
 ## Procolos para controle de fluxo:
 
-### Simplex sem restriÁıes:
-* Transmiss„o de dados em um ˙nico sentido;
+### Simplex sem restri√ß√µes:
+* Transmiss√£o de dados em um √∫nico sentido;
 * Camada de redes sempre pronta;
-* Buffer infinito no qual poder„o ser armazenados todos os quadros recebidos enquanto eles aguardam para serem processados;
-* N„o h· perda de quadros.
+* Buffer infinito no qual poder√£o ser armazenados todos os quadros recebidos enquanto eles aguardam para serem processados;
+* N√£o h√° perda de quadros.
 
 ### Simplex Stop-and-wait:
-* Os buffers n„o s„o infinitos;
-* O tempo de processamento n„o È ignorado;
-* O transmissor n„o envia outra mensagem atÈ que a anterior tenha sido aceita como correta pelo receptor;
-* Embora o tr·fego de dados seja simplex, h· fluxo de quadros em ambos os sentidos.
-* **Problema:** impedir que o transmissor inunde o receptor com dados, mais rapidamente do que este È capaz de process·-los.
-* **SoluÁ„o:** fazer o receptor enviar uma resposta para o transmissor, autorizando o envio do prÛximo quadro.
+* Os buffers n√£o s√£o infinitos;
+* O tempo de processamento n√£o √© ignorado;
+* O transmissor n√£o envia outra mensagem at√© que a anterior tenha sido aceita como correta pelo receptor;
+* Embora o tr√°fego de dados seja simplex, h√° fluxo de quadros em ambos os sentidos.
+* **Problema:** impedir que o transmissor inunde o receptor com dados, mais rapidamente do que este √© capaz de process√°-los.
+* **Solu√ß√£o:** fazer o receptor enviar uma resposta para o transmissor, autorizando o envio do pr√≥ximo quadro.
 
-### Simplex para um Canal com RuÌdo:
-* O transmissor transmite um quadro que È numerado sequencialmente;
-* O receptor envia um quadro de reconhecimento se o quadro for recebido corretamente, caso contr·rio, h· um descarte e È aguardada uma retransmiss„o;
-* Quadros n„o reconhecidos s„o retransmitidos (timer).
+### Simplex para um Canal com Ru√≠do:
+* O transmissor transmite um quadro que √© numerado sequencialmente;
+* O receptor envia um quadro de reconhecimento se o quadro for recebido corretamente, caso contr√°rio, h√° um descarte e √© aguardada uma retransmiss√£o;
+* Quadros n√£o reconhecidos s√£o retransmitidos (timer).
 
 ### Protocolos de Janela Deslizante:
-* **Piggybacking:** tÈcnica de retardar temporariamente as confirmaÁıes de recebimento de um quadro e envi·-las junto com o prÛximo quadro de dados. 
+* **Piggybacking:** t√©cnica de retardar temporariamente as confirma√ß√µes de recebimento de um quadro e envi√°-las junto com o pr√≥ximo quadro de dados. 
   * **Como funciona?**
-    *	Quando um quadro de dados chega a seu destino, em vez de enviar imediatamente um quadro de controle separado, o receptor se contÈm e espera atÈ a camada de rede enviar o prÛximo quadro. A confirmaÁ„o È acrescentada ao quadro de dados que est· sendo enviado (por meio do campo ack do cabeÁalho de quadro). Na verdade, a confirmaÁ„o pega carona no prÛximo quadro de dados que estiver sendo enviado. 
+    *	Quando um quadro de dados chega a seu destino, em vez de enviar imediatamente um quadro de controle separado, o receptor se cont√©m e espera at√© a camada de rede enviar o pr√≥ximo quadro. A confirma√ß√£o √© acrescentada ao quadro de dados que est√° sendo enviado (por meio do campo ack do cabe√ßalho de quadro). Na verdade, a confirma√ß√£o pega carona no pr√≥ximo quadro de dados que estiver sendo enviado. 
   * **Vantagens:** 
-    *	Melhor utilizaÁ„o da largura de banda disponÌvel para o canal
-    *	Menor n˙mero de quadros enviados, que implica em menor quantidade de buffers no receptor, dependendo da forma como o software do receptor est· organizado
+    *	Melhor utiliza√ß√£o da largura de banda dispon√≠vel para o canal
+    *	Menor n√∫mero de quadros enviados, que implica em menor quantidade de buffers no receptor, dependendo da forma como o software do receptor est√° organizado
   * **Desvantagem:**
-    *	A camada de enlace n„o sabe quanto tempo deve esperar por um quadro para enviar a confirmaÁ„o. Se esperar por um tempo maior que o timeout do transmissor, o quadro ser· transmitido novamente, o que invalidar· todo o processo de confirmaÁ„o.
+    *	A camada de enlace n√£o sabe quanto tempo deve esperar por um quadro para enviar a confirma√ß√£o. Se esperar por um tempo maior que o timeout do transmissor, o quadro ser√° transmitido novamente, o que invalidar√° todo o processo de confirma√ß√£o.
 
 ### Janela Deslizante:
-… um protocolo bidirecional, no qual cada quadro enviado contÈm um n˙mero de sequÍncia, variando desde 0 atÈ algum valor m·ximo. Em geral, o valor m·ximo e 2n ñ1, de forma que o n˙mero de sequÍncia caiba exatamente em um campo de n bits. 
+√â um protocolo bidirecional, no qual cada quadro enviado cont√©m um n√∫mero de sequ√™ncia, variando desde 0 at√© algum valor m√°ximo. Em geral, o valor m√°ximo e 2n ‚Äì1, de forma que o n√∫mero de sequ√™ncia caiba exatamente em um campo de n bits. 
 
 > ### Janela deslizante de 1 bit:
-> Esse tipo de protocolo utiliza o stop-and-wait, pois o transmissor envia um quadro e aguarda sua confirmaÁ„o antes de enviar o quadro seguinte. 
-> O campo de confirmaÁ„o no quadro contÈm o n˙mero do ˙ltimo quadro recebido sem erro. Se esse n˙mero estiver de acordo com o n˙mero de sequÍncia do quadro que o transmissor est· tentando enviar, o transmissor saber· que j· cuidou do quadro armazenado em buffer e poder· buscar o pacote seguinte em sua camada de rede. Se o n˙mero de sequÍncia for discordante, o transmissor deve continuar tentando enviar o mesmo quadro. Sempre que um quadro È recebido, um outro quadro tambÈm È enviado de volta.
+> Esse tipo de protocolo utiliza o stop-and-wait, pois o transmissor envia um quadro e aguarda sua confirma√ß√£o antes de enviar o quadro seguinte. 
+> O campo de confirma√ß√£o no quadro cont√©m o n√∫mero do √∫ltimo quadro recebido sem erro. Se esse n√∫mero estiver de acordo com o n√∫mero de sequ√™ncia do quadro que o transmissor est√° tentando enviar, o transmissor saber√° que j√° cuidou do quadro armazenado em buffer e poder√° buscar o pacote seguinte em sua camada de rede. Se o n√∫mero de sequ√™ncia for discordante, o transmissor deve continuar tentando enviar o mesmo quadro. Sempre que um quadro √© recebido, um outro quadro tamb√©m √© enviado de volta.
 
 ### Pipeline:
-TÈcnica baseada em permitir que o transmissor envie atÈ w quadros antes do bloqueio, e n„o apenas 1. Com uma escolha apropriada de w, o transmissor ser· capaz de transmitir quadros continuamente durante um tempo igual ao tempo de tr‚nsito da viagem de ida e volta, sem ocupar a janela toda. 
+T√©cnica baseada em permitir que o transmissor envie at√© w quadros antes do bloqueio, e n√£o apenas 1. Com uma escolha apropriada de w, o transmissor ser√° capaz de transmitir quadros continuamente durante um tempo igual ao tempo de tr√¢nsito da viagem de ida e volta, sem ocupar a janela toda. 
 
-> ìO que fazer se um quadro no meio da janela for danificado ou perdido? î
+> ‚ÄúO que fazer se um quadro no meio da janela for danificado ou perdido? ‚Äù
 
-> **EstratÈgias b·sicas para lidar com erros na presenÁa do pipelining**:
+> **Estrat√©gias b√°sicas para lidar com erros na presen√ßa do pipelining**:
 > **Go Back N**
->   * O destino descarta qualquer pacote fora de ordem; portanto, n„o necessita de um buffer.
+>   * O destino descarta qualquer pacote fora de ordem; portanto, n√£o necessita de um buffer.
