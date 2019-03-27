@@ -208,15 +208,136 @@ O TCP permite a camada de aplicação enxergar a rede como uma conexão virtual.
 
 ![TCP Round Trip]()
 
+### TCP: transferência de dados confiável
 
+*	TCP cria serviços de transferência confiável de dados em cima do serviço não-confiável do IP TCP: serviço não-confiável do IP.
+*	Transmissão de vários segmentos em paralelo (Pipelined segments)
+*	ACKs cumulativos
+*	TCP usa tempo de retransmissão simples
+  *	Retransmissões são disparadas por:
+    *	Eventos de tempo de confirmação 
+    *	ACKs duplicados
+*	Geração de ACK
 
-
-**** | **** 
+**Evento no receptor** | **Ação do receptor TCP** 
 :---: | :---: 
- | 
- | 
- | 
- |
+ Segmento chega em ordem, não há lacunas, segmentos anteriores já aceitos | ACK retardado. Espera até 500 ms pelo próximo segmento. Se não chegar, envia ACK 
+ Segmento chega em ordem, não há lacunas, um ACK atrasado pendente | Imediatamente envia um ACK cumulativo 
+ Segmento chega fora de ordem, número de sequência chegou maior: gap detectado | Envia ACK duplicado, indicando número de sequência do próximo byte esperando
+ Chegada de segmento parcial ou completamente preenche o gap | Reconhece imediatamente se o segmento começa na borda inferior do gap
  
+### Retransmissão rápida
 
-![Modelo TCP/IP](https://i.imgur.com/F7A7wmr.png)
+*	Com frequência, o tempo de expiração é relativamente longo: 
+  *	Longo atraso antes de reenviar um pacote perdido 
+*	Detecta segmentos perdidos por meio de ACKs duplicados
+  *	Transmissor frequentemente envia muitos segmentos
+  *	Se o segmento é perdido, haverá muitos ACKs duplicados
+*	Se o transmissor recebe 3 ACKs para o mesmo dado, ele supõe que o segmento após o dado confirmado foi perdido:
+  *	Retransmissão rápida: reenvia o segmento antes de o temporizador expirar
+
+### TCP: controle de fluxo 
+
+Controle de Fluxo (buffers e janelas de transmissão) – Um problema no mundo das redes é garantir o controle de fluxo entre usuários finais. A imprevisibilidade do tráfego é o maior problema. Imagine o resultado do ENEM publicado na internet. Diversos usuários irão fazer requisições em pouco tempo podendo ser mais rápido do que a entrega do servidor web. Assim diversas requisições serão novamente realizadas, gerando ainda mais tráfego e pacotes duplicados. Daí o TCP utiliza o conceito de buffers (armazenamento de pedidos e respostas) e janelas deslizantes:
+
+* Janela deslizante é uma característica de alguns protocolos que permite que o remetente transmita mais que um pacote de dados antes de receber uma confirmação. Depois de recebê-lo para o primeiro pacote enviado, o remetente desliza a janela do pacote e manda outra confirmação. O número de pacotes transmitidos sem confirmação é conhecido como o tamanho da janela; aumentando o tamanho da janela melhora-se a vazão.
+* O receptor da conexão TCP possui um buffer de recepção:
+  *	Receptor informa a área disponível incluindo valor RcvWindow nos segmentos. 
+  *	Transmissor limita os dados não confinados ao RcvWindow.
+  *	Garantia contra overflow no buffer do receptor.
+
+Processos de aplicação podem ser lentos para ler o buffer.
+
+O transmissor não deve esgotar os buffers de recepção enviando dados rápido demais. Serviço de speed-matching: encontra a taxa de envio adequada à taxa de vazão da aplicação receptora.
+
+![RcvBuffer]()
+
+### Gerenciamento de Conexão
+
+*	**Estabelecimento de Conexão**
+  *	Protocolo
+    *	Passo 1: o cliente envia um segmento SYN especificando a porta do servidor ao qual deseja se conectar e seu número de sequência inicial
+    *	Passo 2: o servidor responde enviando outro segmento SYN com o ACK do segmento recebido e o seu próprio número de sequência 
+    *	Passo 3: o cliente retorna um ACK e a conexão se estabelece
+  *	O tamanho máximo de segmento (MSS) que cada lado se propõe a aceitar também é definido no momento do estabelecimento da conexão Pode acontecer um “half open”
+*	**Como funciona: (THREE-WAY-HANDSHAKE)**
+  * 1.	Status: LISTENING 
+  * 2.	Status: SYN_RECV (Conexão solicitada pelo cliente)
+  * 3.	Status: SYN_RECV (Servidor aloca recursos (memória) para a “potencial” conexão e liga o relógio de TIMEOUT)
+  * 4.	Status: ESTABILISHED (Cliente confirma o pedido de conexão e inicia envio de dados.)
+*	**Término de Conexão**
+	* Cada direção da conexão é encerrada independentemente.
+    *	Protocolo
+      *	Passo 1: o cliente enviar um segmento FIN
+      *	Passo 2: o servidor retorna um FIN e um ACK para o cliente
+      *	Passo 3: o cliente enviar um ACK e a conexão se encerra.
+    *	É possível efetuar um “half-close” mantendo-se apenas uma conexão simplex.
+
+![Gerênciamento da Conexão]()
+
+## Controle de congestionamento do TCP
+
+
+O controle é feito através de duas variáveis adicionadas em cada lado da conexão: adicionadas em cada lado da conexão:
+
+*	**Janela de Congestionamento**
+*	**Limiar**
+  *	Serve para controlar o crescimento da janela de congestionamento
+
+### Janela de Congestionamento 
+
+*	Uma conexão TCP controla sua taxa de transmissão limitando o seu número de segmentos que podem ser limitando o seu número de segmentos que podem ser transmitidos sem que uma confirmação seja recebida
+  *	Esse número é chamado o tamanho da janela do TCP (w)
+*	Uma conexão TCP começa com um pequeno valor de w e então o incrementa arriscando que exista mais largura de banda disponível 
+*	Isso continua a ocorrer **até que algum segmento seja perdido**
+*	Nesse momento, a conexão TCP reduz **w** para um valor seguro, e então continua a arriscar o crescimento
+
+### Janela do Receptor 
+
+O número máximo de segmentos não-confirmados é dado pelo mínimo entre os tamanhos das janelas é dado pelo mínimo entre os tamanhos das janelas de congestionamento e do receptor. Ou seja, mesmo que haja mais largura de banda, o receptor também pode ser um gargalo.
+
+### Evolução de uma Conexão TCP 
+
+No início, a janela de congestionamento tem o tamanho de um segmento. Tal segmento tem o tamanho do maior segmento suportado. 
+
+O primeiro segmento é enviado e então é esperado seu reconhecimento.
+
+*	Se o mesmo chegar antes que ocorra o timeout, o transmissor duplica o tamanho da janela de congestionamento e envia dois segmentos. 
+*	Se esses dois segmentos também forem reconhecidos antes de seus timeouts, o transmissor duplica novamente sua janela, enviando agora quatro segmentos.
+
+Esse processo continua até que:
+
+*	O tamanho da janela de congestionamento seja maior que o limiar, ou maior que o tamanho da janela do receptor;
+*	Ocorra algum timeouts antes da confirmação.
+
+### Duas Fases dessa Evolução
+
+A primeira fase, em que a janela de congestionamento cresce exponencialmente é congestionamento cresce exponencialmente é chamada de inicialização lenta (slow start), pelo fato de começar com um segmento - A taxa de transmissão começa pequena, porém cresce muito rapidamente.
+
+Uma vez ultrapassado o limiar, e a janela do receptor ainda não seja um limitante o crescimento receptor ainda não seja um limitante, o crescimento da janela passa a ser linear. Essa segunda fase é chamada de prevenção de congestionamento (congestion avoidance). Sua duração também depende da não ocorrência timeouts, e da aceitação do fluxo por parte do receptor.
+
+### E quando ocorrer um problema?
+
+**Na ocorrência de um timeout o TCP irá configurar:**
+* O valor do limiar passa a ser a metade do tamanho atual da janela de congestionamento
+* O tamanho da janela de congestionamento volta a ser do tamanho de um segmento
+* O tamanho da janela de congestionamento volta a crescer exponencialmente
+
+**Caso ocorram 3 ACKs duplicados:** 
+* O valor do limiar é ajustado para metade tamanho atual da janela de congestionamento 
+* O tamanho da janela de congestionamento passa igual ao valor do limiar (metade da janela de congestionamento atual) 
+* O tamanho da janela de congestionamento cresce linearmente
+
+#### Resumo
+
+Quando o tamanho da janela de congestionamento está abaixo do limiar, seu crescimento é exponencial.
+
+Quando este tamanho está acima do limiar, o crescimento é linear.
+
+Todas as vezes que ocorrer um timeout, o limiar é modificado para a metade do tamanho da janela e o tamanho da janela passa a ser 1.
+
+A rede não consegue entregar nenhum dos pacotes (“congestionamento pesado”).
+
+Quando ocorrem ACKs repetidos a janela cai pela metade.
+
+A rede ainda é capaz de entregar alguns pacotes (“congestionamento leve”).
