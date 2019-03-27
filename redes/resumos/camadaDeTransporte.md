@@ -2,6 +2,30 @@
 
 ## Sumário
 - [Camada de Transporte](#camada-de-transporte)
+  - [Protocolos e serviços de transporte](#protocolos-e-serviços-de-transporte)
+  - [Identificação da aplicação no host](#identificação-da-aplicação-no-host)
+  - [Demultiplexação/Multiplexação](#demutiplexaçãomultiplexação)
+  - [UDP: User Datagram Protocol](#udp-user-datagram-protocol)
+    - [UDP Checksum](#udp-checksum)
+  - [Princípios de transferência confiável de dados](#princípios-de transferência-confiável-de-dados)
+    - [Transferência confiável usando um canal com erro de bits](#transferência-confiável-usando-um-canal-com-erro-de-bits)
+    - [Transferência confiável usando um canal com erro de bits e perdas](transferência-confiável-usando-um-canal-com-erro-de-bits-e-perdas)
+    - [Estratégias de Retransmissão](#estratégias-de-retransmissão)
+  - [O Protocolo TCP](#o-protocolo-tcp)
+    - [Estrutura do Segmento TCP](#estrutura-do-segmento-tcp)
+    - [Número de Sequência e ACKs no TCP](#número-de-sequência-e-acks-no-tcp)
+    - [TCP Round Trip Time e temporização](#tcp-round-trip-time-e-temporização)
+    - [TCP: transferência de dados confiável](#tcp-transferência-de-dados-confiável)
+    - [Retransmissão rápida](#retransmissão-rápida)
+    - [TCP: controle de fluxo ](#tcp-controle-de-fluxo)
+    - [Gerenciamento de Conexão](#gerenciamento-de-conexão)
+  - [Controle de congestionamento do TCP](#controle-de-congestionamento-do-tcp)
+    - [Janela de Congestionamento](#janela-de-congestionamento)
+    - [Janela do Receptor](#janela-do-receptor)
+    - [Evolução de uma Conexão TCP](#evolução-de-uma-conexão-tcp)
+    - [Duas Fases dessa Evolução](#duas-fases-dessa-evolução)
+    - [E quando ocorrer um problema?](#e-quando-ocorrer-um-problema)
+      - [Resumo](#resumo)
 
 Os serviços oferecidos pelo protocolo IP não oferecem confiabilidade. Problemas relacionados à congestionamento, perda e ordenação de pacotes não são tratados. Esse é um grande problema pois a camada de aplicação necessita prover um serviço confiável na entrega de dados para os usuários. Para tal, a camada de transporte tem diversos protocolos e funções para melhorar e corrigir erros das camadas abaixo da mesma - como a de redes.
 
