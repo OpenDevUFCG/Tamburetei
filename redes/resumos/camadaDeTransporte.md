@@ -59,9 +59,13 @@ A camada de transporte oferece à camada de aplicação a função de endereçamento, 
 **Números de portas**
 
 **1-255**		  Reservadas para serviços padrão portas “bem conhecidas”.
+
 **256-1023** 	Reservado para serviços Unix. 
+
 **1-1023** 		Somente podem ser usadas por super-usuário.
+
 **1024-4999** Usadas por processos de sistema e de usuário.
+
 **5000-** 		Usadas somente por processos de usuário.
 
 ## Demultiplexação/Multiplexação
