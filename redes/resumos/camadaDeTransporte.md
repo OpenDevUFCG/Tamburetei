@@ -203,7 +203,7 @@ O TCP permite a camada de aplicação enxergar a rede como uma conexão virtual.
 
 ### Estrutura do Segmento TCP
 
-![Segmento TCP]()
+![Segmento TCP](https://i.imgur.com/XzbDQQC.png)
 
 ### Número de Sequência e ACKs no TCP
 
@@ -213,7 +213,7 @@ O TCP permite a camada de aplicação enxergar a rede como uma conexão virtual.
   *	Número do próximo byte esperado do outro lado
   *	ACK cumulativo 
 
-![Sequência ACKs]()
+![Sequência ACKs](https://i.imgur.com/Rt5TuBY.png)
 
 1.	**Como o receptor trata segmentos fora de ordem?** <br/> > *A especificação do TCP não define, fica a critério do implementador*.
 
@@ -234,7 +234,7 @@ O TCP permite a camada de aplicação enxergar a rede como uma conexão virtual.
 *	**SampleRTT** varia de forma rápida, é desejável um amortecedor para a estimativa do RTT
   *	*Usar várias medidas recentes, não apenas o último SampleRTT obtido*
 
-![TCP Round Trip]()
+![TCP Round Trip](https://imgur.com/undkKLN)
 
 ### TCP: transferência de dados confiável
 
@@ -278,7 +278,7 @@ Processos de aplicação podem ser lentos para ler o buffer.
 
 O transmissor não deve esgotar os buffers de recepção enviando dados rápido demais. Serviço de speed-matching: encontra a taxa de envio adequada à taxa de vazão da aplicação receptora.
 
-![RcvBuffer]()
+![RcvBuffer](https://imgur.com/hmxgAVf)
 
 ### Gerenciamento de Conexão
 
@@ -301,7 +301,7 @@ O transmissor não deve esgotar os buffers de recepção enviando dados rápido dema
       *	Passo 3: o cliente enviar um ACK e a conexão se encerra.
     *	É possível efetuar um “half-close” mantendo-se apenas uma conexão simplex.
 
-![Gerênciamento da Conexão]()
+![Gerênciamento da Conexão](https://imgur.com/dC8am8F)
 
 ## Controle de congestionamento do TCP
 
