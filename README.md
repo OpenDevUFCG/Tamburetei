@@ -1,5 +1,5 @@
 
-# Tamburetei [![Join the chat at https://gitter.im/OpenDevUFCG/Tamburetei](https://badges.gitter.im/OpenDevUFCG/Tamburetei.svg)](https://gitter.im/OpenDevUFCG/Tamburetei?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# Tamburetei [![chat on Discord](https://img.shields.io/discord/558293573494112257.svg?logo=discord)](https://discordapp.com/invite/YT7NvM)
 ![Tamburetei Logo](https://i.imgur.com/FOgBKcI.png)
 
 Tamburetei vai te ajudar a fazer de tamburete aquela cadeira de CC. Direcionado ao curso de Ciência da Computação da UFCG, esse repositório é um trabalho colaborativo contendo dicas, links úteis e leites das disciplinas do curso. A ideia é que veteranos ajudem os novatos e ninguém mais passe sufoco em nenhuma cadeira. :)
