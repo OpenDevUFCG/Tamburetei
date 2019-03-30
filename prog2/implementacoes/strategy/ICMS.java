@@ -19,7 +19,7 @@ public class ICMS implements Imposto {
     }
 
     /**
-     * Implementção da lógica para o cálculo do imposto seguindo a estratégia ICMS.
+     * Implementação da lógica para o cálculo do imposto seguindo a estratégia ICMS.
      * 
      * @return cálculo do imposto ICMS
      */

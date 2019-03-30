@@ -19,7 +19,7 @@ public class IPI implements Imposto {
     }
 
     /**
-     * Implementção da lógica para o cálculo do imposto seguindo a estratégia IPI.
+     * Implementação da lógica para o cálculo do imposto seguindo a estratégia IPI.
      * 
      * @return cálculo do imposto IPI
      */

@@ -43,7 +43,7 @@ public class MeuArray<T> {
      */
     public void add(T elemento, int pos) {
         if (pos >= this.array.length || pos < 0)
-            throw new IllegalArgumentException("Posição iválida!");
+            throw new IllegalArgumentException("Posição inválida!");
         this.array[pos] = elemento;
     }
 
