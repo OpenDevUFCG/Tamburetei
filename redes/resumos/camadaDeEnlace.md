@@ -16,17 +16,17 @@
       - [Estratégias básicas para lidar com erros na presença do pipelining](#estratégias-básicas-para-lidar-com-erros-na-presença-do-pipelining)
   - [Protocolos de acesso a meio compartilhado](#protocolos-de-acesso-a-meio-compartilhado)
     - [Protocolos MAC](#protocolos-mac)
-    - [Particionamento de canal](#particionamento-de-canal)
-    - [Passagem de permissão](#passagem-de-permissão)
-    - [Protocolo MAC de acesso aleatório ](#protocolo-mac-de-acesso-aleatório)
-    - [ALOHA](#aloha)
-    - [Slotted ALOHA](#slotted-aloha)
-    - [CSMA](#csma)
-    - [CSMA/CD](#csmacd)
-    - [Ethernet](#ethernet)
-    - [IEEE 802.11 LAN sem fio](#ieee-80211-lan-sem-fio)
-    - [Canais e associação](#canais-e-associação)
-    - [O protocolo mac 802.11](#o-protocolo-mac-80211)
+      - [Particionamento de canal](#particionamento-de-canal)
+      - [Passagem de permissão](#passagem-de-permissão)
+      - [Protocolo MAC de acesso aleatório ](#protocolo-mac-de-acesso-aleatório)
+      - [ALOHA](#aloha)
+      - [Slotted ALOHA](#slotted-aloha)
+      - [CSMA](#csma)
+      - [CSMA/CD](#csmacd)
+      - [Ethernet](#ethernet)
+      - [IEEE 802.11 LAN sem fio](#ieee-80211-lan-sem-fio)
+      - [Canais e associação](#canais-e-associação)
+      - [O protocolo mac 802.11](#o-protocolo-mac-80211)
 
 ## Introdução
 
@@ -137,7 +137,7 @@ Técnica baseada em permitir que o transmissor envie até w quadros antes do blo
 * Quando um nó quer transmitir, ele pode enviar a uma taxa R.
 * Quando M nós querem transmitir, cada um envia a uma taxa média R/M
 
-### Particionamento de canal:
+#### Particionamento de canal:
 * Divide o canal em pedaços menores: compartimentos de tempo, frequência, etc. Aloca um pedaço para uso exclusivo de cada nó.
 * TDMA: acesso múltiplo por divisão temporal
 * Acesso ao canal é feito por turnos. Cada estação controla um compartimento (“slot”) de tamanho fixo em cada turno
@@ -145,17 +145,17 @@ Técnica baseada em permitir que o transmissor envie até w quadros antes do blo
 * O espectro do canal é dividido em bandas de frequência. Cada estação recebe uma banda de frequência
 * Em ambos os casos os compartimentos de frequência ou tempo não usados são um desperdício
 
-### Passagem de permissão
+#### Passagem de permissão
 * Nós transmitem nos seus turnos (mas com mais volume para enviar podem usar turnos mais longos)
 
-### Protocolo MAC de acesso aleatório 
+#### Protocolo MAC de acesso aleatório 
 * Quando o nó tem um quadro a enviar, este transmite com toda a taxa do canal R e não há uma regra de coordenação a priori entre os nós
 * Canal não dividido, permite colisões
 * Define como detectar e se recuperar de colisões
 * ALOHA e slotted ALOHA
   * A ideia básica é aplicável a qualquer sistema em que usuários descoordenados estão competindo pelo uso de um único canal compartilhado.
 
-### ALOHA
+#### ALOHA
 * A ideia é permitir que os usuários transmitam sempre que tiverem dados a ser enviados.
 * A rede é composta por um grande número de estações que transmitem dados em rajadas.
 * O nó central retransmite todos os quadros (tenham sido recebidos corretamente ou não) através de seu canal de downlink.
@@ -163,13 +163,13 @@ Técnica baseada em permitir que o transmissor envie até w quadros antes do blo
 * Após o envio dos dados, o transmissor espera um período de tempo aleatório pela resposta do nó central.
 * Se a resposta for negativa, uma nova transmissão é feita após um período de tempo aleatório.
 
-### Slotted ALOHA
+#### Slotted ALOHA
 * O tempo é dividido em slots discretos.
 * As estações só podem transmitir quadros no início dos slots de tempo
 * Ao ter colisão cada nó escolhe um tempo aleatório independente para retransmitir
 * A taxa de transmissão nesse caso é o dobro do ALOHA puro.
 
-### CSMA
+#### CSMA
 * Escuta antes de transmitir: 
   * Se o canal parece vazio: transmite o quadro
   * Se o canal está ocupado, adia a transmissão
@@ -184,7 +184,7 @@ Técnica baseada em permitir que o transmissor envie até w quadros antes do blo
   * O tempo de recuo é decrementado enquanto o meio está livre e é congelado enquanto este estiver ocupado.
   * Consequentemente, o meio estará livre quando o contador zerar.
 
-### CSMA/CD
+#### CSMA/CD
 * É a base da conhecida LAN Ethernet
 * Colisões podem ocorrer: o atraso de propagação implica que dois nós quaisquer podem não ouvir as transmissões do outro
 * Quando duas estações começam a transmitir simultaneamente, ambas detectarão a colisão quase de imediato.
@@ -192,7 +192,7 @@ Técnica baseada em permitir que o transmissor envie até w quadros antes do blo
 * Após detectar uma colisão, uma estação cancela sua transmissão, espera um intervalo de tempo aleatório e, em seguida, tenta novamente, supondo que nenhuma outra estação tenha começado a transmitir nesse período. 
 * A interrupção rápida dos quadros com erros economiza tempo e largura de banda.
 
-### Ethernet
+#### Ethernet
 * Sem conexão: não ocorre conexão entre o adaptador transmissor e o receptor.
 * Não confiável: adaptador receptor não envia ACKs ou nacks para o adaptador transmissor
   * Isto tornar a Ethernet simples e barata.
@@ -206,7 +206,7 @@ Técnica baseada em permitir que o transmissor envie até w quadros antes do blo
 > 5.	Após abortar, o adaptador entra em exponential backoff: após a m-ésima colisão, o adaptador escolhe um K aleatório de {0,1,2,…,2m-1}. O adaptador espera 512.K tempos de bit e retorna ao passo 2.
 > <br/>**Jam signal**: garante que todos os outros transmissores estão cientes da colisão.
 
-### IEEE 802.11 LAN sem fio
+#### IEEE 802.11 LAN sem fio
 
 **Padrão** | **Faixa de frequências (EUA)** | **Taxa de dados** 
 :---: | :---: | :---:
@@ -219,12 +219,12 @@ Técnica baseada em permitir que o transmissor envie até w quadros antes do blo
 * Um BSS (basic service set) contém uma ou mais estações sem fio e uma estação-base central, conhecida como um ponto de acesso.
 * Estações IEEE 802.11 também podem se agrupar e formar uma rede ad hoc (rede formada apenas por hospedeiros”).
 
-### Canais e associação
+#### Canais e associação
 * O conjunto dos canais 1, 6 e 11 é o único de três canais não sobrepostos.
 * O padrão 802.11b requer que um AP envie periodicamente quadros de sinalização, cada qual incluindo o SSID e o endereço MAC do AP.
 * A estação sem fio ao tomar conhecimento dos APs disponíveis por meio dos quadros de sinalização, seleciona um desses pontos de acesso para se associar.
 
-### O protocolo mac 802.11
+#### O protocolo mac 802.11
 * CSMA/CA: CSMA com prevenção de colisão.
 * Ao contrário do protocolo Ethernet 802.3, o protocolo MAC 802.11 não implementa detecção de colisão. Isso se deve a duas razões importantes:
   * Difícil de perceber as colisões, pois o sinal que chega é muito fraco
