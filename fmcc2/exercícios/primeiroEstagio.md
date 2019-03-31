@@ -189,3 +189,26 @@ Prove que para todo a, b, c inteiros, se a|b e a|c então a|(b+c)
 
 - **iv)** Por definição, como a soma de dois inteiros resulta em um inteiro, então prova-se por demonstração direta que se a|b e a|c então a|(b+c).
 
+## Questão 7 (Indução Forte)
+Prove, usando indução forte, que é possível pagar qualquer quantia (inteira) maior que R$ 7 usando notas de R$ 3 (caso existissem) e de R$ 5.
+
+- **Passo base:** Para *P(8)*, *P(9)*, *P(10)*, *P(11)*, temos que:
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%20P%288%29%20%3D%205%20&plus;%203%20%3D%208">
+</p>
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%20P%289%29%20%3D%203%20&plus;%203%20&plus;%203%20%3D%209">
+</p>
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%20P%2810%29%20%3D%205%20&plus;%205%20%3D%2010">
+</p>
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%20P%2811%29%20%3D%203%20&plus;%203%20&plus;%205%20%3D%2011">
+</p>
+
+ou seja, para o caso base, a afirmação é verdadeira;
+
+- **Passo indutivo:** *P(t)* é verdadeiro para *7 < t <= k*.
+- Por essa hipótese, podemos concluir que *P(k - 2)* é verdadeiro, pois *k - 2 > 7*;
+- Ou seja, podemos formar valores de *k - 2* reais utilizando apenas notas de 3 e 5 reais;
+- E, para formar o valor de *k + 1* reais, basta adicionar mais uma nota de 3 à quantia de *k - 2* reais.
