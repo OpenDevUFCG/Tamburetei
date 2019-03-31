@@ -212,3 +212,51 @@ ou seja, para o caso base, a afirmação é verdadeira;
 - Por essa hipótese, podemos concluir que *P(k - 2)* é verdadeiro, pois *k - 2 > 7*;
 - Ou seja, podemos formar valores de *k - 2* reais utilizando apenas notas de 3 e 5 reais;
 - E, para formar o valor de *k + 1* reais, basta adicionar mais uma nota de 3 à quantia de *k - 2* reais.
+
+## Questão 8 (Indução Fraca)
+Mostre que uma árvore binária completa de *k* níveis possui *2^k - 1* vértices.
+
+- **Passo 1:** Para demonstrar o caso base, vamos usar *k = 1*, assim temos:
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%202%5E%7B1%7D%20-1%20%3D%201">
+</p>
+
+Para o caso base, a afirmação é verdadeira.
+
+- **Passo 2:** Na hipótese indutiva, tomaremos a afirmação para *k = a* como verdadeira, ou seja: 
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%20%5Csum_%7Bi%20%3D1%7D%5E%7Ba%7D%202%5E%7Bi%20-1%7D%20-%201%20%3D%202%5E%7Ba%7D%20-%201">
+</p>
+
+onde a primeira parte da igualdade representa a sequência natural de uma árvore binária completa.
+
+- **Passo 3:** Deve-se mostrar que o somatório de vértices dos *a + 1* níveis é igual a <img src="http://latex.codecogs.com/gif.latex?%5Cinline%202%5E%7Ba%20&plus;1%7D%20-%201">.
+
+**i)** Temos que a soma dos vértices entre os *a + 1* níveis, será dado pelo somatório fornecido pela conjectura apresentada no **Passo 2** adicionado pelo próximo elemento da sequência, que será o somatório do nível *a + 1*.
+
+**ii)** Ou seja:
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%20%5Csum_%7Bi%3D1%7D%5E%7Ba&plus;1%7D%20%3D%202%5E%7Bi-1%7D%20%3D%202%5E%7Ba%7D%20-%201%20&plus;%202%5E%7B%28a&plus;1%29%20-1%7D%20%3D%202%5E%7Ba%20&plus;%201%7D%20-1">
+</p>
+
+**iii)** Manipulando a segunda e terceira parte da igualdade, temos: 
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%202%5E%7Ba%7D%20-%201%20&plus;%202%5E%7B%28a&plus;1%29%20-1%7D%20%3D%202%5E%7Ba%20&plus;%201%7D%20-1">
+</p>
+
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%202%5E%7Ba%7D%20-%201%20&plus;%202%5E%7Ba%7D%20%3D%202%5E%7Ba%20&plus;%201%7D%20-1">
+</p>
+
+**iv)** Sabendo, por definição que *x + x = 2x*, temos:
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%202%282%5E%7Ba%7D%29%20-%201%20%3D%202%5E%7Ba&plus;1%7D%20-%201">
+</p>
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%202%5E%7B1%7D.%282%5E%7Ba%7D%29%20-%201%20%3D%202%5E%7Ba&plus;1%7D%20-%201">
+</p>
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%202%5E%7Ba&plus;1%7D%20-%201%20%3D%202%5E%7Ba&plus;1%7D%20-%201">
+</p>
+
+**v)** Como demonstramos a veracidade da afirmação inicial para *k = a + 1*, concluímos o passo 3, e provamos por indução a integridade desta mesma.
