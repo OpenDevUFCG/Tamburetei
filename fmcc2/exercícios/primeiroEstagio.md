@@ -122,3 +122,33 @@ Mostrar para todo inteiro positivo *n*,
 <p align="center"> 
   <img src="https://latex.codecogs.com/gif.latex?%5Clarge%201%20&plus;%202%20&plus;%20...%20&plus;%20n%20%3D%20%5Cfrac%7Bn%28n&plus;1%29%7D%7B2%7D">
 </p>
+
+## Questão 6 (Demonstração Direta)
+Prove que para todo a, b, c inteiros, se a|b e a|c então a|(b+c)
+
+- **i)** Temos por definição que:
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%20a%7Cb%20%5CRightarrow%20b%20%3D%20a.x%2C%20x%20%5Cin%20%5Cmathbb%7BZ%7D">
+</p>
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%20a%7Cc%20%5CRightarrow%20c%20%3D%20a.t%2C%20t%20%5Cin%20%5Cmathbb%7BZ%7D">
+</p>
+
+- **ii)** Seguindo a lógica do passo **i)**, temos que:
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%20a%7C%28b&plus;c%29%20%5CRightarrow%20b&plus;c%20%3D%20a.z%2C%20z%20%5Cin%20%5Cmathbb%7BZ%7D">
+</p>
+
+- **iii)** Substituindo os valores do passo **i)**:
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%20b%20&plus;%20c%20%3D%20a.x%20&plus;%20a.t%20%3D%20a.z">
+</p>
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%20a.%28x&plus;t%29%20%3D%20a.z">
+</p>
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%20x&plus;t%20%3D%20z">
+</p>
+
+- **iv)** Por definição, como a soma de dois inteiros resulta em um inteiro, então prova-se por demonstração direta que se a|b e a|c então a|(b+c).
+
