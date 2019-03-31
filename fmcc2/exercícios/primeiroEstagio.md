@@ -123,6 +123,43 @@ Mostrar para todo inteiro positivo *n*,
   <img src="https://latex.codecogs.com/gif.latex?%5Clarge%201%20&plus;%202%20&plus;%20...%20&plus;%20n%20%3D%20%5Cfrac%7Bn%28n&plus;1%29%7D%7B2%7D">
 </p>
 
+- **Passo 1:** Para demonstrar o caso base , vamos usar *n = 1*, assim temos:
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%20%5Cfrac%7B1%281%20&plus;%201%29%7D%7B2%7D%20%3D%20%5Cfrac%7B2%7D%7B2%7D%20%3D%201">
+</p>
+
+Para o caso base, a afirmação é verdadeira.
+
+- **Passo 2:** Na hipótese indutiva, tomaremos a afirmação para *n = k* como verdadeira, ou seja:
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%201%20&plus;%202%20&plus;%20...%20&plus;%20k%20%3D%20%5Cfrac%7Bk%28k&plus;1%29%7D%7B2%7D">
+</p>
+
+- **Passo 3:** Deve-se mostrar, para *n = k +1*, que
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%201%20&plus;%202%20&plus;%20...%20&plus;%20k%20&plus;%20%28k%20&plus;%201%29%20%3D%20%5Cfrac%7B%28k&plus;1%29%28%28k&plus;1%29&plus;1%29%7D%7B2%7D">
+</p>
+
+é verdadeira.
+
+**i)** Utilizando a conjectura fornecida no passo **ii)**, temos que:
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%20%5Cfrac%7Bk%28k&plus;1%29%7D%7B2%7D%20&plus;%20k%28k&plus;1%29%20%3D%20%5Cfrac%7B%28k&plus;1%29%28k&plus;1&plus;1%29%7D%7B2%7D">
+</p>
+
+**ii)** Tornando os membros com o mesmo denominador na primeira parte da igualdade, temos que
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%20%5Cfrac%7Bk%28k&plus;1%29%20&plus;%202%28k&plus;1%29%7D%7B2%7D%20%3D%20%5Cfrac%7B%28k&plus;1%29%28k&plus;2%29%7D%7B2%7D">
+</p>
+
+**iii)** Aplicando a distributiva entre os elementos em ambas as partes, temos que:
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%20%5Cfrac%7Bk%5E%7B2%7D%20&plus;%20k%20&plus;%202k%20&plus;%202%7D%7B2%7D%20%3D%20%5Cfrac%7Bk%5E%7B2%7D%20&plus;%20k%20&plus;%202k%20&plus;%202%7D%7B2%7D">
+</p>
+
+**iv)** Como demonstramos a veracidade da afirmação inicial para *n = k +1*, concluímos o **Passo 3** e provamos por indução a integridade desta mesma.
+
+
 ## Questão 6 (Demonstração Direta)
 Prove que para todo a, b, c inteiros, se a|b e a|c então a|(b+c)
 
