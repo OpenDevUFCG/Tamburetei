@@ -7,7 +7,7 @@ __author__ = "Ionesio Junior"
 class GnomeSort(Sort):
 	"""Implementação do algoritmo de Ordenação GnomeSort
         
-        Classe para abstração do algoritmo de Ordenação GnomeSort implementado de forma interativa e recursiva
+        Classe para abstração do algoritmo de Ordenação GnomeSort implementado de forma iterativa e recursiva
         
         Complexidade do Algoritmo: O(n^2)
         """
@@ -29,13 +29,13 @@ class GnomeSort(Sort):
 			rightIndex = len(array) - 1
 		if self.__validateParams(array,leftIndex,rightIndex):
 			# Escolher a abordagem a ser utilizada (Interativa / Recursiva)
-                        self.__interactiveGnomeSort(array,leftIndex,rightIndex)		
+                        self.__iteractiveGnomeSort(array,leftIndex,rightIndex)		
 			#self.__recursiveGnomeSort(array,leftIndex,leftIndex + 1 ,rightIndex)
 	
 	
 	
-	def __interactiveGnomeSort(self,array,leftIndex,rightIndex):
-		"""Implementação do método GnomeSort de forma interativa
+	def __iteractiveGnomeSort(self,array,leftIndex,rightIndex):
+		"""Implementação do método GnomeSort de forma iterativa
 		   
                 Parametros:
                     array: Lista a ser ordenada
