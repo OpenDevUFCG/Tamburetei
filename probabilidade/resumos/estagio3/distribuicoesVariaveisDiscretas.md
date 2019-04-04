@@ -7,9 +7,9 @@ Essa distribuição é usada quando estamos interessados em experimentos nos qua
 1. Uma moeda é lançada e o resultado é coroa ou não.
 2. Uma peça é defeituosa ou não.
 
-Assim, uma variável aleatória pode assumir:
-    **1** em caso de sucesso
-    **0** em caso de fracasso
+Assim, uma variável aleatória pode assumir:  
+    **1** em caso de sucesso  
+    **0** em caso de fracasso  
 
 E sua função de probabilidade é dada por:
 
@@ -21,8 +21,8 @@ Em que:
 
 Propriedades:
 
-**E(X): p**  
-**VAR(X): p(1-p)**
+*E(X): p*  
+*VAR(X): p(1-p)*
 
 
 ## Distribuição Binomial
@@ -50,10 +50,12 @@ Em que:
 
 Propriedades:
 
-**E(X): np**  
-**VAR(X): np(1-p)**
+*E(X): np*  
+*VAR(X): np(1-p)*
 
 ## Distribuição Hipergeométrica
+
+*Notação: X~hip(N, K, n)*
 
 Essa distribuição é usada quando fazemos ensaios sem reposição, e os elementos da população são divididos entre aqueles que possuem um atributo A e aqueles possuem um B. A ideia também é muito similar a anterior o que você deve ficar atento é que **não há reposição**.
 
@@ -71,10 +73,29 @@ De maneira mais verborrágica, podemos traduzir essa fórmula, no seguinte, dada
 
 Propriedades:
 
-**E(X): np**  
-**VAR(X): np(1-p)*[(N-n)/(N-1)]**
+*E(X): np*  
+*VAR(X): np(1-p)*[(N-n)/(N-1)]*
 
 
 ## Distribuição de Poisson
 
+Essa distribuição é usada quando temos interesse num certo experimento seja contar o número de
+ocorrência de um certo evento, o qual pode ocorrer durante um intervalo de tempo, ao
+longo de uma superfície ou volume. Por exemplo:
 
+1. Número de chamadas recebidas por um telefone durante 5 min.
+2. Número de falhas de um computador durante um dia de operações.
+
+A sua função de probabilidade é dada por:
+
+![](https://wikimedia.org/api/rest_v1/media/math/render/svg/242598d54a92171cc45b49287a0332d4005e3eef)
+
+Em que:
+
+`λ`, representa a taxa de ocorrência por unidade medida.
+`k`, quantidade de ocorrências do evento de interesse.
+
+Propriedades:
+
+*E(X): λ*  
+*VAR(X): λ*
