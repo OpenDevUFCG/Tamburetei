@@ -74,10 +74,12 @@ De maneira mais verborrágica, podemos traduzir essa fórmula, no seguinte, dada
 Propriedades:
 
 *E(X): np*  
-*VAR(X): np(1-p)*[(N-n)/(N-1)]*
+*VAR(X): np(1-p)*[(N-n)/(N-1)]
 
 
 ## Distribuição de Poisson
+
+*Notação: X ∼ Poisson(λ)*
 
 Essa distribuição é usada quando temos interesse num certo experimento seja contar o número de
 ocorrência de um certo evento, o qual pode ocorrer durante um intervalo de tempo, ao
