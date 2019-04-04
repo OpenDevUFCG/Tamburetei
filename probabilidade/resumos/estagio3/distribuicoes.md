@@ -15,6 +15,10 @@ E sua função de probabilidade é dada por:
 
 ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/6da22ccc121fa8b49e6a52fae06ed88a9e8582f3)
 
+Em que:  
+`p`, representa a prob. de sucesso.  
+`1-p`, representa a prob. de fracasso.  
+
 Propriedades:
 
 **E(X): p**  
@@ -37,12 +41,38 @@ Além dessas, temos outras e como cada uma dessas representa uma possibilidade, 
 
 ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/7a96d0dd9ee96319dacfbe372578fbcc29ffdefa)
 
+Em que:  
+`p`, representa a prob. de sucesso.  
+`1-p`, representa a prob. de fracasso.  
+`k`, representa a quantidade de sucessos.  
+`n`, representa a quantidade de ensaios.
+
+
 Propriedades:
 
 **E(X): np**  
 **VAR(X): np(1-p)**
 
 ## Distribuição Hipergeométrica
+
+Essa distribuição é usada quando fazemos ensaios sem reposição, e os elementos da população são divididos entre aqueles que possuem um atributo A e aqueles possuem um B. A ideia também é muito similar a anterior o que você deve ficar atento é que **não há reposição**.
+
+Dito isso, podemos definir a função de probabilidade dessa distribuição como sendo:
+
+![](https://wikimedia.org/api/rest_v1/media/math/render/svg/cb1f04d4adc49785408d221abb404bfe5751b2c8)
+
+Em que:  
+`K`, representa a quantidade de elementos que possuem o atributo de interesse.  
+`k`, representa a quantidade de elementos que queremos que tenha o atributo.  
+`N`, representa a população.
+`n`, representa a quantidade de elementos retirados ao acaso.
+
+De maneira mais verborrágica, podemos traduzir essa fórmula, no seguinte, dada uma população de `N` objetos, sabemos que `K` contém um atributo A e `N-K` possuem um B. Desses objetos `n` são escolhidos ao acaso, sem reposição, e queremos saber a probabilidade de `k` elementos dessa amostra possuirem o atributo A.
+
+Propriedades:
+
+**E(X): np**  
+**VAR(X): np(1-p)*[(N-n)/(N-1)]**
 
 
 ## Distribuição de Poisson
