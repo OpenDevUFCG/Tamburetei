@@ -117,7 +117,7 @@ class SelectionSort(Sort):
 				maxValue = index
 			self.__recursiveGetMax(array,leftIndex,rightIndex,maxValue,index-1)
 		else:
-			array[maxValue],array[rightIndex] = array[rightIndex] , array[maxValue]
+			array[maxValue], array[rightIndex] = array[rightIndex] , array[maxValue]
 
 
 	def __recursiveGetMin(self,array,leftIndex,rightIndex,minValue,index):
