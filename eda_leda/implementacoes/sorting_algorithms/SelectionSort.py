@@ -156,4 +156,4 @@ class SelectionSort(Sort):
 		if(array == None or leftIndex < 0 or rightIndex > len(array) -1 or leftIndex >= rightIndex):
 			return False
 		else:
-			return True;
+			return True
