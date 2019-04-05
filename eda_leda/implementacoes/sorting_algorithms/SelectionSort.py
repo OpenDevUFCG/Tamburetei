@@ -115,7 +115,7 @@ class SelectionSort(Sort):
 		if(index >= leftIndex):
 			if(array[maxValue] < array[index]):
 				maxValue = index
-			self.__recursiveGetMax(array,leftIndex,rightIndex,maxValue,index-1)
+			self.__recursiveGetMax(array, leftIndex, rightIndex, maxValue, index - 1)
 		else:
 			array[maxValue], array[rightIndex] = array[rightIndex] , array[maxValue]
 
