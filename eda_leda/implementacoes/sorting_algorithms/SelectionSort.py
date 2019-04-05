@@ -10,7 +10,7 @@ class SelectionSort(Sort):
         Complexidade do Algoritmo: O(n^2)
         """
 
-	def sort(self,array,leftIndex = 0 , rightIndex = None):
+	def sort(self, array, leftIndex = 0 , rightIndex = None):
                 """Método genérico de interface para aplicar 
                    o algoritmo de ordenação no array por completo ou usando limites
                 
