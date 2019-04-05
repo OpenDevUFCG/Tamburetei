@@ -101,7 +101,7 @@ class SelectionSort(Sort):
 			self.__recursiveBidirectionalSelectionSort(array,leftIndex + 1,rightIndex-1)
 
 	
-	def __recursiveGetMax(self,array,leftIndex,rightIndex,maxValue,index):
+	def __recursiveGetMax(self, array, leftIndex, rightIndex, maxValue, index):
 		""" Método auxiliar de recursão
 		Este método pega o maior elemento do array e troca de posição com o indíce a direita
 		
