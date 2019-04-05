@@ -70,7 +70,7 @@ class SelectionSort(Sort):
 			for i in range(rightIndex - 1 , leftIndex - 1, -1):
 				if(array[maxIndex] < array[i]):
 					maxIndex = i
-			array[maxIndex] , array[rightIndex] = array[rightIndex],array[maxIndex]
+			array[maxIndex], array[rightIndex] = array[rightIndex], array[maxIndex]
 			rightIndex = rightIndex -1
 
 	
