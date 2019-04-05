@@ -98,7 +98,7 @@ class SelectionSort(Sort):
 		if(leftIndex < rightIndex):
 			self.__recursiveGetMax(array, leftIndex, rightIndex, rightIndex, rightIndex)
 			self.__recursiveGetMin(array, leftIndex, rightIndex, leftIndex, leftIndex)
-			self.__recursiveBidirectionalSelectionSort(array,leftIndex + 1,rightIndex-1)
+			self.__recursiveBidirectionalSelectionSort(array, leftIndex + 1, rightIndex - 1)
 
 	
 	def __recursiveGetMax(self, array, leftIndex, rightIndex, maxValue, index):
