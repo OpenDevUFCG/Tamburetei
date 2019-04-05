@@ -42,7 +42,7 @@ class SelectionSort(Sort):
                     rightIndex(Opcional): Índice limítrofe a direita do array para ordenação parcial
                 """		
 		while(leftIndex < rightIndex):
-			minIndex = leftIndex;
+			minIndex = leftIndex
 			for i in range(leftIndex + 1, rightIndex + 1):
 				if(array[minIndex]> array[i]):
 					minIndex = i
