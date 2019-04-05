@@ -134,7 +134,7 @@ class SelectionSort(Sort):
 		if(index <= rightIndex):
 			if(array[minValue] > array[index]):
 				minValue = index
-			self.__recursiveGetMin(array,leftIndex,rightIndex,minValue,index +1)
+			self.__recursiveGetMin(array, leftIndex, rightIndex, minValue, index + 1)
 		else:
 			array[minValue] ,array[leftIndex] = array[leftIndex] , array[minValue]
 
