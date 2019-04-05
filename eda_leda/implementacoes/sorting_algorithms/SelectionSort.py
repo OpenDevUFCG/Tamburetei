@@ -63,7 +63,7 @@ class SelectionSort(Sort):
 			for i in range(leftIndex + 1 ,rightIndex +1):
 				if(array[minIndex] > array[i]):
 					minIndex = i		
-			array[minIndex], array[leftIndex] = array[leftIndex],array[minIndex]
+			array[minIndex], array[leftIndex] = array[leftIndex], array[minIndex]
 			leftIndex = leftIndex +1
 			
 			maxIndex = rightIndex
