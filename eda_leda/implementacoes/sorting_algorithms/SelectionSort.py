@@ -71,7 +71,7 @@ class SelectionSort(Sort):
 				if(array[maxIndex] < array[i]):
 					maxIndex = i
 			array[maxIndex], array[rightIndex] = array[rightIndex], array[maxIndex]
-			rightIndex = rightIndex -1
+			rightIndex = rightIndex - 1
 
 	
 	def __recursiveSimpleSelectionSort(self,array,leftIndex,rightIndex):
