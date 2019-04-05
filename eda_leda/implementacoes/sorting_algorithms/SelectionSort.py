@@ -43,7 +43,7 @@ class SelectionSort(Sort):
                 """		
 		while(leftIndex < rightIndex):
 			minIndex = leftIndex;
-			for i in range(leftIndex+1,rightIndex+1):
+			for i in range(leftIndex + 1, rightIndex + 1):
 				if(array[minIndex]> array[i]):
 					minIndex = i
 			array[minIndex],array[leftIndex] = array[leftIndex] ,array[minIndex]
