@@ -24,7 +24,7 @@ class SelectionSort(Sort):
                     algorithm.sort(array,leftLimit,rightLimit): Retorna a lista parcialmente ordenada
                 """		
 		if(rightIndex == None):
-			rightIndex = len(array) -1
+			rightIndex = len(array) - 1
 		if self.__validateParams(array,leftIndex,rightIndex):
 			# Escolher a abordagem a ser utilizada (Iterativa/ Recursiva | Padrão / Bidirecional)
 			#self.__simpleSelectionSort(array,leftIndex,rightIndex)
