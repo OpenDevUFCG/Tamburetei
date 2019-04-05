@@ -96,7 +96,7 @@ class SelectionSort(Sort):
                     rightIndex(Opcional): Índice limítrofe a direita do array para ordenação parcial
                 """		
 		if(leftIndex < rightIndex):
-			self.__recursiveGetMax(array,leftIndex,rightIndex,rightIndex,rightIndex)
+			self.__recursiveGetMax(array, leftIndex, rightIndex, rightIndex, rightIndex)
 			self.__recursiveGetMin(array,leftIndex,rightIndex,leftIndex,leftIndex)
 			self.__recursiveBidirectionalSelectionSort(array,leftIndex + 1,rightIndex-1)
 
