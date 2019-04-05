@@ -33,7 +33,7 @@ class SelectionSort(Sort):
 			#self.__recursiveBidirectionalSelectionSort(array,leftIndex,rightIndex)
 	
 	
-	def __simpleSelectionSort(self,array,leftIndex,rightIndex):
+	def __simpleSelectionSort(self, array, leftIndex, rightIndex):
                 """Implementação do método SelectionSort de forma iterativa
                    
                 Parametros:
