@@ -1,4 +1,4 @@
-# Resumo RAGNAROK do Primeiro Estágio
+# Resumo do Primeiro Estágio
 
 ## Assuntos Abordados
 - [Processos](#processos)
