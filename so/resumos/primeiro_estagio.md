@@ -84,18 +84,20 @@ que o outro o acorde de forma que nenhum consiga ser acordado nem acordar o outr
 - Semáforo é um contado de wakeups.
 
 - Contêm duas operações principais *down(sem)* e *up(sem)*
-` down(sem){
+```javascript
+  down(sem){
     if (sem == 0) sleep();
     sem--;
   }
-`
+```
 
-` up(sem){
+```javascript
+  up(sem){
     sem++;
     if (sem == 1)
       wakeup(processo_dormindo_em_sem);
   }
-`
+```
 
 - É importante que não haja interrupção entre o teste e a ação. Por isso, existem comandos chamados de
 **TSL** (test and set lock) para realizar o teste e a modificação de um registrador em um só comando.
