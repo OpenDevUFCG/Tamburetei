@@ -38,6 +38,8 @@ A partir da lista de requisitos gerais (Product Backlog), é hora de começar a 
 
 > **O Release Backlog pode ser igual ao Product Backlog!**
 
+![Priorização do Product Backlog](https://www.visual-paradigm.com/servlet/editor-content/scrum/scrum-100-points-method/sites/7/2018/11/prioritized-product-backlog.png)
+
 É o resultado final da filtragem do Product Backlog por parte do Product Owner, que contém todos os requisitos que a versão final do *release* que está sendo desenvolvido deve ter. O time, então, deve priorizar os requisitos da Release Backlog e fazer estimativas de quanto tempo de trabalho, esforço e complexidade será necessário para desenvolver cada um deles, para que, ao final, se possa prover uma ideia geral da quantidade de trabalho envolvido para completar todo o release.
 
 Para realizar as estimativas, independentemente da técnica decidida pelo time, é importante que:
@@ -63,7 +65,7 @@ Com o *Release Backlog* em mãos, agora já se pode começar a planejar as sprin
 - No início de cada sprint, se faz um ***Sprint Planning Meeting***, uma reunião de planejamento em que o *Product Owner* prioriza os itens do *Release Backlog*.
 - Tarefas de uma sprints são transferidas do *Product Backlog* para o ***Sprint Backlog***, que é a lista de tarefas que o time de desenvolvimento se compromete a fazer dentro do período de duração da sprint.
 
-![Sprint Backlog](https://scrumorg-website-prod.s3.amazonaws.com/drupal/inline-images/2017-03/SprintBacklog_0.png)
+![Sprint Backlog](https://reqtest.com/wp-content/uploads/2015/08/product-backlog.jpg)
 
 - Ao final de cada Sprint, deve-se apresentar um mini-produto completamente testado com todos os requisitos definidos para aquela Sprint 100% implementados.
 
