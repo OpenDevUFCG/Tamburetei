@@ -1,5 +1,5 @@
 
-# Tamburetei [![Join the chat at https://gitter.im/OpenDevUFCG/Tamburetei](https://badges.gitter.im/OpenDevUFCG/Tamburetei.svg)](https://gitter.im/OpenDevUFCG/Tamburetei?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# Tamburetei [![chat on Discord](https://img.shields.io/discord/558293573494112257.svg?logo=discord)](https://discordapp.com/invite/vFFGGEE)
 ![Tamburetei Logo](https://i.imgur.com/FOgBKcI.png)
 
 Tamburetei vai te ajudar a fazer de tamburete aquela cadeira de CC. Direcionado ao curso de Ciência da Computação da UFCG, esse repositório é um trabalho colaborativo contendo dicas, links úteis e leites das disciplinas do curso. A ideia é que veteranos ajudem os novatos e ninguém mais passe sufoco em nenhuma cadeira. :)
@@ -31,7 +31,48 @@ E em seguida, execute o comando:
 ./create_folder_structure
 ```
 
-Agora basta informar o nome da disciplina e a nova pasta será criada!
+Informe o nome da pasta de disciplina e ela será criada automaticamente. Lembre de substituir o **{discipline}** no `README.md` pelo nome completo da disciplina.
+
+
+## Disciplinas
+
+### Primeiro Periodo
+
+- [Fundamentos de Matemática para Ciência da Computação I](fmcc1)
+- [Introdução à Computação](ic)
+- [Programação I](prog1)
+
+### Segundo Periodo
+
+- [Cálculo Diferencial e Integral I](calculo1)
+- [Fundamentos de Matemática para Ciência da Computação II](fmcc2)
+- [Programação II](prog2)
+
+### Terceiro Periodo
+
+- [Álgebra Linear I](linear)
+- [Cálculo Diferencial e Integral II](calculo2)
+- [Estrutura de Dados e Algoritmos](eda_leda)
+- [Lógica para Computação](logica)
+- [Teoria dos Grafos](grafos)
+
+### Quarto Período
+
+- [Banco de Dados I](bd)
+- [Introdução à Probabilidade](probabilidade)
+- [Laboratório de Organização e Arquitetura de Computadores](loac)
+- [Organização e Arquitetura de Computadores](oac)
+- [Paradigmas de Linguagem de Programação](plp)
+- [Projeto de Software](psoft)
+
+### Quinto Período
+
+- [Análise de Sistemas](as)
+- [Engenharia de Software](es)
+- [Estatística Aplicada](estatistica)
+- [Redes de Computadores](redes)
+- [Sistemas Operacionais](so)
+- [Teoria da Computação](tc)
 
 
 ## Regras
