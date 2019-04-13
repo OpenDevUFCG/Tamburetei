@@ -1,5 +1,7 @@
 ## Prova 01
 
+**Professor:** Andrey Brito
+
 1. Construa dois autômatos A1 e A2, tal que Σ = {0,1}, em que, L(A1) = {w E Σ* | w tem comprimento múltiplo de 3}, L(A2) = {w E Σ* | w é um número binário divisível por 5}.
 
 2. Prove que, dados dois autômatos(A1 e A2), com o mesmo alfabeto, a operação de subtração (`A1 - A2`), ainda é um autômato.  
