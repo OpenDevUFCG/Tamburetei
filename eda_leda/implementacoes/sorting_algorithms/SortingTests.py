@@ -1,7 +1,8 @@
 import unittest
 
 from GnomeSort import GnomeSort
-
+from InsertionSort import InsertionSort
+from SelectionSort import SelectionSort
 
 class OrdinationTest(unittest.TestCase):
 	
@@ -13,8 +14,11 @@ class OrdinationTest(unittest.TestCase):
 		self.repeated = [5,9,8,7,6,8,6,8,5,4,3,2]
 		self.ordered = [1,2,3,4,5,6,7,8,9]
 		
-		self.algorithm = GnomeSort()
-	
+                # Escolher o algoritmo a ser usado na suite de testes
+		#self.algorithm = GnomeSort()
+	        #self.algorithm = InsertionSort()
+                self.algorithm = SelectionSort()
+
 	def genericTest(self,array):
 		copy = array[:]
 		self.algorithm.sort(array)

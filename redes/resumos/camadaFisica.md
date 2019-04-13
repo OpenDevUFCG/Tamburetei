@@ -11,6 +11,7 @@
     - [Conceito de Redes de Computadores](#conceito-de-edes-de-computadores)
     - [O que é Protocolo?](#o-que-é-protocolo-?)
     - [Serviço Orientado a Conexão](#serviço-orientado-a-conexão)
+    - [Serviço Não Orientado a Conexão](#serviço-não-orientado-a-conexão)
   - [TCP/IP](#tcp/ip)
     - [Modelo TCP/IP](#modelo-tcp/ip)    
 
@@ -81,6 +82,10 @@ Existem diversos tipos de protocolos, cada um focado em um aspecto e funcionalid
 
 
 ### Serviço Orientado a Conexão
+
+Trata-se dos protocolos que operam controle de transmissão de dados durante uma comunicação estabelecida entre duas máquinas. Em tal esquema, a máquina receptora envia avisos de recepção durante a comunicação, assim a máquina emissora é fiadora da validade dos dados que envia. Os dados são assim enviados sob a forma de fluxo. O TCP é um protocolo orientado para a conexão.
+
+### Serviço Não Orientado a Conexão
 
 Trata-se de um modo de comunicação no qual a máquina emissora envia dados sem prevenir a máquina receptora, e a máquina receptora recebe os dados sem avisos de recepção à primeira. Os dados são assim enviados sob a forma de blocos (datagramas). O UDP é um exemplo de protocolo não orientado para a conexão. No caso do UDP, a transferência de dados não é confiável, não tem controle de fluxo e nem controle de congestão. Aplicações que utilizam UDP: Streaming media, teleconferência, DNS, telefonia IP.
 
