@@ -8,6 +8,8 @@
    a. Se quiséssemos obter uma amostra, qual deveria ser o seu tamanho, admitindo um erro de 2%?  
    b. Qual a melhor técnica para selecionar essa amostra? E se existirem grupos, qual deve ser o tamanho de cada um deles?  
 
-3. 
+3.
 
-4. Suponha que numa pesquisa de mercadi estima-se que 80% das pessoas entrevistadas preferirão a marca A de um produto. Essa informação é baseada em pesquisas anteriores. Se quisermos que o erro amostral seja menor que 2%, com probabilidade igual a 95%, teremos?
+4. Suponha que numa pesquisa de mercado estima-se que 80% das pessoas entrevistadas preferirão a marca A de um produto. Essa informação é baseada em pesquisas anteriores.
+    a. Se quisermos que o erro amostral seja menor que 2%, com probabilidade igual a 95%, qual o tamanho da amostra a escolher?
+    b. Qual deveria ser a probabilidade, se quisessemos que mais que 90% dos eleitores fosse favoráveis a marca A?
