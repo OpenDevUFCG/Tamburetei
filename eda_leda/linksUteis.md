@@ -16,6 +16,10 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 
 - [VisuAlgo](https://visualgo.net/pt)
 
+## Blogs
+
+- [basecs](https://medium.com/basecs/tagged/data-structures)
+
 ## Implementações
 
 - [Algoritmos de ordenação](https://github.com/SpinnelSun/MySortingAlgorithms)
