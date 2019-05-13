@@ -122,3 +122,141 @@ Mostrar para todo inteiro positivo *n*,
 <p align="center"> 
   <img src="https://latex.codecogs.com/gif.latex?%5Clarge%201%20&plus;%202%20&plus;%20...%20&plus;%20n%20%3D%20%5Cfrac%7Bn%28n&plus;1%29%7D%7B2%7D">
 </p>
+
+- **Passo 1:** Para demonstrar o caso base , vamos usar *n = 1*, assim temos:
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%20%5Cfrac%7B1%281%20&plus;%201%29%7D%7B2%7D%20%3D%20%5Cfrac%7B2%7D%7B2%7D%20%3D%201">
+</p>
+
+Para o caso base, a afirmação é verdadeira.
+
+- **Passo 2:** Na hipótese indutiva, tomaremos a afirmação para *n = k* como verdadeira, ou seja:
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%201%20&plus;%202%20&plus;%20...%20&plus;%20k%20%3D%20%5Cfrac%7Bk%28k&plus;1%29%7D%7B2%7D">
+</p>
+
+- **Passo 3:** Deve-se mostrar, para *n = k +1*, que
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%201%20&plus;%202%20&plus;%20...%20&plus;%20k%20&plus;%20%28k%20&plus;%201%29%20%3D%20%5Cfrac%7B%28k&plus;1%29%28%28k&plus;1%29&plus;1%29%7D%7B2%7D">
+</p>
+
+é verdadeira.
+
+**i)** Utilizando a conjectura fornecida no passo **ii)**, temos que:
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%20%5Cfrac%7Bk%28k&plus;1%29%7D%7B2%7D%20&plus;%20k%28k&plus;1%29%20%3D%20%5Cfrac%7B%28k&plus;1%29%28k&plus;1&plus;1%29%7D%7B2%7D">
+</p>
+
+**ii)** Tornando os membros com o mesmo denominador na primeira parte da igualdade, temos que
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%20%5Cfrac%7Bk%28k&plus;1%29%20&plus;%202%28k&plus;1%29%7D%7B2%7D%20%3D%20%5Cfrac%7B%28k&plus;1%29%28k&plus;2%29%7D%7B2%7D">
+</p>
+
+**iii)** Aplicando a distributiva entre os elementos em ambas as partes, temos que:
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%20%5Cfrac%7Bk%5E%7B2%7D%20&plus;%20k%20&plus;%202k%20&plus;%202%7D%7B2%7D%20%3D%20%5Cfrac%7Bk%5E%7B2%7D%20&plus;%20k%20&plus;%202k%20&plus;%202%7D%7B2%7D">
+</p>
+
+**iv)** Como demonstramos a veracidade da afirmação inicial para *n = k +1*, concluímos o **Passo 3** e provamos por indução a integridade desta mesma.
+
+
+## Questão 6 (Demonstração Direta)
+Prove que para todo a, b, c inteiros, se a|b e a|c então a|(b+c)
+
+- **i)** Temos por definição que:
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%20a%7Cb%20%5CRightarrow%20b%20%3D%20a.x%2C%20x%20%5Cin%20%5Cmathbb%7BZ%7D">
+</p>
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%20a%7Cc%20%5CRightarrow%20c%20%3D%20a.t%2C%20t%20%5Cin%20%5Cmathbb%7BZ%7D">
+</p>
+
+- **ii)** Seguindo a lógica do passo **i)**, temos que:
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%20a%7C%28b&plus;c%29%20%5CRightarrow%20b&plus;c%20%3D%20a.z%2C%20z%20%5Cin%20%5Cmathbb%7BZ%7D">
+</p>
+
+- **iii)** Substituindo os valores do passo **i)**:
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%20b%20&plus;%20c%20%3D%20a.x%20&plus;%20a.t%20%3D%20a.z">
+</p>
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%20a.%28x&plus;t%29%20%3D%20a.z">
+</p>
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%20x&plus;t%20%3D%20z">
+</p>
+
+- **iv)** Por definição, como a soma de dois inteiros resulta em um inteiro, então prova-se por demonstração direta que se a|b e a|c então a|(b+c).
+
+## Questão 7 (Indução Forte)
+Prove, usando indução forte, que é possível pagar qualquer quantia (inteira) maior que R$ 7 usando notas de R$ 3 (caso existissem) e de R$ 5.
+
+- **Passo base:** Para *P(8)*, *P(9)*, *P(10)*, *P(11)*, temos que:
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%20P%288%29%20%3D%205%20&plus;%203%20%3D%208">
+</p>
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%20P%289%29%20%3D%203%20&plus;%203%20&plus;%203%20%3D%209">
+</p>
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%20P%2810%29%20%3D%205%20&plus;%205%20%3D%2010">
+</p>
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%20P%2811%29%20%3D%203%20&plus;%203%20&plus;%205%20%3D%2011">
+</p>
+
+ou seja, para o caso base, a afirmação é verdadeira;
+
+- **Passo indutivo:** *P(t)* é verdadeiro para *7 < t <= k*.
+- Por essa hipótese, podemos concluir que *P(k - 2)* é verdadeiro, pois *k - 2 > 7*;
+- Ou seja, podemos formar valores de *k - 2* reais utilizando apenas notas de 3 e 5 reais;
+- E, para formar o valor de *k + 1* reais, basta adicionar mais uma nota de 3 à quantia de *k - 2* reais.
+
+## Questão 8 (Indução Fraca)
+Mostre que uma árvore binária completa de *k* níveis possui *2^k - 1* vértices.
+
+- **Passo 1:** Para demonstrar o caso base, vamos usar *k = 1*, assim temos:
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%202%5E%7B1%7D%20-1%20%3D%201">
+</p>
+
+Para o caso base, a afirmação é verdadeira.
+
+- **Passo 2:** Na hipótese indutiva, tomaremos a afirmação para *k = a* como verdadeira, ou seja: 
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%20%5Csum_%7Bi%20%3D1%7D%5E%7Ba%7D%202%5E%7Bi%20-1%7D%20-%201%20%3D%202%5E%7Ba%7D%20-%201">
+</p>
+
+onde a primeira parte da igualdade representa a sequência natural de uma árvore binária completa.
+
+- **Passo 3:** Deve-se mostrar que o somatório de vértices dos *a + 1* níveis é igual a <img src="http://latex.codecogs.com/gif.latex?%5Cinline%202%5E%7Ba%20&plus;1%7D%20-%201">.
+
+**i)** Temos que a soma dos vértices entre os *a + 1* níveis, será dado pelo somatório fornecido pela conjectura apresentada no **Passo 2** adicionado pelo próximo elemento da sequência, que será o somatório do nível *a + 1*.
+
+**ii)** Ou seja:
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%20%5Csum_%7Bi%3D1%7D%5E%7Ba&plus;1%7D%20%3D%202%5E%7Bi-1%7D%20%3D%202%5E%7Ba%7D%20-%201%20&plus;%202%5E%7B%28a&plus;1%29%20-1%7D%20%3D%202%5E%7Ba%20&plus;%201%7D%20-1">
+</p>
+
+**iii)** Manipulando a segunda e terceira parte da igualdade, temos: 
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%202%5E%7Ba%7D%20-%201%20&plus;%202%5E%7B%28a&plus;1%29%20-1%7D%20%3D%202%5E%7Ba%20&plus;%201%7D%20-1">
+</p>
+
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%202%5E%7Ba%7D%20-%201%20&plus;%202%5E%7Ba%7D%20%3D%202%5E%7Ba%20&plus;%201%7D%20-1">
+</p>
+
+**iv)** Sabendo, por definição que *x + x = 2x*, temos:
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%202%282%5E%7Ba%7D%29%20-%201%20%3D%202%5E%7Ba&plus;1%7D%20-%201">
+</p>
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%202%5E%7B1%7D.%282%5E%7Ba%7D%29%20-%201%20%3D%202%5E%7Ba&plus;1%7D%20-%201">
+</p>
+<p align="center"> 
+  <img src="http://latex.codecogs.com/gif.latex?%5Clarge%202%5E%7Ba&plus;1%7D%20-%201%20%3D%202%5E%7Ba&plus;1%7D%20-%201">
+</p>
+
+**v)** Como demonstramos a veracidade da afirmação inicial para *k = a + 1*, concluímos o passo 3, e provamos por indução a integridade desta mesma.
