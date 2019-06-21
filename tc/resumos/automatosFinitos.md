@@ -26,7 +26,7 @@ Na Teoria da Computação, os objetos de estudo são as **linguagens** e as ferr
 - A* = { x1, x2, ..., xk | xi ∈ A e k ≥ 0 }
 ```
 
-Porém existem outras operações abordadas durante a disciplina como o complemento, a intersecção, a subtração, etc. Se uma operação realizada sobre uma linguagem da classe C sempre gera um linguagem da mesma classe, diz-se que a classe é **fechada** por esta operação.
+Porém existem outras operações abordadas durante a disciplina como o complemento, a intersecção, a subtração, etc. Se uma operação realizada sobre uma linguagem da classe C sempre gera uma linguagem da mesma classe, diz-se que a classe é **fechada** por esta operação.
 
 O símbolo *lambda* (**λ**) representa a palavra vazia (ou nula), em alguns livros utiliza-se o épsilon (**ε**). Já **Σ*** denota o alfabeto binário.
 
@@ -34,6 +34,6 @@ O símbolo *lambda* (**λ**) representa a palavra vazia (ou nula), em alguns liv
 
 Enquanto nos AFDs os estados e as transições são bem determinadas, em um **autômato finito não-determinístico (AFND)** podem existir múltiplas possibilidades para o próximo estado dado um mesmo símbolo, assim, ele torna-se capaz de explorar diversas possibilidades simultaneamente. Formalmente, difere dos AFDs apenas por sua função da transição, que é da forma **δ: Q × Σε → Q**.
 
-Nos AFNDS, um estado pode ter zero ou mais transições para cada símbolo do alfabeto e zero ou mais transições para o símbolo **λ**. Os arcos rotulados com **λ** indicam que é possível realizar aquela transição sem consumir símbolos da cadeia de entrada. 
+Nos AFNDS, um estado pode ter zero ou mais transições para cada símbolo do alfabeto e zero ou mais transições para o símbolo **ε** (ou **λ** em outras notações). Os arcos rotulados com **ε** indicam que é possível realizar aquela transição sem consumir símbolos da cadeia de entrada. 
 
 É importante compreender que todo autômato determinístico é um autômato não-determinístico e, portanto, o não-determinismo não representa um aumento de capacidade dos autômatos.

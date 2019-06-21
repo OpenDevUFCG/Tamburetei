@@ -39,7 +39,7 @@ As **variações** de máquinas de Turing são ambundantes, mas todas reconhecem
 
 ### Multifitas
 
-É o tipo de variação em que a máquina de Turing não possui apenas uma fita infinita, mas várias delas (que são utilizadas simultaneamente). É importante compreender que, para toda MT multifita, existe uma máquina MT de fita única equivalente. Na máquina de Turing de fita única, a fita será a concatenação das fitas originais com um símbolo (geralmente **#**) que identifica a divisão entre elas.
+É o tipo de variação em que a máquina de Turing não possui apenas uma fita infinita, mas várias delas (que são utilizadas simultaneamente). É importante compreender que, para toda MT multifita, existe uma máquina MT de fita única equivalente. Na máquina de Turing de fita única, a fita será a concatenação das fitas originais com um símbolo (geralmente **#**) que identifica a divisão entre elas. Ainda, para monitorar a posição do cabeçote em cada fita, é adicionada uma marca ao símbolo atual de cada uma delas.
 
 ### Não-Determinística
 
