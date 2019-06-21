@@ -23,7 +23,7 @@ Na Teoria da Computação, os objetos de estudo são as **linguagens** e as ferr
 ```
 - A ∪ B = { x | x ∈ A ou x ∈ B }
 - A • B = { xy | x ∈ A e y ∈ B }
-- A* = { x1, x2, ..., xk | xi ∈ A e k >= 0 }
+- A* = { x1, x2, ..., xk | xi ∈ A e k ≥ 0 }
 ```
 
 Porém existem outras operações abordadas durante a disciplina como o complemento, a intersecção, a subtração, etc. Se uma operação realizada sobre uma linguagem da classe C sempre gera um linguagem da mesma classe, diz-se que a classe é **fechada** por esta operação.
