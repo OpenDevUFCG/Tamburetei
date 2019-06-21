@@ -22,7 +22,7 @@ No **diagrama de estados**, utiliza-se a notação **a, b → c** para as transi
 
 ## Linguagens Livres de Contexto
 
-Os autômatos de pilha são capazes de reconhecer algumas linguagens não-regulares e equivalem às **gramáticas livres de contexto (GLC)**. Além disso, dada uma **linguagem livre de contexto (LLC)**, obrigatoriamente há um autômato de pilha que a reconheça. Assim, uma forma prática de provar que uma linguagem é livre de contexto é construir o autômato de pilha que à reconheça.
+Os autômatos de pilha são capazes de reconhecer algumas linguagens não-regulares e equivalem às **gramáticas livres de contexto (GLC)**. Além disso, dada uma **linguagem livre de contexto (LLC)**, obrigatoriamente há um autômato de pilha que a reconheça. Assim, uma forma prática de provar que uma linguagem é livre de contexto é construir o autômato de pilha que a reconheça.
 
 Para criar um autômato de pilha que reconheça uma gramática livre de contexto, se começa adicionando o símbolo **$** e a variável inicial à pilha. A seguir, inicia-se o seguinte *loop*: 
 
