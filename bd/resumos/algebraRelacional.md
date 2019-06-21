@@ -1,60 +1,49 @@
 # Álgebra Relacional
 
 ## Sumário
+
 - [Álgebra Relacional](#%C3%A1lgebra-relacional)
   - [Sumário](#sum%C3%A1rio)
-  - [Visão Geral](#vis%C3%A3o-geral)
+  - [Introdução](#Introduç%C3%A3o)
   - [Relações Unárias](#rela%C3%A7%C3%B5es-un%C3%A1rias)
     - [SELECT](#select)
-      - [Exemplo](#exemplo)
-        - [Comutativa](#comutativa)
     - [PROJECT](#project)
-      - [Exemplo](#exemplo-1)
     - [RENAME](#rename)
-      - [Exemplo](#exemplo-2)
-  - [Teoria dos conjuntos](#teoria-dos-conjuntos)
+  - [Teoria dos Conjuntos](#teoria-dos-conjuntos)
     - [UNION](#union)
-      - [Exemplo](#exemplo-3)
     - [INTERSECTION](#intersection)
-      - [Exemplo](#exemplo-4)
     - [DIFFERENCE](#difference)
-      - [Exemplo](#exemplo-5)
     - [CARTESIAN PRODUCT](#cartesian-product)
-      - [Exemplo](#exemplo-6)
-  - [Relacionais binárias](#relacionais-bin%C3%A1rias)
+  - [Relacionais Binárias](#relacionais-bin%C3%A1rias)
     - [JOIN](#join)
-      - [Exemplo](#exemplo-7)
       - [EQUIJOIN](#equijoin)
       - [NATURAL JOIN](#natural-join)
-        - [Exemplo](#exemplo-8)
     - [DIVISION](#division)
-      - [Exemplo](#exemplo-9)
 
+## Introdução
 
-## Visão Geral
+A maioria dos bancos de dados relacionais utilizam linguagem SQL, uma *linguagem prática* do modelo relacional. A SQL é baseada nos conceitos de **álgebra relacional**, uma *linguagem formal* do modelo relacional. Todas as operações básicas do modelo relacional são da álgebra relacional.
 
-A maioria dos banco de dados relacionais usam linguagem SQL que é a *linguagem prática* do modelo relacional. SQL é baseada nos conceitos de **álgebra relacional**, que é uma *linguagem formal* do modelo relacional. Todas as operações básicas do modelo relacional são da **álgebra relacional**.
+Toda consulta (ou *query*) realizada tem como resultado uma nova relação. As operações da álgebra produzem novas relações que também podem ser manipuladas por novas operações. A álgebra relacional é muito importante visto que provê uma base formal para as operações do modelo relacional e principalmente por ser usada para implementar e otimizar as *queries* nos sistemas de bancos de dados.
 
-Toda query feita, o resultado é uma nova relação, as operação da álgebra produzem novas relações que podem também ser manipuladas por outra operações. A **álgebra relacional** é muito importante para pois provê uma base formal para as operações do modelo relacional, e mais importante, é usada para implementar e otimizar queries nos sistemas de banco dados, sendo assim, importante de ser estudada.
+As operações da álgebra relacional podem ser divididas em 4 grupos principais:
 
-As operações da álgebra relacional pode ser dividida em quatro grupos:
-
-**Grupo** | **Operações** 
-:---: | :---:
-Relacionais Unárias | *SELECT*, *PROJECT* e *RENAME* 
+**Grupo** | **Operações** |
+:---: | :---: |
+Relacionais Unárias | *SELECT*, *PROJECT* e *RENAME* |
 Teoria dos Conjuntos | *UNION*, *INTERSECTION* *DIFFERENCE* e *CARTESIAN PRODUCT* |
 Relacionais Binárias | *JOIN* e *DIVISION* |
 Relacionais Adicionais | *OUTER JOINS*, *OUTER UNION* e *AGGREGATE FUNCTIONS* |
 
-Vamos descrever cada grupo de operações nos próximos tópicos.
+Todos esses grupos de operações serão descritos a seguir.
 
 ## Relações Unárias
 
 ### SELECT
 
-A operação **SELECT** é usada para escolher um subconjunto das tuplas de uma relação, esse subconjunto tem que satisfazer uma condição que podemos definir. Parecido com um *filtro*, já que irá filtar as tuplas que satisfazem a condição.
+A operação **SELECT** é utilizada para selecionar um subconjunto das tuplas de uma relação. O funcionamento dessa operação se assemelha a um filtro, já que essas tuplas devem satisfazer a condição definida.
 
-Esta operação é representada pelo símbolo de sigma(*σ*) e geralmente com esta estrutura `σ <condicao_da_selecao> (R)`. A condição é uma expressão boolean, ou seja, só pode retornar *verdadeiro* ou *falso*, as tuplas que retornarem *verdadeiro* na condição, serão as selecionadas. *R* é o nome da relação que será filtrada.
+Esta operação é representada pelo símbolo *sigma* (**σ**) e utiliza a estrutura `σ <condicao_da_selecao> (R)`. A condição é uma expressão booleana, ou seja, deve retornar *verdadeiro* ou *falso*, de modo que apenas as tuplas que retornam *verdadeiro* para essa condição são selecionadas. *R* é o nome da relação que será filtrada.
 
 #### Exemplo
 
@@ -62,69 +51,59 @@ Para exemplificar, imagine a seguinte relação
 
 **EMPREGADO**
 
-**Nome** | **Salário** | **Idade** 
---- | --- | --- 
-Maria | 15000 | 22
-José | 5000 | 22
-Mario | 13000 | 23 
+**Nome** | **Salário** | **Idade** |
+--- | --- | --- |
+Maria | 15000 | 22 |
+José | 5000 | 22 |
+Mario | 13000 | 23 | 
 
 
-Podemos selecionar os empregados(tuplas) que possuem salário maior que 10000 com a operação *SELECT*: `σ Salário>10000 (EMPREGADO)`. Essa operação irá retornar:
+Pode-se selecionar os empregados (tuplas) que recebem salário maior que 10000 com a operação *SELECT* usando `σ Salário > 10000 (EMPREGADO)`. Essa operação irá retornar:
 
 
 **EMPREGADO**
 
 **Nome** | **Salário** | **Idade** 
-:---: | :---: | :---:
-Maria | 15000 | 22
-Mario | 13000 | 23
+:---: | :---: | :---: |
+Maria | 15000 | 22 |
+Mario | 13000 | 23 |
 
-Outro tipo de operação poderia ser selecionar os empregados que possuem idade igual a *22 anos*: `σ Idade=22 (EMPREGADO)`. O resultado vai ser: 
+Uma outra operação poderia ser selecionar os empregados que tem 22 anos de idade usando `σ Idade = 22 (EMPREGADO)` e o resultado seria: 
 
-**Nome** | **Salário** | **Idade** 
---- | --- | --- 
-Maria | 15000 | 22
-José | 5000 | 22
+**Nome** | **Salário** | **Idade** |
+--- | --- | --- |
+Maria | 15000 | 22 |
+José | 5000 | 22 |
 
 ##### Comutativa
 
-Podemos aninhar condições, no caso, aninhar outro SELECT. Por exemplo, podemos selecionar os empregaodos que possuem salário maior que 10000 e tenha idade igual a 22 anos. A operação vai ficar assim: `σ Salário>10000(σ Idade=22 (EMPREGADO))`. O resultado:
+É possível aninhar diversas condições, no caso, aninhar SELECTS a outro SELECT. Por exemplo, pode-se selecionar os empregados que recebem salário maior que 10000 e que tenham 22 anos de idade. A operação vai ter a forma `σ Salário > 10000(σ Idade = 22 (EMPREGADO))` e resultará em:
 
 **EMPREGADO**
 
-**Nome** | **Salário** | **Idade** 
-:---: | :---: | :---:
-Maria | 15000 | 22
+**Nome** | **Salário** | **Idade**  |
+:---: | :---: | :---: |
+Maria | 15000 | 22 |
 
 ### PROJECT
 
-Se pensamos em uma relação como uma tabela, a operação *SELECT* seleciona *linhas* de uma tabela e descarta as outras, seguindo essa lógica, a operação **PROJECT** seleciona *colunas* de uma tabela, e descarta as outras.
+Pensando em uma relação como uma tabela, a operação *SELECT* seleciona *linhas* da tabela e descarta as demais. De maneira análoga, a operação **PROJECT** seleciona as *colunas* de uma tabela e descarta as demais.
 
-A operação é representada por *PROJECT* pelo símbolo do *pi*(π) e segue a seguinte estrutura: `π <lista_de_atributos> (R)`. Na *<lista_de_atributos>* colocamos a lista de colunas que queremos selecionar da relação, o resultado dessa operação será uma *relação* contendo as tuplas na mesma ordem que a relação original(R) porém apenas com as colunas que selecionamos
+A operação *PROJECT* é representada pelo símbolo do *pi* (**π**) e utiliza a estrutura `π <lista_de_atributos> (R)`. Na `<lista_de_atributos>` coloca-se a lista de colunas da relação que devem ser seleionadas. O resultado dessa operação será uma *relação* contendo todas as tuplas da relação original na mesma ordem, porém apenas com as colunas que selecionadas.
 
 #### Exemplo
 
-Temos de novo a relação EMPREGADO: 
+Dada a relação EMPREGADO utilizada previamente, serão selecionados apenas o nome e o salário dos empregados através de `π Nome, Salário (EMPREGADO)`. O resultado será:
 
 **EMPREGADO**
 
-**Nome** | **Salário** | **Idade** 
---- | --- | --- 
-Maria | 15000 | 22
-José | 5000 | 22
-Mario | 13000 | 23 
+**Nome** | **Salário** |
+--- | --- |
+Maria | 15000 |
+José | 5000 |
+Mario | 13000 |
 
-Vamos selecionar apenas o nome e o salário: `π Nome, Salário (EMPREGADO)`. O resultado será:
-
-**EMPREGADO**
-
-**Nome** | **Salário** 
---- | --- 
-Maria | 15000
-José | 5000
-Mario | 13000
-
-Uma situação que pode ocorrer é quando selecionamos atributos que não possuem atributos *key*, ou seja, que podem ter valores repetidos. Se isso ocorrer, a operação remove as tuplas repetidas. Exemplo, se fizeremos `π Idade (EMPREGADO)`, Maria e José possuem a mesma idade e ficaria repetido no resultado da operação, ao invés disso a operação irá mostrar apenas uma tupla com valor *22* na *idade*.
+Uma possível situação é a seleção de atributos que não incluam atributos chave (*key*), ou seja, as tuplas poderão ter valores repetidos. Se isso ocorrer, a operação removerá automaticamente as tuplas repetidas. Se fosse realizada a operação `π Idade (EMPREGADO)`, dado que Maria e José tem a mesma idade, a operação iria mostrar apenas uma tupla com valor *22* na idade, conforme apresentado abaixo.
 
 **EMPREGADO**
 
@@ -135,260 +114,203 @@ Uma situação que pode ocorrer é quando selecionamos atributos que não possue
 
 ### RENAME
 
-É comum termos situações que precisamos aplicar várias operações em sequência e o que isso causa é um aninhamento de várioas passos podendo ficar confuso o que está sendo feito. Para solurcionamos esse problema, usamos a operação **RENAME**.
+É comum deparar-se com situações em que se precisa aplicar várias operações em sequência e, devido ao aninhamento desses vários passos, o código escrito pode tornar-se confuso. Para solurcionar esse problema, utiliza-se a operação **RENAME**.
 
-A operação é representada pelo símbolo rho(*ρ*), formalmente ela pode ser representada das seguintes maneira:
+A operação é representada pelo símbolo *rho* (**ρ**) e pode ser representada formalmente das seguintes maneiras:
 
-1.  `ρS(R)` - Altera apenas a relação *R*.  A relação *R* agora vai ser referenciada por *S*
-2.  `ρ(B1, B2, ... , Bn)(R)` - Altera os atributos de *R*. Os atributis *B1, B2, ..., BN* irão substituir os atributos originais *A1, A2, ..., AN*
-3. `ρS(B1, B2, ... , Bn)(R)` - Quando queremos modificar tanto o nome da relação como os atributos. São o passo *1* e *2* ao mesmo tempo.
+1.  `ρS(R)` - Altera apenas a relação *R*.  A relação *R* agora vai ser referenciada por *S*.
+2.  `ρ(B1, B2, ... , Bn)(R)` - Altera os atributos de *R*. Os atributos *B1, B2, ..., BN* irão substituir os atributos originais *A1, A2, ..., AN*.
+3. `ρS(B1, B2, ... , Bn)(R)` - Altera a relação *R* e seus atributos simultaneamente, ou seja, realiza os tópicos *1* e *2* ao mesmo tempo.
 
-Alternativamente, podemos usar o **operador de atribuição**(←)
- nas relações intermediárias para poder renomear os atributos ou a relação, exemplo:
+Alternativamente, é possível utilizar o operador de atribuição (**←**) nas relações intermediárias para renomear os atributos ou a relação. Por exemplo:
 
 ```
 TEMPORARIO(Nome_empregado, Idade_empregado) <- π Nome, Idade (EMPREGADO)
 ```
 
-As colunas agora se chamarão *Nome_empregado* e *Idade_empregado* e a relação *TEMPORARIO*. Usando esse operador, podemos quebrar uma sequência de operações em valores intermediários, que serão apenas válidos na operação, ou seja, é uma renomeação temporária.
+As colunas agora se chamarão *Nome_empregado* e *Idade_empregado* e a relação será chamada de *TEMPORARIO*. Usando esse operador, é possível quebrar uma sequência de operações em valores intermediários que serão válidos apenas naquela operação, ou seja, é uma renomeação temporária.
 
 #### Exemplo
 
-Imagine que queremos selecionar os empregados que possuem idade igual a *22* e queremos apenas as colunas *Nome* e *Salário*. Para selecionar a idade iremos usar a operação [Select](#select) e para selecionar as colunas a operação [PROJECT](#project)
+Imagine que se deseja selecionar os empregados que tem 22 anos de idade e que devem ser exibidas apenas as colunas *Nome* e *Salário*. Serão utilizadas as operações [SELECT](#select) e [PROJECT](#project) para selecionar os empregados com essa idade e para selecionar apenas as colunas desejadas, respectivamente.
 
 
-Podemos fazer `π Nome, Salário (σ Idade=22 (EMPLOYEE))`, porém como já foi dito, é melhor quebrar algumas operações em valores intermediários, faremos isso com o operador de atribuição:
+Assim, tem-se `π Nome, Salário (σ Idade = 22 (EMPLOYEE))`, porém, o código torna-se mais compreensível através da utilização de valores intermediários. Isso pode ser feito através do operador de atribuição, como no exemplo abaixo.
 
 ```
-EMPREGADOS_IDADE22 ← σ Idade=22 (EMPLOYEE)
+EMPREGADOS_IDADE22 ← σ Idade = 22 (EMPLOYEE)
 RESULTADO ← π Nome, Salário (EMPREGADOS_IDADE22)
 ```
 
 **RESULTADO**
 
-**Nome** | **Salário**
---- | --- 
-Maria | 15000 
-José | 5000
+**Nome** | **Salário** |
+--- | --- |
+Maria | 15000 |
+José | 5000 |
 
 
-**PS:** Em SQL operação *RENAME* é a **ALIAS**.
+**PS:** Em SQL, a operação *RENAME* é chamada de **ALIAS** (*AS*).
 
-## Teoria dos conjuntos
+## Teoria dos Conjuntos
 
-As operações desse grupo são as operações usadas também na teoria dos conjuntos.
+As operações desse grupo são aquelas também usadas na teoria dos conjuntos.
 
 ### UNION
 
-É uma operação binária, ou seja, aplicada a **dois** conjuntos de tuplas, o seu resultado é uma união de relações. As duas relações nessa operação devem ser compatíveis, isso significa que devem ter o mesmo número de atributos e que devem ser do mesmo tipo.
+É uma operação binária, ou seja, aplicada a dois e somente dois conjuntos de tuplas que resulta em uma união de relações. As duas relações nessa operação devem ser compatíveis, ou seja, devem ter o mesmo número de atributos e esses atributos devem ser do mesmo tipo.
 
-Essa operação é representada por **∪**
+Essa operação é representada por **∪**.
 
 #### Exemplo
 
-Imaginemos duas tabelas, **ESTUDANTE** e **INSTRUTOR**, vamos fazer a união delas.
-
+Imagine duas relações, **ESTUDANTE** e **INSTRUTOR** que devem ser unidas. Tem-se:
 
 **ESTUDANTE**
 
-**Primeiro Nome**| **Último Nome** 
---- | --- 
-Maria | Alves  
-José | Sousa
-Mario | Olivedos 
-
+**Primeiro Nome** | **Último Nome** |
+--- | ---  |
+Maria | Alves |  
+José | Sousa |
+Mario | Olivedos | 
 
 **INSTRUTOR**
 
-**Primeiro Nome**| **Último Nome** 
---- | --- 
-Maria | Alves
-Carla | Yun
-Mario | Olivedos 
+**Primeiro Nome** | **Último Nome** |
+--- | --- |
+Maria | Alves |
+Carla | Yun |
+Mario | Olivedos | 
 
+Dado `ESTUDANTE ∪ INSTRUTOR `, tem-se:
 
-Se fizermos `ESTUDANTE ∪ EMPREGADO `, teremos:
+**Primeiro Nome**| **Último Nome** |
+--- | --- |
+Maria | Alves |  
+José | Sousa |
+Mario | Olivedos | 
+Carla | Yun |
 
-
-**Primeiro Nome**| **Último Nome** 
---- | --- 
-Maria | Alves  
-José | Sousa
-Mario | Olivedos 
-Carla | Yun
-
-Perceba que as tuplas repetidas foram removidas, ficando apenas valores únicos.
-
+Note que as tuplas repetidas foram removidas, gerando apenas valores únicos.
 
 ### INTERSECTION
 
-Na **INTERSECTION** diferente da anterior, a operação irá incluir apenas as tuplas que estão em **ambas** as relações. Essa operação seguirá as mesmas regras que a anterior, ou seja, os tipos devem ser compatíveis.
+Diferente da operação anterior, na **INTERSECTION** a operação irá incluir apenas as tuplas que estão em ambas as relações. Essa operação possui os mesmos requisitos da UNION, ou seja, as relações devem ter o mesmo número de atributos e esses atributos devem ser do mesmo tipo.
 
-Esta operação é representada por **∩**, seguindo a estrutua `R ∩ S`. Os atributos que ficaram no resultado vão ter o mesmo nome dos atributos da relação *R*.
+Esta operação é representada por **∩** e utiliza a estrutura `R ∩ S`. Os atributos que estão na relação resultante terão os mesmos nomes dos atributos da relação *R*.
 
 #### Exemplo
 
-**ESTUDANTE**
+Aplicando `ESTUDANTE ∩ INSTRUTOR`, tem-se:
 
-**Primeiro Nome**| **Último Nome** 
---- | --- 
-Maria | Alves  
-José | Sousa
-Mario | Olivedos 
-
-
-**INSTRUTOR**
-
-**Primeiro Nome**| **Último Nome** 
---- | --- 
-Maria | Alves
-Carla | Yun
-Mario | Olivedos 
-
-
-Aplicando `ESTUDANTE ∩ INSTRUTOR`, teremos:
-
-**Primeiro Nome**| **Último Nome** 
---- | --- 
-Maria | Alves  
-Mario | Olivedos 
+**Primeiro Nome** | **Último Nome** |
+--- | --- |
+Maria | Alves |
+Mario | Olivedos |
 
 ### DIFFERENCE
 
-Conhecida também por *minus* ou *except*. É uma operação de exclusão, seguindo a estrutura **R - S**, irá mostrar todas as tuplas que estão em **R** e não estão em **S**.
+Também conhecida como *minus* ou *except*, esta é uma operação de exclusão e utiliza a estrutura `R - S`, resultando numa nova relação com todas as tuplas que estão em **R**, mas não em **S**.
 
-Essa operação não é comutatitiva, ou seja: `R - S != S - R`.
+Essa operação não é comutatitiva, ou seja, `R - S != S - R`.
 
 #### Exemplo
 
-**ESTUDANTE**
+Aplicando `ESTUDANTE - INSTRUTOR`, o resultado será:
 
-**Primeiro Nome**| **Último Nome** 
---- | --- 
-Maria | Alves  
-José | Sousa
-Mario | Olivedos 
-
-
-**INSTRUTOR**
-
-**Primeiro Nome**| **Último Nome** 
---- | --- 
-Maria | Alves
-Carla | Yun
-Mario | Olivedos 
-
-Aplicando `ESTUDANTE - INSTRUTOR`, o resultado vai ser:
-
-**Primeiro Nome**| **Último Nome** 
---- | --- 
-José | Sousa
+**Primeiro Nome** | **Último Nome** |
+--- | --- |
+José | Sousa |
 
 ### CARTESIAN PRODUCT
 
-Nessa operação binária, irá combinar todos os atributos e valores de uma relação com a outra, sem precisar ter tipos compatíveis. 
+Essa operação binária irá combinar todos os atributos e valores das duas relações envolvidas. Não há requisitos de compatibilidade de atributos. 
 
-Denotada por **×**, segue essa estrutura `R × S` e terá uma combinação de todos os valores de cada tupla, no caso se temos `R(A1, A2, ... , An)× S(B1, B2, ... , Bn)`, o resultado será `Q(A1, A2, ... , An, B1, B2, ... , Bn)`.
-
+Denotada por **×** e utilizando a estrutura `R × S`, essa operação resultará em uma combinação de todos os valores de cada tupla. Para `R(A1, A2, ... , An) × S(B1, B2, ... , Bn)`, o resultado será `Q(A1, A2, ... , An, B1, B2, ... , Bn)`.
 
 #### Exemplo
 
-**ESTUDANTE**
+Para `ESTUDANTE × INSTRUTOR`, tem-se:
 
-**Primeiro Nome**| **Último Nome** 
---- | --- 
-Maria | Alves  
-José | Sousa
+**ESTUDANTE.Primeiro Nome** | **ESTUDANTE.Último Nome** | **INSTRUTOR.Primeiro Nome** | **INSTRUTOR.Último Nome** |
+--- | --- | --- | --- | 
+Maria | Alves  | Maria | Alves |
+Maria | Alves  | Carla | Yun |
+José | Sousa | Maria | Alves |
+José | Sousa | Carla | Yun |
+Maria | Alves | Maria | Alves |
+Maria | Alves | José | Sousa |
+Carla | Yun | Maria | Alves |
+Carla | Yun | José | Sousa |
 
-
-**INSTRUTOR**
-
-**Primeiro Nome**| **Último Nome** 
---- | --- 
-Maria | Alves
-Carla | Yun
-
-Se fizermos `ESTUDANTE × INSTRUTOR`, teremos:
-
-**ESTUDANTE.Primeiro Nome**| **ESTUDANTE.Último Nome** |**INSTRUTOR.Primeiro Nome**| **INSTRUTOR.Último Nome** 
---- | --- | --- | --- 
-Maria | Alves  | Maria | Alves
-Maria | Alves  | Carla | Yun
-José | Sousa | Maria | Alves
-José | Sousa | Carla | Yun
-Maria | Alves | Maria | Alves
-Maria | Alves | José | Sousa
-Carla | Yun | Maria | Alves
-Carla | Yun | José | Sousa
-
-## Relacionais binárias
+## Relacionais Binárias
 
 ### JOIN
 
-É muito comum em bancos relacionais que possuimos mais de uma relação queremos realizar operações que combine tuplas relacionadas em tabelas diferentes. A operação de **JOIN** serve para isso, é como se fosse um [SELECT](#select) seguido de um [CARTESIAN PRODUCT](#cartesian-product).
+Muito utilizada em bancos relacionais que possuem mais de uma relação e em que se faz necessário realizar operações que envolvam tuplas relacionadas de tabelas diferentes. A operação de **JOIN** funciona de maneira semelhante a um [SELECT](#select) seguido de um [CARTESIAN PRODUCT](#cartesian-product).
 
-Representada pelo símbolo **⋈**, segue a estrutura `R ⋈ <condicao_de_selecao> S`.
+Essa operação é representada pelo símbolo **⋈** e utiliza a estrutura `R ⋈ <condicao_de_selecao> S`.
 
 #### Exemplo
-Imagine que temos a tabela **EMPREGADO** e **DEPARTAMENTO**, queremos uma nova tabela com os chefes de cada departamento.
+
+Considere as relações **EMPREGADO** e **DEPARTAMENTO** e que se deseja obter uma nova relação com os chefes de cada departamento.
 
 **EMPREGADO**
 
-**CPF** |**Nome** | **Salário** | **Idade** 
---- | --- | --- | --- 
-123.456.123-21 | Maria | 15000 | 22
-456.123.312-55 |José | 5000 | 22
-789.392.858-56 |Mario | 13000 | 23 
+**CPF** | **Nome** | **Salário** | **Idade** |
+--- | --- | --- | --- |
+123.456.123-21 | Maria | 15000 | 22 |
+456.123.312-55 |José | 5000 | 22 |
+789.392.858-56 |Mario | 13000 | 23 | 
 
 **DEPARTAMENTO**
 
-**CPF_do_manager** |**Nome_departamento**
---- | --- 
-123.456.123-21 | Departamento X
-789.392.858-56 | Departamento Y
+**CPF_do_chefe** |**Nome_departamento**
+--- | --- |
+123.456.123-21 | Departamento X |
+789.392.858-56 | Departamento Y |
 
-Se fizermos `DEPARTAMENTO ⋈ CPF_do_manager=CPF EMPREGADO`, teremos:
+Para `DEPARTAMENTO ⋈ CPF_do_chefe = CPF EMPREGADO`, tem-se:
 
-
-**CPF_do_manager** |**Nome_departamento** |**Nome** | **Salário** | **Idade** 
---- | --- | --- | --- | ---
-123.456.123-21 | Departamento X | Maria | 15000 | 22
-789.392.858-56 | Departamento Y | Mario | 13000 | 23 
+**CPF_do_chefe** | **Nome_departamento** | **Nome** | **Salário** | **Idade** |
+--- | --- | --- | --- | --- |
+123.456.123-21 | Departamento X | Maria | 15000 | 22 |
+789.392.858-56 | Departamento Y | Mario | 13000 | 23 |
 
 #### EQUIJOIN
 
-Acontece quando o operador de seleção é o **=**.
+Ocorre de maneira análoga ao JOIN, porém o operador da seleção é automaticamente um **=**.
 
 #### NATURAL JOIN
 
-Denotado por `*`, junta duas relações com base em um atributo que tenha o mesmo nome, não deixando repetido. Se o atributo não tiver o mesmo nome quando fizer a operação, ele renomeia e prevalece o primeiro.
+Denotada por `*`, essa operação junta duas relações com base em seus atributos, removendo repetições daqueles com nomes coincidentes.
 
 ##### Exemplo
 
 `Q ← R(A, B, C) * S(A, D, E)`
 
-A condição de junção ímplicita é *R.A* = *S.A* e o resultado vai ser `Q(A, B, C, D, E)`.
-
+A condição de junção ímplicita é *R.A* = *S.A* e o resultado será `Q(A, B, C, D, E)`.
 
 ### DIVISION
 
-A operação **DIVISION** denotado por **÷**, segue a estrutura `R(Z) ÷ S(X)` que significa que queremos as tuplas de *R* que contém todos os subconjuntos de *S*.
+A operação **DIVISION** é denotada por **÷** e utiliza a estrutura `R(Z) ÷ S(X)`, indicando que se deseja as tuplas de *R* que contém todos os subconjuntos de *S*.
 
 #### Exemplo
-Imagine as relações **R** e **S**, queremos selecionar as tuplas de **R** que incluem todos os valores de **A** que possuem na tabela **S**.
+
+Imagine as relações **R** e **S**, tal que se deseja selecionar as tuplas de **R** que incluem todos os valores de **A** que estejam na tabela **S**.
 
 **R**
 
-**A** | **B**
-:---: | :---:
-a1 | b1
-a2 | b1
-a3 | b1
-a1 | b2
-a2 | b2
-a3 | b2
-a4 | b2
-a1 | b3
+**A** | **B** |
+:---: | :---: |
+a1 | b1 |
+a2 | b1 |
+a3 | b1 |
+a1 | b2 |
+a2 | b2 |
+a3 | b2 |
+a4 | b2 |
+a1 | b3 |
 
 **S**
 
@@ -398,8 +320,7 @@ a1 | b3
 | a2 |
 | a3 |
 
-
-Quando fizermos `RESULTADO ← R(Z) ÷ S(X) `, teremos:
+Para `RESULTADO ← R(Z) ÷ S(X) `, tem-se:
 
 **RESULTADO**
 
