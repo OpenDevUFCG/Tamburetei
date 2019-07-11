@@ -19,7 +19,7 @@ Esse documento traz exercícios feitos no semestre 2019.1. Alguns são descriç�
 ![Questão 3 - parte 2](https://imgur.com/TIqZw5W.png)
 ![Questão 3 - parte 3](https://imgur.com/PKRuOHB.png)
 ![Questão 3 - parte 4](https://imgur.com/b2hHJFA.png)
-![Questão 3 - parte 2](https://imgur.com/FseOCtj.png)
+![Questão 3 - parte 5](https://imgur.com/FseOCtj.png)
 
 4) \*\* Para a mesma gramática da questão 3, calcular o closure e GOTO e preencher a primeira linha da tabela
 
