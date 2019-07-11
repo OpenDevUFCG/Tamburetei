@@ -152,6 +152,6 @@ a[t1] = x
 
 25) Construa uma gramática abstrata simplificada para Assembly e gere os serviços necessários para construir um gerador de código Assembly.
 
-26) Construa, em pseudo-código, um gerador de código capaz de gerar código assembly a partir de código Java contendo comandos de atribuição, onde valores resultantes de operações aritméticas sejam atribuídos a uma dada variável. Use os serviços providos nas questões 07 e 0
+26) Construa, em pseudo-código, um gerador de código capaz de gerar código assembly a partir de código Java contendo comandos de atribuição, onde valores resultantes de operações aritméticas sejam atribuídos a uma dada variável. Use os serviços providos nas questões 24 e 25
 
 27) Elabore uma arquitetura para um Compilador MDA, destacando todos os artefatos necessários para a sua construção, considerando que o Compilador use uma técnica de transformação baseada em templates , tendo XSLT como linguagem de transformação. Este compilador deve ser capaz de gerar código Assembly a partir de código Java, e, adicionalmente, aplicar algoritmos de otimização sobre DAGs geradas como representação intermediária no Compilador.
