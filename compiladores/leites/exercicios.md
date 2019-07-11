@@ -1,6 +1,6 @@
 # Conjunto de exercicios para Compiladores
 
-Esse documento trás exercicios feitos no semestre 2019.1, alguns são descrições de questões que caiu em prova, para estes, é marcado com "dois asteriscos" depois do número da questão.
+Esse documento traz exercícios feitos no semestre 2019.1. Alguns são descrições de questões que caíram em provas, e estão marcados com "dois asteriscos" depois do número da questão.
 
 ## Primeiro Estágio
 
