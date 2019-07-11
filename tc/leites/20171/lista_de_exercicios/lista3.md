@@ -4,7 +4,7 @@
   | --- | --- |
   | A → 0B| G2= (V, Σ, R, S) |
   | B → A1| V = {A, B} Σ = {0,1, #} |
-  | A→lambda| R = {A → 0B0 | 1B1 | B, B → 0,1, lambda}, S = A |  
+  | A→lambda| `R = {A → 0B0 | 1B1 | B, B → 0,1, lambda}, S = A` |  
 
 a. Quais das gramáticas acima são linear (à direita ou à esquerda)? Determine o AF equivalente para elas.  
 b. Descreva a linguagem gerada pela Gramática II.  
