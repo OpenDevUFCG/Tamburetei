@@ -29,7 +29,7 @@ Prof. Andrey Brito
 
 3. Avalie as seguintes alternativas em Verdadeiro (V) ou Falso (F), justificando os itens marcados como falso.
 
-(     ) Se uma linguagem é regular então todas as suas palavras, sejam maiores ou menores que “p” (o comprimento do bombeamento), precisam ser bombeáveis. Ou seja, todas palavras precisam ter uma parte que seria processada em um loop no autômato.
-(     ) O Lema do bombeamento é utilizado para confirmar que uma certa linguagem é regular.
-(       ) A linguagem 0n1n não é regular (n>0)
-(       ) As linguagens 0²1² e 0n1n (0<n<5) são regulares.
+(  ) Se uma linguagem é regular então todas as suas palavras, sejam maiores ou menores que “p” (o comprimento do bombeamento), precisam ser bombeáveis. Ou seja, todas palavras precisam ter uma parte que seria processada em um loop no autômato.  
+(  ) O Lema do bombeamento é utilizado para confirmar que uma certa linguagem é regular.  
+(  ) A linguagem 0n1n não é regular (n>0)  
+(  ) As linguagens 0²1² e 0n1n (0<n<5) são regulares.  
