@@ -45,7 +45,7 @@ Esse documento traz exercícios feitos no semestre 2019.1. Alguns são descriç�
 8) \*\* Geração de código de 3 endereços com a[i][j]
 
 
-9) \*\* Verificação de tipos para switch case
+9) \*\* Verificação de tipos para switch-case
 
 10) \*\* Otimização local e global de um código de 3 endereços
 
