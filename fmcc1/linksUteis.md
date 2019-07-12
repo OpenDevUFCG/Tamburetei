@@ -9,3 +9,4 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 ## Material de Estudo
 
 - [Slides de Eanes (2018.2)](https://drive.google.com/drive/u/4/folders/1I9TWrpyJXX_Lxyg_BEYw3UkevKdOWAer)
+- [Apostilas e Exercícios](http://fuvestibular.com.br/apostilas/fundamentos-da-matematica-elementar)
