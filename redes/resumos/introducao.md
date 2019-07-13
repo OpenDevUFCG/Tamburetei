@@ -4,6 +4,24 @@ Uma **rede de computadores** é um conjunto de computadores autônomos intercone
 
 Além disso, é comum que redes de computadores sejam conectadas umas às outras, criando redes de redes de computadores, como a Internet. A gama de **aplicações** das RCs é vasta (sejam domésticas ou comerciais), tais como o compartilhamento de recursos, a transferência de arquivos, o uso de correio eletrônico e muitas outras.
 
+## Sumário
+
+- [Histórico](#histórico)
+- [Classificação](#classificação)
+  - [Escalabilidade](#escalabilidade)
+  - [Tecnologia de Transmissão](#tecnologia-de-transmissão)
+- [Arquitetura de Redes de Computadores](#arquitetura-de-redes-de-computadores)
+- [Tipos de Serviços](#tipos-de-serviços)
+- [Comutação](#comutação)
+  - [Comutação de Circuitos](#comutação-de-circuitos)
+  - [Comutação de Pacotes](#comutação-de-pacotes)
+- [Topologia](#topologia)
+  - [Barramento](#barramento)
+  - [Anel](#anel)
+  - [Estrela](#estrela)
+- [Modelo OSI](#modelo-osi)
+
+
 ## Histórico
 
 A necessidade de **comunicação** inerente à sociedade humana desde os seus primórdios tem sido um dos principais incentivos para a evolução das redes de computadores, especialmente no cenário atual, marcado pela descentralização e individualização dessas máquinas.
@@ -55,6 +73,36 @@ Um **serviço** é especificado formalmente por um conjunto de **primitivas** (o
 Os serviços **orientados a conexão** utilizam protocolos que operam o controle de transmissão de dados durante uma comunicação estabelecida entre duas máquinas. Neste esquema, a máquina receptora envia avisos de recepção durante a comunicação, de modo que a máquina emissora é responsável pela validade dos dados que envia. Logo, os dados são enviados sob a forma de fluxo. O **TCP** é um protocolo orientado para a conexão.
 
 Já os serviços **não orientados a conexão** utilizam um modo de comunicação no qual a máquina emissora envia dados sem prevenir a máquina receptora, de modo que a máquina receptora recebe os dados sem emitir avisos de recepção. Os dados são enviados sob a forma de blocos (datagramas). O **UDP** é um protocolo não orientado para a conexão. Nele, a transferência de dados não é confiável, não tem controle de fluxo e nem controle de congestão, sendo utilizado em aplicações como *streaming media* e DNS.
+
+## Comutação
+
+A **comutação** de redes de computadores é o modo como são alocados os recursos disponíveis para a transmissão de informações, visando interligar dois (ou mais) pontos para realizar a transmissão de dados entre eles. Existem dois tipos de comutação: a comutação de circuitos e a comutação de pacotes.
+
+### Comutação de Circuitos
+
+A **comutação de circuitos** é um serviço orientado a conexão em que todos os recursos que serão utilizados para uma transmissão são reservados (exclusivos) para ela durante toda sua duração. Esse tipo de comutação é utilizada em situações nas quais há necessidade de transmissão contínua de informação, como na comunicação por voz nas linhas telefônicas. Seu uso garante qualidade, porém, a ausência de compartilhamento de recursos causa desperdício dos mesmos.
+
+### Comutação de Pacotes
+
+A **comutação de pacotes** é um serviço não orientado a conexão em que todos os recursos são compartilhados, não havendo necessidade de reservá-los previamente. Os dados são divididos em pacotes e transmitidos conforme estiverem disponíveis os recursos da rede. Esse tipo de comutação é utilizada em situações nas quais vários usuários utilizarão a mesma rede e/ou de maneira esporádica. Ainda que o sistema se torne flexível e livre de desperdícios, não há garantia de entrega dos dados e a utilização dos recursos da rede sob demanda pode causar congestionamentos.
+
+## Topologia
+
+A **topologia** de uma rede de computadores é o modo como o meio de rede está conectado aos computadores (e outros componentes), podendo ser descrita física ou logicamente. A topologia **física** descreve a maneira como os cabos se conectam fisicamente aos computadores, enquanto a topologia **lógica** descreve a maneira como os dados trafegam através dos cabos e placas de rede. 
+
+A comparação entre diferentes topologias se dá a partir de fatores como a confiabilidade, o desempenho, o custo e o retardo de transferência.
+
+### Barramento
+
+Na **topologia em barramento**, todos os computadores estão ligados em um mesmo barramento físico de dados, assim, quando um computador está transmitindo um sinal, toda a rede fica ocupada. Esse tipo de topologia apresenta baixo custo, minimiza a quantidade de cabos utilizados e a falha de um dos computadores não afetará os demais. Apesar de sua instalação ser simples, uma falha no cabo principal derrubará toda a rede.
+
+### Anel
+
+Na **topologia em barramento**, os computadores são conectados em série para formar um circuito fechado (anel). Esse tipo de topologia apresenta baixo custo, tem um único sentido de transmissão e a permissão para envio/recepção de informações é feita através de um *token*. Sua principal desvantagem é a baixa tolerância a falhas, visto que a falha de um computador pode tornar outros computadores inalcançáveis na rede.
+
+### Estrela
+
+Na **topologia em estrela**, um elemento central está diretamente conectado a cada um dos computadores da rede, sendo o responsável por gerenciar e garantir o fluxo de dados entre as máquinas. Utiliza um número relativamente alto de cabos, aumentando seu custo. Além disso, o limite de conexões do nó central, também limita a capacidade de expansão desse tipo de topologia. Tem uma alta tolerância a falhas, dado que um computador falho não afetará as demais conexões.
 
 ## Modelo OSI
 
