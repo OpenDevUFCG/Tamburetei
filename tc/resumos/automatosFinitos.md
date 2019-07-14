@@ -4,7 +4,7 @@ Enquanto as máquinas de estado são capazes apenas de acompanhar os estados do 
 
 Para que possa alcançar a **aceitação** da cadeia de entrada, é necessário que o autômato possua pelo menos um **estado final**. Se, ao termino do processamento de uma certa cadeia, o autômato tiver um de seus estado finais como estado atual, diz-se que a cadeia foi aceita. Caso contrário, diz-se que a cadeia foi rejeitada (**rejeição**). Dessa forma, um autômato não precisa ter estados finais, porém, sem eles torna-se inútil.
 
-Dá-se o nome de **classe de linguagem** a todas as linguagens que podem ser resolvidas por um mesmo tipo de máquina. A classe que contém todas as linguagens que podem ser resolvidas por autômatos finitos chama-se **classe das linguagens regulares**.
+Dá-se o nome de **classe de linguagem** ao conjunto de todas as linguagens que podem ser resolvidas por um mesmo tipo de máquina. A classe que contém todas as linguagens que podem ser resolvidas por autômatos finitos chama-se **classe das linguagens regulares**.
 
 ## Autômatos Finitos Determinísticos
 
@@ -28,7 +28,7 @@ Na Teoria da Computação, os objetos de estudo são as **linguagens** e as ferr
 
 Porém existem outras operações abordadas durante a disciplina como o complemento, a intersecção, a subtração, etc. Se uma operação realizada sobre uma linguagem da classe C sempre gera uma linguagem da mesma classe, diz-se que a classe é **fechada** por esta operação.
 
-O símbolo *lambda* (**λ**) representa a palavra vazia (ou nula), em alguns livros utiliza-se o épsilon (**ε**). Já **Σ*** denota o alfabeto binário.
+O símbolo *lambda* (**λ**) representa a palavra vazia (ou nula). Em alguns livros utiliza-se o *épsilon* (**ε**).
 
 ## Autômatos Finitos Não-Determinísticos
 
