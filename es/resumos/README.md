@@ -1,3 +1,3 @@
 # Resumos
 
-1. [Scrum](scrum.md)
+- [Scrum](scrum.md)
