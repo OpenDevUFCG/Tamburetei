@@ -31,5 +31,5 @@ Em Fundamentos de Matemática para Ciência da Computação I, você será inici
 ## Dicas
 
 - Em geral, as provas não são difíceis. Dependendo bastante do seu conhecimento prévio de matemática básica.
-- É uma bom disciplina para garantir média final alta e aumentar seu CRA, logo, vale a pena estudar com antecedência para as provas.
+- É uma boa disciplina para garantir média final alta e aumentar seu CRA, logo, vale a pena estudar com antecedência para as provas.
 - Os conteúdos dados costumam ter certa variação de acordo com o professor que esteja lecionando a disciplina. Alguns temas serão abordados com mais profundidade, outros talvez não. Dessa forma, a ementa não necessariamente será seguida à risca.
