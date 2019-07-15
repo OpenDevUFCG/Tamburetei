@@ -30,8 +30,3 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 ## Projetos Antigos
 - [Lista pra Mim](https://github.com/thayannevls/ListaPraMim)
 - [eDoe](https://github.com/AntonioNtV/projeto-lp2-edoe)
-
-
-
-## Implementações provas
-- [Repositório com provas antigas](https://github.com/AntonioNtV/provasLP2)

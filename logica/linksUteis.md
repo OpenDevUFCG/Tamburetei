@@ -20,6 +20,7 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 ## Projetos Antigos
 
 - [Arquivos](https://github.com/AndersonVidal/ProjetoAlloy)
+- [Biblioteca](https://github.com/thayannevls/biblioteca_logica)
 - [Clínica](https://github.com/hericlesme/ProjetoAlloy)
 - [Condomínio](https://github.com/SpinnelSun/ProjetoAlloy)
 - [Dropbox](https://github.com/hadrizia/ProjetoAlloy)

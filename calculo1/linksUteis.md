@@ -4,17 +4,19 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 
 ## Sumário
 
-- [Livros e Apostilas](#livros-e-apostilas)
+- [Material de Estudo](#material-de-estudo)
 - [Plataformas de Estudo](#plataformas-de-estudo)
 - [Ferramentas](#ferramentas)
 - [Fóruns](#fóruns)
 - [Blogs](#blogs)
 - [Videoaulas](#videoaulas)
 
-## Livros e Apostilas
+## Material de Estudo
 
-- [Cálculo I (George B. Thomas)](http://souexatas.blogspot.com/2016/06/calculo-vol-1-e-2-11-edicao-george-b.html)
-    - [Resoluções de Exercícios](https://drive.google.com/file/d/0B6VjadvxZ9rdTEZrTHZxX3g1ejg/view?ts=59aeb774)
+- [Notas de Aula - UAMat](https://drive.google.com/file/d/1fF17tdAD0OeC1govsCD83l3uYEj-mOnu/view?usp=sharing)
+- [Resumo - Limites](https://drive.google.com/file/d/1GVtR9ccG6oFf0V94sxKd_57mRM_x5qv-/view?usp=sharing)
+- [Resumo - Derivadas](https://drive.google.com/file/d/15z71vsm-tQbQ2RQ1S5-AgXlq0pXZ11Pa/view?usp=sharing)
+- [Resumo - Integrais](https://drive.google.com/file/d/1kLzx57zw-m0PncroJ8TFegA_1aaeN33k/view?usp=sharing)
 
 ## Plataformas de Estudo
 

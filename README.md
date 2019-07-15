@@ -74,6 +74,17 @@ Informe o nome da pasta de disciplina e ela será criada automaticamente. Lembre
 - [Sistemas Operacionais](so)
 - [Teoria da Computação](tc)
 
+### Sétimo Período
+
+- [Compiladores](compiladores)
+
+### Oitavo Período
+
+- [Projeto de Trabalho de Conclusão de Curso](ptcc)
+
+### Optativas
+
+- [Visualização de Dados](visu)
 
 ## Regras
 
