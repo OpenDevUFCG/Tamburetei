@@ -4,7 +4,7 @@
 
 - [Ar-Condicionado](maquinasDeEstados/arcondicionado.md)
 - [Bobina de Papel](maquinasDeEstados/bobinaDePapel.md)
-- [Cancela de Condomínio](maquinasDeEstados/cancelaDeCondomínio.md)
+- [Cancela de Condomínio](maquinasDeEstados/cancelaDeCondominio.md)
 - [Copiadora](maquinasDeEstados/copiadora.md)
 - [Fechadura de Cofre](maquinasDeEstados/fechaduraDeCofre.md)
 - [Marca-Passo](maquinasDeEstados/marcapasso.md)
