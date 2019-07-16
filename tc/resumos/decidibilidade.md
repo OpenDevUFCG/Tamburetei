@@ -14,6 +14,8 @@ Para provar que uma linguagem é decidível, só precisamos discutir, qual seria
 
 ### Polinômio com uma raiz inteira
 
+**L = { p | p é um polinômio sobre x com raiz inteira }**
+
 O problema do polinômio com uma raiz inteira num primeiro momento, pode parecer que não é decidivel, já que se tivermos um polinômio com múltiplas raízes, precisamos testar usando a abordagem de **força bruta**, e assim o computador pode ficar executando indefinidamente, como consequência o problema não consegue ser decidível. No entanto, no caso de um polinômio com uma única raiz inteira conseguimos fazer ele ser decível, porque conseguimos limitar a quantidade de casos que precisamos testar.
 
 O [teorema das raizes racionais](https://pt.wikipedia.org/wiki/Teorema_das_ra%C3%ADzes_racionais) afirma que se o polinômio possui uma raiz ela está entre dois valores, e assim a procura tem fim. Dessa forma, conseguimos afirmar que o problema é decidível, uma vez que também conseguiremos responder quando o polinômio não tem uma raiz, diferentemente do problema inicial.
@@ -23,27 +25,24 @@ Um questionamento que pode surgir é:
 
 A resposta é **sim**. Entende por quê? Conseguiriamos usar o programa anterior pra resolver o novo.
 
-### Grafo não-direcionado convexo
+### Grafo não-direcionado conexo
 
+**L = { `<G>` | G é um grafo não-direcionado convexo }**
 
+Um gráfico é dito conexo, se todo nó consegue ser atingido por qualquer outro. Isto é. existe um caminho pra chegar a um nó, a partir de qualquer nó.
 
-
+Para resolver usamos um sistema de **marcação**. Iniciamos o programa ou autômato, recebendo o grafo, marcando o nó inicial, a cada novo estado percorrido a partir do que foi marcado, marcamos ele também, se ao final da execução, todos os nós estiverem marcados, isso indica que conseguimos obedecer a propriedade do grafo convexo e portanto aceitamos, se houve pelo menos um nó que não foi marcado, rejeitamos.
 
 ### Pertinência a uma linguagem
 
+**A(afd) = { `<B, w>` | B é um afd que aceita w }**
+
 ### Vacuidade
+
+**E(afd) = { `<A>` | A é um afd que L(A) = vazia }**
 
 ### Reconhecimento da mesma linguagem
 
-
-## Linguagens Reconheciveis
-
-- pequena discussao
-- exemplos
-- Problema da parada
-
-## Operações e Decidibilidade
-- linguagens reconheciveis
+**EQ(afd) = { `<A, B>` | A e B são AFDS e L(A) = L(B) }**
 
 
-## Redutibilidade
