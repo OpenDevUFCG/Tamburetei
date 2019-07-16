@@ -37,12 +37,30 @@ Para resolver usamos um sistema de **marcação**. Iniciamos o programa ou autô
 
 **`A(afd) = { <B, w> | B é um afd que aceita w }`**
 
+O teste de pertinência, verifica se dado um autômato finito, ele consegue aceitar alguma palavra. Um autômato finito determínistico, como o próprio nome sugere, possui um conjunto de passos finitos, então é de se imaginar que o problema seja decidível. Foi visto que as **maquinas de turing**(mt) podem ser usadas para simular algum comportamento, essa capacidade é muito útil aqui, pois o que fazemos é simular a execução do autômato com a entrada w, na mt, de modo a verificar se é possível chegar ao estado final de aceitação.
+
+Para tal. a máquina de turing possui 3 fitas, em que uma guarda a lista de estados, outra a função de transição, e a ultima que é usada para salvar a entrada e  executar a simulação.
+
+Iniciamos no estado inicial, observamos a fita da função de transição para definir o próximo estado a partir do símbolo corrente da entrada, e assim vamos para ele, se no final de tudo, o estado em que estivermos for de aceitação, aceitaremos, caso contrário, rejeitamos.
+
 ### Vacuidade
 
 **`E(afd) = { <A> | A é um afd que L(A) = vazia }`**
 
+O teste da vacuidade tem como objetivo, verificar se um dado autômato não aceita nenhuma palavra. Isso também pode ser interpretado como, dado um estado inicial não existe um caminho para um estado final de aceitação. Se imaginarmos o problema dessa segunda maneira, conseguimos usar uma abordagem similar ao do grafo convexo.
+
+Ao invés de nós, temos estados. Iniciamos marcando o estado inicial, continuamos para os estados que são alcançados pelo primeiro, se ao final da execução o estado final de aceitação não foi marcado, não conseguimos chegar até ele, logo aceitamos, senão, rejeitamos.
+
 ### Reconhecimento da mesma linguagem
 
 **`EQ(afd) = { <A, B> | A e B são AFDS e L(A) = L(B) }`**
+
+Esse problema é um dos mais interessantes, pela criatividade necessária para resolver ele. O problema se propõe a testar se duas linguagens aceitam as mesmas palavras, você pode achar que precisaríamos testar todas as palavras desses autômatos para só então confirmar se essas linguagens são iguais, o que seria um problema caso a linguagem fosse infinita, mas isso não é necessário.
+
+O que fazemos é utilizar propriedades de conjuntos, pense no seguinte, se os dois autômatos são iguais, se estivéssemos interessados em saber palavras que pertencem ao primeiro autômato, mas não ao segundo e vice-versa, esse conjunto de palavras deve ser vazio, certo?
+Então, usamos isso ao nosso favor. Isso pode ser transcrito como:
+`L(C) = [L(A) inter ~L(B)] U [~L(A) inter L(B)] = vazio`
+
+Do primeiro capítulo, vimos que os autômatos são fechados para todas as operações, então tendo em mão o autômato da linguagem C, basta executarmos o autômato do teste da vacuidade, se o mesmo aceita, aceitaremos e se o mesmo rejeita, rejeitaremos. A linguagem consegue ser decídivel, porque apenas manipulamos os estados do autômato, não simulamos uma execução com infinitas palavras, devido a isso conseguimos garantir a resposta.
 
 
