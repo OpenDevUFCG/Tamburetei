@@ -14,7 +14,7 @@ Para provar que uma linguagem é decidível, só precisamos discutir, qual seria
 
 ### Polinômio com uma raiz inteira
 
-**L = { p | p é um polinômio sobre x com raiz inteira }**
+**`L = { p | p é um polinômio sobre x com raiz inteira }`**
 
 O problema do polinômio com uma raiz inteira num primeiro momento, pode parecer que não é decidivel, já que se tivermos um polinômio com múltiplas raízes, precisamos testar usando a abordagem de **força bruta**, e assim o computador pode ficar executando indefinidamente, como consequência o problema não consegue ser decidível. No entanto, no caso de um polinômio com uma única raiz inteira conseguimos fazer ele ser decível, porque conseguimos limitar a quantidade de casos que precisamos testar.
 
@@ -27,7 +27,7 @@ A resposta é **sim**. Entende por quê? Conseguiriamos usar o programa anterior
 
 ### Grafo não-direcionado conexo
 
-**L = { `<G>` | G é um grafo não-direcionado convexo }**
+**`L = { <G> | G é um grafo não-direcionado convexo }`**
 
 Um gráfico é dito conexo, se todo nó consegue ser atingido por qualquer outro. Isto é. existe um caminho pra chegar a um nó, a partir de qualquer nó.
 
@@ -35,14 +35,14 @@ Para resolver usamos um sistema de **marcação**. Iniciamos o programa ou autô
 
 ### Pertinência a uma linguagem
 
-**A(afd) = { `<B, w>` | B é um afd que aceita w }**
+**`A(afd) = { <B, w> | B é um afd que aceita w }`**
 
 ### Vacuidade
 
-**E(afd) = { `<A>` | A é um afd que L(A) = vazia }**
+**`E(afd) = { <A> | A é um afd que L(A) = vazia }`**
 
 ### Reconhecimento da mesma linguagem
 
-**EQ(afd) = { `<A, B>` | A e B são AFDS e L(A) = L(B) }**
+**`EQ(afd) = { <A, B> | A e B são AFDS e L(A) = L(B) }`**
 
 
