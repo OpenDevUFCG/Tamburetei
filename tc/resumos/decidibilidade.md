@@ -16,7 +16,7 @@ Para provar que uma linguagem é decidível, só precisamos discutir, qual seria
 
 **`L = { p | p é um polinômio sobre x com raiz inteira }`**
 
-O problema do polinômio com uma raiz inteira num primeiro momento, pode parecer que não é decidivel, já que se tivermos um polinômio com múltiplas raízes, precisamos testar usando a abordagem de **força bruta**, e assim o computador pode ficar executando indefinidamente, como consequência o problema não consegue ser decidível. No entanto, no caso de um polinômio com uma única raiz inteira conseguimos fazer ele ser decível, porque conseguimos limitar a quantidade de casos que precisamos testar.
+O problema do polinômio com uma raiz inteira num primeiro momento, pode parecer que não é decidivel, já que se tivermos um polinômio com múltiplas raízes, precisamos testar usando a abordagem de **força bruta**, e assim o computador pode ficar executando indefinidamente, como consequência o problema não consegue ser decidível. No entanto, no caso de um polinômio com uma única raiz inteira conseguimos fazer ele ser decídivel, porque conseguimos limitar a quantidade de casos que precisamos testar.
 
 O [teorema das raizes racionais](https://pt.wikipedia.org/wiki/Teorema_das_ra%C3%ADzes_racionais) afirma que se o polinômio possui uma raiz ela está entre dois valores, e assim a procura tem fim. Dessa forma, conseguimos afirmar que o problema é decidível, uma vez que também conseguiremos responder quando o polinômio não tem uma raiz, diferentemente do problema inicial.
 
@@ -27,11 +27,11 @@ A resposta é **sim**. Entende por quê? Conseguiriamos usar o programa anterior
 
 ### Grafo não-direcionado conexo
 
-**`L = { <G> | G é um grafo não-direcionado convexo }`**
+**`L = { <G> | G é um grafo não-direcionado conexo }`**
 
 Um gráfico é dito conexo, se todo nó consegue ser atingido por qualquer outro. Isto é. existe um caminho pra chegar a um nó, a partir de qualquer nó.
 
-Para resolver usamos um sistema de **marcação**. Iniciamos o programa ou autômato, recebendo o grafo, marcando o nó inicial, a cada novo estado percorrido a partir do que foi marcado, marcamos ele também, se ao final da execução, todos os nós estiverem marcados, isso indica que conseguimos obedecer a propriedade do grafo convexo e portanto aceitamos, se houve pelo menos um nó que não foi marcado, rejeitamos.
+Para resolver usamos um sistema de **marcação**. Iniciamos o programa ou autômato, recebendo o grafo, marcando o nó inicial, a cada novo estado percorrido a partir do que foi marcado, marcamos ele também, se ao final da execução, todos os nós estiverem marcados, isso indica que conseguimos obedecer a propriedade do grafo conexo e portanto aceitamos, se houve pelo menos um nó que não foi marcado, rejeitamos.
 
 ### Pertinência a uma linguagem
 
@@ -47,7 +47,7 @@ Iniciamos no estado inicial, observamos a fita da função de transição para d
 
 **`E(afd) = { <A> | A é um afd que L(A) = vazia }`**
 
-O teste da vacuidade tem como objetivo, verificar se um dado autômato não aceita nenhuma palavra. Isso também pode ser interpretado como, dado um estado inicial não existe um caminho para um estado final de aceitação. Se imaginarmos o problema dessa segunda maneira, conseguimos usar uma abordagem similar ao do grafo convexo.
+O teste da vacuidade tem como objetivo, verificar se um dado autômato não aceita nenhuma palavra. Isso também pode ser interpretado como, dado um estado inicial não existe um caminho para um estado final de aceitação. Se imaginarmos o problema dessa segunda maneira, conseguimos usar uma abordagem similar ao do grafo conexo.
 
 Ao invés de nós, temos estados. Iniciamos marcando o estado inicial, continuamos para os estados que são alcançados pelo primeiro, se ao final da execução o estado final de aceitação não foi marcado, não conseguimos chegar até ele, logo aceitamos, senão, rejeitamos.
 
@@ -58,7 +58,7 @@ Ao invés de nós, temos estados. Iniciamos marcando o estado inicial, continuam
 Esse problema é um dos mais interessantes, pela criatividade necessária para resolver ele. O problema se propõe a testar se duas linguagens aceitam as mesmas palavras, você pode achar que precisaríamos testar todas as palavras desses autômatos para só então confirmar se essas linguagens são iguais, o que seria um problema caso a linguagem fosse infinita, mas isso não é necessário.
 
 O que fazemos é utilizar propriedades de conjuntos, pense no seguinte, se os dois autômatos são iguais, se estivéssemos interessados em saber palavras que pertencem ao primeiro autômato, mas não ao segundo e vice-versa, esse conjunto de palavras deve ser vazio, certo?
-Então, usamos isso ao nosso favor. Isso pode ser transcrito como:
+Então, usamos isso ao nosso favor. Isso pode ser transcrito como:  
 `L(C) = [L(A) inter ~L(B)] U [~L(A) inter L(B)] = vazio`
 
 Do primeiro capítulo, vimos que os autômatos são fechados para todas as operações, então tendo em mão o autômato da linguagem C, basta executarmos o autômato do teste da vacuidade, se o mesmo aceita, aceitaremos e se o mesmo rejeita, rejeitaremos. A linguagem consegue ser decídivel, porque apenas manipulamos os estados do autômato, não simulamos uma execução com infinitas palavras, devido a isso conseguimos garantir a resposta.
