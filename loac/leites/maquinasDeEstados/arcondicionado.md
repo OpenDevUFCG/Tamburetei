@@ -36,11 +36,11 @@ Implemente o circuito controlador de uma máquina de ar-condicionado.
 
 - Através das chaves `diminuir` e `aumentar`, o usuário diminui ou aumenta a temperatura desejada em 1 grau Celsius a cada ciclo de *clock*.
 
-- A temperatura desejada não pode ser menor que 20 graus Celsius, nem maior que 27 graus Celsius.
+- As temperaturas real e desejada não podem ser menores que 20 graus Celsius, nem maiores que 27 graus Celsius.
 
 - Caso nenhuma das chaves (`diminuir` e `aumentar`) estejam acionadas, a temperatura desejada permanece igual. O mesmo vale se as duas chaves forem acionadas ao mesmo tempo.
 
-- A temperatura real tende a se igualar à temperatura desejada, mas só consegue aumentar ou diminuir de 1 grau a cada 2 ciclos de *clock*.
+- A temperatura real tende a se igualar à temperatura desejada, mas só consegue aumentar ou diminuir em 1 grau Celsius a cada 2 ciclos de *clock*.
 
 - O ar-condicionado começa a pingar 10 ciclos de *clock* após o reset.
 
