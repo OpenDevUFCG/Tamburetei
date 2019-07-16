@@ -10,13 +10,24 @@ Uma linguagem é dita **decidível**, se existe uma máquina de turing que a dec
 
 O livro busca representar os problemas decidiveis, por meio de linguagens, isso porque, como desde o ínicio da disciplina estamos fazendo autômatos para o reconhecimento das mesmas, então será fácil pra você se a mesma linha de raciocínio for seguida, mas cada linguagem citada abaixo equivale a um problema e o autômato(a.k.a. programa), a solução.
 
+Para provar que uma linguagem é decidível, só precisamos discutir, qual seria o procedimento necessário para resolver o problema, geralmente, usando pseudo-código, esse tópico diferente dos outros não exigirá a criação dos autômatos.
+
 ### Polinômio com uma raiz inteira
 
 O problema do polinômio com uma raiz inteira num primeiro momento, pode parecer que não é decidivel, já que se tivermos um polinômio com múltiplas raízes, precisamos testar usando a abordagem de **força bruta**, e assim o computador pode ficar executando indefinidamente, como consequência o problema não consegue ser decidível. No entanto, no caso de um polinômio com uma única raiz inteira conseguimos fazer ele ser decível, porque conseguimos limitar a quantidade de casos que precisamos testar.
 
 O [teorema das raizes racionais](https://pt.wikipedia.org/wiki/Teorema_das_ra%C3%ADzes_racionais) afirma que se o polinômio possui uma raiz ela está entre dois valores, e assim a procura tem fim. Dessa forma, conseguimos afirmar que o problema é decidível, uma vez que também conseguiremos responder quando o polinômio não tem uma raiz, diferentemente do problema inicial.
 
-### Grafo convexo
+Um questionamento que pode surgir é:
+> "Se eu tiver um polinômio com múltiplas variavéis e conseguir manipular a equação de modo a tornar ele em função de uma única, o problema será decidivel?"
+
+A resposta é **sim**. Entende por quê? Conseguiriamos usar o programa anterior pra resolver o novo.
+
+### Grafo não-direcionado convexo
+
+
+
+
 
 ### Pertinência a uma linguagem
 
