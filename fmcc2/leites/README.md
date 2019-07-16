@@ -30,3 +30,19 @@ O [Overleaf](https://www.overleaf.com/) é um editor online de LaTeX que dispõe
 7 | Grupos | [Link](https://drive.google.com/file/d/1E7-W5lrC8lcjVkvmyWt2MSME9tkVXa74/view?usp=sharing) |
 8 | Anéis | [Link](https://drive.google.com/file/d/1yYCW35xfu_dCjVLTmrQBiXl57uhUf4bs/view?usp=sharing) |
 9 | Matrizes | [Link](https://drive.google.com/file/d/1S5n4ckAtVb81Wn2RUMqWrcviRvxw76Uw/view?usp=sharing) |
+
+
+
+### 2019.1
+**Lista** | **Assunto** | **Links**  |
+:---: | :---:| :---: |
+
+1 | Técnicas de Demonstração | [Link](https://drive.google.com/open?id=1uTextIbt29_MytqIRwuXxNsrm8FHR--w) |
+2 | Indução e Recursividade | [Link]() |
+3 | Números Inteiros | [Link](https://drive.google.com/open?id=1jozQQsRg7CxWz-qlk_DJFIM2WFMBD-4_) |
+4 | Números Primos e MDC | [Link](https://drive.google.com/open?id=1Fh2ipvKrMdH--TyHqJi1iWJbmgxu-YUT) |
+5 | Congruências | [Link](https://drive.google.com/open?id=16dsweDSA-7J917fR7nPqctl6ntdqewaT) |
+6 | Classes de Congruências | [Link]() |
+7 | Grupos | [Link](https://drive.google.com/open?id=1qvB7nTj_Dj4Ms7Sijgjsi_vpK9nPphq_) |
+8 | Anéis | [Link](https://drive.google.com/open?id=1oUYbo2vYGoOZNyl_8H5GJwjatq2vA6uP) |
+9 | Matrizes | [Link](https://drive.google.com/open?id=1abXUOgOHQdX8a2DrU6Qkh8ZXegAydJ0x) |
