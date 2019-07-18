@@ -31,5 +31,7 @@ Portanto, Introdução à Computação é a disciplina que vai te dar uma noçã
 ## Dicas
 
 - Apesar de não envolver conteúdos extremamente complexos, a disciplina envolve uma grande quantidade de conteúdo. Portanto, é uma péssima ideia começar a estudar na véspera das provas.
+
 - Mapa de Karnaugh não é um conteúdo cobrado nas avaliações, mas pode acelerar profundamente a simplificação de circuitos.
+
 - Aritmética binária e álgebra de Boole podem parecer assuntos simples, mas é comum cometer pequenos erros (por distração) que afetam toda a resolução das questões. Redobre a atenção nesses assuntos e sempre revise suas respostas.

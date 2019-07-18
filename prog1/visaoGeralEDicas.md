@@ -40,4 +40,5 @@ As 10 unidades consistem em:
 ## Dicas
 
 - A cada semana, resolva as questões do TST da sua unidade atual e da posterior a ela. As questões do TST são muito semelhantes às das provas.
+
 - Às vezes, tentar entender a questão no papel ao invés de ir diretamente escrever o código pode economizar tempo e facilitar a compreensão.

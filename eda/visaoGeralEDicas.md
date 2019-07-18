@@ -25,5 +25,6 @@ Essas duas disciplinas envolvem diversos assuntos cuja compreensão é vital par
 ## Dicas
 
 - Muitas questões das provas práticas são tiradas do livro [Cracking the Coding Interview](https://www.pdfdrive.com/cracking-the-coding-interview-e52072841.html).
+
 - Faça todos os roteiros, eles são uma parcela significativa da nota da disciplina e ajudarão muito no aprendizado das estruturas.
   

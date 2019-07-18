@@ -22,3 +22,11 @@ Informações que irão auxiliá-lo a cursar bem a disciplina e a compreender su
     - Controle de fios de múltiplos ciclos
 - Memória
 - Atraso temporal e de propagação
+
+## Visão Geral
+
+> Ainda não temos uma visão geral dessa disciplina. Você pode nos ajudar com isso? (:
+
+## Dicas
+
+> Ainda não temos dicas para essa disciplina. Você pode nos ajudar com isso? (:

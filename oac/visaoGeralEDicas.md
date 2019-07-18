@@ -16,3 +16,11 @@ Informações que irão auxiliá-lo a cursar bem a disciplina e a compreender su
     - Fluxo de controle
 - Projeto Básico de um Computador
 - Dispositivos Embarcados
+
+## Visão Geral
+
+> Ainda não temos uma visão geral dessa disciplina. Você pode nos ajudar com isso? (:
+
+## Dicas
+
+> Ainda não temos dicas para essa disciplina. Você pode nos ajudar com isso? (:
