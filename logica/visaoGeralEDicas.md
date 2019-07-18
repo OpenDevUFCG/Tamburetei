@@ -19,6 +19,8 @@ O principal objetivo do curso é apresentar ao aluno as lógicas formais utiliza
 ## Dicas
 
 - Deixar a primeira prova para repor pode ser uma péssima ideia, pois pode dificultar o entendimento de assuntos que serão necessários nas provas seguintes.
+
 - Alguns assuntos exigem que você pratique para poder realmente entender. Então, sempre faça as listas de exercícios.
+
 - No assunto de dedução, o segredo é praticar para entender o assunto de verdade, faça muitas questões!
 
