@@ -81,7 +81,14 @@ Agora imagine o cenário em que **D** passa ele mesmo como entrada, como ele rec
 
 ### Máquina de Turing e a pertinência a linguagem
 
+**`A(mt) = { <M, w> | M é uma mt e m aceita w }`**
+
+Para esse problema, agimos de modo similar, ao que foi feito com os autômatos, atuamos simulado a execução dessa máquina, se nossa maquina M aceita, aceitamos e se ela rejeita, rejeitamos. O problema é que como temos a saida indefinida, isto é, um loop, o programa ficará executando indefinidamente e como vimos que não conseguimos prever se o programa para ou não do tópico anterior, esse problema também é apenas reconhecível.
+
+
 ### Máquina de Turing e a Vacuidade
+
+
 
 
 
