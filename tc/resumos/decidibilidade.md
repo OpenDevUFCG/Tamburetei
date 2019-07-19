@@ -63,4 +63,28 @@ Então, usamos isso ao nosso favor. Isso pode ser transcrito como:
 
 Do primeiro capítulo, vimos que os autômatos são fechados para todas as operações, então tendo em mão o autômato da linguagem C, basta executarmos o autômato do teste da vacuidade, se o mesmo aceita, aceitaremos e se o mesmo rejeita, rejeitaremos. A linguagem consegue ser decídivel, porque apenas manipulamos os estados do autômato, não simulamos uma execução com infinitas palavras, devido a isso conseguimos garantir a resposta.
 
+## Linguagens Reconhecíveis
+
+De forma similar, as linguagens decidíveis, uma linguagem é dita reconhecível se existe uma máquina de turing que a reconhece. A diferença sutil entre a definição anterior, é que linguagens reconhecíveis, nem sempre retornam uma resposta. Tais linguagens conseguem sempre afirmar quais palavras pertencem a elas, mas não asseguram que retornaram uma resposta no caso contrário.
+
+### Problema da parada
+
+O problema da parada pode te assustar um pouco, mas é um teorema bem importante e que vai ser bastante necessário, desse ponto em diante, porquê você verá que para concluir que um problema não é decídivel, o que fazemos é tentar equiparar o problema da parada que não é decídivel a ele.
+
+Um vídeo muito legal para entender esse assunto é [este](https://www.youtube.com/watch?v=wGLQiHXHWNk), além disso, ele foi usado como base para essa explicação. O problema da parada consiste em ter um programa que tenha a capacidade de afirmar se um programa qualquer(inclusive ele mesmo) irá parar ou não, podemos estar interessado nisso, já que a máquina de turing que representa um computador pode executar indefinidamente.
+
+Para provar que isso não é possível usamos um tipo de **prova por contradição**, iniciamos assumindo que é possível indicar se um programa para ou não e chegaremos a uma contradição, nos levando a concluir que nossa afirmação era falsa. Suponha que existe um programa **H**, que atua como um oráculo, que prevê o futuro, no caso desse programa ele recebe outro e consegue prever se o programa da entrada para ou não. Agora suponha que existe outro programa **D**, que é como um disseminador de **fake news**, ao receber um programa ele passa pra **H** e diz exatamente o contrário que **H** disse. Então se **H** disse que o programa para, ele dirá que não para, e vice-versa.
+
+Agora imagine o cenário em que **D** passa ele mesmo como entrada, como ele recebe um programa como entrada, isso é possível. Essa ideia pode parecer estranha, mas é isso que um compilador faz, ele é um programa que recebe outro como entrada. Ao passar **D** como entrada, **H** poderia afirmar que **D** para, mas como **D** sempre afirma o contrário, ele diria que não para. É aqui que chegamos na contradição, se existe um programa **H** que consegue afirmar que o problema para, ele deveria ser coerente com o resultado apontado por **D**, como **D** afirma que para e não para ao mesmo tempo, pelo **príncipio do terceiro excluído**, isso é uma contradição, logo, podemos concluir que H não existe.
+
+
+
+### Máquina de Turing e a pertinência a linguagem
+
+### Máquina de Turing e a Vacuidade
+
+
+
+
+
 
