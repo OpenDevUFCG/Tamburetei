@@ -100,7 +100,7 @@ Além das linguagens citadas anteriormente, existe um outro tipo de linguagem, q
 
 ## Co-reconhecibilidade
 
-Um teorema importante, antes de entender melhor, o que é a irreconhecibilidade, é entender o teorema da co-reconhecibilidade, que afirma que se uma linguagem e seu complemento são reconhecíveis, então a primeira será reconhecível. Isto porque, se o complemento de uma linguagem é reconhecível, então isso representa que ela já conseguia garantir o não, porque quando fazemos o complemento, o que era o antigo não, passará a ser o estado de aceitação, e dessa forma ela só garantirá isso, se antes garantia o de rejeição. E assim, concluímos que ela só pode ser decidível.
+Um teorema importante, antes de entender melhor, o que é a irreconhecibilidade, é entender o teorema da co-reconhecibilidade, que afirma que se uma linguagem e seu complemento são reconhecíveis, então a primeira será reconhecível. Isto porque, se o complemento de uma linguagem é decidível. Se isso occore, indica que a linguaugem já consegue garantir o não, porque quando fazemos o complemento, o que era o antigo não, passará a ser o estado de aceitação, e dessa forma ela só garantirá isso, se antes garantia o de rejeição. E assim, concluímos que ela só pode ser decidível.
 
 Devido a esse fato, se tivermos uma linguagem apenas reconhecível, ao fazermos seu complemento, o resultado é que obtemos uma **linguagem irreconhecível**, já que ela não garante a rejeição e quando fizermos o complemento, esse passará a ser o novo estado de aceitação.
 
