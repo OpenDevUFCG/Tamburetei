@@ -69,7 +69,7 @@ De forma similar às linguagens decidíveis, uma linguagem é dita reconhecível
 
 ### Problema da parada
 
-O problema da parada pode te assustar um pouco, mas é um teorema bem importante e que vai ser bastante necessário, desse ponto em diante, porquê você verá que para concluir que um problema não é decídivel, o que fazemos é tentar equiparar o problema da parada que não é decídivel a ele.
+O problema da parada pode te assustar um pouco, mas é um teorema bem importante e que vai ser bastante necessário desse ponto em diante, porque você verá que para concluir que um problema não é decidível, o que fazemos é tentar equiparar o problema da parada que não é decidível a ele.
 
 Um vídeo muito legal para entender esse assunto é [este](https://www.youtube.com/watch?v=wGLQiHXHWNk), além disso, ele foi usado como base para essa explicação. O problema da parada consiste em ter um programa que tenha a capacidade de afirmar se um programa qualquer(inclusive ele mesmo) irá parar ou não, podemos estar interessado nisso, já que a máquina de turing que representa um computador pode executar indefinidamente.
 
