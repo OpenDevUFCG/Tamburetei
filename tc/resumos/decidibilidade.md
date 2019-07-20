@@ -94,6 +94,35 @@ A ideia por trás da prova é reduzir esse problema a uma variação da **A(mt)*
 
 Testamos para esse caso base, em que a linguagem só tem uma única palavra, e vemos que não conseguimos responder nem mesmo nele. Criamos uma variação da máquina anterior, adicionando alguns estados iniciais que verificam se a palavra passada é diferente da que nossa linguagem possui, se ela for, rejeitamos, caso contrário, colocamos ela pra executar na máquina anterior. No entanto, mais uma vez, recaímos no problema de se determinar se a máquina para ou não. E como não conseguimos assegurar o nosso estado de negação, concluímos que ela é reconhecível.
 
+## Irreconhecibilidade
+
+Além das linguagens citadas anteriormente, existe um outro tipo de linguagem, que é a linguagem irreconhecível, esse tipo, não consegue garantir nem o estado de aceitação, nem o de rejeição, a partir dos exemplos, isso ficará mais claro.
+
+## Co-reconhecibilidade
+
+Um teorema importante, antes de entender melhor, o que é a irreconhecibilidade, é entender o teorema da co-reconhecibilidade, que afirma que se uma linguagem e seu complemento são reconhecíveis, então a primeira será reconhecível. Isto porque, se o complemento de uma linguagem é reconhecível, então isso representa que ela já conseguia garantir o não, porque quando fazemos o complemento, o que era o antigo não, passará a ser o estado de aceitação, e dessa forma ela só garantirá isso, se antes garantia o de rejeição. E assim, concluímos que ela só pode ser decidível.
+
+Devido a esse fato, se tivermos uma linguagem apenas reconhecível, ao fazermos seu complemento, o resultado é que obtemos uma **linguagem irreconhecível**, já que ela não garante a rejeição e quando fizermos o complemento, esse passará a ser o novo estado de aceitação.
+
+## Operações entre Linguagens
+
+### Linguagem reconhecível ∩ Linguagem reconhecível
+
+Ao fazermos a interseção de uma linguagem reconhecível com outra reconhecível, obtemos outra reconhecível, já que como as duas garantem o sim, a interseção não alterará essa propriedade e a resultante ainda terá esse comportamento.
+
+### Linguagem decídivel U Linguagem decidível
+
+Ao fazermos a união de duas decidíveis, estamos obtendo todo o conjunto de linguagens que garantem o sim e o não e unindo a ele mesmo, logo o resultado é uma linguagem decídivel também.
+
+### Linguagem reconhecível U Linguagem decidível
+
+Ao fazermos a união de uma reconhecível com uma decidível, acabamos por obter uma reconhecível, isto se dá, porque se nos depararmos com o caso em que ambas as linguagens rejeitam a palavra, poderíamos continuar executando indefinidamente no caso da primeira, logo a linguaguem garante apenas a aceitação.
+
+### Linguagem reconhecível ∩ Linguagem decidível
+
+Apesar de uma delas ser decídivel, se nos depararmos com o caso da primeira receber uma palavra que não pertence a lingugagem também executaríamos indefinidamente, como no caso anterior, e portanto, a linguagem resultante é reconhecível.
+
+
 
 
 
