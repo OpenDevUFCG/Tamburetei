@@ -65,7 +65,7 @@ Do primeiro capítulo, vimos que os autômatos são fechados para todas as opera
 
 ## Linguagens Reconhecíveis
 
-De forma similar, as linguagens decidíveis, uma linguagem é dita reconhecível se existe uma máquina de turing que a reconhece. A diferença sutil entre a definição anterior, é que linguagens reconhecíveis, nem sempre retornam uma resposta. Tais linguagens conseguem sempre afirmar quais palavras pertencem a elas, mas não asseguram que retornarão uma resposta no caso contrário.
+De forma similar às linguagens decidíveis, uma linguagem é dita reconhecível se existe uma máquina de turing que a reconhece. A diferença sutil entre a definição anterior, é que linguagens reconhecíveis nem sempre retornam uma resposta. Tais linguagens conseguem sempre afirmar quais palavras pertencem a elas, mas não asseguram que retornarão uma resposta no caso contrário.
 
 ### Problema da parada
 
