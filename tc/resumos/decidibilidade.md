@@ -92,7 +92,7 @@ Para esse problema, agimos de modo similar, ao que foi feito com os autômatos, 
 
 A ideia por trás da prova é reduzir esse problema a uma variação da **A(mt)** que sabemos que é indecídivel. Se a linguagem é vazia, ele não aceita nenhuma palavra. Então se ele aceita pelo menos uma, deixa de ser vazia e não pertence a nossa linguagem.
 
-Testamos para esse caso base, em que a linguagem só tem uma única palavra e vemos que não conseguimos responder nem mesmo nele. Criamos uma variação da máquina anterior, adicionando alguns estados iniciais que verificam se a palavra passada é diferente da que nossa linguagem possui, se ela for, rejeitamos, caso contrário, colocamos ela pra executar na máquina anterior, no entanto, mais uma vez, recaímos no problema de se determinar se a máquina para ou não. E como não conseguimos assegurar o nosso estado de negação, concluímos que ela é reconhecível.
+Testamos para esse caso base, em que a linguagem só tem uma única palavra, e vemos que não conseguimos responder nem mesmo nele. Criamos uma variação da máquina anterior, adicionando alguns estados iniciais que verificam se a palavra passada é diferente da que nossa linguagem possui, se ela for, rejeitamos, caso contrário, colocamos ela pra executar na máquina anterior. No entanto, mais uma vez, recaímos no problema de se determinar se a máquina para ou não. E como não conseguimos assegurar o nosso estado de negação, concluímos que ela é reconhecível.
 
 
 
