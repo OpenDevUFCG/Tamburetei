@@ -1,6 +1,6 @@
 ## Decidibilidade
 
-Esse tópico concentra-se em demonstrar que problemas são soluvéis ou não, isto é, quais problemas um computador consegue resolver e quais não.  
+Esse tópico concentra-se em demonstrar que problemas são solucionáveis ou não, isto é, quais problemas um computador consegue resolver e quais não.  
 
 Você pode pensar que não é útil saber quais problemas o computador não consegue resolver, mas você verá que isso o ajudará a concentrar seus esforços na simplificação e alteração de problemas que você sabe que não são resolvíveis para todos os casos. Além disso, isso o ajuda a compreender melhor a computação, uma vez que você entende seus limites.
 
@@ -96,11 +96,11 @@ Testamos para esse caso base, em que a linguagem só tem uma única palavra, e v
 
 ## Irreconhecibilidade
 
-Além das linguagens citadas anteriormente, existe um outro tipo de linguagem, que é a linguagem irreconhecível, esse tipo, não consegue garantir nem o estado de aceitação, nem o de rejeição, a partir dos exemplos, isso ficará mais claro.
+Além das linguagens citadas anteriormente, existe um outro tipo de linguagem, que é a linguagem irreconhecível. Esse tipo não consegue garantir nem o estado de aceitação, nem o de rejeição. A partir dos exemplos, isso ficará mais claro.
 
 ## Co-reconhecibilidade
 
-Um teorema importante, antes de entender melhor, o que é a irreconhecibilidade, é entender o teorema da co-reconhecibilidade, que afirma que se uma linguagem e seu complemento são reconhecíveis, então a primeira será reconhecível. Isto porque, se o complemento de uma linguagem é decidível. Se isso occore, indica que a linguaugem já consegue garantir o não, porque quando fazemos o complemento, o que era o antigo não, passará a ser o estado de aceitação, e dessa forma ela só garantirá isso, se antes garantia o de rejeição. E assim, concluímos que ela só pode ser decidível.
+Um teorema importante, antes de entender melhor o que é a irreconhecibilidade, é entender o teorema da co-reconhecibilidade, que afirma que se uma linguagem e seu complemento são reconhecíveis, então a primeira será reconhecível. Isto porque, se o complemento de uma linguagem é decidível. Se isso occore, indica que a linguagem já consegue garantir o não, porque quando fazemos o complemento, o que era o antigo não, passará a ser o estado de aceitação, e dessa forma ela só garantirá isso, se antes garantia o de rejeição. E assim, concluímos que ela só pode ser decidível.
 
 Devido a esse fato, se tivermos uma linguagem apenas reconhecível, ao fazermos seu complemento, o resultado é que obtemos uma **linguagem irreconhecível**, já que ela não garante a rejeição e quando fizermos o complemento, esse passará a ser o novo estado de aceitação.
 
