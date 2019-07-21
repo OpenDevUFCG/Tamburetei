@@ -1,4 +1,4 @@
-# {discipline}
+# Teoria dos Grafos
 
 ## O que tem?
 
