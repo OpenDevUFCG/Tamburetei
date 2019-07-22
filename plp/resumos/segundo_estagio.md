@@ -32,11 +32,10 @@ LPs como Fortran, Java, C são classificadas como imperativas, pois baseiam sua 
 
 Na programação funcional não existe a noção de estado e não existe a necessidade de instruções de atribuição. Diferença:
 - Imperativa:
-
-![ex_funcional](imagens/ex_funcional.png)
+![ex_imperativa](imagens/ex_imperativa.png)
 
 - Funcional:
-![ex_imperativa](imagens/ex_imperativa.png)
+![ex_funcional](imagens/ex_funcional.png)
 
 - Por que Estudar Programação Funcional?
 	* Visão clara de conceitos fundamentais:
