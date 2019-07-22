@@ -4,6 +4,7 @@
 Paradigmas funcional e imperativo têm algo em comum: o programa lê entradas e gera saídas e resolve problemas através de mapeamento.
 O programa segundo o paradigma lógico implementa uma relação, relações são mais gerais que mapeamentos, tornando a programação lógica mais alto nível que a programação imperativa ou funcional.
 As linguagens de programação em lógica estão restritas à cláusulas de Horn, que é uma cláusula com no máximo um literal positivo. Sendo assim, um programa lógico é uma coleção de cláusulas Horn.
+
 ![intro_logica](imagens/intro_logica.png)
 
 ## Paradigma Lógico
@@ -21,6 +22,7 @@ Uma linguagem natural pode ser ambígua, já uma linguagem formal é precisa.
 
 ## Regras de Inferência
 Uma regra de inferência é um padrão de manipulação sintática que: permite criar novas fórmulas a partir de outras existentes e em geral, simulam formas de raciocínio válidas.
+
 ![regra_inferencia](imagens/regra_inferencia.png)
 
 ## Estratégia de Busca
@@ -42,10 +44,12 @@ Toda cláusula termina com um ponto (.).
 Nomenclatura:
 - Se n = 0 a cláusula é chamada de fato
 - Se n >= 1 a cláusula é chamada de regra
+
 ![clausula_horn](imagens/clausula_horn.png)
 
 ### Prolog - Unificação:
 Unificação é o mecanismo usado para determinar se existe uma maneira de instanciar as variáveis de dois predicados de modo a torná-los iguais.
+
 ![unificacao](imagens/unificacao.png)
 
 ### Prolog – Algoritmo de Execução:
@@ -56,11 +60,17 @@ Unificação é o mecanismo usado para determinar se existe uma maneira de insta
 
 ### Prolog - Listas:
 Lista em Prolog é uma estrutura que representa uma sequência de elementos de qualquer comprimento, sendo a estrutura [h|t] denota uma lista cuja cabeça é h e cuja cauda é t, semelhante a Haskell.
+
 ![lista_logica_1](imagens/lista_logica_1.png)
+
 Prolog fornece a notação barra vertical para separar alguns elementos da lista do restante da lista.
+
 ![lista_logica_2](imagens/lista_logica_2.png)
+
 Listas em Prolog são heterogêneas, isto é, podem conter valores de diferentes tipos.
+
 Podemos comparar valores de diferentes tipos usando a relação ”=” mas o resultado será false.
+
 ![lista_logica_3](imagens/lista_logica_3.png)
 
 

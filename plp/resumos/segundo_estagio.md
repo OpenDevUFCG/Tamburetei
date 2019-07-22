@@ -91,18 +91,22 @@ Linguagens funcionais normalmente oferecem diversos mecanismos para definição 
 
 ##### Expressões Condicionais
 Usa uma expressão lógica para escolher entre dois resultados de mesmo tipo. O ELSE é obrigatório, pois caso contrário, se a condição do if não fosse satisfeita, não haveria retorno.
+
 ![ex_funcao_haskell_if](imagens/ex_funcao_haskell_if.png)
 
 ##### Alternativas com guardas
 Expressão multidirecional para escolher entre uma sequência de resultados de mesmo tipo. As guardas permitem estabelecer uma distinção entre casos diferentes da definição de uma função.
+
 ![ex_guardas](imagens/ex_guardas.png)
 
 ##### Casamento de Padrões
 Uma sequência de “padrões” é usada para escolher entre uma sequência de valores de mesmo tipo. Se existe um match(casamento) entre o padrão e o argumento, este é escolhido e demais não são testados
+
 ![casamento_de_padrao](imagens/casamento_de_padrao.png)
 
 ##### Cláusulas where
 Equivalentes às“variáveis locais”, mas não iguais! Evitam a repetição de código e recálculos.
+
 ![clausula_where](imagens/clausula_where.png)
 
 #### Listas
@@ -125,6 +129,7 @@ Como resolver funções em listas?
 - Solução:Recursividade
 	* Caso base: listavazia[] e sumList[] = 0 
 	* Caso recursivo: sumList (a:as) = a + sumList as
+
 ![funcao_lista](imagens/funcao_lista.png)
 
 Na matemática, é comum definir um conjunto partir de outro usando notação em compreensão, uma lista pode ser feita em termos dos elementos de outra
@@ -132,9 +137,11 @@ Na matemática, é comum definir um conjunto partir de outro usando notação em
 ![compreesao](imagens/compreesao.png)
 
 Além das listas para sequências finitas ([1,2,3]), podemos também usar listas para representar sequências infinitas
+
 ![listas_infinitas](imagens/listas_infinitas.png)
 
 Haskell e a maioria das LPS funcionais fazem uso da avaliação preguiçosa(lazy evaluation). Nesse caso, os argumentos de funções são analisados somente quando são utilizados e apenas partes da estrutura são avaliadas.
+
 ![lazy_evaluation](imagens/lazy_evaluation.png)
 
 #### Polimorfismo:
@@ -156,6 +163,7 @@ Função pode ter tipos genéricos associados
 	* Uma lista de elementos a serem transformados
 
 A linguagem Haskell possui a implementação de uma função de mapeamento, chamada map:
+
 ![funcao_map](imagens/funcao_map.png)
 
 
