@@ -28,5 +28,6 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 - [Lucidchart](https://www.lucidchart.com/pages/pt)
 
 ## Projetos Antigos
+- [Quem me Ajuda](https://github.com/lucasmedeiros/QuemMeAjuda)
 - [Lista pra Mim](https://github.com/thayannevls/ListaPraMim)
 - [eDoe](https://github.com/AntonioNtV/projeto-lp2-edoe)
