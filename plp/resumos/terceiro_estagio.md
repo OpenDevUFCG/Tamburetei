@@ -3,12 +3,12 @@
 ## Introdução
 Paradigmas funcional e imperativo têm algo em comum: o programa lê entradas e gera saídas e resolve problemas através de mapeamento.
 O programa segundo o paradigma lógico implementa uma relação, relações são mais gerais que mapeamentos, tornando a programação lógica mais alto nível que a programação imperativa ou funcional.
-As linguagens de programação em lógica estão restritas à cláusulas de Horn, que é uma cláusula com no máximo um literal positivo. Sendo assim, um programa lógico é uma coleção de cláusulas Horn.
+As linguagens de programação lógicas estão restritas à cláusulas de Horn, que é uma cláusula com no máximo um literal positivo. Sendo assim, um programa lógico é uma coleção de cláusulas Horn.
 
 ![intro_logica](imagens/intro_logica.png)
 
 ## Paradigma Lógico
-Também parte da sub categoria “paradigma declarativo”
+Também parte da sub categoria “paradigma declarativo”.
 Os programas lógicos se preocupam com os fatos e não com os procedimentos.
 O conhecimento acerca do problema é descrito usando lógica simbólica.
 Formalismo lógico-computacional fundamentado em três princípios:

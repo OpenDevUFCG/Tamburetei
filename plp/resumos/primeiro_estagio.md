@@ -2,7 +2,7 @@
 
 ## Paradigma
 
-Algo que vai servir de modelo ou exemplo a ser seguido em determinada situação. Paradigma de linguagens de programação são as ideias que têm sido usadas para guiar o design das linguagens de programação. Além disso, existem muitas linguagens de programação, nenhuma é adequada a todos os problemas e que conhecer novas linguagens aumenta seu arsenal de ferramentas para resolver problemas.
+Um paradigma é algo que vai servir de modelo ou exemplo a ser seguido em determinada situação. Paradigmas de linguagens de programação são as ideias que têm sido usadas para guiar o design das linguagens de programação. Existem muitas linguagens de programação e nenhuma é adequada a todos os problemas. Conhecer novas linguagens aumenta seu arsenal de ferramentas para resolver problemas.
 
 ## Programas
 
@@ -22,7 +22,7 @@ Característica referente aos requisitos práticos específicos de uma LP, progr
 
 ### Implementável
 
-uma LP deve ser passível de tradução para um formalismo que seja executável em uma máquina
+Uma LP deve ser passível de tradução para um formalismo que seja executável em uma máquina
 
 ### Compiladas vs. Interpretadas:
 
@@ -101,7 +101,7 @@ pelo processamento da mensagem.
 	* Persistentes: tem existência independente do tempo de vida (execução) de um programa.
 
 ### Arrays
-Variáveis típicas da programação imperativa, ela é vista como um mapeamento de um conju	nto de índices para variáveis componentes. O conjunto de índices é normalmente um subintervalo de valores consecutivos.
+Variáveis típicas da programação imperativa, ela é vista como um mapeamento de um conjunto de índices para variáveis componentes. O conjunto de índices é normalmente um subintervalo de valores consecutivos.
 
 ### Stack
 Variáveis declaradas e inicializadas no início da execução. 
@@ -114,8 +114,8 @@ Tempo de vida de uma variável é o intervalo de tempo entre a sua criação (al
 - Uma variável local é aquela declarada dentro de um bloco para ser usada apenas dentro dele. 
 - Uma variável global é aquela declarada em um bloco externo que contém o bloco em que está sendo usada.
 
-- Escopo Léxico: a estrutura ”textual" do programa é fator determinante para definição do escopo.  O que o programa imprime? 3!
-- Escopo Dinâmico: o escopo é determinado através da linha de execução do programa, dependente da ordem de execução das rotinas. O que o programa imprime? 4! Esse escopo está em desuso.
+- Escopo Léxico: a estrutura ”textual" do programa é fator determinante para definição do escopo. O que o programa abaixo imprime? 3!
+- Escopo Dinâmico: o escopo é determinado através da linha de execução do programa, dependente da ordem de execução das rotinas. O que o programa abaixo imprime? 4! Esse escopo está em desuso.
 
 ![escopo_c](imagens/escopo_c.png)
 
@@ -147,4 +147,3 @@ Um sequenciador é uma construção que transfere o controle para outro ponto do
 - Jump: uma transferência de controle explícita de um ponto para outro do programa.
 - Escapes: Termina a execução de um comando composto fechado, transferindo o controle da execução para o comando seguinte 
 - Exceptions: Quando condições anormais ocorrem, o programa não pode continuar executando normalmente, um programa é dito ser robusto se consegue se recuperar de condições anormais sem encerrar a sua execução. Quando uma condição excepcional ocorre, o controle do programa é transferido para um módulo específico, o handler
-

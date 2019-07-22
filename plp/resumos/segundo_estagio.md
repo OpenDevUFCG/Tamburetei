@@ -24,7 +24,7 @@ LPs como Fortran, Java, C são classificadas como imperativas, pois baseiam sua 
 - Assumindo um programa funcional, sua saída é completamente determinada pelas entradas que recebe
 - Programação funcional é baseada no conceito de funções matemáticas
 - Recursões e expressões condicionais, ao invés de sequenciamento e iterações
-- Transparência Referencial sem efeitos colaterais!
+- Transparência Referencial sem efeitos colaterais (não há alteração de estado)!
 - Funções são valores de primeira ordem
 - Tem como objetivo imitar as funções matemáticas
 
@@ -89,7 +89,7 @@ Linguagens funcionais normalmente oferecem diversos mecanismos para definição 
 - Expressões Lambda
 
 ##### Expressões Condicionais
-Usa uma expressão lógica para escolher entre dois resultados de mesmo tipo. O ELSE é obrigatório, pois caso contrário, se a condição do if não fosse satisfeita, não haveria retorno.
+Usa uma expressão lógica para escolher entre dois resultados de mesmo tipo. O ELSE é obrigatório, caso contrário, se a condição do if não fosse satisfeita, não haveria retorno.
 
 ![ex_funcao_haskell_if](imagens/ex_funcao_haskell_if.png)
 
@@ -99,7 +99,7 @@ Expressão multidirecional para escolher entre uma sequência de resultados de m
 ![ex_guardas](imagens/ex_guardas.png)
 
 ##### Casamento de Padrões
-Uma sequência de “padrões” é usada para escolher entre uma sequência de valores de mesmo tipo. Se existe um match(casamento) entre o padrão e o argumento, este é escolhido e demais não são testados
+Uma sequência de “padrões” é usada para escolher entre uma sequência de valores de mesmo tipo. Se existe um match (casamento) entre o padrão e o argumento, este é escolhido e demais não são testados
 
 ![casamento_de_padrao](imagens/casamento_de_padrao.png)
 
@@ -113,9 +113,10 @@ Em Haskell, listas são estruturas de dados homogêneas, ou seja, armazenam elem
 
 ![listas_haskell](imagens/listas_haskell.png)
 
-Uma lista é composta sempre de dois segmentos
-cabeça(head) = primeiro elemento
-corpo(tail) = resto da lista
+Uma lista é composta sempre de dois segmentos:
+
+- Cabeça (head) = primeiro elemento
+- Corpo (tail) = resto da lista
 
 ![head_tail_haskell](imagens/head_tail_haskell.png)
 
@@ -125,7 +126,7 @@ Para definir, podemos indicar os limites inferior e superior de um conjunto conh
 
 Como resolver funções em listas?
 - Problema: somar os elementos de uma lista.
-- Solução:Recursividade
+- Solução: Recursividade
 	* Caso base: listavazia[] e sumList[] = 0 
 	* Caso recursivo: sumList (a:as) = a + sumList as
 
@@ -139,7 +140,7 @@ Além das listas para sequências finitas ([1,2,3]), podemos também usar listas
 
 ![listas_infinitas](imagens/listas_infinitas.png)
 
-Haskell e a maioria das LPS funcionais fazem uso da avaliação preguiçosa(lazy evaluation). Nesse caso, os argumentos de funções são analisados somente quando são utilizados e apenas partes da estrutura são avaliadas.
+Haskell e a maioria das LPS funcionais fazem uso da avaliação preguiçosa (lazy evaluation). Nesse caso, os argumentos de funções são analisados somente quando são utilizados e apenas partes da estrutura são avaliadas.
 
 ![lazy_evaluation](imagens/lazy_evaluation.png)
 
@@ -164,7 +165,3 @@ Função pode ter tipos genéricos associados
 A linguagem Haskell possui a implementação de uma função de mapeamento, chamada map:
 
 ![funcao_map](imagens/funcao_map.png)
-
-
-
-
