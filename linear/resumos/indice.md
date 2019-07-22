@@ -9,6 +9,6 @@
 - [Transformações Lineares - Parte 1](transformacoes1.md)
 
 ## 3º Estágio
-- [Transformações Lineares - Parte 1](transformacoes2.md)
+- [Transformações Lineares - Parte 2](transformacoes2.md)
 - [Autovetores e autovalores](autovetores.md)
 - [Diagonalização](diagonalizacao.md)
