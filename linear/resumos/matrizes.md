@@ -10,7 +10,8 @@
 
 Chamamos de **matriz** uma tabela de elementos dispostos em linhas e colunas. Por exemplo,
 
-<center><image src=https://wikimedia.org/api/rest_v1/media/math/render/svg/6d0d1b28f9824f459991332e30550afd276c4963></center>
+<center>
+<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/6d0d1b28f9824f459991332e30550afd276c4963"></center>
 
 ### Tipos
 
