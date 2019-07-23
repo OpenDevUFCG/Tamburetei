@@ -39,14 +39,14 @@ Na programação funcional não existe a noção de estado e não existe a neces
 
 - Por que Estudar Programação Funcional?
 	* Visão clara de conceitos fundamentais:
-	* Abstração de dados
-	* Recursão
-	* Genericidade, polimorfismo, sobrecarga
-	* Programação com um alto nível de abstração, possibilitando
-	* Alta produtividade
-	* Programas mais concisos
-	* Menos erros
-	* Provas de propriedades sobre programas
+		* Abstração de dados
+		* Recursão
+		* Genericidade, polimorfismo, sobrecarga
+	* Programação com um alto nível de abstração, possibilitando:
+		* Alta produtividade
+		* Programas mais concisos
+		* Menos erros
+		* Provas de propriedades sobre programas
 
 - Usos Práticos: Compiladores, provadores de teoremas, sistemas Web, serviços de chat de grande escala, IA etc.
 
