@@ -5,7 +5,7 @@ Paradigmas funcional e imperativo têm algo em comum: o programa lê entradas e 
 O programa segundo o paradigma lógico implementa uma relação, relações são mais gerais que mapeamentos, tornando a programação lógica mais alto nível que a programação imperativa ou funcional.
 As linguagens de programação lógicas estão restritas à cláusulas de Horn, que é uma cláusula com no máximo um literal positivo. Sendo assim, um programa lógico é uma coleção de cláusulas Horn.
 
-![intro_logica](imagens/intro_logica.png)
+![intro_logica](https://i.imgur.com/CIEwSA8.png)
 
 ## Paradigma Lógico
 Também parte da sub categoria “paradigma declarativo”.
@@ -23,7 +23,7 @@ Uma linguagem natural pode ser ambígua, já uma linguagem formal é precisa.
 ## Regras de Inferência
 Uma regra de inferência é um padrão de manipulação sintática que: permite criar novas fórmulas a partir de outras existentes e em geral, simulam formas de raciocínio válidas.
 
-![regra_inferencia](imagens/regra_inferencia.png)
+![regra_inferencia](https://i.imgur.com/RQ35mzy.png)
 
 ## Estratégia de Busca
 Um agente pode ter uma enorme quantidade de conhecimento armazenado, mas normalmente ele precisa usar apenas parte de seu conhecimento para resolver um problema. Estratégia de busca serve para decidir que parte do conhecimento armazenado deve ser explorada em busca da solução.
@@ -45,12 +45,12 @@ Nomenclatura:
 - Se n = 0 a cláusula é chamada de fato
 - Se n >= 1 a cláusula é chamada de regra
 
-![clausula_horn](imagens/clausula_horn.png)
+![clausula_horn](https://i.imgur.com/WUSli2y.png)
 
 ### Prolog - Unificação:
 Unificação é o mecanismo usado para determinar se existe uma maneira de instanciar as variáveis de dois predicados de modo a torná-los iguais.
 
-![unificacao](imagens/unificacao.png)
+![unificacao](https://i.imgur.com/invCNoy.png)
 
 ### Prolog – Algoritmo de Execução:
 - Ao receber uma consulta, o Prolog tenta unificá-la com cada um dos fatos e com a cabeça das regras que estão na base de conhecimento.
@@ -61,17 +61,17 @@ Unificação é o mecanismo usado para determinar se existe uma maneira de insta
 ### Prolog - Listas:
 Lista em Prolog é uma estrutura que representa uma sequência de elementos de qualquer comprimento, sendo a estrutura [h|t] denota uma lista cuja cabeça é h e cuja cauda é t, semelhante a Haskell.
 
-![lista_logica_1](imagens/lista_logica_1.png)
+![lista_logica_1](https://i.imgur.com/pHnywR3.png)
 
 Prolog fornece a notação barra vertical para separar alguns elementos da lista do restante da lista.
 
-![lista_logica_2](imagens/lista_logica_2.png)
+![lista_logica_2](https://i.imgur.com/Hn6aN0J.png)
 
 Listas em Prolog são heterogêneas, isto é, podem conter valores de diferentes tipos.
 
 Podemos comparar valores de diferentes tipos usando a relação ”=” mas o resultado será false.
 
-![lista_logica_3](imagens/lista_logica_3.png)
+![lista_logica_3](https://i.imgur.com/0CIDrl6.png)
 
 
 

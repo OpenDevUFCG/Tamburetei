@@ -12,7 +12,7 @@ Necessidade de novas linguagens de programação que:
 
 LPs como Fortran, Java, C são classificadas como imperativas, pois baseiam sua programação na modificação do estado de variáveis:
 
-![modificacao_imperativa](imagens/modificacao_imperativa.png)
+![modificacao_imperativa](https://i.imgur.com/ILpPKvF.png)
 
 - Mudanças de estado são tipicamente realizadas usando comandos de atribuição
 - Comandos condicionais e de repetição impõem fluxos de execução 
@@ -28,14 +28,15 @@ LPs como Fortran, Java, C são classificadas como imperativas, pois baseiam sua 
 - Funções são valores de primeira ordem
 - Tem como objetivo imitar as funções matemáticas
 
-![funcoes_haskell_matematicas](imagens/funcoes_haskell_matematicas.png)
+![funcoes_haskell_matematicas](https://i.imgur.com/Wws1gEY.png)
 
 Na programação funcional não existe a noção de estado e não existe a necessidade de instruções de atribuição. Diferença:
 - Imperativa:
-![ex_imperativa](imagens/ex_imperativa.png)
+![ex_imperativa](https://i.imgur.com/0SMkJ8l.png)
 
 - Funcional:
-![ex_funcional](imagens/ex_funcional.png)
+
+![ex_funcional](https://i.imgur.com/t5gjbNV.png)
 
 - Por que Estudar Programação Funcional?
 	* Visão clara de conceitos fundamentais:
@@ -79,7 +80,7 @@ Haskell tem um vasto repertório de tipos compostos:
 #### Funções
 Funções em Haskell são normalmente definidas pelo uso de equações. Um dos pontos chaves da programação funcional é o uso da composição de funções.
 
-![ex_funcao_haskell](imagens/ex_funcao_haskell.png)
+![ex_funcao_haskell](https://i.imgur.com/ty9S9El.png)
 
 Linguagens funcionais normalmente oferecem diversos mecanismos para definição de funções, em Haskell:
 - Expressões condicionais
@@ -91,38 +92,38 @@ Linguagens funcionais normalmente oferecem diversos mecanismos para definição 
 ##### Expressões Condicionais
 Usa uma expressão lógica para escolher entre dois resultados de mesmo tipo. O ELSE é obrigatório, caso contrário, se a condição do if não fosse satisfeita, não haveria retorno.
 
-![ex_funcao_haskell_if](imagens/ex_funcao_haskell_if.png)
+![ex_funcao_haskell_if](https://i.imgur.com/gt7fiTM.png)
 
 ##### Alternativas com guardas
 Expressão multidirecional para escolher entre uma sequência de resultados de mesmo tipo. As guardas permitem estabelecer uma distinção entre casos diferentes da definição de uma função.
 
-![ex_guardas](imagens/ex_guardas.png)
+![ex_guardas](https://i.imgur.com/Fb9YOAZ.png)
 
 ##### Casamento de Padrões
 Uma sequência de “padrões” é usada para escolher entre uma sequência de valores de mesmo tipo. Se existe um match (casamento) entre o padrão e o argumento, este é escolhido e demais não são testados
 
-![casamento_de_padrao](imagens/casamento_de_padrao.png)
+![casamento_de_padrao](https://i.imgur.com/9XotoFb.png)
 
 ##### Cláusulas where
 Equivalentes às“variáveis locais”, mas não iguais! Evitam a repetição de código e recálculos.
 
-![clausula_where](imagens/clausula_where.png)
+![clausula_where](https://i.imgur.com/lfZfXiw.png)
 
 #### Listas
 Em Haskell, listas são estruturas de dados homogêneas, ou seja, armazenam elementos de mesmo tipo.
 
-![listas_haskell](imagens/listas_haskell.png)
+![listas_haskell](https://i.imgur.com/8eYepq1.png)
 
 Uma lista é composta sempre de dois segmentos:
 
 - Cabeça (head) = primeiro elemento
 - Corpo (tail) = resto da lista
 
-![head_tail_haskell](imagens/head_tail_haskell.png)
+![head_tail_haskell](https://i.imgur.com/EJukRMK.png)
 
 Para definir, podemos indicar os limites inferior e superior de um conjunto conhecido, onde existe uma relação de ordem entre os elementos e uma progressão aritmética em uma lista
 
-![definindo_listas](imagens/definindo_listas.png)
+![definindo_listas](https://i.imgur.com/ROroXlB.png)
 
 Como resolver funções em listas?
 - Problema: somar os elementos de uma lista.
@@ -130,24 +131,24 @@ Como resolver funções em listas?
 	* Caso base: listavazia[] e sumList[] = 0 
 	* Caso recursivo: sumList (a:as) = a + sumList as
 
-![funcao_lista](imagens/funcao_lista.png)
+![funcao_lista](https://i.imgur.com/zXNo1sK.png)
 
 Na matemática, é comum definir um conjunto partir de outro usando notação em compreensão, uma lista pode ser feita em termos dos elementos de outra
 
-![compreesao](imagens/compreesao.png)
+![compreesao](https://i.imgur.com/rzMFyi8.png)
 
 Além das listas para sequências finitas ([1,2,3]), podemos também usar listas para representar sequências infinitas
 
-![listas_infinitas](imagens/listas_infinitas.png)
+![listas_infinitas](https://i.imgur.com/sGoBVdC.png)
 
 Haskell e a maioria das LPS funcionais fazem uso da avaliação preguiçosa (lazy evaluation). Nesse caso, os argumentos de funções são analisados somente quando são utilizados e apenas partes da estrutura são avaliadas.
 
-![lazy_evaluation](imagens/lazy_evaluation.png)
+![lazy_evaluation](https://i.imgur.com/as0dSK5.png)
 
 #### Polimorfismo:
 Função pode ter tipos genéricos associados
 
-![tipos_genericos](imagens/tipos_genericos.png)
+![tipos_genericos](https://i.imgur.com/EefvY3m.png)
 
 ##### Funções de Ordem Superior
 - Podem:
@@ -164,4 +165,4 @@ Função pode ter tipos genéricos associados
 
 A linguagem Haskell possui a implementação de uma função de mapeamento, chamada map:
 
-![funcao_map](imagens/funcao_map.png)
+![funcao_map](https://i.imgur.com/lIbPICN.png)

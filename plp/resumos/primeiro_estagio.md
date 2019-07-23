@@ -28,12 +28,12 @@ Uma LP deve ser passível de tradução para um formalismo que seja executável 
 
 - LP Compiladas: São linguagens que requerem compiladores, sendo assim, do ponto de vista do código fonte, toda linguagem de programação é compilada. As vantagens são: maior velocidade de processamento e menor consumo de recursos.
 
-![compiladas](imagens/compiladas.png)
+![compiladas](https://i.imgur.com/xpgYfBf.png)
 
 - LP Interpretadas:  O programa de interpretação atua como uma simulação de software de
 uma máquina cujo ciclo de busca-execução lida com instruções de programa de linguagem de alto nível em vez de instruções de máquina. As vantagens são: maior portabilidade e programação mais simples
 
-![interpretadas](imagens/interpretadas.png)
+![interpretadas](https://i.imgur.com/LGoETzT.png)
 
 - LP Híbridas: LP mais modernas como Java, C# e Python têm seus códigos fontes transformados em uma linguagem intermediária, que será interpretada pela máquina virtual da linguagem quando o programa for executado. O processo de interpretação da linguagem intermediária ocorre durante a execução do programa e consiste na tradução dos comandos da linguagem intermediária para linguagem de máquina. Em tempo de execução, o código intermediário pode ser encarado como um “código fonte” que será compilado dinamicamente pelo interpretador da linguagem em código de máquina.
 
@@ -80,7 +80,7 @@ Toda entidade tem um tipo específico, ela facilita verificação de tipos, mas 
 #### Polimorfismo
 Abstrações que operam de maneira uniforme sobre valores de tipos diferentes.
 
-![polimorfismo](imagens/polimorfismo.png)
+![polimorfismo](https://i.imgur.com/1FKC4Wd.png)
 
 - Polimorfismo Ad hoc: abstração atua sobre um número finito de tipos não relacionados, mas se comporta diferentemente dependendo do tipo
 	* Sobrecarga: Um identificador é sobrecarregado se ele é aplicável a mais de uma operação, a sobrecarga só funciona se o compilador consegue distinguir a operação a ser chamada usando somente informações de tipo
@@ -117,7 +117,7 @@ Tempo de vida de uma variável é o intervalo de tempo entre a sua criação (al
 - Escopo Léxico: a estrutura ”textual" do programa é fator determinante para definição do escopo. O que o programa abaixo imprime? 3!
 - Escopo Dinâmico: o escopo é determinado através da linha de execução do programa, dependente da ordem de execução das rotinas. O que o programa abaixo imprime? 4! Esse escopo está em desuso.
 
-![escopo_c](imagens/escopo_c.png)
+![escopo_c](https://i.imgur.com/8JGCljo.png)
 
 ### Expressões vs Comandos:
 - Expressões: lêem estados e computam valores
