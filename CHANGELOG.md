@@ -4,6 +4,9 @@ Todas as mudanças desse projeto serão documentadas nesse arquivo.
 O formato foi baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/),
 e esse projeto adere a [Semantic Versioning](https://semver.org/lang/pt-BR/spec/v2.0.0.html).
 
+## [Não publicado]
+- Adiciona resumos para os três estágios da disciplina Paradigmas de Linguagem de Programação
+
 ## [1.0.1] - 22/07/2019
 
 ### Adicionado
