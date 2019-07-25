@@ -6,6 +6,7 @@ e esse projeto adere a [Semantic Versioning](https://semver.org/lang/pt-BR/spec/
 
 ## [Não publicado]
 - Adiciona resumos para os três estágios da disciplina Paradigmas de Linguagem de Programação
+- Adiciona implementações da disciplina Estrutura de Dados.
 
 ## [1.0.1] - 22/07/2019
 
