@@ -1,0 +1,101 @@
+Comprador,Modelo,Cor,Pais,Ano,Vendedor
+Mal,Pajero,Fuscia,Portugal,1989,Lee
+Chlo,Torino,Violet,Indonesia,1970,Mal
+Casie,B9 Tribeca,Violet,Russia,2007,Chlo
+Casie,Catera,Purple,Greece,1997,Casie
+Hew,Grand Marquis,Indigo,Peru,1999,Daron
+Cacilie,S10,Purple,China,1997,Hew
+Tuck,Firebird,Crimson,Portugal,1987,Cacilie
+Enid,Express 2500,Teal,Czech Republic,1997,Tuck
+Latisha,LX,Fuscia,Lithuania,2005,Enid
+Salvidor,Impreza,Red,Philippines,2009,Latisha
+Bill,F-Series,Violet,China,2011,Salvidor
+Guss,Mirage,Green,Armenia,1992,Cosimo
+Roldan,PT Cruiser,Red,China,2006,Brodie
+Melvyn,760,Pink,Equatorial Guinea,2004,Odella
+Nicoli,RL,Teal,Cape Verde,2002,Florette
+Kennan,Mark VII,Violet,Croatia,1984,Dyna
+Jerrilyn,Spyder,Teal,France,2003,Mamie
+Stu,Leaf,Goldenrod,Israel,2011,Olympia
+Harv,LS,Aquamarine,Poland,2003,Roldan
+Lee,F150,Pink,Philippines,2006,Gorden
+Starla,xA,Khaki,Brazil,2005,Cosimo
+Binni,S10,Mauv,Canada,1994,Brodie
+Cosimo,Mountaineer,Teal,Thailand,2001,Odella
+Brodie,Scirocco,Purple,Colombia,1988,Florette
+Nicoli,Skylark,Red,Indonesia,1985,Dyna
+Florette,GTO,Aquamarine,Poland,1970,Mamie
+Dyna,Neon,Blue,Belarus,1996,Olympia
+Mamie,TSX,Green,China,2004,Roldan
+Olympia,Touareg,Aquamarine,Colombia,2005,Gorden
+Roldan,Esprit,Goldenrod,Sweden,1995,Chlo
+Gorden,Accent,Crimson,South Korea,1995,Casie
+Saundra,Sierra 3500,Puce,Canada,2009,Daron
+Charo,H1,Puce,Estonia,2006,Hew
+Sibyl,Grand Prix,Indigo,Netherlands,1983,Cacilie
+Jone,Sentra,Aquamarine,China,2008,Tuck
+Bevin,CR-V,Puce,Panama,2009,Enid
+Kaleena,A6,Blue,Netherlands,2005,Latisha
+Levey,MX-3,Goldenrod,Latvia,1996,Chlo
+Hazel,QX56,Teal,Greece,2012,Casie
+Suzanna,Escort,Violet,China,1996,Daron
+Allyn,Sebring,Violet,China,2007,Hew
+Yard,Avalanche,Pink,Sweden,2006,Cacilie
+Curry,Mustang,Goldenrod,Greece,2005,Tuck
+Chickie,Passport,Teal,Greece,1994,Enid
+Roscoe,LX,Yellow,China,2004,Latisha
+Kirsten,Lumina,Blue,Poland,1996,Amil
+Abbe,Corvette,Green,Honduras,1962,Fraze
+Julita,911,Red,Brazil,1993,Rossie
+Lolly,TL,Aquamarine,United States,2012,Darcy
+Lucy,Sentra,Violet,United States,1995,Vinny
+Mateo,XK,Blue,China,2010,Briana
+Brandais,Suburban 1500,Fuscia,Greece,1999,Bryon
+Odelle,Odyssey,Puce,Philippines,2010,Rusty
+Bevvy,Premier,Mauv,China,1992,Koenraad
+Zaria,Element,Yellow,Indonesia,2005,Amil
+Chloette,SL-Class,Teal,Russia,1991,Fraze
+Derward,Marquis,Puce,Indonesia,1986,Rossie
+Dukie,Ghost,Violet,Nigeria,2011,Darcy
+Elyn,Caliber,Mauv,China,2007,Vinny
+Elnore,Ram 1500,Blue,Brazil,2008,Briana
+Moyra,GTO,Turquoise,Cambodia,1993,Bryon
+Doe,Sky,Red,China,2007,Rusty
+Irita,Malibu,Green,Indonesia,1997,Koenraad
+Otha,Continental Flying Spur,Red,Poland,2006,Amil
+Griffy,Tercel,Pink,Indonesia,1993,Fraze
+Florrie,Range Rover,Turquoise,Argentina,1996,Rossie
+Nomi,3 Series,Fuscia,Pakistan,1994,Darcy
+Shaylyn,LR4,Indigo,Vietnam,2012,Vinny
+Farah,W126,Mauv,Portugal,1983,Briana
+Darrin,Econoline E250,Khaki,Ireland,2000,Bryon
+Rita,Forester,Blue,China,2009,Rusty
+Kitty,Ridgeline,Orange,Poland,2006,Koenraad
+Manny,tC,Khaki,Japan,2005,Casie
+Lenka,Eclipse,Puce,Uzbekistan,1997,Daron
+Marybelle,CT,Puce,China,2012,Hew
+Theobald,Mirage,Blue,Thailand,1994,Cacilie
+Farly,LeSabre,Aquamarine,Indonesia,1997,Tuck
+Leda,Canyon,Goldenrod,Indonesia,2009,Enid
+Lev,Navigator,Purple,Argentina,2006,Latisha
+Cecilia,RAV4,Purple,Russia,2003,Chlo
+Chrissy,Century,Green,Ukraine,1991,Casie
+Tabor,CX-9,Red,Philippines,2010,Daron
+Garald,Traverse,Blue,Vietnam,2012,Fraze
+Marijo,Grand Am,Orange,Greece,1986,Rossie
+Maitilde,MX-6,Red,Russia,1995,Darcy
+Katey,Range Rover,Blue,China,2007,Vinny
+Bab,LX,Maroon,China,1992,Briana
+Charmaine,Escalade,Crimson,Colombia,2006,Bryon
+Isadore,09/mai,Turquoise,France,2011,Rusty
+Bella,Firebird,Orange,Indonesia,1968,Koenraad
+Louise,Maxima,Pink,Nicaragua,2010,Casie
+Amil,S-Class,Maroon,Indonesia,1996,Daron
+Fraze,DeVille,Violet,Peru,1997,Hew
+Rossie,Suburban 2500,Teal,Russia,1999,Cacilie
+Darcy,Q5,Red,Poland,2012,Tuck
+Vinny,Sienna,Yellow,Libya,2004,Enid
+Briana,3500 Club Coupe,Teal,Argentina,1992,Latisha
+Bryon,LX,Turquoise,Nigeria,2003,Chlo
+Rusty,Esteem,Teal,Thailand,1996,Casie
+Koenraad,612 Scaglietti,Purple,Russia,2007,Daron
