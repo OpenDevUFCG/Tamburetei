@@ -5,9 +5,13 @@ O formato foi baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0
 e esse projeto adere a [Semantic Versioning](https://semver.org/lang/pt-BR/spec/v2.0.0.html).
 
 ## [Não publicado]
-- Adiciona resumos para os três estágios da disciplina Paradigmas de Linguagem de Programação.
-- Adiciona exercícios práticos do período 2019.1 de Teoria dos Grafos.
-- Adiciona implementações da disciplina Estrutura de Dados.
+
+## [1.0.2] - 01/08/2019
+
+### Adicionado
+- Resumos para os três estágios da disciplina Paradigmas de Linguagem de Programação.
+- Exercícios práticos do período 2019.1 de Teoria dos Grafos.
+- Implementações da disciplina Estrutura de Dados.
 
 ## [1.0.1] - 22/07/2019
 
