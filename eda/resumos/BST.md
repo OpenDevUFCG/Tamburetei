@@ -45,7 +45,6 @@ Nesta situação, pode-se operar de duas maneiras diferentes. Pode-se substituir
 ### Percursos
 Considere que o nó inicial é a raiz
 Considere que o nó inicial é a raiz
-Considere que o nó inicial é a raiz
 
 **Pré-ordem:**
 
