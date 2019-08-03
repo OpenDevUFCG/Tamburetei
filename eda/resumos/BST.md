@@ -51,7 +51,7 @@ Nesta situação, pode-se operar de duas maneiras diferentes. Pode-se substituir
 **Ordem Simétrica (ou em-ordem):**
 
 1. Percorre a subárvore esquerda em ordem simétrica
-2. Visita a raiz
+2. Visita a nó
 3. Percorre a subárvore direita em ordem simétrica
 
 **Pós-ordem:**
