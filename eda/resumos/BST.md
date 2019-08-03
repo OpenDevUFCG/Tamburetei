@@ -43,6 +43,7 @@ Neste caso, basta que o pai do nó a ser removido tenha como seu filho, o seu ne
 Nesta situação, pode-se operar de duas maneiras diferentes. Pode-se substituir o valor do nó a ser retirado pelo valor sucessor (o nó mais à esquerda da subárvore direita) ou pelo valor antecessor (o nó mais à direita da subárvore esquerda), removendo-se aí o nó sucessor (ou antecessor).
 
 ### Percursos
+Considere que o nó inicial é a raiz
 
 **Pré-ordem:**
 
