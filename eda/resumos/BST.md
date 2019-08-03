@@ -2,7 +2,7 @@
 
 ## O que é?
 
-É uma árvore binária (*BT*) onde todos os nós da subárvore esquerda possuem um valor numérico menor do que o do nó raiz e todos os nós da subárvore direita possuem um valor maior do que o do nó raiz. Tal aplicação serve pra possibilitar a implementação de uma **busca binária**. Uma árvore binária de busca com chaves aleatórias uniformemente distribuídas tem altura **O(log n)**. O pior caso será **O(n)**, quando todas os valores se distribuem de forma linear, o que gera uma *lista encadeada*.
+É uma árvore binária (*BT*) onde todos os nós filhos à esquerda - ou seja, da subárvore esquerda - possuem um valor numérico menor do que o do nó pai e todos os nós filhos à direita - ou seja, da subárvore direita - possuem um valor maior do que o do nó pai. Tal aplicação serve pra possibilitar a implementação de uma **busca binária**. Uma árvore binária de busca com chaves aleatórias uniformemente distribuídas tem altura **O(log n)**. O pior caso será **O(n)**, quando todas os valores se distribuem de forma linear, o que gera uma *lista encadeada*.
 
 
 ## Métodos
