@@ -9,7 +9,7 @@
 
 ### Inserção
 
-A inserção em uma árvore binária de busca é feita de forma ordenada. Para cada novo nó da árvore é verificado se a chave do novo nó é maior ou menor que o nó raiz.
+A inserção em uma árvore binária de busca é feita de forma ordenada. Para cada novo nó da árvore é verificado se a chave do novo nó é maior ou menor que o nó atual, sendo o nó atual inicialmente a raiz.
 
 Se for menor o novo nó será inserido a esquerda do nó raiz senão será inserido a direita do nó raiz. Caso o nó a esquerda ou direita não seja um folha (nó sem sub árvore) a verificação deverá ser feita novamente.
 
