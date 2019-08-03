@@ -18,7 +18,9 @@ Se for menor o novo nó será inserido a esquerda do nó raiz senão será inser
 
 O processo de busca é muito parecido com a busca binária em um vetor ordenado e, geralmente, é abordado tanto em forma interativa cosmo recursiva seguindo os seguintes passos:
 
-• Começa pela raiz e verifica se o valor é igual, se for, a busca é finalizada. Se não:
+• Começa pela raiz
+
+• Verifica se o valor do nó atual é igual, se for, a busca é finalizada. Se não:
 
 • Se o valor for menor, chama a função para o nó da esquerda.
 
