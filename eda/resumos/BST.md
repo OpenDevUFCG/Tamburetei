@@ -44,7 +44,7 @@ Nesta situação, pode-se operar de duas maneiras diferentes. Pode-se substituir
 
 **Pré-ordem:**
 
-1. Visita a raiz
+1. Visita a nó
 2. Percorre a subárvore esquerda em pré-ordem
 3. Percorre a subárvore direita em pré-ordem
 
