@@ -34,7 +34,7 @@ Este é o caso mais simples, basta remover o nó da árvore.
 
 **2º Remoção de um nó com apenas 1 filho**
 
-Neste caso, ao remover o nó, o filho do nó passa a ser referenciado como filho do pai do nó excluido.
+Neste caso, basta que o pai do nó a ser removido tenha como seu filho, o seu neto, ou seja, o filho do nó a ser removido.
 
 **3º Remoção de um nó com 2 filhos**
 
