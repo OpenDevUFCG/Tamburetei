@@ -1,4 +1,4 @@
-# Links Úteis
+﻿# Links Úteis
 
 Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 
@@ -14,3 +14,4 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 ## Ferramentas
 
 [Simulador de FPGA](https://github.com/Icaro-Lima/LabarcFPGASimulatorDesktop)
+[Simulador de circuitos elétricos](https://www.tinkercad.com)
