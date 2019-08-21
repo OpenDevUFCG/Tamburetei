@@ -98,7 +98,7 @@ Na **topologia em barramento**, todos os computadores estão ligados em um mesmo
 
 ### Anel
 
-Na **topologia em barramento**, os computadores são conectados em série para formar um circuito fechado (anel). Esse tipo de topologia apresenta baixo custo, tem um único sentido de transmissão e a permissão para envio/recepção de informações é feita através de um *token*. Sua principal desvantagem é a baixa tolerância a falhas, visto que a falha de um computador pode tornar outros computadores inalcançáveis na rede.
+Na **topologia em anel**, os computadores são conectados em série para formar um circuito fechado (anel). Esse tipo de topologia apresenta baixo custo, tem um único sentido de transmissão e a permissão para envio/recepção de informações é feita através de um *token*. Sua principal desvantagem é a baixa tolerância a falhas, visto que a falha de um computador pode tornar outros computadores inalcançáveis na rede.
 
 ### Estrela
 
