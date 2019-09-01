@@ -18,7 +18,7 @@ Para existir uma condição de corrida, é necessário que vários fluxos de exe
 
 É importante ter em mente que a condição de corrida **não é um erro**, e sim inerente a alguns problemas, e não há como fugir. O possível erro ocasionado por uma condição de corrida só ocorre se não for devidamente tratado.
 
-## Resolvendo condições de corrida
+## Soluções para condições de corrida
 
 Para evitar que erros aconteçam devido a vários fluxos de execução operando sobre uma mesma área de memória compartilhada, devemos garantir:
 
@@ -26,3 +26,42 @@ Para evitar que erros aconteçam devido a vários fluxos de execução operando 
 - A não existência de hipótese sobre a velocidade da CPU. Por exemplo, implementar uma solução que só é possível de funcionar caso a velocidade da CPU na qual estão sendo executados os processos seja X.
 - Que nenhum fluxo deve ser impedido de entrar na região crítica, caso outro fluxo não esteja utilizando a sua.
 - Que não exista *starvation*, ou seja, que um processo morra porque não ganhou a CPU em nenhum momento.
+
+### Busy wait (espera ocupada)
+
+Uma solução baseada em espera ocupada consiste em: o fluxo de execução, antes de entrar na região crítica, precisa passar por uma verificação para saber se ele pode ou não entrar lá. Caso não possa e já exista outro processo executando sua região crítica, ele fica em loop até que ele possa ganhar essa região.
+
+Um dos exemplos mais conhecidos de solução para condição de corrida que implementa a espera ocupada é a **Solução de Peterson** ou **Algoritmo de Peterson**. O código abaixo exemplifica como essa solução pode ser implementada para resolver esse problema com dois fluxos alternativos de execução:
+
+```c
+// suponha que existam dois processos, i = 0 e j = 1
+
+int vez = 0; // indica de quem é a vez
+bool interessado[2]; // array que indica quem está interessado em acessar a região crítica
+
+// Código de entrada na região crítica
+void entraNaRegiaoCritica(int processo) {
+  int other = 1 - processo; // representa o outro processo
+  vez = processo;
+  interessado[processo] = true;
+  while(vez == processo && interessado[other] == true); // fica em loop, caso não possa entrar
+}
+
+// Código para saída da região crítica
+void saiDaRegiaoCritica(int processo) {
+  interessado[processo] = false; // indica que o processo que estava na região crítica terminou sua atividade.
+}
+
+// Código que exemplifica o 'main' em um dos fluxos de execução
+int main() {
+  int ID = 1;
+
+  entraNaRegiaoCritica(ID);
+  acessaArquivoCompartilhado(); // código de acesso à região crítica.
+  saiDaRegiaoCritica(ID);
+
+  return 0;
+}
+```
+
+***TODO: Explicar e exemplificar outros códigos para resolução de condição de corrida***
