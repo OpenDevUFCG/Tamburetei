@@ -14,7 +14,7 @@ Todas as pastas de disciplinas seguem uma estrutura padrão para facilitar enten
 
 As issues são um espaço aberto para requisitar criação, mudança ou conserto de material. Também pode ser usada como um espaço de discussão sobre as cadeiras ~tamburetes~ de Ciência da Computação da UFCG. Tenha em mente que o tema sempre deve estar relacionado ao curso.
 
-Veja sobre nossa[organização de Issues](https://github.com/OpenDevUFCG/Tamburetei/wiki/Organiza%C3%A7%C3%A3o-de-Issues)
+Veja sobre nossa [organização de Issues](https://github.com/OpenDevUFCG/Tamburetei/wiki/Organiza%C3%A7%C3%A3o-de-Issues)
 
 ## Propondo uma mudança
 
