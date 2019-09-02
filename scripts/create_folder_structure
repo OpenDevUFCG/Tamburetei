@@ -44,7 +44,7 @@ def create_folders(discipline):
 
 def create_files(discipline):
     for file in FILES:
-        _create_file(discipline, file)
+        _create_file(discipline, file.format(discipline=discipline)
         print('  ' + bcolors.OKGREEN + '-' + file + bcolors.ENDC)
 
 def check_discipline(discipline):
