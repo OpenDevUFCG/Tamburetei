@@ -22,7 +22,7 @@ Caso deseje propor uma mudança, primeiro verifique se já não existe uma Issue
 
 ## Primeira contribuição
 
-Caso esteja procurando no que contribuir, dê uma olhada em issues com a tag [`good first issue`](https://github.com/OpenDevUFCG/Tamburetei/issues?q=is%3Aopen+is%3Aissue+label%3A%22Good+First+Issue%22) que serão um bom ponto de partida. Também vale a pena olhar sobre Issues relacionadas a cadeiras que você já pagou ou está pagando.
+Caso tenha se interessado pela nossa comunidade, deseja contribuir, mas não sabe por onde começar, dê uma olhada em issues com a tag [`good first issue`](https://github.com/OpenDevUFCG/Tamburetei/issues?q=is%3Aopen+is%3Aissue+label%3A%22Good+First+Issue%22) que serão um bom ponto de partida. Também vale a pena olhar sobre Issues relacionadas a cadeiras que você já pagou ou está pagando.
 
 Se você decide fazer alguma mudança, e não existe uma Issue sobre, crie uma nova seguindo o *template* adequeado informando o que será feito e manifeste que você irá querer fazer. Caso exista a Issue, verifique nos comentários se já não existe alguém trabalhando nisso, e comente que você deseja fazer.
 
