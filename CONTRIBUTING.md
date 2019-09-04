@@ -30,7 +30,7 @@ Não tenha medo de pedir por orientação ou ajuda, mas, acima de tudo, seja cor
 
 ## Restrições de Upload
 
-Contemos algumas [restrições](https://github.com/OpenDevUFCG/Tamburetei/wiki/Restri%C3%A7%C3%B5es-de-Upload) de upload de arquivos ao repositório que nos ajudam a manter o projeto sustentável, por favor leia antes de submeter qualquer arquivo.
+Devido a problemas de copyright e limite de armazenamento para repositórios do Github, algumas [restrições](https://github.com/OpenDevUFCG/Tamburetei/wiki/Restri%C3%A7%C3%B5es-de-Upload) de upload de arquivos ao repositório que nos ajudam a manter o projeto sustentável foram adotadas. Por favor leia antes de submeter qualquer arquivo.
 
 ## Enviando uma Pull Request
 
