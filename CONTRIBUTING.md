@@ -8,7 +8,7 @@ Adotamos um [código de conduta](https://github.com/OpenDevUFCG/Tamburetei/blob/
 
 ## Organização dos diretórios
 
-Todas as pastas de disciplinas seguem uma estrutura padrão para facilitar entendimento e manuntenção. Leia essa breve [explicação](https://github.com/OpenDevUFCG/Tamburetei/wiki/Organiza%C3%A7%C3%A3o-de-Diret%C3%B3rios) para entender como funciona.
+Todas as pastas de disciplinas seguem uma estrutura padrão para facilitar entendimento e manutenção. Leia essa breve [explicação](https://github.com/OpenDevUFCG/Tamburetei/wiki/Organiza%C3%A7%C3%A3o-de-Diret%C3%B3rios) para entender como funciona.
 
 ## Organização de Issues
 
