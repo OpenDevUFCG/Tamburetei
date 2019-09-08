@@ -52,7 +52,7 @@ Informe o nome da pasta de disciplina e ela será criada automaticamente. Lembre
 
 - [Álgebra Linear I](linear)
 - [Cálculo Diferencial e Integral II](calculo2)
-- [Estrutura de Dados e Algoritmos](eda_leda)
+- [Estrutura de Dados e Algoritmos](eda)
 - [Lógica para Computação](logica)
 - [Teoria dos Grafos](grafos)
 
