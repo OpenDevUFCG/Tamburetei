@@ -82,6 +82,14 @@ A **comutação** de redes de computadores é o modo como são alocados os recur
 
 A **comutação de circuitos** é um serviço orientado a conexão em que todos os recursos que serão utilizados para uma transmissão são reservados (exclusivos) para ela durante toda sua duração. Esse tipo de comutação é utilizada em situações nas quais há necessidade de transmissão contínua de informação, como na comunicação por voz nas linhas telefônicas. Seu uso garante qualidade, porém, a ausência de compartilhamento de recursos causa desperdício dos mesmos.
 
+Buscando evitar ou diminuir o desperdício é feito o processo de **multiplexação**, que tem como um dos principais objetivos evitar que haja ruído na comunicação. Esse processo pode ser de dois tipos: **multiplexação por divisão de tempo (TDM)** e **multiplexação por divisão de frequência (FDM)**.
+
+Na **multiplexação por divisão de tempo** há uma reserva dos slots de tempo para cada usuário, pode ser de dois tipos: síncrona e assíncrona.
+**Síncrona**: quando um usuário entra na rede um slot de tempo já é reservado para ele, funciona como uma fila circular, assim, há uma diminuição no despercício mas ainda não resolve o problema, pois cada vez que o usuário destinado àquele slot de tempo não for transmitir ainda ocorrerá desperdício.
+**Assíncrona**: neste caso os slots de tempo são alocados de acordo com as solicitações, ou seja, os slots não são permanentemente alocados à um usuário, assim, usuários que não desejam transmitir não entrarão na fila fazendo com que haja uma maior flexibilidade e diminuição no despercídio.
+
+Na **multiplexação por frequência** o sinal único que eu tinha antes será dividido em subfaixas, fazendo com que cada usuário transmita em faixas de frequência diferentes.
+
 ### Comutação de Pacotes
 
 A **comutação de pacotes** é um serviço não orientado a conexão em que todos os recursos são compartilhados, não havendo necessidade de reservá-los previamente. Os dados são divididos em pacotes e transmitidos conforme estiverem disponíveis os recursos da rede. Esse tipo de comutação é utilizada em situações nas quais vários usuários utilizarão a mesma rede e/ou de maneira esporádica. Ainda que o sistema se torne flexível e livre de desperdícios, não há garantia de entrega dos dados e a utilização dos recursos da rede sob demanda pode causar congestionamentos.
