@@ -82,13 +82,13 @@ A **comutação** de redes de computadores é o modo como são alocados os recur
 
 A **comutação de circuitos** é um serviço orientado a conexão em que todos os recursos que serão utilizados para uma transmissão são reservados (exclusivos) para ela durante toda sua duração. Esse tipo de comutação é utilizada em situações nas quais há necessidade de transmissão contínua de informação, como na comunicação por voz nas linhas telefônicas. Seu uso garante qualidade, porém, a ausência de compartilhamento de recursos causa desperdício dos mesmos.
 
-Buscando evitar ou diminuir o desperdício é feito o processo de **multiplexação**, que tem como um dos principais objetivos evitar que haja ruído na comunicação. Esse processo pode ser de dois tipos: **multiplexação por tempo (TDM)** e **multiplexação por frequência (FDM)**.
+Buscando evitar ou diminuir o desperdício é feito o processo de **multiplexação**, que tem como um dos principais objetivos evitar que haja ruído na comunicação. Esse processo pode ser de dois tipos: **multiplexação por divisão de tempo (TDM)** e **multiplexação por divisão de frequência (FDM)**.
 
-Na **multiplexação por tempo** há uma reserva dos slots de tempo para cada usuário, pode ser de dois tipos: síncnrona e assíncrona.
-**Síncrona**: quando um usuário entra na rede um slot de tempo já é reservado para ele, funciona como uma fila circular, assim, há uma diminuição do despercício mas ainda não resolve o problema, pois cada vez que o usuário destinado àquele slot de tempo não for transmitir nada ocorrerá desperdício.
+Na **multiplexação por divisão de tempo** há uma reserva dos slots de tempo para cada usuário, pode ser de dois tipos: síncrona e assíncrona.
+**Síncrona**: quando um usuário entra na rede um slot de tempo já é reservado para ele, funciona como uma fila circular, assim, há uma diminuição no despercício mas ainda não resolve o problema, pois cada vez que o usuário destinado àquele slot de tempo não for transmitir ainda ocorrerá desperdício.
 **Assíncrona**: neste caso os slots de tempo são alocados de acordo com as solicitações, ou seja, os slots não são permanentemente alocados à um usuário, assim, usuários que não desejam transmitir não entrarão na fila fazendo com que haja uma maior flexibilidade e diminuição no despercídio.
 
-Na **multiplexação por ferquência** o sinal única que eu tinha antes será dividido em subfaixas, fazendo com que cada usuário transmita em faixas de frequência diferentes.
+Na **multiplexação por frequência** o sinal único que eu tinha antes será dividido em subfaixas, fazendo com que cada usuário transmita em faixas de frequência diferentes.
 
 ### Comutação de Pacotes
 
