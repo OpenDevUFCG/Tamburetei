@@ -1,4 +1,4 @@
-##Aula 1 - Sistemas Operacionais
+## Aula 1 - Sistemas Operacionais
 
 *(segundo professor Fubica, uma das top 5 aulas da cadeira)*
 
@@ -9,7 +9,7 @@ O S.O tem duas funções mais importantes:
 **1.** Gerenciar os recursos do hardware de tal forma que eles possam ser compartilhados entre vários programas que estão executando ao mesmo tempo 
 **2.** Tornar a vida do programador mais simples. Como o S.O. faz isso? Ele oferece uma API para o desenvolvedor de mais alto nível. Logo, o desenvolver não precisa se preocupar com questões de como interagir com determinado dispositivo ou como alocar memória para um programa, por exemplo. Essa API é o conjunto de chamadas ao sistema do S.O. ou System Calls.
 
-###Revisão de Organização e Arquitetura de Computadores
+### Revisão de Organização e Arquitetura de Computadores
 
 *Quais são as coisas mais importantes de arquitetura a serem lembradas?*
 
