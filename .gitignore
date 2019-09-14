@@ -330,4 +330,7 @@ $RECYCLE.BIN/
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 
+# VSCODE
+.vscode
+
 # End of https://www.gitignore.io/api/c,c++,java,linux,macos,python,windows,haskell,visualstudiocode
