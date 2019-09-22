@@ -33,36 +33,36 @@
 # O código abaixo pode ser executado para melhor compreensão do funcio-
 # namento dos condicionais.
 
-value = int(raw_input("Insira um número: "))
+value = int(input("Insira um número: "))
 
 if (value > 1):
-    print "O número digitado é maior que um."
+    print ("O número digitado é maior que um.")
 if (value > 10):
-    print "O número digitado é maior que dez."
+    print ("O número digitado é maior que dez.")
 if (value > 100):
-    print "O número digitado é maior que cem."
+    print ("O número digitado é maior que cem.")
 
 
 if (value < 0):
-    print "O número digitado é negativo."
+    print ("O número digitado é negativo.")
 elif (value > 0):
-    print "O número digitado é positivo."
+    print ("O número digitado é positivo.")
 
 
 if ((value % 2) == 0):
-    print "O número digitado é par."
+    print ("O número digitado é par.")
 else:
-    print "O número digitado é ímpar."
+    print ("O número digitado é ímpar.")
 
 
 if (0 <= value < 10):
-    print "O número digitado está entre 0 e 10."
+    print ("O número digitado está entre 0 e 10.")
 elif (10 <= value < 20):
-    print "O número digitado está entre 10 e 20."
+    print ("O número digitado está entre 10 e 20.")
 elif (20 <= value <= 100):
     if (20 <= value < 50):
-        print "O número digitado está entre 20 e 50."
+        print ("O número digitado está entre 20 e 50.")
     else:
-        print "O número digitado está entre 50 e 100."
+        print ("O número digitado está entre 50 e 100.")
 else:
-    print "O número não está entre 0 e 100."
+    print ("O número não está entre 0 e 100.")

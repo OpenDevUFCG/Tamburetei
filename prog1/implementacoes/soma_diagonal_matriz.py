@@ -40,4 +40,4 @@ for linha in range(linhas):
         if linha == coluna:                         # Se o indice da linha for igual ao da coluna, soma o número
             soma_diagonal_principal += matriz[linha][coluna]
 
-print soma_diagonal_principal                       # Imprime a soma total da diagonal principal: 0 + 4 + 8 = 12
+print (soma_diagonal_principal)                       # Imprime a soma total da diagonal principal: 0 + 4 + 8 = 12

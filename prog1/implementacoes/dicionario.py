@@ -18,16 +18,16 @@ professores = {'prog1': 'Dalton'}               # Declaração direta já fornec
 # chave-valor do dicionario
 # com a função items()
 for chave, valor in professores.items():
-    print "Chave:", chave                       # Imprime Chave: prog1
-    print "Valor:", valor                       # Imprime Valor: Dalton
+    print (("Chave:"), chave)                       # Imprime Chave: prog1
+    print (("Valor:"), valor)                       # Imprime Valor: Dalton
 
 # Iterando somente sobre
 # as chaves do dicionario
 # com a função keys()
 # OBS: é possível omitir a função
 for chave in professores.keys():
-    print "Chave:", chave                       # Imprime Chave: prog1
-    print "Valor:", professores[chave]          # Imprime Valor: Dalton
+    print (("Chave:"), chave)                       # Imprime Chave: prog1
+    print (("Valor:"), professores[chave])          # Imprime Valor: Dalton
 
 
 professores['prog2'] = 'Gaudêncio'
@@ -36,15 +36,15 @@ professores['prog2'] = 'Gaudêncio'
 # os valores do dicionario
 # com a função values()
 for valor in professores.values():
-    print "Valor:", valor                       # Imprime
+    print (("Valor:"), valor)                       # Imprime
                                                 # Valor: Dalton
                                                 # Valor: Gaudêncio
 
 chaves = list(professores.keys())               # Cria uma lista com todas as chaves de professores e guarda em chaves
 valores = list(professores.values())            # Cria uma lista com todos os valores de professores e guarda em valores
 
-print chaves                                    # Imprime ['prog1', 'prog2']
-print valores                                   # Imprime ['Dalton', 'Gaudêncio']
+print (chaves)                                    # Imprime ['prog1', 'prog2']
+print (valores)                                   # Imprime ['Dalton', 'Gaudêncio']
 
 # Com a função get() é possível
 # pegar o valor de uma chave
@@ -56,9 +56,9 @@ professor_prog1 = professores.get('prog1')
 professor_prog2 = professores.get('prog2')
 professor_prog3 = professores.get('prog3')
 
-print professor_prog1                           # Imprime Dalton
-print professor_prog2                           # Imprime Gaudêncio
-print professor_prog3                           # None
+print (professor_prog1)                           # Imprime Dalton
+print (professor_prog2)                           # Imprime Gaudêncio
+print (professor_prog3)                           # None
 
 # É possível passar um segundo
 # parâmetro para a função get()
@@ -68,4 +68,4 @@ print professor_prog3                           # None
 # o valor do parâmetro
 professor_prog3 = professores.get('prog3', 'Raquel')
 
-print professor_prog3                           # Imprime Raquel
+print (professor_prog3)                           # Imprime Raquel

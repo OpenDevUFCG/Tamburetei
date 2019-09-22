@@ -139,26 +139,26 @@ def random_list(size, max_value):
     return values
 
 
-print "Bubble Sort"
+print ("Bubble Sort")
 values = random_list(10, 1000)
-print values                      # Imprime lista não-ordenada.
+print (values)                      # Imprime lista não-ordenada.
 bubble_sort(values)                
-print values                      # Imprime lista ordenada.
+print (values)                      # Imprime lista ordenada.
 
-print "\nSelection Sort"
+print ("\nSelection Sort")
 values = random_list(10, 1000)
-print values                      # Imprime lista não-ordenada.
+print (values)                      # Imprime lista não-ordenada.
 selection_sort(values)
-print values                      # Imprime lista ordenada.
+print (values)                      # Imprime lista ordenada.
 
-print "\nInsertion Sort"
+print ("\nInsertion Sort")
 values = random_list(10, 1000)     
-print values                      # Imprime lista não-ordenada.
+print (values)                      # Imprime lista não-ordenada.
 insertion_sort(values)
-print values                      # Imprime lista ordenada.
+print (values)                      # Imprime lista ordenada.
 
 print("\nQuick Sort")
 values = random_list(10, 1000)     
-print values                      # Imprime lista não-ordenada.
+print (values)                      # Imprime lista não-ordenada.
 quick_sort(values)                 
-print values                      # Imprime lista ordenada.
+print (values)                      # Imprime lista ordenada.
