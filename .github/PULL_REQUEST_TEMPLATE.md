@@ -8,5 +8,5 @@
 
 <!-- 4. Garanta que sua contribuição esteja de acordo com as regras descritas nos links abaixo. -->
 
-- [X] Minha contribuição respeita as [regras](https://github.com/OpenDevUFCG/Tamburetei/blob/master/CONTRIBUTING.md#regras) do repositório.
-- [X] Minha contribuição respeita as [restrições de upload](https://github.com/OpenDevUFCG/Tamburetei/blob/master/CONTRIBUTING.md#restri%C3%A7%C3%B5es-de-upload) do repositório.
+- [X] Minha contribuição respeita o [código de conduta](https://github.com/OpenDevUFCG/Tamburetei/blob/master/CODE_OF_CONDUCT.md) do repositório.
+- [X] Minha contribuição respeita as [restrições de upload](https://github.com/OpenDevUFCG/Tamburetei/wiki/Restrições-de-Upload) do repositório.
