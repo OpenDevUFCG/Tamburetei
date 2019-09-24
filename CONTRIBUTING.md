@@ -1,36 +1,36 @@
 # Contributing
 
-Contribuições sempre serão bem vindas, sejam pequenas ou grandes. Leia o [código de conduta](https://github.com/OpenDevUFCG/Tamburetei/blob/master/CODE_OF_CONDUCT.md) antes de abrir qualquer issue ou pull request.
+Contribuições sempre serão bem vindas, sejam pequenas ou grandes.
 
 ## Código de Conduta
 
-Adotamos um [código de conduta](https://github.com/OpenDevUFCG/Tamburetei/blob/master/CODE_OF_CONDUCT.md) que esperamos que todos sigam a participar do projeto. Leia para entender que ações toleramos e quais não antes de fazer qualquer contribuição.
+Adotamos um [código de conduta](https://github.com/OpenDevUFCG/Tamburetei/blob/master/CODE_OF_CONDUCT.md) e esperamos que todos os participantes de nossos projetos o sigam. Antes de fazer qualquer contribuição, é importante que você conheça quais ações não são toleradas em nossa comunidade.
 
 ## Organização dos diretórios
 
-Todas as pastas de disciplinas seguem uma estrutura padrão para facilitar entendimento e manutenção. Leia essa breve [explicação](https://github.com/OpenDevUFCG/Tamburetei/wiki/Organiza%C3%A7%C3%A3o-de-Diret%C3%B3rios) para entender como funciona.
+Visando facilitar o entendimento e a manutenção do Tamburetei, utilizamos uma estrutura padrão nos diretórios das disciplinas. Para compreendê-la melhor, leia essa breve [explicação](https://github.com/OpenDevUFCG/Tamburetei/wiki/Organiza%C3%A7%C3%A3o-de-Diret%C3%B3rios).
 
 ## Organização de Issues
 
-As issues são um espaço aberto para requisitar criação, mudança ou correção de material. Também pode ser usada como um espaço de discussão sobre as cadeiras ~tamburetes~ de Ciência da Computação da UFCG. Tenha em mente que o tema sempre deve estar relacionado ao curso.
+As issues são um espaço aberto para requisitar criação, mudança ou correção de material. Também pode ser usada como um espaço de discussão sobre as disciplinas ~tamburetes~ de Ciência da Computação da UFCG. Tenha em mente que o tema sempre deve estar relacionado ao curso.
 
 Veja sobre nossa [organização de Issues](https://github.com/OpenDevUFCG/Tamburetei/wiki/Organiza%C3%A7%C3%A3o-de-Issues)
 
 ## Propondo uma mudança
 
-Caso deseje propor uma mudança, primeiro verifique se já não existe uma Issue sobre o que você deseja. Se não, [abra uma Issue](https://github.com/OpenDevUFCG/Tamburetei/issues/new) seguindo o *template* adequeado ao seu problema e espere a comunidade te responder.
+Caso deseje propor uma mudança, primeiro verifique se já não existe uma Issue sobre o que você deseja. Se não, [abra uma Issue](https://github.com/OpenDevUFCG/Tamburetei/issues/new) seguindo o *template* adequado ao seu problema e espere a comunidade te responder.
 
 ## Primeira contribuição
 
-Caso tenha se interessado pela nossa comunidade, deseja contribuir, mas não sabe por onde começar, dê uma olhada em issues com a tag [`good first issue`](https://github.com/OpenDevUFCG/Tamburetei/issues?q=is%3Aopen+is%3Aissue+label%3A%22Good+First+Issue%22) que serão um bom ponto de partida. Também vale a pena olhar sobre Issues relacionadas a cadeiras que você já pagou ou está pagando.
+Se você se interessou pela nossa comunidade e deseja contribuir conosco, mas não sabe por onde começar, dê uma olhada em Issues com a tag [`good first issue`](https://github.com/OpenDevUFCG/Tamburetei/issues?q=is%3Aopen+is%3Aissue+label%3A%22Good+First+Issue%22), elas serão um bom ponto de partida. Também vale a pena olhar as Issues relacionadas às disciplinas que você já cursou ou está cursando.
 
-Se você decide fazer alguma mudança, e não existe uma Issue sobre, crie uma nova seguindo o *template* adequeado informando o que será feito e manifeste que você irá querer fazer. Caso exista a Issue, verifique nos comentários se já não existe alguém trabalhando nisso, e comente que você deseja fazer.
+Se você decide fazer alguma mudança e ainda não existe uma Issue sobre esse tema, crie uma nova para informar o que será feito e para manifestar seu interesse em atender essa demanda. Caso a Issue já exista, manifeste nos comentários seu interesse em contribuir para a resolução dela. Mesmo que alguém já esteja trabalhando para isso, vocês podem sincronizar seus esforços!
 
-Não tenha medo de pedir por orientação ou ajuda, mas, acima de tudo, seja corajoso e respeitoso. Você também pode participar de discussões para ajudar a comunidade a realizar boas escolhas!
+Não tenha medo de pedir por orientação ou ajuda, o importante é ser destemido e respeitoso! Você também pode participar de discussões para ajudar nossa comunidade a realizar boas escolhas!
 
 ## Restrições de Upload
 
-Devido a problemas de copyright e limite de armazenamento para repositórios do Github, algumas [restrições](https://github.com/OpenDevUFCG/Tamburetei/wiki/Restri%C3%A7%C3%B5es-de-Upload) de upload de arquivos ao repositório que nos ajudam a manter o projeto sustentável foram adotadas. Por favor leia antes de submeter qualquer arquivo.
+Para manter o Tamburetei sustentável, possuímos algumas [restrições](https://github.com/OpenDevUFCG/Tamburetei/wiki/Restri%C3%A7%C3%B5es-de-Upload) sobre o upload de arquivos em nosso repositório, sobretudo em relação a copyright e limites de armazenamento. Esteja ciente dessas restrições antes de submeter qualquer arquivo!
 
 ## Enviando uma Pull Request
 
