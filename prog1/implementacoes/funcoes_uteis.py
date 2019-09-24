@@ -100,7 +100,7 @@ def my_reverse(values):
     values : list
         A lista cuja ordenação de elementos será invertida
     """
-    for i in range(len(values) / 2):
+    for i in range(int(len(values) / 2)):
         copy = values[i]
         values[i] = values[len(values)-1 - i] 
         values[len(values)-1 - i] = copy
@@ -150,28 +150,28 @@ def my_min(values):
     return minimum
 
 
-# DEMONSTRAÇÃO
-#
-# O código abaixo pode ser executado para observação do funcionamento
-# das funções implementadas anteriormente.
+"""DEMONSTRAÇÃO
 
-print my_split(' part1 part2 part3     part4   part5 part6 part7  ')
+O código abaixo pode ser executado para observação do funcionamento
+das funções implementadas anteriormente.
+"""
+print (my_split(" part1 part2 part3     part4   part5 part6 part7  "))
 
-print my_split('00/00/0000', '/')
+print (my_split("00/00/0000", "/"))
 
-print my_sum([1, 2, 3, 4])
+print (my_sum([1, 2, 3, 4]))
 
 digits = [1, 2, 3, 4, 6, 7, 8, 9]
 my_insert(digits, 5, 4)
-print digits
+print (digits)
 my_insert(digits, 0)
-print digits
+print (digits)
 
 my_reverse(digits)
-print digits
+print (digits)
 my_reverse(digits)
-print digits
+print (digits)
 
 values = [3, 7, 7, 5, 4, 6, 2, 1]
-print my_max(values)
-print my_min(values)
+print (my_max(values))
+print (my_min(values))

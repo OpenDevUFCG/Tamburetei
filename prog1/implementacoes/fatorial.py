@@ -59,16 +59,16 @@ def recursive_factorial(number):
 # O código abaixo pode ser executado para observação do funcionamento
 # das funções implementadas anteriormente.
 
-print "ABORDAGEM ITERATIVA\n"
-print "O fatorial de 0 é", iterative_factorial(0)
-print "O fatorial de 1 é", iterative_factorial(1)
-print "O fatorial de 2 é", iterative_factorial(2)
-print "O fatorial de 5 é", iterative_factorial(5)
-print "O fatorial de 15 é", iterative_factorial(15)
+print ("ABORDAGEM ITERATIVA\n")
+print ("O fatorial de 0 é", iterative_factorial(0))
+print ("O fatorial de 1 é", iterative_factorial(1))
+print ("O fatorial de 2 é", iterative_factorial(2))
+print ("O fatorial de 5 é", iterative_factorial(5))
+print ("O fatorial de 15 é", iterative_factorial(15))
 
-print "\nABORDAGEM RECURSIVA\n"
-print "O fatorial de 0 é", recursive_factorial(0)
-print "O fatorial de 1 é", recursive_factorial(1)
-print "O fatorial de 2 é", recursive_factorial(2)
-print "O fatorial de 5 é", recursive_factorial(5)
-print "O fatorial de 15 é", recursive_factorial(15)
+print ("\nABORDAGEM RECURSIVA\n")
+print ("O fatorial de 0 é", recursive_factorial(0))
+print ("O fatorial de 1 é", recursive_factorial(1))
+print ("O fatorial de 2 é", recursive_factorial(2))
+print ("O fatorial de 5 é", recursive_factorial(5))
+print ("O fatorial de 15 é", recursive_factorial(15))

@@ -27,7 +27,7 @@ instrumentos = ["Guitarra", "Bateria", "Saxofone"]
 # sobre a lista instrumentos,
 # imprimindo todos os seus elementos.
 for instrumento in instrumentos:
-    print instrumento                           # Imprime Guitarra
+    print (instrumento)                           # Imprime Guitarra
                                                 # Imprime Bateria
                                                 # Imprime Saxofone
 
@@ -86,15 +86,15 @@ length : int
 """
 
 for indice in range(len(instrumentos)):
-    print "O instrumento %s está no índice %d da lista." % (instrumentos[indice], indice)
+    print ("O instrumento %s está no índice %d da lista." % (instrumentos[indice], indice))
 
 # Seria o mesmo que executar
 # o código abaixo, mas que não
 # é nada amigável para listas
 # com muitos elementos.
-print "O instrumento %s está no índice %d da lista." % (instrumentos[0], 0)
-print "O instrumento %s está no índice %d da lista." % (instrumentos[1], 1)
-print "O instrumento %s está no índice %d da lista." % (instrumentos[2], 2)
+print ("O instrumento %s está no índice %d da lista." % (instrumentos[0], 0))
+print ("O instrumento %s está no índice %d da lista." % (instrumentos[1], 1))
+print ("O instrumento %s está no índice %d da lista." % (instrumentos[2], 2))
 
 
 # LAÇOS INDEFINIDOS (WHILE)
@@ -124,7 +124,7 @@ print "O instrumento %s está no índice %d da lista." % (instrumentos[2], 2)
 # contador é impresso (bloco).
 contador = 0
 while contador < 5:
-    print contador,                             # Imprime 0 1 2 3 4
+    print (contador)                             # Imprime 0 1 2 3 4
     contador = contador + 1                     # Adiciona 1 ao contador a cada iteração
 
 # Outro exemplo bastante comum
@@ -133,7 +133,7 @@ while contador < 5:
 # na condição de parada, como pode
 # ser visto no exemplo abaixo.
 while True:
-    print "Loop Infinito"
+    print ("Loop Infinito")
 
 # Como a condição é sempre verdadeira,
 # o bloco é executado infinitas vezes.
@@ -147,7 +147,7 @@ while True:
 contador = 0
 while True:
     if contador < 5:                            # Se contador for menor que 5, imprime Loop
-        print "Loop"
+        print ("Loop")
     else:                                       # Se contador não for menor que 5, para execução do laço
         break
     contador = contador + 1                     # Adiciona 1 ao contador a cada iteração
