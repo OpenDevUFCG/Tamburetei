@@ -20,7 +20,7 @@ Caso deseje propor uma mudança, primeiro verifique se já não existe uma Issue
 
 ## Primeira contribuição
 
-Se você se interessou pela nossa comunidade e deseja contribuir conosco, mas não sabe por onde começar, dê uma olhada em Issues com a tag [`good first issue`](https://github.com/OpenDevUFCG/Tamburetei/issues?q=is%3Aopen+is%3Aissue+label%3A%22Good+First+Issue%22), elas serão um bom ponto de partida. Também vale a pena olhar as Issues relacionadas às disciplinas que você já cursou ou está cursando.
+Se você se interessou pela nossa comunidade e deseja contribuir conosco, mas não sabe por onde começar, dê uma olhada em Issues com a tag [`good first issue`](https://github.com/OpenDevUFCG/Tamburetei/issues?q=is%3Aissue+is%3Aopen+label%3A%22%3Acheckered_flag%3A+good+first+issue%22), elas serão um bom ponto de partida. Também vale a pena olhar as Issues relacionadas às disciplinas que você já cursou ou está cursando.
 
 Se você decide fazer alguma mudança e ainda não existe uma Issue sobre esse tema, crie uma nova para informar o que será feito e para manifestar seu interesse em atender essa demanda. Caso a Issue já exista, manifeste nos comentários seu interesse em contribuir para a resolução dela. Mesmo que alguém já esteja trabalhando para isso, vocês podem sincronizar seus esforços!
 
