@@ -12,9 +12,7 @@ Visando facilitar o entendimento e a manutenção do Tamburetei, utilizamos uma 
 
 ## Organização de Issues
 
-As issues são um espaço aberto para requisitar criação, mudança ou correção de material. Também pode ser usada como um espaço de discussão sobre as disciplinas ~tamburetes~ de Ciência da Computação da UFCG. Tenha em mente que o tema sempre deve estar relacionado ao curso.
-
-Veja sobre nossa [organização de Issues](https://github.com/OpenDevUFCG/Tamburetei/wiki/Organiza%C3%A7%C3%A3o-de-Issues)
+As issues são um espaço aberto para requisitar criação, mudança ou correção de material. Também pode ser usada como um espaço de discussão sobre as disciplinas ~tamburetes~ de Ciência da Computação da UFCG. Tenha em mente que o tema sempre deve estar relacionado ao curso. Conheça mais sobre nossa [organização de Issues](https://github.com/OpenDevUFCG/Tamburetei/wiki/Organiza%C3%A7%C3%A3o-de-Issues).
 
 ## Propondo uma mudança
 
@@ -30,7 +28,7 @@ Não tenha medo de pedir por orientação ou ajuda, o importante é ser destemid
 
 ## Restrições de Upload
 
-Para manter o Tamburetei sustentável, possuímos algumas [restrições](https://github.com/OpenDevUFCG/Tamburetei/wiki/Restri%C3%A7%C3%B5es-de-Upload) sobre o upload de arquivos em nosso repositório, sobretudo em relação a copyright e limites de armazenamento. Esteja ciente dessas restrições antes de submeter qualquer arquivo!
+Para manter o Tamburetei sustentável, possuímos algumas [restrições](https://github.com/OpenDevUFCG/Tamburetei/wiki/Restri%C3%A7%C3%B5es-de-Upload) sobre o upload de arquivos em nosso repositório, sobretudo em relação a *copyright* e limites de armazenamento. Esteja ciente dessas restrições antes de submeter qualquer arquivo!
 
 ## Enviando uma Pull Request
 
