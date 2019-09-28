@@ -6,6 +6,21 @@ e esse projeto adere a [Semantic Versioning](https://semver.org/lang/pt-BR/spec/
 
 ## [Não publicado]
 
+## [1.0.3] - 28/09/2019
+
+### Adicionado
+- Descrição da prova sobre Camada de Aplicação do 2019.2 em Redes de Computadores.
+- Implementação em Java de Produtor-Consumidor em Sistemas Operacionais.
+- Resumos sobre Introdução a SO e Condições de Corrida em Sistemas Operacionais.
+- Resumo sobre *Binary Search Tree* em Estrutura de Dados e Algoritmos.
+- Referência do Tinkercad em Laboratório de Organização e Arquitetura de Computadores.
+- Seção de resumo sobre Tipos de Multiplexação em Redes de Computadores.
+
+### Modificado
+- O script de criação de subdiretórios agora produz o README.md das disciplinas corretamente.
+- O CONTRIBUTING.md do repositório agora é mais resumido e amigável a novos contribuidores.
+- Implementações em Programação I agora utilizam Python 3.5+.
+
 ## [1.0.2] - 01/08/2019
 
 ### Adicionado
