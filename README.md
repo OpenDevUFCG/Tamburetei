@@ -7,12 +7,12 @@ Tamburetei vai te ajudar a fazer de tamburete aquela cadeira de CC. Direcionado 
 
 ## Como funciona?
 
-Cada cadeira do curso vai possuir seu próprio diretório, nele estarão os seguintes conteúdos:
+Cada disciplina do curso vai possuir seu próprio diretório, nele estarão os seguintes conteúdos:
 
 Arquivo | Finalidade
 ------- | -----------
-**resumos/** | Esse diretório se destina a resumos sobre assuntos especifícos da disciplina. Devem ser bem divididos e fáceis de entender.
-**implementacoes/** | Esse diretório, que existe apenas para disciplinas em que seja pertinente, se destina a implementações úteis para os aqueles que estejam cursando a disciplina. Devem ser fáceis de entender e bem documentadas.
+**resumos/** | Esse diretório se destina a resumos sobre assuntos específicos da disciplina. Devem ser bem divididos e fáceis de entender.
+**implementacoes/** | Esse diretório (que existe apenas para disciplinas em que seja pertinente) se destina a implementações úteis para aqueles que estejam cursando a disciplina. Devem ser fáceis de entender e bem documentadas.
 **dificuldadesComuns.md** | Contém a descrição das dificuldades mais comuns da disciplina e relatos de alunos que já a cursaram.
 **extras.md** | Caso necessário, outros tópicos devem ser inseridos nesse arquivo.
 **leites/** | Diretório com os leites dos períodos passados, separados por período (em seções do README.md ou em pastas). Preferencialmente, contém apenas provas e listas de exercícios.
@@ -25,13 +25,12 @@ Para facilitar a criação dessa estrutura, você pode utilizar um *script* que 
 cd scripts
 ```
 
-E em seguida, execute o comando:
-
+E, em seguida, execute o comando:
 ```sh
 ./create_folder_structure
 ```
 
-Informe o nome da pasta de disciplina e ela será criada automaticamente. Lembre de substituir o **{discipline}** no `README.md` pelo nome completo da disciplina.
+Agora basta informar o nome da disciplina e a nova pasta será criada!
 
 
 ## Disciplinas
