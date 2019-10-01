@@ -53,7 +53,6 @@ module.exports = {
         icon: 'content/assets/icon.svg',
       },
     },
-    'gatsby-plugin-offline',
     {
       resolve: 'gatsby-plugin-google-fonts',
       options: {
