@@ -31,12 +31,9 @@ O [Overleaf](https://www.overleaf.com/) é um editor online de LaTeX que dispõe
 8 | Anéis | [Link](https://drive.google.com/file/d/1yYCW35xfu_dCjVLTmrQBiXl57uhUf4bs/view?usp=sharing) |
 9 | Matrizes | [Link](https://drive.google.com/file/d/1S5n4ckAtVb81Wn2RUMqWrcviRvxw76Uw/view?usp=sharing) |
 
-
-
 ### 2019.1
 **Lista** | **Assunto** | **Links**  |
-:---: | :---:| :---: |
-
+:---: | :---: | :---: |
 1 | Técnicas de Demonstração | [Link](https://drive.google.com/open?id=1uTextIbt29_MytqIRwuXxNsrm8FHR--w) |
 2 | Indução e Recursividade | [Link]() |
 3 | Números Inteiros | [Link](https://drive.google.com/open?id=1jozQQsRg7CxWz-qlk_DJFIM2WFMBD-4_) |
