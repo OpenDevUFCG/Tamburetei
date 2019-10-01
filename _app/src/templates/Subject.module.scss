@@ -1,0 +1,122 @@
+.markdownRoot {
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1.45rem;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+  }
+  h1 {
+    font-size: 2.25rem;
+  }
+  h2 {
+    font-size: 1.62671rem;
+  }
+  h3 {
+    font-size: 1.38316rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  h5 {
+    font-size: 0.85028rem;
+  }
+  h6 {
+    line-height: 1.1;
+    font-size: 0.78405rem;
+  }
+  hgroup {
+    margin-bottom: 1.45rem;
+  }
+  ul {
+    margin-left: 1.45rem;
+    margin-bottom: 1.45rem;
+    list-style-position: outside;
+    list-style-image: none;
+  }
+  p {
+    margin-bottom: 1.45rem;
+  }
+  li {
+    margin-bottom: calc(1.45rem / 2);
+  }
+  ol li, ul li {
+    padding-left: 0;
+  }
+  li > ol, li > ul {
+    margin-left: 1.45rem;
+    margin-bottom: calc(1.45rem / 2);
+    margin-top: calc(1.45rem / 2);
+  }
+  li *:last-child, p *:last-child {
+    margin-bottom: 0;
+  }
+  li > p {
+    margin-bottom: calc(1.45rem / 2);
+  }
+  table {
+    margin-bottom: 1.45rem;
+    font-size: 1rem;
+    line-height: 1.45rem;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  thead {
+    text-align: left;
+  }
+  td,
+  th {
+    text-align: left;
+    border-bottom: 1px solid hsla(0, 0%, 0%, 0.12);
+    font-feature-settings: "tnum";
+    -moz-font-feature-settings: "tnum";
+    -ms-font-feature-settings: "tnum";
+    -webkit-font-feature-settings: "tnum";
+    padding-left: 0.96667rem;
+    padding-right: 0.96667rem;
+    padding-top: 0.725rem;
+    padding-bottom: calc(0.725rem - 1px);
+  }
+  th:first-child,
+  td:first-child {
+    padding-left: 0;
+  }
+  th:last-child,
+  td:last-child {
+    padding-right: 0;
+  }
+  pre {
+    margin-bottom: 1.45rem;
+    font-size: 0.85rem;
+    line-height: 1.42;
+    background: hsla(0, 0%, 0%, 0.04);
+    border-radius: 3px;
+    overflow: auto;
+    word-wrap: normal;
+    padding: 1.45rem;
+  }
+  tt,
+  code {
+    background-color: hsla(0, 0%, 0%, 0.04);
+    border-radius: 3px;
+    font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
+      "Liberation Mono", Menlo, Courier, monospace;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+  }
+  pre code {
+    background: none;
+    line-height: 1.42;
+  }
+  code:before,
+  code:after,
+  tt:before,
+  tt:after {
+    letter-spacing: -0.2em;
+    content: " ";
+  }
+  pre code:before,
+  pre code:after,
+  pre tt:before,
+  pre tt:after {
+    content: "";
+  }
+}

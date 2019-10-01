@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Rhetoric';
+  src: url('/fonts/Rhetoric-Book.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Rhetoric';
+  font-weight: bold;
+  src: url('/content/fonts/Rhetoric-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Rhetoric';
+  font-weight: light;
+  src: url('/content/fonts/Rhetoric-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Rhetoric';
+  font-style: italic;
+  src: url('/content/fonts/Rhetoric-Italic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Rhetoric';
+  font-style: italic;
+  font-weight: bold;
+  src: url('/content/fonts/Rhetoric-BoldItalic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Rhetoric';
+  font-style: italic;
+  font-weight: light;
+  src: url('/content/fonts/Rhetoric-LightItalic.otf') format('opentype');
+}

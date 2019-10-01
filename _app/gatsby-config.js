@@ -54,5 +54,12 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
+    {
+      resolve: 'gatsby-plugin-google-fonts',
+      options: {
+        fonts: ['Roboto'],
+      },
+    },
+    'gatsby-plugin-sass',
   ],
 }

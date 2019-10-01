@@ -36,7 +36,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
   posts.forEach(post => {
     createPage({
-      path: post.node.fields.slug.replace(/index$/, ''),
+      path: post.node.fields.slug,
       component: subjectPage,
       context: {
         slug: post.node.fields.slug,
@@ -53,7 +53,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     createNodeField({
       name: 'slug',
       node,
-      value: value.replace('README/', 'index'),
+      value: value.replace('README/', ''),
     })
   }
 }

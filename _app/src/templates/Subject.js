@@ -3,6 +3,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
+import styles from './Subject.module.scss'
 
 const Subject = ({
   data: {
@@ -11,7 +12,10 @@ const Subject = ({
 }) => {
   return (
     <Layout>
-      <section dangerouslySetInnerHTML={{ __html: html }} />
+      <section
+        className={styles.markdownRoot}
+        dangerouslySetInnerHTML={{ __html: html }}
+      />
     </Layout>
   )
 }
