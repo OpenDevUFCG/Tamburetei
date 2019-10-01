@@ -3,6 +3,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
+import SEO from '../components/SEO'
 import styles from './Subject.module.scss'
 
 const Subject = ({
@@ -12,6 +13,7 @@ const Subject = ({
 }) => {
   return (
     <Layout>
+      <SEO />
       <section
         className={styles.markdownRoot}
         dangerouslySetInnerHTML={{ __html: html }}
