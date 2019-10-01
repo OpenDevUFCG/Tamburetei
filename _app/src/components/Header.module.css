@@ -1,0 +1,27 @@
+.header {
+  margin-bottom: 1.45rem;
+  border-bottom: 1px solid lightgray;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 1.45rem 1.0875rem;
+}
+
+.logo {
+  margin-right: .5rem;
+}
+
+.homeLink {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+.heading {
+  margin: 0;
+  font-family: Rhetoric, sans-serif;
+  font-weight: normal;
+}
