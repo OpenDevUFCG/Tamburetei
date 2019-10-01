@@ -9,9 +9,9 @@ Uma coleção de materiais úteis que foram utilizados na disciplina em período
 ### 2019.2
 **Lista** | **Assunto** | **Links**  |
 :---: | :---: | :---: |
-0 | Revisão para Cálculo | [Link](https://drive.google.com/file/d/1T6G1oVVaU08E0g8GJO_ANaZZct0OzIT7/view) |
-1 | Limite e Continuidade | [Link](https://drive.google.com/file/d/1QwfnyDiWCtsqnohstMu9W2lvTnq6ciCx/view) |
-2 | Derivadas | [Link](https://drive.google.com/file/d/1W-LKC-3xDzTF9UIidopEVwIbLUBu5D1H/view) |
+0 | Revisão para Cálculo | [Link](https://drive.google.com/file/d/1hROwpmnyT1u6iS6ddVF66aOHoFeFCktj/view) |
+1 | Limite e Continuidade | [Link](https://drive.google.com/file/d/1ZRzB03te1BSmZvEtSl8D9I3Ub80TDN-R/view) |
+2 | Derivadas | [Link](https://drive.google.com/file/d/1bXbXw-u-T0wZpIxhXViuEHQWWqFNHz6k/view) |
 
 ### 2019.1
 **Lista** | **Assunto** | **Links**  |
