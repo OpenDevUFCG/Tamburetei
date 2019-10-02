@@ -16,8 +16,8 @@ const Subject = ({
 }) => {
   return (
     <Layout>
-      <SEO />
-      <h1>{title}</h1>
+      <SEO title={title} />
+      <h1 className={styles.title}>{title}</h1>
       <section
         className={styles.markdownRoot}
         dangerouslySetInnerHTML={{ __html: html }}
