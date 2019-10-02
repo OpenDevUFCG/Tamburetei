@@ -33,7 +33,7 @@ export const pageQuery = graphql`
           id
           fields {
             slug
-            path
+            slugPath
           }
           frontmatter {
             title

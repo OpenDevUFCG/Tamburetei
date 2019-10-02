@@ -16,6 +16,7 @@ exports.createPages = async ({ graphql, actions }) => {
             node {
               fields {
                 slug
+                slugPath
               }
               frontmatter {
                 title
@@ -35,15 +36,12 @@ exports.createPages = async ({ graphql, actions }) => {
   const subjects = result.data.allMarkdownRemark.edges
 
   subjects.forEach(subject => {
-    if (!subject.node.fields.path) {
-      console.log('esse node', subject)
-    }
     createPage({
-      path: subject.node.fields.path,
+      path: subject.node.fields.slugPath,
       component: subjectPage,
       context: {
         slug: subject.node.fields.slug,
-        path: subject.node.fields.path,
+        slugPath: subject.node.fields.slugPath,
       },
     })
   })
@@ -64,7 +62,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     })
 
     createNodeField({
-      name: 'path',
+      name: 'slugPath',
       node,
       value: value.replace(/([A-Z])/g, (_, v) => '-' + v.toLowerCase()),
     })
