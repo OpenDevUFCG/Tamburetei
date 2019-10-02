@@ -1,5 +1,6 @@
 ---
 title: Links Úteis
+permalink: programacao-1/links-uteis
 ---
 
 Uma lista de links que irão auxiliá-lo no estudo da disciplina.

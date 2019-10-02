@@ -1,5 +1,6 @@
 ---
 title: Dificuldades Comuns
+permalink: programacao-1/dificuldades-comuns
 ---
 # Dificuldades Comuns
 

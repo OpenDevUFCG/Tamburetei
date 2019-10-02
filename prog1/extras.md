@@ -1,5 +1,6 @@
 ---
 title: Extras
+permalink: programacao-1/extras
 ---
 
 Informações e conteúdos extras sobre a disciplina.

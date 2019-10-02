@@ -1,5 +1,6 @@
 ---
 title: Visão Geral e Dicas
+permalink: programacao-1/visao-geral-e-dicas
 ---
 
 Informações que irão auxiliá-lo a cursar bem a disciplina e a compreender sua importância para o curso.

@@ -1,5 +1,6 @@
 ---
 title: Tutoriais
+permalink: programacao-1/implementacoes/tutoriais
 ---
 
 Tutoriais sobre os assuntos ensinados em Programação I e Laboratório de Programação I.
