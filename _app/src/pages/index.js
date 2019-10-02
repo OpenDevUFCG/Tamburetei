@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import React from 'react'
 
 import Layout from '../components/Layout'
@@ -11,7 +11,11 @@ const IndexPage = ({ data: { subjects } }) => (
     <h1>Oi pessoas!</h1>
     <ul>
       {subjects.edges.map(subject => (
-        <li key={subject.node.id}>{subject.node.fields.slug}</li>
+        <li key={subject.node.id}>
+          <Link to={subject.node.fields.slugPath}>
+            {subject.node.fields.slug}
+          </Link>
+        </li>
       ))}
     </ul>
   </Layout>
@@ -26,7 +30,7 @@ export default IndexPage
 export const pageQuery = graphql`
   query AllSubjects {
     subjects: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/tamburetei/(.*)/README.md$/i" } }
+      filter: { fileAbsolutePath: { regex: "/tamburetei/[\\w\\d]+/README.md$/i" } }
     ) {
       edges {
         node {
