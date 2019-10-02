@@ -6,6 +6,9 @@ e esse projeto adere a [Semantic Versioning](https://semver.org/lang/pt-BR/spec/
 
 ## [Não publicado]
 
+### Adicionado
+- Provas antigas e listas de exercícios em Cálculo Integral e Diferencial I.
+
 ## [1.0.3] - 28/09/2019
 
 ### Adicionado
