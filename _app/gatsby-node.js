@@ -32,14 +32,18 @@ exports.createPages = async ({ graphql, actions }) => {
   }
 
   // Create subject pages
-  const posts = result.data.allMarkdownRemark.edges
+  const subjects = result.data.allMarkdownRemark.edges
 
-  posts.forEach(post => {
+  subjects.forEach(subject => {
+    if (!subject.node.fields.path) {
+      console.log('esse node', subject)
+    }
     createPage({
-      path: post.node.fields.slug,
+      path: subject.node.fields.path,
       component: subjectPage,
       context: {
-        slug: post.node.fields.slug,
+        slug: subject.node.fields.slug,
+        path: subject.node.fields.path,
       },
     })
   })
@@ -49,11 +53,20 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 
   if (node.internal.type === 'MarkdownRemark') {
-    const value = createFilePath({ node, getNode })
+    const value =
+      node.frontmatter.slug ||
+      createFilePath({ node, getNode }).replace('README/', '')
+
     createNodeField({
       name: 'slug',
       node,
-      value: value.replace('README/', ''),
+      value: value,
+    })
+
+    createNodeField({
+      name: 'path',
+      node,
+      value: value.replace(/([A-Z])/g, (_, v) => '-' + v.toLowerCase()),
     })
   }
 }

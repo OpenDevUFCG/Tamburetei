@@ -1,4 +1,6 @@
-# Programação I e Laboratório de Programação I
+---
+title: Programação I e Laboratório de Programação I
+---
 
 ## O que tem?
 
