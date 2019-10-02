@@ -15,6 +15,9 @@ e esse projeto adere a [Semantic Versioning](https://semver.org/lang/pt-BR/spec/
 - Ementa, visão geral, dicas, dificuldades comuns e links úteis em Álgebra Linear.
 - Provas antigas e listas de exercícios em Álgebra Linear.
 
+### Modificado
+- Tutoriais de Python em Programação I agora utilizam Python 3.5+.
+
 
 ## [1.0.3] - 28/09/2019
 
