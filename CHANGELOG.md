@@ -1,3 +1,7 @@
+---
+slug: changelog
+---
+
 # Changelog
 Todas as mudanças desse projeto serão documentadas nesse arquivo.
 

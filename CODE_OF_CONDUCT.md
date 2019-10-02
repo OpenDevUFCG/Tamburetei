@@ -1,3 +1,7 @@
+---
+slug: codigo-de-conduta
+---
+
 # OpenDevUFCG - Código de Conduta
 
 Este código de conduta vale para todos os projetos e encontros que a comunidade @OpenDevUFCG acolhe.
