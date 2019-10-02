@@ -8,12 +8,16 @@ import styles from './Subject.module.scss'
 
 const Subject = ({
   data: {
-    markdownRemark: { html },
+    markdownRemark: {
+      html,
+      frontmatter: { title },
+    },
   },
 }) => {
   return (
     <Layout>
-      <SEO />
+      <SEO title={title} />
+      <h1 className={styles.title}>{title}</h1>
       <section
         className={styles.markdownRoot}
         dangerouslySetInnerHTML={{ __html: html }}

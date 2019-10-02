@@ -13,22 +13,7 @@ module.exports = {
       options: {
         path: `${__dirname}/..`,
         name: 'subjects',
-        ignore: [
-          '**/\\.*',
-          '**/_app',
-          '**/scripts',
-          filePath => {
-            if (
-              // ignore markdowns in the project root folder
-              /tamburetei$/i.test(dirname(filePath)) &&
-              /\.md$/.test(filePath)
-            ) {
-              return true
-            }
-
-            return false
-          },
-        ],
+        ignore: ['**/\\.*', '**/_app', '**/scripts'],
       },
     },
     {
