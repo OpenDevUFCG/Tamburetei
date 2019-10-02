@@ -14,52 +14,102 @@ class bcolors:
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
 
-BASE_PATH = '../{discipline}'
+BASE_PATH = '../{folder_name}'
+
 FILES = {
-        'visaoGeralEDicas.md': '# Visão Geral e Dicas\n\nInformações que irão auxiliá-lo a cursar bem a disciplina e a compreender sua importância para o curso.',
-        'linksUteis.md': '# Links Úteis\n\nUma lista de links que irão auxiliá-lo no estudo da disciplina.',
-        'dificuldadesComuns.md': '# Dificuldades Comuns\n\nUma lista de comentários sobre as principais dificuldades enfrentadas pelos alunos enquanto cursam a disciplina.',
-        'extras.md': '# Extras\n\nInformações e conteúdos extras sobre a disciplina.',
-        'README.md': '# {discipline}\n\n## O que tem?\n\n- [Dificuldades Comuns](dificuldadesComuns.md)\n- [Extras](extras.md)\n- [Implementações](implementacoes)\n- [Leites](leites)\n- [Links Úteis](linksUteis.md)\n- [Resumos](resumos)\n- [Visão Geral e Dicas](visaoGeralEDicas.md)'
+        'visaoGeralEDicas.md': '''
+---
+title: Visão Geral e Dicas
+permalink: {slug}/visao-geral-e-dicas
+---
+
+Informações que irão auxiliá-lo a cursar bem a disciplina e a compreender sua importância para o curso.
+'''.strip(),
+
+    'linksUteis.md': '''
+---
+title: Links Úteis
+permalink: {slug}/links-uteis
+---
+
+Uma lista de links que irão auxiliá-lo no estudo da disciplina.
+'''.strip(),
+
+    'dificuldadesComuns.md': '''
+---
+title: Dificuldades Comuns
+permalink: {slug}/dificuldades-comuns
+---
+
+Uma lista de comentários sobre as principais dificuldades enfrentadas pelos alunos enquanto cursam a disciplina.
+'''.strip(),
+
+    'extras.md': '''
+---
+title: Extras
+permalink: {slug}/extras
+---
+
+Informações e conteúdos extras sobre a disciplina.
+'''.strip(),
+
+    'README.md': '''
+---
+title: {discipline}
+permalink: {slug}
+---
+
+## O que tem?
+
+- [Dificuldades Comuns]({slug}/dificuldades-comuns)
+- [Extras]({slug}/extras)
+- [Implementações]({slug}/implementacoes)
+- [Leites]({slug}/leites)
+- [Links Úteis]({slug}/links-uteis)
+- [Resumos]({slug}/resumos)
+- [Visão Geral e Dicas]({slug}/visao-geral-e-dicas)
+'''.strip()
     }
 
-def _create_folder(discipline, dir_name):
-    path = BASE_PATH + '/{dir_name}'
-    path = path.format(discipline=discipline, dir_name=dir_name)
+def _create_folder(folder_name, sub_folder_name):
+    path = BASE_PATH + '/{sub_folder_name}'
+    path = path.format(folder_name=folder_name, sub_folder_name=sub_folder_name)
     os.makedirs(path)
 
-def _create_file(discipline, filename):
+def _create_file(folder_name, filename, discipline, slug):
     path = BASE_PATH + '/{filename}'
-    path = path.format(discipline=discipline, filename=filename)
+    path = path.format(folder_name=folder_name, filename=filename)
 
     file = open(path, 'wb')
-    file.write(FILES[filename])
+    file.write(FILES[filename].format(discipline=discipline, slug=slug))
     file.close()
 
-def create_folders(discipline):
-    dir_names = ['implementacoes', 'resumos', 'leites']
-    for dir_name in dir_names:
-        _create_folder(discipline, dir_name)
-        print(bcolors.OKBLUE + '-' + dir_name + bcolors.ENDC)
+def create_folders(folder_name):
+    sub_folders = ['implementacoes', 'resumos', 'leites']
+    for sub_folder in sub_folders:
+        _create_folder(folder_name, sub_folder)
+        print(bcolors.OKBLUE + '-' + sub_folder + bcolors.ENDC)
 
-def create_files(discipline):
+def create_files(discipline, slug):
     for file in FILES:
-        _create_file(discipline, file.format(discipline=discipline)
+        _create_file(slug, file, discipline, slug)
         print('  ' + bcolors.OKGREEN + '-' + file + bcolors.ENDC)
 
 def check_discipline(discipline):
-    if(not discipline.isalnum()):
+    if not discipline.isalnum():
         raise Exception('O nome da disciplina não pode conter caracteres especiais!')
 
 if __name__ == '__main__':
     try:
-        discipline = raw_input("Digite o nome da nova disciplina: ").lower()
-        check_discipline(discipline)
+        discipline = raw_input("Digite o nome da nova disciplina: ")
+
+        slug = raw_input("Digite o slug da disciplina (e.g. programacao-1): ").lower()
+        check_discipline(slug)
         
         print('Criando ' + bcolors.UNDERLINE + discipline + bcolors.ENDC + '...')
         
-        create_folders(discipline)
-        create_files(discipline)
+        create_folders(slug)
+        create_files(discipline, slug)
 
         print(bcolors.BOLD + "Criado!" + bcolors.ENDC)
 

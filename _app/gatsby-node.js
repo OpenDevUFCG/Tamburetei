@@ -64,7 +64,9 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     createNodeField({
       name: 'slugPath',
       node,
-      value: value.replace(/([A-Z])/g, (_, v) => '-' + v.toLowerCase()),
+      value:
+        node.frontmatter.permalink ||
+        value.replace(/([A-Z])/g, (_, v) => '-' + v.toLowerCase()),
     })
   }
 }
