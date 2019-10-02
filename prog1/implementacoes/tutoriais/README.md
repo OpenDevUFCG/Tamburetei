@@ -1,4 +1,6 @@
-# Tutoriais
+---
+title: Tutoriais
+---
 
 Tutoriais sobre os assuntos ensinados em Programação I e Laboratório de Programação I.
 
