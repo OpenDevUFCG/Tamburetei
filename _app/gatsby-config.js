@@ -1,5 +1,3 @@
-const { dirname } = require('path')
-
 module.exports = {
   siteMetadata: {
     title: 'Tamburetei',
