@@ -63,6 +63,20 @@ Final | - | [Link](https://drive.google.com/file/d/14jwZPNXwNgNyh0rtMxNNBq7YRYel
 3º estágio (II) | Não | [Link](https://drive.google.com/open?id=1boadyBdOQHSsYxGcRveU7Q51jRGjp8U2) |
 Final | - | [Link](https://drive.google.com/open?id=1IIx0Xe8NBWcN1DUGZKw18exSDePoZqVb) |
 
+### 2018.2
+**Prova** | **Reposição?** | **Links**  |
+:---: | :---:| :---: |
+1º estágio (I) | Não | [Link](https://drive.google.com/open?id=1o_j4hXttZq2kLFcLhBpzfFGOcywbo6Il) |
+1º estágio (II) | Não | [Link](https://drive.google.com/open?id=1wHWn_CoeIC1mk8wa3FRiIalvkxbYqrp2) |
+1º estágio (III) | Não | [Link](https://drive.google.com/open?id=1pzpGg3IglKl_zjgL4Hm9JkFUbWoYgqSB) |
+1º estágio (IV) | Não | [Link](https://drive.google.com/open?id=16WrWPL5FWokpZFdK4Pcb_TNxr05a3OMw) |
+2º estágio (I)  | Não | [Link](https://drive.google.com/open?id=1wc0yHnO-Eo6T4zw5N4Q_OR2NRyF3L6M4) |
+2º estágio (II) | Não | [Link](https://drive.google.com/open?id=1EDZKpNiQjPoEurM_DZo6Xk_s5VWQ-sGN) |
+3º estágio | Não | [Link](https://drive.google.com/open?id=1Nzh0PZxzSOcUrFgRn4NeoQ38ggIQ2xCG) |
+3º estágio  | Sim | [Link](https://drive.google.com/open?id=1BA9mBA0p4hZg3KAzQbGM_URDazKkrCxr) |
+4º estágio  | Não | [Link](https://drive.google.com/open?id=11Q_1LHuFtkrBwyTApaHc-bOLA0VPjEbT) |
+4º estágio  | Sim | [Link](https://drive.google.com/open?id=1G4HYq3bQI6iFXM_uAVSsONZv42g51c51) |
+
 ### 2019.1
 **Prova** | **Reposição?** | **Links**  |
 :---: | :---:| :---: |
