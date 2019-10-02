@@ -8,6 +8,9 @@ e esse projeto adere a [Semantic Versioning](https://semver.org/lang/pt-BR/spec/
 
 ### Adicionado
 - Provas antigas e listas de exercícios em Cálculo Integral e Diferencial I.
+- Ementa, visão geral, dicas, dificuldades comuns e links úteis em Álgebra Linear.
+- Provas antigas e listas de exercícios em Álgebra Linear.
+
 
 ## [1.0.3] - 28/09/2019
 
