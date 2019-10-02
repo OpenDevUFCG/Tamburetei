@@ -22,6 +22,16 @@ Uma coleção de materiais úteis que foram utilizados na disciplina em período
 
 ## Provas
 
+### 2016.1
+**Prova** | **Reposição?** | **Links**  |
+:---: | :---:| :---: |
+1º estágio | Não | [Link](https://drive.google.com/open?id=1eCJ2IlLeXwOB0-WMKQByMi3dSiTh-cWD) |
+2º estágio (I) | Não | [Link](https://drive.google.com/open?id=1ZvGaUmQd-oBEE0sRfvdDDlM7FinOgqC1) |
+2º estágio (II) | Sim | [Link](https://drive.google.com/open?id=1byKoVPCJSrxZUQpuDrBo-v2GvuEVpk12) |
+2º estágio (III) | Sim | [Link](https://drive.google.com/open?id=16WL_tqtsbPWoB-uurjDkkattIrHMhVcI) |
+3º estágio (I) | Não | [Link](https://drive.google.com/open?id=1zYDDpOwwf3F5e2SI_-hBo3oTwjZbTAu-) |
+3º estágio (II) | Sim | [Link](https://drive.google.com/open?id=1MZflGfeQ7A9CRayGE9vy-okMxXLln5le) |
+
 ### 2017.1
 **Prova** | **Reposição?** | **Links**  |
 :---: | :---:| :---: |
