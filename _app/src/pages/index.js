@@ -30,7 +30,10 @@ export default IndexPage
 export const pageQuery = graphql`
   query AllSubjects {
     subjects: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/tamburetei/[\\w\\d]+/README.md$/i" } }
+      filter: { 
+        fileAbsolutePath: { regex: "/README\\.md/" },
+        fields: { slug: { regex: "/^\\/[\\w]+\\/$/" } }
+      }
     ) {
       edges {
         node {
