@@ -31,6 +31,8 @@ Uma coleção de materiais úteis que foram utilizados na disciplina em período
 2º estágio (III) | Sim | [Link](https://drive.google.com/open?id=16WL_tqtsbPWoB-uurjDkkattIrHMhVcI) |
 3º estágio (I) | Não | [Link](https://drive.google.com/open?id=1zYDDpOwwf3F5e2SI_-hBo3oTwjZbTAu-) |
 3º estágio (II) | Sim | [Link](https://drive.google.com/open?id=1MZflGfeQ7A9CRayGE9vy-okMxXLln5le) |
+Final (I) | - | [Link](https://drive.google.com/open?id=1iOylk7yekZkS2ttU9Rdv09tUJr9ss9H9) |
+Final (II) | - | [Link](https://drive.google.com/open?id=1uiHwNmNfMNIxKAdy5LltM1tnGoypwPCo) |
 
 ### 2016.2
 **Prova** | **Reposição?** | **Links**  |
