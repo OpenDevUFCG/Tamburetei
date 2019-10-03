@@ -49,3 +49,20 @@ Uma coleção de materiais úteis que foram utilizados na disciplina em período
 :---: | :---:| :---: |
 1º estágio - Manhã | Não |[Link](https://drive.google.com/open?id=18kgKzodv_bZ45fNoB-qbeqfH3M0V6QXb) |
 1º estágio - Tarde | Não | [Link](https://drive.google.com/file/d/1ILjolq9h_PsdtOXpBBZcEHaIvHc9nqsb/view) |
+
+### 2016.2
+**Prova** | **Reposição?** | **Links**  |
+:---: | :---:| :---: |
+1º estágio - Manhã | Não |[Link](https://drive.google.com/open?id=16xZBngtOCnwslz3JFjGXNPrYu93iOV2w) |
+1º estágio - Tarde | Não | [Link](https://drive.google.com/open?id=1iu_uC6FtCQ-3LZZkeJQw3KebdQ3rNszO) |
+2º estágio - Manhã | Não |[Link](https://drive.google.com/open?id=1bX_EWuGO-PoUwVQmIEHzdZByY8CmeWwr) |
+2º estágio - Tarde | Não | [Link](https://drive.google.com/file/d/1KzhnU93G1g3AjQ87HHlDX1x9uQKPS-FN/view) |
+
+### 2016.1
+**Prova** | **Reposição?** | **Links**  |
+:---: | :---:| :---: |
+1º estágio - Manhã | Não |[Link](https://drive.google.com/open?id=16Wk_PPocsvcUCsDEHsjv6TaylchMy2oK) |
+1º estágio - Tarde | Não | [Link](https://drive.google.com/open?id=1JceEFwiEGVe8L110eAYs3PqocuzYpy2R) |
+1º estágio - Tarde | Sim | [Link](https://drive.google.com/open?id=1tkRqmCN80XUYsZmXlKw7VivtC6z6Yudd) |
+2º estágio - Tarde | Não | [Link](https://drive.google.com/open?id=1ztmdVCj7jAeYIh94l0edcccsTZosnXJV) |
+2º estágio - Tarde | Sim | [Link](https://drive.google.com/file/d/1W4t3FCSelWFFYQHBQWhkG5hPHjAUIIkO/view) |
