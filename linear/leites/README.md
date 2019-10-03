@@ -27,3 +27,25 @@ Uma coleção de materiais úteis que foram utilizados na disciplina em período
 3º estágio - Manhã | Sim | [Link](https://drive.google.com/open?id=1456_Fh-fz7VV0J0Hau-8TuKeiYUHCHPv) |
 3º estágio - Tarde | Não | [Link](https://drive.google.com/open?id=1BagYR4ScxOpFtxxJrZ6KCwS86TfbHMeC) |
 3º estágio - Tarde | Sim | [Link](https://drive.google.com/open?id=1aY93znpNDm_57lppuA1-CQJ-qqAHmoTA) |
+
+### 2018.2
+**Prova** | **Reposição?** | **Links**  |
+:---: | :---:| :---: |
+1º estágio - Tarde | Não | [Link](https://drive.google.com/open?id=1XeLvrptUPM2oEM8SvfMo2HKUXnRRKjyw) |
+
+### 2018.1
+**Prova** | **Reposição?** | **Links**  |
+:---: | :---:| :---: |
+2º estágio - Manhã| Não | [Link](https://drive.google.com/open?id=1fCNA_vSNVK7_1BDeZw9ScThN92JpR1Zp) |
+
+### 2017.2
+**Prova** | **Reposição?** | **Links**  |
+:---: | :---:| :---: |
+2º estágio - Manhã| Não | [Link](https://drive.google.com/open?id=1uZH0fQ-nrlg4resGqZi3tKYExnWqLkWq) |
+2º estágio - Tarde| Não | [Link](https://drive.google.com/open?id=1P0soFbgnsbdY69fj_zpaT6AFn2pzGsBr) |
+
+### 2017.1
+**Prova** | **Reposição?** | **Links**  |
+:---: | :---:| :---: |
+1º estágio - Manhã | Não |[Link](https://drive.google.com/open?id=18kgKzodv_bZ45fNoB-qbeqfH3M0V6QXb) |
+1º estágio - Tarde | Não | [Link](https://drive.google.com/file/d/1ILjolq9h_PsdtOXpBBZcEHaIvHc9nqsb/view) |
