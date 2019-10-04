@@ -1,5 +1,3 @@
-const { dirname } = require('path')
-
 module.exports = {
   siteMetadata: {
     title: 'Tamburetei',
@@ -13,7 +11,7 @@ module.exports = {
       options: {
         path: `${__dirname}/..`,
         name: 'subjects',
-        ignore: ['**/\\.*', '**/_app', '**/scripts'],
+        ignore: ['**/\\.*', '**/_app/**/*', '**/scripts'],
       },
     },
     {
