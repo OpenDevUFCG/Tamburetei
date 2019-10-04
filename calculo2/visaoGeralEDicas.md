@@ -12,7 +12,7 @@ Informações que irão auxiliá-lo a cursar bem a disciplina e a compreender su
 - Fórmulas e Séries de Taylor-McLaurin.
 
 ## Visão Geral
-Uma visão geral sobre Cálculo Diferencial Integral é definida em [calculo1](https://github.com/OpenDevUFCG/Tamburetei/blob/master/calculo1/visaoGeralEDicas.md#vis%C3%A3o-geral), assim como a importância desse ramo matemático para Ciência da Computação. Tudo que está lá pode ser também considerado aqui.
+Uma visão geral sobre Cálculo Diferencial Integral é definida em [calculo1](../calculo1/visaoGeralEDicas.md#vis%C3%A3o-geral), assim como a importância desse ramo matemático para Ciência da Computação. Tudo que está lá pode ser também considerado aqui.
 
 ## Dicas
 - Cálculo II pode ser mais desafiador que cálculo I, então não subestime a cadeira.
