@@ -1,5 +1,5 @@
 ---
-slug: changelog
+permalink: changelog
 ---
 
 # Changelog

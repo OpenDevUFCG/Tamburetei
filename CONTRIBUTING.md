@@ -1,5 +1,5 @@
 ---
-slug: contribuicao
+permalink: contribuicao
 ---
 
 # Contributing

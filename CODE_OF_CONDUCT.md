@@ -1,5 +1,5 @@
 ---
-slug: codigo-de-conduta
+permalink: codigo-de-conduta
 ---
 
 # OpenDevUFCG - Código de Conduta
