@@ -16,6 +16,7 @@ e esse projeto adere a [Semantic Versioning](https://semver.org/lang/pt-BR/spec/
 - Provas antigas e listas de exercícios em Álgebra Linear.
 - Descrição de dificuldades comuns em Fundamentos de Matemática para Ciência da Computação II.
 - Provas antigas em Cálculo Diferencial e Integral II.
+- Visão geral, dicas e links úteis em Introdução à Probabilidade.
 
 ### Modificado
 - Tutoriais de Python em Programação I agora utilizam Python 3.5+.
