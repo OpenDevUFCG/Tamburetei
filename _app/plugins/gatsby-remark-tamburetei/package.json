@@ -1,0 +1,10 @@
+{
+  "name": "gatsby-remark-tamburetei",
+  "version": "0.0.1",
+  "private": true,
+  "license": "UNLICENSED",
+  "dependencies": {
+    "gatsby-source-filesystem": "^2.1.29",
+    "unist-util-visit": "^2.0.0"
+  }
+}
