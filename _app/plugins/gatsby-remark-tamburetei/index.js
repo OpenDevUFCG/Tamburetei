@@ -16,12 +16,14 @@ module.exports = ({ markdownAST, getNode, markdownNode }) => {
       return
     }
 
+    const [url, fragment] = link.url.split('#')
+
     const resolvedPath = path
-      .resolve(basePath, link.url)
+      .resolve(basePath, url)
       .replace(/\.md$/, '')
       .replace(/([A-Z])/g, (_, v) => '-' + v.toLowerCase())
 
-    link.url = resolvedPath
+    link.url = resolvedPath + (fragment ? '#' + fragment : '')
   })
 
   return markdownAST
