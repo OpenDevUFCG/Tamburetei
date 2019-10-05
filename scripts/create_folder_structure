@@ -49,6 +49,30 @@ title: Extras
 Informações e conteúdos extras sobre a disciplina.
 '''.strip(),
 
+    'leites/README.md': '''
+---
+title: Leites
+---
+
+Uma coleção de materiais úteis que foram utilizados na disciplina em períodos passados.
+'''.strip(),
+
+    'resumos/README.md': '''
+---
+title: Resumos
+---
+
+Uma coleção de resumos que ajudam com o entendimento do conteúdo da disciplina.
+'''.strip(),
+
+    'implementacoes/README.md': '''
+---
+title: Implementações
+---
+
+Aqui estão algumas implementações que ajudam com o entendimento da disciplina.
+'''.strip(),
+
     'README.md': '''
 ---
 title: {discipline}
