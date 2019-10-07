@@ -21,5 +21,5 @@ Informações que irão auxiliá-lo a cursar bem a disciplina e a compreender su
 Em Programação 2, você aprenderá os principais conceitos da programação orientada a objetos, exercitando também os principais modelos de codificação seguidos pelos programadores (design), mais especificadamente na linguagem Java. É de suma importância que você tenha aprendido os conceitos básicos da programação como um todo em Programação 1. Se você não conseguiu absorver algum assunto muito bem, procure o mais rápido possível "suprir" esse conhecimento.
 
 ## Dicas
-- Procure sempre resolver os exercícios de design em sala de aula (diagrama UML). A prova sempre pede que vocÊ faça o diagrama de situações bem semelhantes, além de questões sobre os conceitos vistos em sala.
-- Procure algum curso online (nas plataformas Coursera, EDX, Codecademy...) sobre Java, ajuda bastante a absorver os assuntos e colocálos em prática.
+- Procure sempre resolver os exercícios de design em sala de aula (diagrama UML). A prova sempre pede que você faça o diagrama de situações bem semelhantes, além de questões sobre os conceitos vistos em sala.
+- Procure algum curso online (nas plataformas Coursera, EDX, Codecademy...) sobre Java, ajuda bastante a absorver os assuntos e colocá-los em prática.
