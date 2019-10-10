@@ -1,17 +1,80 @@
 .container {
-  display: flex;
-  flex-direction: column;
   width: 100%;
-  justify-items: center;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 85px 0;
 }
 
 .title {
+  width: 100%;
   font-family: Rhetoric;
   font-size: 3rem;
   display: flex;
   align-items: center;
+  justify-content: center;
+  margin: 0;
 }
 
 .title span {
   margin-left: 1rem;
+}
+
+.headerContent {
+  width: 100%;
+  text-align: center;
+  padding-top: 1.25rem;
+  font-size: 1.25rem;
+  display: inline-block;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 1.5rem;
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.content {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.divider {
+  height: 1px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid lightgray;
+}
+
+.cardSection {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.card {
+  flex: 1;
+  margin: 0 25px;
+  line-height: 1.5;
+}
+
+.card:first-child {
+  margin-left: 0;
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+
+.card ol {
+  padding-left: 1.5rem;
+}
+
+.card ol li {
+  margin: 10px 0;
 }
