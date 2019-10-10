@@ -3,6 +3,11 @@
 }
 
 .markdownRoot {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 25px 0;
+
   h1, h2, h3, h4, h5, h6 {
     margin-bottom: 1.45rem;
     font-weight: bold;
