@@ -1,4 +1,4 @@
----
+﻿---
 title: Visão Geral e Dicas
 ---
 
@@ -44,3 +44,7 @@ As 10 unidades consistem em:
 - A cada semana, resolva as questões do TST da sua unidade atual e da posterior a ela. As questões do TST são muito semelhantes às das provas.
 
 - Às vezes, tentar entender a questão no papel ao invés de ir diretamente escrever o código pode economizar tempo e facilitar a compreensão.
+
+- Preste sempre atenção no tempo durante os minitestes práticos, nem sempre vale a pena abrir mesmo que em uma unidade facil uma nova questão e arriscar perder alguns pontos por não dar tempo.
+
+- Sempre procure outras formas de aprender fora da sala de aula, procure alguma coisa que goste de fazer, um projeto, como um jogo, uma página web de um conteúdo algo que gosta, todo contato com a lógica de programar é bom.
