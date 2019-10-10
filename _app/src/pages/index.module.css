@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-items: center;
+}
+
+.title {
+  font-family: Rhetoric;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.title span {
+  margin-left: 1rem;
+}

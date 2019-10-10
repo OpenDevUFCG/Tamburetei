@@ -1,52 +1,31 @@
-import PropTypes from 'prop-types'
-import { graphql, Link } from 'gatsby'
+import { Link } from 'gatsby'
 import React from 'react'
 
-import Layout from '../components/Layout'
 import SEO from '../components/SEO'
+import Button from '../components/Button'
+import Logo from '../components/Logo'
 
-const IndexPage = ({ data: { subjects } }) => (
-  <Layout>
+import styles from './index.module.css'
+
+const IndexPage = () => (
+  <>
     <SEO />
-    <h1>Oi pessoas!</h1>
-    <ul>
-      {subjects.edges.map(subject => (
-        <li key={subject.node.id}>
-          <Link to={subject.node.fields.slugPath}>
-            {subject.node.fields.slug}
-          </Link>
-        </li>
-      ))}
-    </ul>
-  </Layout>
+    <section className={styles.container}>
+      <h1 className={styles.title}>
+        <Logo size={64} /> <span>Tamburetei</span>
+      </h1>
+      <span>
+        Tamburetei vai te ajudar a fazer de tamburete aquela cadeira de CC.
+        Direcionado ao curso de Ciência da Computação da UFCG, esse repositório
+        é um trabalho colaborativo contendo dicas, links úteis e leites das
+        disciplinas do curso.
+      </span>
+
+      <Button as={Link} to="/cadeiras">
+        Ver Cadeiras
+      </Button>
+    </section>
+  </>
 )
 
-IndexPage.propTypes = {
-  data: PropTypes.object.isRequired,
-}
-
 export default IndexPage
-
-export const pageQuery = graphql`
-  query AllSubjects {
-    subjects: allMarkdownRemark(
-      filter: { 
-        fileAbsolutePath: { regex: "/README\\.md/" },
-        fields: { slug: { regex: "/^\\/[\\w]+\\/$/" } }
-      }
-    ) {
-      edges {
-        node {
-          id
-          fields {
-            slug
-            slugPath
-          }
-          frontmatter {
-            title
-          }
-        }
-      }
-    }
-  }
-`
