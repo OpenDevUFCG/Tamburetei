@@ -3,11 +3,15 @@
   background-color: var(--color-primary);
   color: var(--on-primary);
   text-decoration: none;
-  padding: .5rem .75rem;
-  border-radius: 3px;
+  padding: .5rem 1rem;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: var(--color-primary-hover);
 }
 
 .buttonLarge {
   font-size: 1.25rem;
-  padding: .75 1rem;
+  padding: .75rem 1.25rem;
 }
