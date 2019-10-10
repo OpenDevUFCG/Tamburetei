@@ -1,4 +1,13 @@
 .button {
   border: none;
   background-color: var(--color-primary);
+  color: var(--on-primary);
+  text-decoration: none;
+  padding: .5rem .75rem;
+  border-radius: 3px;
+}
+
+.buttonLarge {
+  font-size: 1.25rem;
+  padding: .75 1rem;
 }

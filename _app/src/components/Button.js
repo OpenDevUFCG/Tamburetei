@@ -4,14 +4,18 @@ import React from 'react'
 
 import styles from './Button.module.css'
 
-const Button = props => {
-  const { as: Component = 'button' } = props
+const Button = ({
+  as: Component = 'button',
+  size = 'regular',
+  className = '',
+  ...props
+}) => {
+  const classes = classNames(className, styles.button, {
+    [styles.buttonLarge]: size === 'large',
+  })
 
   return (
-    <Component
-      {...props}
-      className={classNames(props.className, styles.button)}
-    >
+    <Component {...props} className={classes}>
       {props.children}
     </Component>
   )
@@ -20,6 +24,7 @@ const Button = props => {
 Button.propTypes = {
   className: PropTypes.string,
   children: PropTypes.element,
+  size: PropTypes.oneOf(['large', 'regular']),
   as: PropTypes.any,
 }
 
