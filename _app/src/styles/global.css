@@ -1,7 +1,15 @@
-html, body {
-  font-family: Roboto, sans-serif;
+:root {
+  --color-primary: #eb4034;
+  --on-primary: #fff;
+  --color-surface: #fff;
+  --on-surface: #000;
+  --color-surface-accent: #f1f3f4;
+  --on-surface-accent: #000;
 }
 
-::root {
-  --color-primary: #eb4034;
+html, body, #___gatsby, #gatsby-focus-wrapper {
+  font-family: Roboto, sans-serif;
+  background-color: var(--color-surface);
+  color: var(--on-surface);
+  height: 100%;
 }
