@@ -13,9 +13,11 @@ Informações que irão auxiliá-lo a cursar bem a disciplina e a compreender su
 
 ## Visão Geral
 
-A disciplina de Banco de Dados 1 aborda tanto a teoria quanto a prática, porém, são aplicadas **duas formas** de avaliação:
-- Uma foca na parte mais **teórica** de Banco de Dados, a avaliação é feita com duas provas escritas e um projeto, que é dividido em três partes. A parte prática é realizada na terceira parte do projeto, essa forma de avaliação é mais favorável para pessoas que preferem fixar melhor o conteúdo antes de lidar com uma linguagem (SQL, no caso de Banco de Dados) e implementações.  
-- A outra também aborda a parte teórica, mas foca desde o início do período nas **práticas** com a linguagem SQL, realizando minitestes semanais (que podem ser feitos no computador ou papel) e duas avaliações escritas. Essa forma de avaliação é mais favorável para quem prefere lidar com implementações, já que a parte teórica é apenas introdutória e em seguida já é cobrada a parte prática.
+A disciplina de Banco de Dados aborda, incialmente, conceitos mais teóricos envolvendo histórico, modelos conceituais, relacionais e uma visão mais intuitiva de como modelar um banco de dados simples. A partir do entendimento teórico, a disciplina começa a cobrar do aluno atividades mais práticas, tanto escritas como na linguagem utilizada para implementação (SQL). A avaliação é feita através de provas escritas, minitestes (escritos ou no laboratório) e projetos (que vão desde a teoria até a prática). A disciplina é importante para que o aluno tenha noção de como implementar e gerenciar um banco de dados, sabendo utilizar corretamente conceitos e tecnologias. Portanto, os professores esperam que a disciplina dê ao aluno o conhecimento necessário para:
+
+1) Modelar um banco de dados
+2) Resolver problemas de álgebra relacional e cálculo relacional
+3) Assimilar os conceitos teóricos para fazer boa utilização dos softwares de gerência de banco de dados
 
 
 ## Dicas
