@@ -1,4 +1,6 @@
-# Bobina de Papel
+---
+title: Bobina de Papel
+---
 
 Implemente o circuito de controle do mecanismo para troca de bobinas de papel de uma máquina de impressão rotativa. O uso desse tipo de máquina é comum em jornais e revistas, onde são necessárias bobinas de papel com mais de 1 metro de largura e diâmetro.
 

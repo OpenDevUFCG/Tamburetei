@@ -1,4 +1,6 @@
-# Árvore B
+---
+title: Árvore B
+---
 
 ## O que é?
 

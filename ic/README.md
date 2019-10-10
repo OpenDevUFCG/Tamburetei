@@ -1,4 +1,6 @@
-# Introdução à Computação
+---
+title: Introdução à Computação
+---
 
 ## O que tem?
 

@@ -1,4 +1,6 @@
-# Árvore AVL
+---
+title: Árvore AVL
+---
 
 ## O que é?
 

@@ -1,4 +1,6 @@
-# Camada Física
+---
+title: Camada Física
+---
 
 A **camada física** é o alicerce sobre o qual são construídas as redes de computadores, sendo responsável pela transmissão de bits por um canal de comunicação. Suas características determinam o desempenho da rede e é dela que se origina a definição de interfaces para o meio físico (como a elétrica e a de sincronização).
 

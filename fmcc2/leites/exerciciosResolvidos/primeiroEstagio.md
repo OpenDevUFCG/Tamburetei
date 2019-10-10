@@ -1,4 +1,6 @@
-# Fundamentos de Matemática para Ciência da Computação II - Exercícios Resolvidos - Primeiro Estágio
+---
+title: Fundamentos de Matemática para Ciência da Computação II - Exercícios Resolvidos - Primeiro Estágio
+---
 
 ## Questão 1 (Demonstração por casos)
 Mostre que se *x* ou *y* forem inteiros pares, então *xy* é par.

@@ -1,4 +1,6 @@
-# Segundo Estágio
+---
+title: Segundo Estágio
+---
 
 Gerenciamento de memória: Para programadores, idealmente grande, rápida, não volátil e de baixo custo (não é realista)
 

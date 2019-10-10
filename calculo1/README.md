@@ -1,4 +1,6 @@
-# Cálculo Diferencial e Integral I
+---
+title: Cálculo Diferencial e Integral I
+---
 
 ## O que tem?
 

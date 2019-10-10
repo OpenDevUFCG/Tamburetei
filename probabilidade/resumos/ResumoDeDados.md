@@ -1,4 +1,6 @@
-# Resumo de dados
+---
+title: Resumo de dados
+---
 
 Feito com base neste [slide](https://www.dropbox.com/s/3rubq11f0f4035j/Aula%202_Resumo%20de%20Dados.pdf?dl=0) e [esse](https://www.dropbox.com/s/d6j661koffx2mbx/Aula%203_Resumo%20de%20Dados%20%28continua%C3%A7%C3%A3o%29.pdf?dl=0).
 

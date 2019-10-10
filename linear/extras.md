@@ -1,4 +1,6 @@
-# Extras
+---
+title: Extras
+---
 
 Informações e conteúdos extras sobre a disciplina.
 

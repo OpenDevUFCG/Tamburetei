@@ -1,4 +1,6 @@
-# 3ª Prova
+---
+title: 3ª Prova
+---
 
 - **Disciplina:** Teoria da Computação
 - **Período:** 2019.1
