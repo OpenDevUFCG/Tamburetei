@@ -35,7 +35,19 @@ const IndexPage = () => (
       <section className={styles.cardSection}>
         <div className={styles.card}>
           <h3>Como funciona?</h3>
-          <p>Lorem ipsum</p>
+          <p>
+            Alunos do curso colaboram com várias informações como links úteis,
+            resumos, provas e várias dicas. Esses arquivos ficam todos em nosso
+            repositório do{' '}
+            <a
+              href="https://github.com/OpenDevUFCG/Tamburetei"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+            , e também estão disponibilizados aqui no site.
+          </p>
         </div>
         <div className={styles.card}>
           <h3>Regras</h3>

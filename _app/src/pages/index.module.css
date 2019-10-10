@@ -54,7 +54,7 @@
 .cardSection {
   display: flex;
   justify-content: space-between;
-  padding-top: 40px;
+  padding: 40px 0;
 }
 
 .card {
@@ -69,6 +69,10 @@
 
 .card:last-child {
   margin-right: 0;
+}
+
+.card h3 {
+  margin-top: 0;
 }
 
 .card ol {
