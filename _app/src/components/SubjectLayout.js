@@ -1,3 +1,4 @@
+import classNames from 'classnames'
 import { useStaticQuery, graphql, Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
@@ -13,7 +14,7 @@ const SubjectLayout = ({ children }) => {
         fileAbsolutePath: { regex: "/README\\.md/" },
         fields: { slug: { regex: "/^\\/[\\w]+\\/$/" } }
       },
-      sort: { fields: [frontmatter___title], order: DESC }
+      sort: { fields: [frontmatter___title], order: ASC }
     ) {
       edges {
         node {
@@ -39,7 +40,10 @@ const SubjectLayout = ({ children }) => {
           <nav className={styles.innerNav}>
             {data.subjects.edges.map(subject => (
               <Link
-                className={styles.linkWrapper}
+                className={classNames(styles.linkWrapper, {
+                  [styles.linkActive]:
+                    location.pathname === subject.node.fields.slugPath,
+                })}
                 key={subject.node.id}
                 to={subject.node.fields.slugPath}
               >
