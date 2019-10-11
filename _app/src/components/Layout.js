@@ -13,7 +13,7 @@ import Header from './Header'
 import OpenDevLogo from './OpenDevLogo'
 import styles from './Layout.module.css'
 
-const Layout = ({ children }) => {
+const Layout = ({ className = '', children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -27,7 +27,7 @@ const Layout = ({ children }) => {
   return (
     <div className={styles.container}>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <main>{children}</main>
+      <main className={className}>{children}</main>
       <footer className={styles.footer}>
         <div className={styles.footerContainer}>
           <a
@@ -54,6 +54,7 @@ const Layout = ({ children }) => {
 }
 
 Layout.propTypes = {
+  className: PropTypes.string.isRequired,
   children: PropTypes.node.isRequired,
 }
 
