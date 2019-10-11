@@ -8,7 +8,7 @@ import styles from './SubjectLayout.module.css'
 
 const SubjectLayout = ({ children, location }) => {
   const data = useStaticQuery(graphql`
-  query AllSubjects {
+  {
     subjects: allMarkdownRemark(
       filter: { 
         fileAbsolutePath: { regex: "/README\\.md/" },
