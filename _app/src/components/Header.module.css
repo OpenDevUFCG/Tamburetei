@@ -1,5 +1,5 @@
 .header {
-  border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid var(--color-border);
 }
 
 .container {

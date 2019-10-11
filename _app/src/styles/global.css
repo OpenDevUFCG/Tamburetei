@@ -1,10 +1,14 @@
 :root {
+  /* base colors */
   --color-primary: #343587;
   --color-primary-hover: #4979b7;
-  --on-primary: #fff;
   --color-surface: #fff;
-  --on-surface: #000;
   --color-surface-accent: #f1f3f4;
+  --color-border: lightgray;
+
+  /* text colors */
+  --on-primary: #fff;
+  --on-surface: #000;
   --on-surface-accent: #000;
   --on-surface-accent-hover: rgba(0, 0, 0, .56);
 }

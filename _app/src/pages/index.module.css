@@ -50,7 +50,7 @@
   height: 1px;
   width: 100%;
   border: none;
-  border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid var(--color-border);
 }
 
 .cardSection {
