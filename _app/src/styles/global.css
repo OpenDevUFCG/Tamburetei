@@ -6,6 +6,7 @@
   --on-surface: #000;
   --color-surface-accent: #f1f3f4;
   --on-surface-accent: #000;
+  --on-surface-accent-hover: rgba(0, 0, 0, .56);
 }
 
 html, body, #___gatsby, #gatsby-focus-wrapper {

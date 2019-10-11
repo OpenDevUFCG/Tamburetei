@@ -1,50 +1,16 @@
-import { graphql, Link } from 'gatsby'
-import PropTypes from 'prop-types'
 import React from 'react'
 
-const CadeirasPage = ({ data: { subjects } }) => {
+import SubjectLayout from '../components/SubjectLayout'
+import SEO from '../components/SEO'
+
+const CadeirasPage = () => {
   return (
-    <div>
-      <ul>
-        {subjects.edges.map(subject => (
-          <li key={subject.node.id}>
-            <Link to={subject.node.fields.slugPath}>
-              {subject.node.frontmatter.title}
-            </Link>
-          </li>
-        ))}
-      </ul>
-    </div>
+    <SubjectLayout>
+      <SEO />
+      <h2>Cadeiras</h2>
+      <p>Aqui você pode encontrar nosso layout básico para todas as páginas!</p>
+    </SubjectLayout>
   )
 }
 
 export default CadeirasPage
-
-CadeirasPage.propTypes = {
-  data: PropTypes.object.isRequired,
-}
-
-export const pageQuery = graphql`
-  query AllSubjects {
-    subjects: allMarkdownRemark(
-      filter: { 
-        fileAbsolutePath: { regex: "/README\\.md/" },
-        fields: { slug: { regex: "/^\\/[\\w]+\\/$/" } }
-      },
-      sort: { fields: [frontmatter___title], order: DESC }
-    ) {
-      edges {
-        node {
-          id
-          fields {
-            slug
-            slugPath
-          }
-          frontmatter {
-            title
-          }
-        }
-      }
-    }
-  }
-`

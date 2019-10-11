@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import { graphql } from 'gatsby'
 
-import Layout from '../components/Layout'
+import SubjectLayout from '../components/SubjectLayout'
 import SEO from '../components/SEO'
 import styles from './Subject.module.scss'
 
@@ -15,14 +15,14 @@ const Subject = ({
   },
 }) => {
   return (
-    <Layout>
+    <SubjectLayout>
       <SEO title={title} />
       <h1 className={styles.title}>{title}</h1>
       <section
         className={styles.markdownRoot}
         dangerouslySetInnerHTML={{ __html: html }}
       />
-    </Layout>
+    </SubjectLayout>
   )
 }
 
