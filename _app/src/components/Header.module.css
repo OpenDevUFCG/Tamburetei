@@ -20,6 +20,7 @@
 }
 
 .heading {
+  display: inline-block;
   margin: 0;
   font-family: Rhetoric, sans-serif;
 }
