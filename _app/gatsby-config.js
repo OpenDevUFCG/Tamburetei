@@ -20,7 +20,7 @@ module.exports = {
           '**/\\.*/**/*',
           '**/_app/**/*',
           '**/scripts/**/*',
-          `${baseDir}/README.md`,
+          `**/${baseDir}/README.md`,
         ],
       },
     },
