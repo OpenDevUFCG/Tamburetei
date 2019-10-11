@@ -9,6 +9,12 @@
   --on-surface-accent-hover: rgba(0, 0, 0, .56);
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html, body, #___gatsby, #gatsby-focus-wrapper {
   font-family: Roboto, sans-serif;
   background-color: var(--color-surface);
