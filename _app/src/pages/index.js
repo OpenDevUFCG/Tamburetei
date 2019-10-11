@@ -51,7 +51,9 @@ const IndexPage = () => (
           <h3>Regras</h3>
 
           <ol>
-            <li>Respeite o código de conduta.</li>
+            <li>
+              Respeite o <Link to="/codigo-de-conduta">código de conduta</Link>.
+            </li>
             <li>
               Proibido falar mal dos professores. Evite, ao máximo, comentar
               opiniões pessoais de qualquer natureza sobre professores.
