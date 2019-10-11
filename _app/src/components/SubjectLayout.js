@@ -6,7 +6,7 @@ import React from 'react'
 import Layout from './Layout'
 import styles from './SubjectLayout.module.css'
 
-const SubjectLayout = ({ children }) => {
+const SubjectLayout = ({ children, location }) => {
   const data = useStaticQuery(graphql`
   query AllSubjects {
     subjects: allMarkdownRemark(
@@ -59,6 +59,7 @@ const SubjectLayout = ({ children }) => {
 
 SubjectLayout.propTypes = {
   children: PropTypes.node,
+  location: PropTypes.object.isRequired,
 }
 
 export default SubjectLayout

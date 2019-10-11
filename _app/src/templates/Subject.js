@@ -13,9 +13,10 @@ const Subject = ({
       frontmatter: { title },
     },
   },
+  location,
 }) => {
   return (
-    <SubjectLayout>
+    <SubjectLayout location={location}>
       <SEO title={title} />
       <h1 className={styles.title}>{title}</h1>
       <section
@@ -28,6 +29,7 @@ const Subject = ({
 
 Subject.propTypes = {
   data: PropTypes.object,
+  location: PropTypes.object,
 }
 
 export default Subject
