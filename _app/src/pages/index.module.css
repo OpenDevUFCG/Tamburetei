@@ -1,12 +1,12 @@
-.container {
-  width: 100%;
-  max-width: 1500px;
+.headerContainer {
   margin: 0 auto;
   padding: 85px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .title {
-  width: 100%;
   font-family: Rhetoric;
   font-size: 3rem;
   display: flex;
@@ -20,17 +20,11 @@
 }
 
 .headerContent {
-  width: 100%;
   text-align: center;
   padding-top: 1.25rem;
   font-size: 1.25rem;
   display: inline-block;
-}
-
-.buttonWrapper {
-  display: flex;
-  justify-content: center;
-  padding-top: 1.5rem;
+  max-width: 1000px;
 }
 
 .cta {
@@ -42,6 +36,14 @@
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 1280px) {
+  .content {
+    max-width: initial;
+    width: initial;
+    padding: 0 20px;
+  }
 }
 
 .divider {
@@ -69,6 +71,24 @@
 
 .card:last-child {
   margin-right: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+  .cardSection {
+    flex-direction: column;
+  }
+
+  .card {
+    margin: 5px 0;
+  }
+
+  .card:first-child {
+    margin-top: 0;
+  }
+
+  .card:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .card h3 {

@@ -12,7 +12,7 @@ const IndexPage = () => (
   <Layout>
     <SEO />
     <header>
-      <div className={styles.container}>
+      <div className={styles.headerContainer}>
         <h1 className={styles.title}>
           <Logo size={64} /> <span>Tamburetei</span>
         </h1>
@@ -23,11 +23,9 @@ const IndexPage = () => (
           disciplinas do curso.
         </span>
 
-        <div className={styles.buttonWrapper}>
-          <Button className={styles.cta} as={Link} to="/cadeiras" size="large">
-            Ver Cadeiras
-          </Button>
-        </div>
+        <Button className={styles.cta} as={Link} to="/cadeiras" size="large">
+          Ver Cadeiras
+        </Button>
       </div>
     </header>
     <div className={styles.content}>
