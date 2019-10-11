@@ -9,6 +9,7 @@
 
 .button:hover {
   background-color: var(--color-primary-hover);
+  color: var(--on-primary-hover);
 }
 
 .buttonLarge {
