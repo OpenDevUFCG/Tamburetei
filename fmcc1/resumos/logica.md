@@ -1,4 +1,4 @@
-# Fundamentos de Matemática para Ciência da Computação I 1
+# Fundamentos de Matemática para Ciência da Computação I
 ## Lógica
 
 ### Sumário
