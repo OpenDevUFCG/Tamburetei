@@ -1,4 +1,6 @@
-# Banco de Dados I
+---
+title: Banco de Dados I
+---
 
 ## O que tem?
 

@@ -1,4 +1,6 @@
-# Resolução de exercícios para o primeiro estágio da disciplina Introdução à Probabilidade
+---
+title: Resolução de exercícios para o primeiro estágio da disciplina Introdução à Probabilidade
+---
 Obs.: Idealmente, a aluno deve usar este arquivo apenas como referência e tentar resolver os exercicios 'on my own'
 
 ## Questão 1

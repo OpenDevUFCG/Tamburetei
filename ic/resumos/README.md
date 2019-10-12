@@ -1,4 +1,6 @@
-# Resumos
+---
+title: Resumos
+---
 
 - [Sistemas Computacionais](sistemasComputacionais.md)
 - [Sistemas de Numeração](sistemasDeNumeracao.md)

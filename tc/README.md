@@ -1,4 +1,6 @@
-# Teoria da Computação
+---
+title: Teoria da Computação
+---
 
 ## O que tem?
 

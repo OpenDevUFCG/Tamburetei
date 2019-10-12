@@ -1,4 +1,6 @@
-﻿# Árvore Binária de Busca
+﻿---
+title: Árvore Binária de Busca
+---
 
 ## O que é?
 

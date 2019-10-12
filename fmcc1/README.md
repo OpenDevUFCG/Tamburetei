@@ -1,4 +1,6 @@
-# Fundamentos de Matemática para Ciência da Computação I
+---
+title: Fundamentos de Matemática para Ciência da Computação I
+---
 
 ## O que tem?
 

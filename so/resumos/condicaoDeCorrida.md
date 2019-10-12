@@ -1,4 +1,6 @@
-# Resumo de Condição de Corrida
+---
+title: Resumo de Condição de Corrida
+---
 
 Neste resumo, será abordada a **Condição de Corrida**, que pode ser inicialmente resumida como uma situação onde os eventos que ocorrem podem influenciar na execução de processos, especialmente quando existem vários fluxos de execução "simultâneos", e também soluções para esse problema.
 

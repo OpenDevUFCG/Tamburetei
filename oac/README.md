@@ -1,4 +1,6 @@
-# Organização e Arquitetura de Computadores
+---
+title: Organização e Arquitetura de Computadores
+---
 
 ## O que tem?
 
