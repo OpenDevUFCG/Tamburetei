@@ -6,15 +6,15 @@
  - [Convenções](#convenções)
  - [Representação](#representação)
 
-#### Conjuntos
+### Conjuntos
  - Coleção não ordenada de objetos.
 
-#### Convenções
+### Convenções
  - Os objetos de um conjunto são chamados de elementos ou membroos.
  - Letras maiúsculas denotam conjuntos.
  - Letras minúsculas são membros dos conjuntos.
  
-#### Representação
+### Representação
 
  - Diagrama de Venn
   <img src="https://s2.static.brasilescola.uol.com.br/img/2016/10/diagrama-de-venn-conjunto-unico.jpg" width="200">
