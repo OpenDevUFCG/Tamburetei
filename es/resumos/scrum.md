@@ -16,7 +16,7 @@
 
 Scrum é uma metodologia ágil, desenvolvida no intuito de ser um framework para gestão e planejamento de projetos de software. Também é considerado uma das melhores práticas de desenvolvimento ágil da atualidade.
 
-![Esquematização do Scrum](http://www.desenvolvimentoagil.com.br/images/scrum/ciclo_scrum.gif)
+![Esquematização do Scrum](https://www.desenvolvimentoagil.com.br/images/scrum/ciclo_scrum.gif)
 
 Agora, serão apresentados alguns conceitos importantes do Scrum:
 

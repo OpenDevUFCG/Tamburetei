@@ -22,6 +22,10 @@ e esse projeto adere a [Semantic Versioning](https://semver.org/lang/pt-BR/spec/
 ### Modificado
 - Tutoriais de Python em Programação I agora utilizam Python 3.5+.
 
+### Corrigido
+
+- Referências de conteúdo HTTP para HTTPS.
+
 
 ## [1.0.3] - 28/09/2019
 

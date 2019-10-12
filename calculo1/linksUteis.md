@@ -26,14 +26,14 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 ## Ferramentas
 
 - [Symbolab](https://www.symbolab.com/)
-- [Wolfram Alpha](http://www.wolframalpha.com/)
+- [Wolfram Alpha](https://www.wolframalpha.com/)
 - [Desmos](https://www.desmos.com/calculator)
 - [Geogebra](https://www.geogebra.org/graphing)
 
 ## Fóruns
 
-- [Math Stack Exchange](http://math.stackexchange.com/)
-- [Math Overflow](http://mathoverflow.net/)
+- [Math Stack Exchange](https://math.stackexchange.com/)
+- [Math Overflow](https://mathoverflow.net/)
 - [AoPS Online](https://artofproblemsolving.com/community)
 
 ## Blogs
