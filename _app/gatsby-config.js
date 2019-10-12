@@ -1,3 +1,7 @@
+const path = require('path')
+
+const baseDir = path.basename(path.resolve('..'))
+
 module.exports = {
   siteMetadata: {
     title: 'Tamburetei',
@@ -11,7 +15,13 @@ module.exports = {
       options: {
         path: `${__dirname}/..`,
         name: 'subjects',
-        ignore: ['**/\\.*', '**/\\.*/**/*', '**/_app/**/*', '**/scripts/**/*'],
+        ignore: [
+          '**/\\.*',
+          '**/\\.*/**/*',
+          '**/_app/**/*',
+          '**/scripts/**/*',
+          `**/${baseDir}/README.md`,
+        ],
       },
     },
     {

@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import { graphql } from 'gatsby'
 
-import Layout from '../components/Layout'
+import SubjectLayout from '../components/SubjectLayout'
 import SEO from '../components/SEO'
 import styles from './Subject.module.scss'
 
@@ -13,21 +13,23 @@ const Subject = ({
       frontmatter: { title },
     },
   },
+  location,
 }) => {
   return (
-    <Layout>
+    <SubjectLayout location={location}>
       <SEO title={title} />
       <h1 className={styles.title}>{title}</h1>
       <section
         className={styles.markdownRoot}
         dangerouslySetInnerHTML={{ __html: html }}
       />
-    </Layout>
+    </SubjectLayout>
   )
 }
 
 Subject.propTypes = {
   data: PropTypes.object,
+  location: PropTypes.object,
 }
 
 export default Subject

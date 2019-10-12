@@ -1,6 +1,5 @@
 .header {
-  margin-bottom: 1.45rem;
-  border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid var(--color-border);
 }
 
 .container {
@@ -21,6 +20,7 @@
 }
 
 .heading {
+  display: inline-block;
   margin: 0;
   font-family: Rhetoric, sans-serif;
 }
