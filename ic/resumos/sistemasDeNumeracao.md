@@ -46,7 +46,7 @@ A leitura do resultado é feita do último quociente para o primeiro resto. Send
 
 Agora, vamos converter o número 10024 para hexadecimal:
 
-![Imagem 2](http://www.mecaweb.com.br/eletronica/content/image/conv_dh_2.png)
+![Imagem 2](https://imgur.com/ojVO5Zd) <!-- original: http://www.mecaweb.com.br/eletronica/content/image/conv_dh_2.png-->
 
 ## Qualquer Base Numérica para Decimal:
 
@@ -64,11 +64,11 @@ Deve-se utilizar a técnica de **agrupamento de bits**, associando 3 ou 4 bits a
 
 Como exemplo, vamos converter 21, em octal e em hexadecimal, para binário: 
 
-![Imagem 5](http://mundoprojetado.com.br/wp-content/uploads/2019/01/Conversao-de-octal-hexa-para-binario.png)
+![Imagem 5](https://imgur.com/Ytdi7uA) <!--Original: http://mundoprojetado.com.br/wp-content/uploads/2019/01/Conversao-de-octal-hexa-para-binario.png -->
 
 A seguir, vamos converter 001000110 de binário para octal e hexadecimal:
 
-![Imagem 6](http://mundoprojetado.com.br/wp-content/uploads/2019/01/Conversao-de-bin%C3%A1rio-em-octal-hexa.png)
+![Imagem 6](https://imgur.com/yq1vdcN) <!-- Original: http://mundoprojetado.com.br/wp-content/uploads/2019/01/Conversao-de-bin%C3%A1rio-em-octal-hexa.png-->
 
 ## Octal para Hexadecimal (e vice-versa):
 

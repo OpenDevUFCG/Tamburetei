@@ -25,11 +25,11 @@ ao realizar o carregamento do Sistema Operacional. No linux, esse processo é ch
 - Na família de SO UNIX existe uma operação chamada **fork**. Essa operação clona o processo em dois. O
 resultado do fork no filho retorna 0 e no pai retorna o PID do filho.
 
-![imagem de fork](http://www.ppgia.pucpr.br/~laplima/ensino/so/materia/images/ps-fork.png)
+![imagem de fork](https://www.ppgia.pucpr.br/~laplima/ensino/so/materia/images/ps-fork.png)
 
 - Existem três principais estados para um processo: **Bloqueado, Rodando e Pronto para Rodar**.
 
-![estados de um processo](http://www.ppgia.pucpr.br/~laplima/ensino/so/materia/images/ps-estados.png)
+![estados de um processo](https://www.ppgia.pucpr.br/~laplima/ensino/so/materia/images/ps-estados.png)
 
 - **Escalonador** é responsável por realizar a troca de contexto entre os processos em execução.
 
@@ -142,5 +142,5 @@ sua execução.
  - Threads **NÃO** compartilham: seu PC, seu ponteiro de pilha, seu registrador, seus sinais pendentes e bloqueados,
  seus próprios dados e suas propriedades de escalonamento;
  
- ![memória de múltiplas threads](http://www.ppgia.pucpr.br/~laplima/ensino/so/materia/images/ps-modelo_threads.png)
+ ![memória de múltiplas threads](https://www.ppgia.pucpr.br/~laplima/ensino/so/materia/images/ps-modelo_threads.png)
  
