@@ -119,6 +119,6 @@ F|F|F
    ¬[(∃x)eF P(x)] | (∀x e F) ¬P(x)
   
   - Ordem dos Quantificadores **importa** na avaliação
-    - Ex: P(x): ser estudante Q(x):ser sanfoneiro x: Todos presentes
+    - Ex: **P(x)**: ser estudante **Q(x)**:ser sanfoneiro **x**: Todos presentes
         - (∀x e F) [P(x) v Q(x)] = Para qualquer pessoa na sala ou é estudante ou é sanfoneiro.
         - (∀x e F)P(x) v (∀x e F)Q(x) = Para qualquer pessoa na sala, ela é estudante ou para qualquer pessoa na sala ela é sanfoneira.
