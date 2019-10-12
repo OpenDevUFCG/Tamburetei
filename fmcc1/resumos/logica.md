@@ -2,11 +2,11 @@
 ## Lógica
 
 ### Sumário
- - [Lógica Proposicional](#logica-proposicional)
- - [Conectivos Lógicos](#conectivos-logicos)
+ - [Lógica Proposicional](#lógica-proposicional)
+ - [Conectivos Lógicos](#conectivos-lógicos)
  - [Tabelas-Verdade](#tabelas-verdade)
- - [Definições Importantes](#definicoes-importantes)
- - [Lógica de Predicados](#logica-de-predicados)
+ - [Definições Importantes](#definições-importantes)
+ - [Lógica de Predicados](#lógica-de-predicados)
 
 
 ### Lógica Proposional
