@@ -1,5 +1,6 @@
-# Fundamentos de Matemática para Ciência da Computação I
-## Lógica
+---
+title: Lógica
+---
 
 ### Sumário
  - [Lógica Proposicional](#lógica-proposicional)
