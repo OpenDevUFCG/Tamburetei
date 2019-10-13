@@ -73,7 +73,7 @@
        ax² + bx + c = 1 e ax² + bx + c = -1
     2. |a| = |b| ⇔ a = b ou a = -b
     
- ### Busca Invremental
+ ### Busca Incremental
  - Alternativa para obter uma raiz quadrada aproximada
  #### Método da Bisseção
     O intervalo é dividido na metade.
