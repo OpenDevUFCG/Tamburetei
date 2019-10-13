@@ -32,7 +32,7 @@ const IndexPage = () => (
       <hr className={styles.divider} />
       <section className={styles.cardSection}>
         <div className={styles.card}>
-          <h3>Como funciona?</h3>
+          <h3 className={styles.cardTitle}>Como funciona?</h3>
           <p>
             Alunos do curso colaboram com várias informações como links úteis,
             resumos, provas e várias dicas. Esses arquivos ficam todos em nosso
@@ -48,7 +48,7 @@ const IndexPage = () => (
           </p>
         </div>
         <div className={styles.card}>
-          <h3>Regras</h3>
+          <h3 className={styles.cardTitle}>Regras</h3>
 
           <ol>
             <li>
@@ -66,7 +66,7 @@ const IndexPage = () => (
           </ol>
         </div>
         <div className={styles.card}>
-          <h3>Como contribuir</h3>
+          <h3 className={styles.cardTitle}>Como contribuir</h3>
           <p>
             Leia nosso <Link to="/contribuicao">guia de contribuição</Link>!
           </p>
