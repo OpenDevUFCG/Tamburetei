@@ -18,13 +18,18 @@ e esse projeto adere a [Semantic Versioning](https://semver.org/lang/pt-BR/spec/
 - Provas antigas em Cálculo Diferencial e Integral II.
 - Visão geral, dicas e links úteis em Introdução à Probabilidade.
 - Novos links úteis em Cálculo Integral e Diferencial I.
+- Resumos das disciplinas (linkados) em Análise de Sistemas e Banco de Dados I.
+- Descrição da prova sobre Camada de Transporte do 2019.2 em Redes de Computadores.
+- Resumos em Fundamentos da Matemática para Ciência da Computação I.
+- Visão geral e dicas em Programação II e Banco de Dados I.
+- Novas dicas em Programação I e Programação II.
 
 ### Modificado
 - Tutoriais de Python em Programação I agora utilizam Python 3.5+.
+- Padrão para links utilizados no repositório de `http` para `https`.
 
 ### Corrigido
-
-- Referências de conteúdo HTTP para HTTPS.
+- Referências de conteúdo `http` para `https`.
 
 
 ## [1.0.3] - 28/09/2019
