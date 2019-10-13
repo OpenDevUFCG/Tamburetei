@@ -6,7 +6,7 @@ import SubjectLayout from '../components/SubjectLayout'
 import SEO from '../components/SEO'
 import styles from './Subject.module.scss'
 
-const BASE_PATH = 'https://github.com/OpenDevUFCG/Tamburetei/edit/master/'
+const BASE_PATH = 'https://github.com/OpenDevUFCG/Tamburetei/edit/master'
 
 const Subject = ({
   data: {
