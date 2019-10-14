@@ -23,7 +23,7 @@ const Button = ({
 
 Button.propTypes = {
   className: PropTypes.string,
-  children: PropTypes.element,
+  children: PropTypes.node,
   size: PropTypes.oneOf(['large', 'regular']),
   as: PropTypes.any,
 }

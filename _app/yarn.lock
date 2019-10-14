@@ -729,6 +729,13 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
+"@babel/runtime@^7.6.3":
+  version "7.6.3"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.6.3.tgz#935122c74c73d2240cafd32ddb5fc2a6cd35cf1f"
+  integrity sha512-kq6anf9JGjW8Nt5rYfEuGRaEAaH1mkv3Bbu6rYvLOpPh/RusSJXuKPEAoZ7L7gybZkchE8+NV5g9vKF4AGAtsA==
+  dependencies:
+    regenerator-runtime "^0.13.2"
+
 "@babel/template@^7.1.0", "@babel/template@^7.4.4", "@babel/template@^7.6.0":
   version "7.6.0"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.6.0.tgz#7f0159c7f5012230dad64cca42ec9bdb5c9536e6"
@@ -5408,6 +5415,14 @@ gatsby-page-utils@^0.0.24:
     lodash "^4.17.15"
     micromatch "^3.1.10"
     slash "^3.0.0"
+
+gatsby-plugin-catch-links@^2.1.13:
+  version "2.1.13"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-catch-links/-/gatsby-plugin-catch-links-2.1.13.tgz#b7c72d3c2ca9822ab7a4a4d35f67b1134334d82b"
+  integrity sha512-8rDkszTXF7mR/rFT0ItqoYfr9Hgx7sUFA0tRGeBbcAM1tpuXssvlTbxWzH8pph/PTQtOvDv1dPCGBntfnr1Waw==
+  dependencies:
+    "@babel/runtime" "^7.6.3"
+    escape-string-regexp "^1.0.5"
 
 gatsby-plugin-google-fonts@^1.0.1:
   version "1.0.1"

@@ -37,6 +37,7 @@ module.exports = {
         plugins: ['gatsby-remark-autolink-headers', 'gatsby-remark-tamburetei'],
       },
     },
+    'gatsby-plugin-catch-links',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {

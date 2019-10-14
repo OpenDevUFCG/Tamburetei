@@ -54,7 +54,7 @@ const Layout = ({ className = '', children }) => {
 }
 
 Layout.propTypes = {
-  className: PropTypes.string.isRequired,
+  className: PropTypes.string,
   children: PropTypes.node.isRequired,
 }
 
