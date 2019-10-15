@@ -14,6 +14,7 @@ Informações e conteúdos extras sobre a disciplina.
     - [Checkout](#checkout)
     - [Testando](#testando)
     - [Enviando](#enviando)
+    - [Respostas de erro](#respostas-de-erro)
 
 ## Como usar o TST
 
@@ -105,3 +106,15 @@ Para verificar se você passou em todos os testes do servidor e sua resposta foi
 ```sh
 tst -s
 ```
+
+### Respostas de erro
+
+Comando | Descrição
+------- | -----------
+**e** | O programa quebra(erro durante execução).
+**s** | Erro de sintaxe.
+**a** | Erro de atributo.
+**o** | EOFError -> Número de entradas passando ou faltando.
+**z** | Divisão por zero.
+**i** | Erro de indentação.
+
