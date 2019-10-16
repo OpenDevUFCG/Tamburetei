@@ -1,4 +1,6 @@
-# Álgebra Linear I
+---
+title: Álgebra Linear I
+---
 
 ## O que tem?
 

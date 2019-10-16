@@ -1,4 +1,6 @@
-# 4ª Prova
+---
+title: 4ª Prova
+---
 
 - **Disciplina:** Teoria da Computação
 - **Período:** 2019.1

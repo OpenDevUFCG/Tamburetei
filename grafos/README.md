@@ -1,4 +1,6 @@
-# Teoria dos Grafos
+---
+title: Teoria dos Grafos
+---
 
 ## O que tem?
 

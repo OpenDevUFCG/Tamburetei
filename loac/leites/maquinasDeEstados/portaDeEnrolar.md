@@ -1,4 +1,6 @@
-# Porta de Enrolar
+---
+title: Porta de Enrolar
+---
 
 Implemente o circuito de controle de uma porta de enrolar de uma loja. Portas de enrolar (também chamadas de portas de rolo) são feitas de lâminas de metal e, diferente das portas comuns que abrem e fecham, são enroladas/desenroladas no topo de seu vão para permitir/impedir a passagem. Normalmente utilizadas em estabelecimentos comerciais, esse tipo de porta é aberta no início do expediente e fechada em seu término. Em muitas lojas, esse processo é feito com o uso de um motor. 
 

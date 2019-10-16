@@ -1,4 +1,6 @@
-# Lógica para Computação
+---
+title: Lógica para Computação
+---
 
 ## O que tem?
 

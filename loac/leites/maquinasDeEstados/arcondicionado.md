@@ -1,4 +1,6 @@
-# Ar-Condicionado
+---
+title: Ar-Condicionado
+---
 
 Implemente o circuito controlador de uma máquina de ar-condicionado.
 

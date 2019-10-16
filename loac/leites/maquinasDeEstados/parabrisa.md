@@ -1,4 +1,6 @@
-# Para-Brisa
+---
+title: Para-Brisa
+---
 
 Implemente o circuito de controle de um detector de chuva de um carro. Esse sensor é responsável por ligar automaticamente os limpadores de para-brisa.
 

@@ -1,4 +1,6 @@
-# Cancela de Condomínio
+---
+title: Cancela de Condomínio
+---
 
 Implemente o circuito de controle de cancelas para entrada de carros em um condomínio. Existem 2 cancelas, uma para moradores e outra para visitantes, mas a estrutura do condomínio não permite a entrada de dois carros simultaneamente.
 

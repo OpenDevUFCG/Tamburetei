@@ -1,0 +1,36 @@
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+@media only screen and (max-width: 1254px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+  }
+}
+
+.title {
+  margin: 20px 0;
+  font-size: 2rem;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-gap: 15px;
+}
+
+.cadeiraWrapper {
+  width: 100%;
+  min-height: 150px;
+  padding: .5rem 0;
+}
+
+.cadeirasLink {
+  display: inline-block;
+  margin-bottom: .5rem;
+}

@@ -1,0 +1,104 @@
+.headerContainer {
+  margin: 0 auto;
+  padding: 85px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-family: Rhetoric;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.title span {
+  margin-left: 1rem;
+}
+
+.headerContent {
+  text-align: center;
+  padding-top: 1.25rem;
+  font-size: 1.25rem;
+  display: inline-block;
+  max-width: 1000px;
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 2rem;
+}
+
+.content {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1280px) {
+  .content {
+    max-width: initial;
+    width: initial;
+    padding: 0 20px;
+  }
+}
+
+.divider {
+  height: 1px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.cardSection {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+.card {
+  flex: 1;
+  margin: 0 25px;
+  line-height: 1.5;
+}
+
+.card:first-child {
+  margin-left: 0;
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+  .cardSection {
+    flex-direction: column;
+  }
+
+  .card {
+    margin: 5px 0;
+  }
+
+  .card:first-child {
+    margin-top: 0;
+  }
+
+  .card:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.cardTitle {
+  margin-bottom: 1.5rem;
+}
+
+.card ol {
+  padding-left: 1.5rem;
+}
+
+.card ol li {
+  margin: 10px 0;
+}
