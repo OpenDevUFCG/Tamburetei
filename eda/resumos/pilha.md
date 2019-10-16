@@ -20,3 +20,5 @@ Exemplo de uma *Pilha*:
 * Inserir/Empilhar - push **O(n)** 
 * Deletar/Desempilhar - pop  **O(n)** 
 * Acessar elemento do topo - top  **O(n)** 
+* Verifica se está vazia - isEmpty  **O(n)** 
+* Verifica se está cheia - isFull  **O(n)** 
