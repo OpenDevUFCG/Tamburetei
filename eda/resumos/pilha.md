@@ -16,7 +16,7 @@ Exemplo de uma *Pilha*:
 
 ## Operações
 
-* Criar uma pilha vazia - create **O(n)** 
+* Criar uma pilha vazia - create  **O(n)** 
 * Inserir/Empilhar - push **O(n)** 
-* Deletar/Desempilhar - pop **O(n)** 
-* Acessar elemento do topo - top **O(n)** 
+* Deletar/Desempilhar - pop  **O(n)** 
+* Acessar elemento do topo - top  **O(n)** 
