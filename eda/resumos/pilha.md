@@ -4,7 +4,8 @@ title: Pilha
 
 ## O que é?
 
-É uma estrutura de dado do tipo LIFO (last-in first-out), onde o último elemento a ser inserido, será sempre o primeiro a ser removido. Seus métodos serão todos **O(n)** no pior caso. 
+É uma estrutura de dado do tipo LIFO (last-in first-out), onde o último elemento a ser inserido, será sempre o primeiro a ser removido. 
+
 
 ## Representação
 
@@ -15,7 +16,7 @@ Exemplo de uma *Pilha*:
 
 ## Operações
 
-* Criar uma pilha vazia - create
-* Inserir/Empilhar - push
-* Deletar/Desempilhar - pop
-* Acessar elemento do topo - top
+* Criar uma pilha vazia - create **O(n)** 
+* Inserir/Empilhar - push **O(n)** 
+* Deletar/Desempilhar - pop **O(n)** 
+* Acessar elemento do topo - top **O(n)** 
