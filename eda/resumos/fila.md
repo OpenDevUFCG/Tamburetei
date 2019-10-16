@@ -15,9 +15,9 @@ Exemplo de uma *Fila*:
 
 ## Operações
 
-* Criar uma fila vazia - create
-* Inserir/Enfileirar - enqueue  **O(n)** 
-* Remover - dequeue  **O(n)** 
-* Acessar elemento da cabeça - head  **O(n)** 
-* Verifica se está vazia - isEmpty  **O(n)** 
-* Verifica se está cheia - isFull  **O(n)** 
+* Criar uma fila vazia - create()
+* Inserir/Enfileirar - enqueue()  **O(n)** 
+* Remover - dequeue()  **O(n)** 
+* Acessar elemento da cabeça - head()  **O(n)** 
+* Verifica se está vazia - isEmpty()  **O(n)** 
+* Verifica se está cheia - isFull()  **O(n)** 
