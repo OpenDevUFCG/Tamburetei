@@ -6,6 +6,13 @@ Informações que irão auxiliá-lo a cursar bem a disciplina e a compreender su
 
 ## Ementa
 
+- Objetivo e crítica de visualização de dados
+- Tarefas de análise de dados e suporte de visualizações a essas tarefas
+- Princípios para o projeto de visualização de dados
+- Visualizações interativas
+- Visualizações com uma e com múltiplas visões
+- Visualizações de diferentes tipos de dados
+
 ## Visão Geral
 
 Na cadeira de Visualização da Dados você terá contato com vários conceitos que envolvem o design de um bom gráfico. Você terá uma visão mais abrangente das diversas formas que são usadas para criação de visualizações, focando principalmente no formato de páginas web. Além disso, você praticará a criação de "visualizações analógicas" que serão feitas com lápis e papel e terão grande influência para abrir sua criatividade para novos formatos. Além disso, você ganhará vocabulário mais técnico, desenvolverá uma visão mais crítica de visualizações e desenvolverá seu portifólio pessoal de visualizações.
