@@ -8,4 +8,3 @@ B = int(input())
 X = A + B
 #Jogando X na saida formatada
 print('X = {}'.format(X))
-
