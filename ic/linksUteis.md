@@ -17,3 +17,4 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 ## Material de Estudo
 
 - [Material de Joseana](http://www.dsc.ufcg.edu.br/~joseana/IC20181.html)
+- [Curso História da Computação (com legenda)](https://www.youtube.com/watch?v=O5nskjZ_GoI)
