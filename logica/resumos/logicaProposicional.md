@@ -42,9 +42,9 @@ Tabela lógica que determina os possíveis resultados(**V** ou **F**) da combina
 **p** | **q** | **p ∧ q**  | **p ∨ q** | **p → q** | **p ⇔ q** | **¬p** 
 :---: | :---:| :---: | :---: | :---: | :---: |  :---: |
 V | V | V | V | V | V | F
-V | F | F | V | V | F | 
+V | F | F | V | V | F | F
 F | V | F | V | F | F | V
-F | F | F | F | V | V |
+F | F | F | F | V | V | V
 
 ---
 
