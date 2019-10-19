@@ -6,14 +6,12 @@ package problems;
  * da uniao ordenada deles. 
  * 
  * Restricoes:
- * - os arrays nao possuem elementos em comum e nem repetidos
- * - k eh um numero compreendido entre 1 e array1.length + array2.length
- * - caso o k-esima estatistica de ordem nao exista, o metodo deve retornar null
- * - voce nao pode usar memoria extra
- * - seu algoritmo deve ter complexidade O(array1.length + array2.length). 
- * - voce nao pode usar nenhum metodo pronto de manipulacao de arrays, exceto length.
- * 
- * @author adalbertocajueiro
+ * - Os arrays nao ira possuir elementos em comum ou duplicados.
+ * - K eh um valor entre 1 e array1.length + array2.length (Soma do tamanho dos dois arrays).
+ * - Caso nao houver a k-esima estatistica de ordem, o metodo deve retorna null.
+ * - Nao eh permitido o uso de memoria extra.
+ * - Seu algoritmo deve ter complexidade O(n), sendo n a soma do tamanho dos dois arrays. 
+ * - Nao eh permitido o uso de metodos prontos de manipulacao de array, exceto length.
  *
  */
 public class OrderStatisticsSortedUnion<T extends Comparable<T>> {
