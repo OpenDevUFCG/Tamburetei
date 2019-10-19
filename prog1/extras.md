@@ -114,7 +114,7 @@ Comando | Descrição
 **e** | O programa quebra(erro durante execução).
 **s** | Erro de sintaxe.
 **a** | Erro de atributo.
-**o** | EOFError -> O programa possui mais entradas que o sistema pede. (Programa possui 3 input's mas o sistema espera por 2)
+**o** | EOFError -> O programa possui mais entradas que o TST pede. (Programa possui 3 input's mas o TST pede 2)
 **z** | Divisão por zero.
 **i** | Erro de indentação.
 
