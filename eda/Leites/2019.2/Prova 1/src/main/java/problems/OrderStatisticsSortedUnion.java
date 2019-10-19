@@ -20,7 +20,7 @@ public class OrderStatisticsSortedUnion<T extends Comparable<T>> {
 
 	public T statisticsOrder(T[] array1, T[] array2, int k) {
 		T order = null;
-		if (!((array1.length + array2.length) < k))
+		if ((array1.length + array2.length) > k)
 		{
 			int i = 0;
 			int j = 0;
