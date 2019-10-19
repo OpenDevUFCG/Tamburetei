@@ -10,7 +10,7 @@ title: Resumo do Primeiro Estágio
 
 ## Processos
 
-- Processos são estrutura de dados que representam instâncias de programas em execução e o seu contexto.
+- **Processos são estrutura de dados que representam instâncias de programas em execução e o seu contexto.**
 O contexto é formado por valores de variáveis, valores de registradores (Incluindo o Program Counter e 
 o Stack Pointer) e os recursos utilizados (arquivos abertos, processos relacionados ...).
 
