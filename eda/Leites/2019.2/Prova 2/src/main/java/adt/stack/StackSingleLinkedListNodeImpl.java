@@ -7,12 +7,9 @@ import adt.linkedList.SingleLinkedListNode;
  * simplesmente ligada, como estrutura sobrejacente. 
  * 
  * Restricoes:
- * - voce DEVE obedecer a politica de acesso e complexidade dos metodos de pilha, ou seja, todos em O(1).
- * - voce NÃO pode usar memoria extra (estrutura auxiliar)
- * - qualquer metodo auxiliar que voce necessite DEVE ser implementado nesta classe
- * - voce NÃO pode modificar a classe SingleLinkedListNode
- * 
- * @author adalbertocajueiro
+ * - Complexidade dos metodos deve ser em O(1).
+ * - Voce nao deve usar estrutura auxiliar que faça uso de memoria extra.
+ * - Metodos auxiliares que voce desenvolver deve ser implementados nessa classe.
  *
  * @param <T>
  */
