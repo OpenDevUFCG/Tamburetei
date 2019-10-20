@@ -82,14 +82,14 @@ Agora basta informar o nome da disciplina e a nova pasta será criada!
 - [Projeto de Trabalho de Conclusão de Curso](ptcc)
 
 ### Optativas Específicas
-- [Administração de Sistema de Gerencia de Banco de Dados]
-- [Administração de Sistemas]
-- [Algoritmos Avançados I/II/III/IV]
-- [Arquitetura de Software]
-- [Avaliação de Desempenho de Sistemas Discretos]
-- [Banco de Dados II]
-- [Computação e Música]
-- [Computação Gráfica]
+- [Administração de Sistema de Gerencia de Banco de Dados](Adm SGBD)
+- [Administração de Sistemas](Adm Sistemas)
+- [Algoritmos Avançados I/II/III/IV](AA)
+- [Arquitetura de Software](Arq Soft)
+- [Avaliação de Desempenho de Sistemas Discretos](AvaDesemp SisDiscreto)
+- [Banco de Dados II](BD II)
+- [Computação e Música](ComputMusica)
+- [Computação Gráfica](ComputGrafica)
 - [Desenvolvimento de Aplicações Corporativas Avançadas]
 - [Desenvolvimento de Softaware Integrado a Operações de Infraestrutura]
 - [Economia de Tecnologia da Informação]
@@ -125,6 +125,23 @@ Agora basta informar o nome da disciplina e a nova pasta será criada!
   - [Visualização de Dados](visu)
 - [Verificação e Validação de Software]
 - [Visão Computacional]
+
+### Optativas Gerais
+
+- [Administração e Empreendedorismo]
+- [Algébra Vetorial e Geometria Analítica]
+- [Calculo Diferencial e Integral III]
+- [Direito e Cidadania]
+- [Economia]
+- [Física Geral]
+	- [I]
+	- [II]
+	- [III]
+	- [IV]
+- [Informática e Sociedade]
+- [Inglês]
+- [Libras]
+- [Língua Portuguesa]
 
 ## Regras
 
