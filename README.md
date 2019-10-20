@@ -73,21 +73,31 @@ Agora basta informar o nome da disciplina e a nova pasta será criada!
 - [Sistemas Operacionais](so)
 - [Teoria da Computação](tc)
 
+### Sexto Período
+
+- [Metodologia Cientifica](metodologia)
+- [Programação Concorrente](progConcorrente)
+- [Inteligência Artificial](ia)
+
+
 ### Sétimo Período
 
+- [Analise e Tecnicas de Algoritmos]
 - [Compiladores](compiladores)
 
 ### Oitavo Período
 
 - [Projeto de Trabalho de Conclusão de Curso](ptcc)
+- [Projeto em Computação I](p1)
+
 
 ### Optativas Específicas
 - [Administração de Sistema de Gerencia de Banco de Dados](admSGBD)
 - [Administração de Sistemas](admSistemas)
-- [Algoritmos Avançados I/II/III/IV](AA)
+- [Algoritmos Avançados I/II/III/IV](aa)
 - [Arquitetura de Software](arqSoft)
 - [Avaliação de Desempenho de Sistemas Discretos](avaDesempSisDiscreto)
-- [Banco de Dados II](BDII)
+- [Banco de Dados II](bdII)
 - [Computação e Música](computMusica)
 - [Computação Gráfica](computGrafica)
 - [Desenvolvimento de Aplicações Corporativas Avançadas]
@@ -139,7 +149,7 @@ Agora basta informar o nome da disciplina e a nova pasta será criada!
 	- [III](fisiIII)
 	- [IV](fisiIV)
 - [Informática e Sociedade](infosoc)
-- [Inglês](ing)
+- [Inglês](ingles)
 - [Libras](libras)
 - [Língua Portuguesa](LPort)
 
