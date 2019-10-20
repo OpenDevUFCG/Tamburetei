@@ -81,9 +81,50 @@ Agora basta informar o nome da disciplina e a nova pasta será criada!
 
 - [Projeto de Trabalho de Conclusão de Curso](ptcc)
 
-### Optativas
-
-- [Visualização de Dados](visu)
+### Optativas Específicas
+- [Administração de Sistema de Gerencia de Banco de Dados]
+- [Administração de Sistemas]
+- [Algoritmos Avançados I/II/III/IV]
+- [Arquitetura de Software]
+- [Avaliação de Desempenho de Sistemas Discretos]
+- [Banco de Dados II]
+- [Computação e Música]
+- [Computação Gráfica]
+- [Desenvolvimento de Aplicações Corporativas Avançadas]
+- [Desenvolvimento de Softaware Integrado a Operações de Infraestrutura]
+- [Economia de Tecnologia da Informação]
+- [Empreendedorismo em Software]
+- [Gerencia de Redes]
+- [Interconexão de Redes de Computadores]
+- [Interface Homem-Máquina]
+- [Métodos e Software Numéricos]
+- [Métodos Formais]
+- [Otimização]
+- [Prática de Ensino de Computação I/II]
+- [Princípios de Desenvolvimento Web]
+- [Programação em Banco de Dados]
+- [Projeto de Redes de Computadores]
+- [Provisões e Operações de Infraestruturas]
+- [Reconhecimento de Padrões e Redes Neurais]
+- [Recuperação de Informação e Busca na Web]
+- [Segurança de Sistemas]
+- [Sistemas de Apoio a Decisão]
+- [Sistemas de Informações Geográficas]
+- [Sistemas DIstribuídos]
+- TECC
+  - [Aplicações de Paradigmas de Linguagens de Programação]
+  - [Aplicações de Teoria dos Grafos]
+  - [Ciência de Dados Descritiva]
+  - [Ciência de Dados Preditiva]
+  - [Gestão de Projetos]
+  - [Governança da Internet]
+  - [Jogos Digitais]
+  - [Percepção Computacional]
+  - [Programação Funcional]
+  - [Projeto de Sistemas Operacionais]
+  - [Visualização de Dados](visu)
+- [Verificação e Validação de Software]
+- [Visão Computacional]
 
 ## Regras
 
