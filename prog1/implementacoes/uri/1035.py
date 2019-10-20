@@ -1,18 +1,10 @@
+# Pedro Donato Coêlho Neto
 # -*- coding: utf-8 -*-
-#Teste de Seleção 1
 
-valores = input()
-valores = valores.split()
+a,b,c,d = input().split()
+a,b,c,d = int(a),int(b),int(c),int(d)
 
-
-c1 = int(valores[1]) > int(valores[2])
-c2 = int(valores[3]) > int(valores[0])
-c3 = int(valores[2]) + int(valores[3]) > int(valores[0]) + int(valores[1])
-c4 = int(valores[2]) > 0
-c5 = int(valores[3]) > 0 
-c6 = int(valores[0]) / 2 == int(valores[0]) //2
-
-if c1 and c2 and c3 and c4 and c5 and c6:
+if (b>c) and (d>a) and (c+d>a+b) and (c>0) and (d>0) and (a%2==0):
     print("Valores aceitos")
-else:
-    print("Valores nao aceitos")
+else: 
+	print("Valores nao aceitos")

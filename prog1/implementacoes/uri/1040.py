@@ -1,24 +1,28 @@
-#Questao 1040 do URI
+# Pedro Donato Coêlho Neto
+# -*- coding: utf-8 -*-
 
-#Recebe entrada e separa
-n = input().split()
+a,b,c,d = input().split()
+a,b,c,d = float(a),float(b),float(c),float(d)
 
-#Lista para armazenar valores da entrada
-valores = list()
+m = (a*2 + b*3 + c*4 + d)/10
 
-#Convertendo cada valor da entrada para float com um loop for.
-#Outra opcao seria converter cada valor um a um
-for e in n:
-    numero = round(float(e), ndigits=1)
-    valores.append(numero)
-
-#Calculando a media ponderada dos valores de acordo com os pesos dado na questao
-med = ((valores[0]*2)+(valores[1]*3)+(valores[2]*4)+(valores[3]*1))/10
-print('Media: {:.1f}'.format(med))
-
-#Avaliando a situacao do aluno que possui a media
-if med >= 7:
-    print('Aluno aprovado.')
+if m >= 7:
+    print("Media: %.1f" % (m))
+    print("Aluno aprovado.")
+elif m < 5:
+    print("Media: %.1f" % (m))
+    print("Aluno reprovado.")
+elif 5 <= m <= 6.9:
+    n = float(input())
+    print("Media: %.1f" % (m))
+    print("Aluno em exame.")
+    print("Nota do exame: %.1f" % (n))
+    nm = (n+m)/2
+    if nm >= 5:
+        print("Aluno aprovado.")
+    else:
+        print("Aluno reprovado.")
+    print("Media final: %.1f" % (nm))
 if med < 5:
     print('Aluno reprovado.')
 if 5 <= med < 7:
@@ -31,5 +35,3 @@ if 5 <= med < 7:
     else:
         print('Aluno reprovado.')
     print('Media final: {:.1f}'.format(medf))
-
-
