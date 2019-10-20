@@ -82,14 +82,14 @@ Agora basta informar o nome da disciplina e a nova pasta será criada!
 - [Projeto de Trabalho de Conclusão de Curso](ptcc)
 
 ### Optativas Específicas
-- [Administração de Sistema de Gerencia de Banco de Dados](Adm SGBD)
-- [Administração de Sistemas](Adm Sistemas)
+- [Administração de Sistema de Gerencia de Banco de Dados](admSGBD)
+- [Administração de Sistemas](admSistemas)
 - [Algoritmos Avançados I/II/III/IV](AA)
-- [Arquitetura de Software](Arq Soft)
-- [Avaliação de Desempenho de Sistemas Discretos](AvaDesemp SisDiscreto)
-- [Banco de Dados II](BD II)
-- [Computação e Música](ComputMusica)
-- [Computação Gráfica](ComputGrafica)
+- [Arquitetura de Software](arqSoft)
+- [Avaliação de Desempenho de Sistemas Discretos](avaDesempSisDiscreto)
+- [Banco de Dados II](BDII)
+- [Computação e Música](computMusica)
+- [Computação Gráfica](computGrafica)
 - [Desenvolvimento de Aplicações Corporativas Avançadas]
 - [Desenvolvimento de Softaware Integrado a Operações de Infraestrutura]
 - [Economia de Tecnologia da Informação]
@@ -110,15 +110,15 @@ Agora basta informar o nome da disciplina e a nova pasta será criada!
 - [Segurança de Sistemas]
 - [Sistemas de Apoio a Decisão]
 - [Sistemas de Informações Geográficas]
-- [Sistemas DIstribuídos]
+- [Sistemas Distribuídos]
 - TECC
   - [Aplicações de Paradigmas de Linguagens de Programação]
   - [Aplicações de Teoria dos Grafos]
   - [Ciência de Dados Descritiva]
   - [Ciência de Dados Preditiva]
   - [Gestão de Projetos]
-  - [Governança da Internet]
-  - [Jogos Digitais]
+  - [Governança da Internet](governanca)
+  - [Jogos Digitais](JD)
   - [Percepção Computacional]
   - [Programação Funcional]
   - [Projeto de Sistemas Operacionais]
@@ -128,20 +128,20 @@ Agora basta informar o nome da disciplina e a nova pasta será criada!
 
 ### Optativas Gerais
 
-- [Administração e Empreendedorismo]
-- [Algébra Vetorial e Geometria Analítica]
-- [Calculo Diferencial e Integral III]
-- [Direito e Cidadania]
-- [Economia]
-- [Física Geral]
-	- [I]
-	- [II]
-	- [III]
-	- [IV]
-- [Informática e Sociedade]
-- [Inglês]
-- [Libras]
-- [Língua Portuguesa]
+- [Administração e Empreendedorismo](admEmp)
+- [Algébra Vetorial e Geometria Analítica](vetorial)
+- [Calculo Diferencial e Integral III](calculoIII)
+- [Direito e Cidadania](direitoCidadania)
+- [Economia](economia)
+- Física Geral
+	- [I](fisiI)
+	- [II](fisiII)
+	- [III](fisiIII)
+	- [IV](fisiIV)
+- [Informática e Sociedade](infosoc)
+- [Inglês](ing)
+- [Libras](libras)
+- [Língua Portuguesa](LPort)
 
 ## Regras
 
