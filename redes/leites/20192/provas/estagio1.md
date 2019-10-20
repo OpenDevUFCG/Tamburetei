@@ -1,4 +1,6 @@
-# 1ª Prova
+---
+title: 1ª Prova
+---
 
 - **Disciplina:** Redes de Computadores
 - **Período:** 2019.2

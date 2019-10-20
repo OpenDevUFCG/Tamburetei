@@ -1,4 +1,6 @@
-# 5ª Prova
+---
+title: 5ª Prova
+---
 
 - **Disciplina:** Teoria da Computação
 - **Período:** 2019.1

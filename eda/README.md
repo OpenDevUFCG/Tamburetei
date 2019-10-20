@@ -1,4 +1,6 @@
-# Estrutura de Dados e Algoritmos e Laboratório de Estrutura de Dados e Algoritmos
+---
+title: Estrutura de Dados e Algoritmos e Laboratório de Estrutura de Dados e Algoritmos
+---
 
 ## O que tem?
 

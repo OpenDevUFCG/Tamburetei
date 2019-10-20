@@ -1,4 +1,6 @@
-# Heap Binária
+---
+title: Heap Binária
+---
 
 ## O que é?
 

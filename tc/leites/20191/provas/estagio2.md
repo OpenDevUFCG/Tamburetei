@@ -1,4 +1,6 @@
-# 2ª Prova
+---
+title: 2ª Prova
+---
 
 - **Disciplina:** Teoria da Computação
 - **Período:** 2019.1

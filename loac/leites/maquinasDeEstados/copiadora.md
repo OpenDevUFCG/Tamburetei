@@ -1,4 +1,6 @@
-# Copiadora
+---
+title: Copiadora
+---
 
 Implemente o circuito controlador de uma máquina copiadora.
 

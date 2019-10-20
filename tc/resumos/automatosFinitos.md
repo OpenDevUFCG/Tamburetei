@@ -1,4 +1,6 @@
-# Autômatos Finitos
+---
+title: Autômatos Finitos
+---
 
 Enquanto as máquinas de estado são capazes apenas de acompanhar os estados do sistema, um **autômato finito (AF)** é uma máquina que resolve algum problema, aceitando ou recusando a cadeia utilizada como entrada. Assume-se que os autômatos finitos são compostos por uma unidade de controle e uma fita na qual realiza a leitura da cadeia de entrada, que será aceita ou rejeitada.
 

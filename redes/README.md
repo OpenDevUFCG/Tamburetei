@@ -1,4 +1,6 @@
-# Redes de Computadores
+---
+title: Redes de Computadores
+---
 
 ## O que tem?
 

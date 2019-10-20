@@ -23,3 +23,15 @@ elif 5 <= m <= 6.9:
     else:
         print("Aluno reprovado.")
     print("Media final: %.1f" % (nm))
+if med < 5:
+    print('Aluno reprovado.')
+if 5 <= med < 7:
+    print('Aluno em exame.')
+    ex = round(float(input()), ndigits=1)
+    print('Nota do exame: {:.1f}'.format(ex))
+    medf = (med+ex)/2
+    if medf >= 5:
+        print('Aluno aprovado.')
+    else:
+        print('Aluno reprovado.')
+    print('Media final: {:.1f}'.format(medf))

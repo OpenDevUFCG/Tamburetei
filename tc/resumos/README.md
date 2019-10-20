@@ -1,4 +1,6 @@
-# Resumos
+---
+title: Resumos
+---
 
 - [Introdução](introducao.md)
 - [Autômatos Finitos](automatosFinitos.md)

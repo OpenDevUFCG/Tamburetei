@@ -1,4 +1,6 @@
-# Sistemas de Numeração
+---
+title: Sistemas de Numeração
+---
 Conjunto de símbolos utilizados para representação de quantidades e de regras que definem a forma de apresentação. Cada sistema de numeração é apenas um método diferente para representar quantidades. 
 
 _**As quantidades em si não mudam, apenas a forma de representá-las**_
@@ -46,7 +48,7 @@ A leitura do resultado é feita do último quociente para o primeiro resto. Send
 
 Agora, vamos converter o número 10024 para hexadecimal:
 
-![Imagem 2](http://www.mecaweb.com.br/eletronica/content/image/conv_dh_2.png)
+![Imagem 2](https://i.imgur.com/ojVO5Zd.png) <!-- original: http://www.mecaweb.com.br/eletronica/content/image/conv_dh_2.png-->
 
 ## Qualquer Base Numérica para Decimal:
 
@@ -64,11 +66,11 @@ Deve-se utilizar a técnica de **agrupamento de bits**, associando 3 ou 4 bits a
 
 Como exemplo, vamos converter 21, em octal e em hexadecimal, para binário: 
 
-![Imagem 5](http://mundoprojetado.com.br/wp-content/uploads/2019/01/Conversao-de-octal-hexa-para-binario.png)
+![Imagem 5](https://i.imgur.com/Ytdi7uA.png) <!--Original: http://mundoprojetado.com.br/wp-content/uploads/2019/01/Conversao-de-octal-hexa-para-binario.png -->
 
 A seguir, vamos converter 001000110 de binário para octal e hexadecimal:
 
-![Imagem 6](http://mundoprojetado.com.br/wp-content/uploads/2019/01/Conversao-de-bin%C3%A1rio-em-octal-hexa.png)
+![Imagem 6](https://i.imgur.com/yq1vdcN.png) <!-- Original: http://mundoprojetado.com.br/wp-content/uploads/2019/01/Conversao-de-bin%C3%A1rio-em-octal-hexa.png-->
 
 ## Octal para Hexadecimal (e vice-versa):
 
