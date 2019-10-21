@@ -12,7 +12,7 @@ O empilhamento de pedras e gravetos foi possivelmente a primeira técnica de con
 
 ![Imagem 1](https://static.mundoeducacao.bol.uol.com.br/mundoeducacao/conteudo/Numeros%20egpcios.JPG) <!-- Fonte: Mundo Educação -->
  
-A medida que a tecnologia humana evoluiu, os números representados aumentavam cada vez mais, por isso cada povo criou seu próprio sistema de numeração, dos babilônios aos egípcios.
+À medida em que a tecnologia humana evoluiu, os números representados aumentavam cada vez mais, por isso cada povo criou seu próprio sistema de numeração, dos babilônios aos egípcios.
 
 ### **A evolução da contagem**
 
