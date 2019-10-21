@@ -110,9 +110,9 @@ def create_folders(folder_name):
         print(bcolors.OKBLUE + '-' + sub_folder + bcolors.ENDC)
 
 def create_files(discipline):
-    for file in FILES:
-        _create_file(discipline, file.format(discipline=discipline))
-        print('  ' + bcolors.OKGREEN + '-' + file + bcolors.ENDC)
+    for filename in FILES:
+        _create_file(discipline, filename, discipline)
+        print('  ' + bcolors.OKGREEN + '-' + filename + bcolors.ENDC)
 
 def check_discipline(discipline):
     if not discipline.isalnum():
