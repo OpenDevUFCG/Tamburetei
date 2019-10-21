@@ -6,7 +6,7 @@ title: História da Computação
 ***
 ## **Primórdios** 
 
-**Até 5.500 mil anos atrás: a necessidade de calcular:**
+**Até 5.500 mil anos atrás: a necessidade de calcular**
 
 O empilhamento de pedras e gravetos foi possivelmente a primeira técnica de contagem utilizada pelo ser humano. O pastor de ovelhas precisava fazer um "checkout" do seu rebanho e empilhar pedras foi a maneira mais natural de representar cada ovelha. Junto a isso, os humanos usaram os dedos da mão para representar a quantidade a que estavam se referindo, os dez dedos posteriormente se tornaram a base numérica (decimal) que usamos no dia-a-dia. 
 
