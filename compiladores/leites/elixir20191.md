@@ -1,4 +1,6 @@
-# Exercícios de Compiladores
+---
+title: Exercícios de Compiladores
+---
 
 Esse documento traz uma coleção de exercícios do período letivo 2019.1. Os exercícios marcados com dois astericos (**\*\***) são descrições de questões presentes em avaliações da disciplina no referido período.
 

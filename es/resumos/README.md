@@ -1,3 +1,5 @@
-# Resumos
+---
+title: Resumos
+---
 
 - [Scrum](scrum.md)

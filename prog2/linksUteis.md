@@ -1,4 +1,6 @@
-# Links Úteis
+---
+title: Links Úteis
+---
 
 Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 
@@ -26,6 +28,7 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 - [Astah](http://astah.net/download) - *Consiga uma Licença Acadêmica Gratuita [aqui](http://astah.net/student-license-request)*
 - [ObjectAid](http://www.objectaid.com/)
 - [Lucidchart](https://www.lucidchart.com/pages/pt)
+- [(Vídeo) Gerando diagramas de classe no Intellij IDEA](https://www.youtube.com/watch?v=7nAywvEo2q4)
 
 ## Projetos Antigos
 - [Quem me Ajuda](https://github.com/lucasmedeiros/QuemMeAjuda)

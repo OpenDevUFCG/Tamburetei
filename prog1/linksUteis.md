@@ -1,4 +1,6 @@
-# Links Úteis
+---
+title: Links Úteis
+---
 
 Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 
@@ -20,6 +22,7 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 - [Udacity](https://br.udacity.com)
 - [Learn Python the Hard Way](http://learnpythonthehardway.org/book/)
 - [University of Reddit](http://ureddit.com/category/23442/computer-science)
+- [Udemy](https://www.udemy.com/pt/)
 
 ## Ferramentas
 
@@ -31,3 +34,4 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 - [Coding bat](https://codingbat.com/python)
 - [Codewars](https://www.codewars.com/)
 - [CodingGame](https://www.codingame.com/)
+- [URIonlinejudge](https://www.urionlinejudge.com.br/judge/pt/login)

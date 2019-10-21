@@ -1,4 +1,6 @@
-const { dirname } = require('path')
+const path = require('path')
+
+const baseDir = path.basename(path.resolve('..'))
 
 module.exports = {
   siteMetadata: {
@@ -15,19 +17,10 @@ module.exports = {
         name: 'subjects',
         ignore: [
           '**/\\.*',
-          '**/_app',
-          '**/scripts',
-          filePath => {
-            if (
-              // ignore markdowns in the project root folder
-              /tamburetei$/i.test(dirname(filePath)) &&
-              /\.md$/.test(filePath)
-            ) {
-              return true
-            }
-
-            return false
-          },
+          '**/\\.*/**/*',
+          '**/_app/**/*',
+          '**/scripts/**/*',
+          `**/${baseDir}/README.md`,
         ],
       },
     },
@@ -38,7 +31,13 @@ module.exports = {
         name: 'assets',
       },
     },
-    'gatsby-transformer-remark',
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: ['gatsby-remark-autolink-headers', 'gatsby-remark-tamburetei'],
+      },
+    },
+    'gatsby-plugin-catch-links',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {

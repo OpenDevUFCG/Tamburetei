@@ -1,4 +1,6 @@
-# Resumo do Terceiro Estágio
+---
+title: Resumo do Terceiro Estágio
+---
 
 ## Introdução
 Paradigmas funcional e imperativo têm algo em comum: o programa lê entradas e gera saídas e resolve problemas através de mapeamento.

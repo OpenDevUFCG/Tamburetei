@@ -1,4 +1,6 @@
-# Introdução
+---
+title: Introdução
+---
 
 Uma **rede de computadores** é um conjunto de computadores autônomos interconectados por uma mesma tecnologia, esta interconexão permite que os computadores realizem trocas de informações entre si. 
 

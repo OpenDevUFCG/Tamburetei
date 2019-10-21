@@ -1,4 +1,6 @@
-# Introdução
+---
+title: Introdução
+---
 
 O estudo da **Teoria da Computação** preocupa-se com a capacidade do computador independente dos fatores técnicos, como a linguagem de programação e o *hardware* utilizados, portanto, analisa a solubilidade de problemas. Ainda, na impossibilidade de encontrar soluções, procura por respostas sub-ótimas para estes problemas.
 

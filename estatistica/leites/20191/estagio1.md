@@ -1,4 +1,6 @@
-# 1ª Prova
+---
+title: 1ª Prova
+---
 
 - **Disciplina:** Estatística Aplicada
 - **Período:** 2019.1

@@ -1,4 +1,6 @@
-# Laboratório de Organização e Arquitetura de Computadores
+---
+title: Laboratório de Organização e Arquitetura de Computadores
+---
 
 ## O que tem?
 

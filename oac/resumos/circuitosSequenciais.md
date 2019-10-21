@@ -1,4 +1,6 @@
-# Circuitos Sequenciais
+---
+title: Circuitos Sequenciais
+---
 
 <p align = "justify">Um <b>circuito sequencial</b> é aquele cuja saída é função não somente dos valores de entrada atuais, mas também dos valores de entrada no instante de tempo anterior.</p>
 

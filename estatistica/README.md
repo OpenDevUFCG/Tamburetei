@@ -1,4 +1,6 @@
-# Estatística Aplicada
+---
+title: Estatística Aplicada
+---
 
 ## O que tem?
 

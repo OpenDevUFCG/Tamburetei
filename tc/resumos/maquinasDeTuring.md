@@ -1,4 +1,6 @@
-# Máquinas de Turing
+---
+title: Máquinas de Turing
+---
 
 > Conheça mais sobre Alan Turing [aqui](https://pt.wikipedia.org/wiki/Alan_Turing).
 
