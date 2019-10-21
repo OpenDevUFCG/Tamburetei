@@ -29,7 +29,7 @@ Uma coleção de materiais úteis que foram utilizados na disciplina em período
 2º estágio - Manhã | Não | [Link](https://drive.google.com/open?id=15RWx-b_EG5yZBB4Iq6JKQ9LUirCP6HN4) |
 2º estágio - Manhã | Sim | [Link](https://drive.google.com/open?id=1imilQ-DSXNHgjVVbzLG_QiDY9BbKFgkx) |
 2º estágio - Tarde | Não | [Link](https://drive.google.com/open?id=1F9hCWEDJkCrj10hfKceVUsoDJQ_TS0-D) |
-2º estágio - Tarde | Sim | [Link](https://drive.google.com/open?id=1lqF-i8SaS_U9CQ__KXHNMp9_5AhvNzRy) |
+2º estágio - Tarde | Sim | [Link](https://drive.google.com/open?id=1gnV3-dzAU89pX99QZEH1htoUtl_TtHAS) |
 3º estágio - Manhã | Não | [Link](https://drive.google.com/open?id=1BWIccVUFvF8pbKpjkrr0vVr98X5ii0DW) |
 3º estágio - Manhã | Sim | [Link](https://drive.google.com/open?id=1456_Fh-fz7VV0J0Hau-8TuKeiYUHCHPv) |
 3º estágio - Tarde | Não | [Link](https://drive.google.com/open?id=1BagYR4ScxOpFtxxJrZ6KCwS86TfbHMeC) |
