@@ -18,7 +18,11 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 
 - [Galeria D3](https://github.com/d3/d3/wiki/Gallery)
 - [Guia de Visualizações com exemplos de aplicação](https://datavizcatalogue.com/index.html)
+- [Guia de visualizações mais apropriadas para seus dados](https://www.data-to-viz.com/)
+- [Manual: IBM - Design Language](https://www.ibm.com/design/v1/language/experience/data-visualization/)
 
 ## Cores
 
 - [Guia de cores para mapas](http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3)
+- [Gerador de paletas](https://coolors.co/)
+
