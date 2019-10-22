@@ -14,46 +14,113 @@ class bcolors:
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
 
-BASE_PATH = '../{discipline}'
+BASE_PATH = '../{folder_name}'
+
 FILES = {
-        'visaoGeralEDicas.md': '# Visão Geral e Dicas\n\nInformações que irão auxiliá-lo a cursar bem a disciplina e a compreender sua importância para o curso.',
-        'linksUteis.md': '# Links Úteis\n\nUma lista de links que irão auxiliá-lo no estudo da disciplina.',
-        'dificuldadesComuns.md': '# Dificuldades Comuns\n\nUma lista de comentários sobre as principais dificuldades enfrentadas pelos alunos enquanto cursam a disciplina.',
-        'extras.md': '# Extras\n\nInformações e conteúdos extras sobre a disciplina.',
-        'README.md': '# {discipline}\n\n## O que tem?\n\n- [Dificuldades Comuns](dificuldadesComuns.md)\n- [Extras](extras.md)\n- [Implementações](implementacoes)\n- [Leites](leites)\n- [Links Úteis](linksUteis.md)\n- [Resumos](resumos)\n- [Visão Geral e Dicas](visaoGeralEDicas.md)'
+    'visaoGeralEDicas.md': '''
+---
+title: Visão Geral e Dicas
+---
+
+Informações que irão auxiliá-lo a cursar bem a disciplina e a compreender sua importância para o curso.
+'''.strip(),
+
+    'linksUteis.md': '''
+---
+title: Links Úteis
+---
+
+Uma lista de links que irão auxiliá-lo no estudo da disciplina.
+'''.strip(),
+
+    'dificuldadesComuns.md': '''
+---
+title: Dificuldades Comuns
+---
+
+Uma lista de comentários sobre as principais dificuldades enfrentadas pelos alunos enquanto cursam a disciplina.
+'''.strip(),
+
+    'extras.md': '''
+---
+title: Extras
+---
+
+Informações e conteúdos extras sobre a disciplina.
+'''.strip(),
+
+    'leites/README.md': '''
+---
+title: Leites
+---
+
+Uma coleção de materiais úteis que foram utilizados na disciplina em períodos passados.
+'''.strip(),
+
+    'resumos/README.md': '''
+---
+title: Resumos
+---
+
+Uma coleção de resumos que ajudam com o entendimento do conteúdo da disciplina.
+'''.strip(),
+
+    'implementacoes/README.md': '''
+---
+title: Implementações
+---
+
+Aqui estão algumas implementações que ajudam com o entendimento da disciplina.
+'''.strip(),
+
+    'README.md': '''
+---
+title: {discipline}
+---
+
+## O que tem?
+
+- [Dificuldades Comuns](dificuldadesComuns.md)
+- [Extras](extras.md)
+- [Implementações](implementacoes)
+- [Leites](leites)
+- [Links Úteis](linksUteis.md)
+- [Resumos](resumos)
+- [Visão Geral e Dicas](visaoGeralEDicas.md)
+'''.strip()
     }
 
-def _create_folder(discipline, dir_name):
-    path = BASE_PATH + '/{dir_name}'
-    path = path.format(discipline=discipline, dir_name=dir_name)
+def _create_folder(folder_name, sub_folder_name):
+    path = BASE_PATH + '/{sub_folder_name}'
+    path = path.format(folder_name=folder_name, sub_folder_name=sub_folder_name)
     os.makedirs(path)
 
-def _create_file(discipline, filename):
+def _create_file(folder_name, filename, discipline):
     path = BASE_PATH + '/{filename}'
-    path = path.format(discipline=discipline, filename=filename)
+    path = path.format(folder_name=folder_name, filename=filename)
 
     file = open(path, 'wb')
-    file.write(FILES[filename])
+    file.write(FILES[filename].format(discipline=discipline))
     file.close()
 
-def create_folders(discipline):
-    dir_names = ['implementacoes', 'resumos', 'leites']
-    for dir_name in dir_names:
-        _create_folder(discipline, dir_name)
-        print(bcolors.OKBLUE + '-' + dir_name + bcolors.ENDC)
+def create_folders(folder_name):
+    sub_folders = ['implementacoes', 'resumos', 'leites']
+    for sub_folder in sub_folders:
+        _create_folder(folder_name, sub_folder)
+        print(bcolors.OKBLUE + '-' + sub_folder + bcolors.ENDC)
 
 def create_files(discipline):
-    for file in FILES:
-        _create_file(discipline, file.format(discipline=discipline)
-        print('  ' + bcolors.OKGREEN + '-' + file + bcolors.ENDC)
+    for filename in FILES:
+        _create_file(discipline, filename, discipline)
+        print('  ' + bcolors.OKGREEN + '-' + filename + bcolors.ENDC)
 
 def check_discipline(discipline):
-    if(not discipline.isalnum()):
+    if not discipline.isalnum():
         raise Exception('O nome da disciplina não pode conter caracteres especiais!')
 
 if __name__ == '__main__':
     try:
-        discipline = raw_input("Digite o nome da nova disciplina: ").lower()
+        discipline = raw_input("Digite o nome da nova disciplina: ")
         check_discipline(discipline)
         
         print('Criando ' + bcolors.UNDERLINE + discipline + bcolors.ENDC + '...')

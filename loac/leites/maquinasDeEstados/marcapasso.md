@@ -1,4 +1,6 @@
-# Marca-Passo
+---
+title: Marca-Passo
+---
 
 Implemente o circuito de um aparelho marca-passo de um paciente cujo ritmo cardíaco precisa ser monitorado constantemente.
 

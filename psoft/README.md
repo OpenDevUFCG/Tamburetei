@@ -1,4 +1,6 @@
-# Projeto de Software
+---
+title: Projeto de Software
+---
 
 ## O que tem?
 

@@ -1,4 +1,6 @@
-# Lista de Exercícios 1
+---
+title: Lista de Exercícios 1
+---
 
 - **Disciplina:** Teoria da Computação
 - **Período:** 2016.2

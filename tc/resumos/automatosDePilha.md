@@ -1,4 +1,6 @@
-# Autômatos de Pilha
+---
+title: Autômatos de Pilha
+---
 
 Os **autômatos de pilha** são semelhantes aos autômatos finitos, porém, contam com um componente extra que provê memória: a **pilha**. Essa pilha é infinita e seu uso é motivado pela forma simples de armazenamento, não envolvendo endereçamento do conteúdo. Assim, o grande diferencial dos autômatos de pilha é a capacidade de armazenar símbolos nessa pilha à medida que realizam transições.
 

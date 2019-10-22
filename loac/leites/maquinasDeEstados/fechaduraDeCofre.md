@@ -1,4 +1,6 @@
-# Fechadura de Cofre
+---
+title: Fechadura de Cofre
+---
 
 Implemente o circuito de controle de uma fechadura de cofre. O cofre abrirá se, e somente se, o usuário acionar três chaves na sequência correta. 
 

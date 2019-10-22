@@ -1,0 +1,4 @@
+[build]
+  base    = "_app"
+  command = "gatsby build"
+  publish = "_app/public"

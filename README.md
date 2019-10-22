@@ -75,13 +75,18 @@ Agora basta informar o nome da disciplina e a nova pasta será criada!
 
 ### Sétimo Período
 
+- [Análise e Técnicas de Algoritmos](atal)
 - [Compiladores](compiladores)
 
 ### Oitavo Período
 
 - [Projeto de Trabalho de Conclusão de Curso](ptcc)
 
-### Optativas
+### Optativas Gerais
+
+- [Economia](economia)
+
+### Optativas Específicas
 
 - [Visualização de Dados](visu)
 

@@ -1,4 +1,6 @@
-# Paradigmas de Linguagem de Programação
+---
+title: Paradigmas de Linguagem de Programação
+---
 
 ## O que tem?
 

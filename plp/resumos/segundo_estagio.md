@@ -1,4 +1,6 @@
-# Resumo do Segundo Estágio
+---
+title: Resumo do Segundo Estágio
+---
 
 ## Motivação
 Necessidade de novas linguagens de programação que:

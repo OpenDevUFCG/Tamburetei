@@ -1,8 +1,17 @@
-# Visão Geral e Dicas
+---
+title: Visão Geral e Dicas
+---
 
 Informações que irão auxiliá-lo a cursar bem a disciplina e a compreender sua importância para o curso.
 
 ## Ementa
+
+- Objetivo e crítica de visualização de dados
+- Tarefas de análise de dados e suporte de visualizações a essas tarefas
+- Princípios para o projeto de visualização de dados
+- Visualizações interativas
+- Visualizações com uma e com múltiplas visões
+- Visualizações de diferentes tipos de dados
 
 ## Visão Geral
 

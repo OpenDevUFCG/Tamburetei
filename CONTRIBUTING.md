@@ -1,3 +1,7 @@
+---
+slug: contribuicao
+---
+
 # Contributing
 
 Contribuições sempre serão bem vindas, sejam pequenas ou grandes.

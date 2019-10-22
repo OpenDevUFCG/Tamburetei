@@ -1,4 +1,6 @@
-# Visualização de Dados
+---
+title: Visualização de Dados
+---
 
 ## O que tem?
 

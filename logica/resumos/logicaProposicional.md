@@ -1,4 +1,6 @@
-# Introdução
+---
+title: Introdução
+---
 
 **Lógica proposicional** é um sistema lógico que busca formalizar a noção de proposição e conjunto de proposições, de forma que se possa verificar se o conjunto é verdadeiro ou falso. Conceito que é usado para construir uma linguagem de programação.
 
@@ -40,9 +42,9 @@ Tabela lógica que determina os possíveis resultados(**V** ou **F**) da combina
 **p** | **q** | **p ∧ q**  | **p ∨ q** | **p → q** | **p ⇔ q** | **¬p** 
 :---: | :---:| :---: | :---: | :---: | :---: |  :---: |
 V | V | V | V | V | V | F
-V | F | F | V | V | F | 
+V | F | F | V | V | F | F
 F | V | F | V | F | F | V
-F | F | F | F | V | V |
+F | F | F | F | V | V | V
 
 ---
 

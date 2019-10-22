@@ -1,5 +1,6 @@
-# Fundamentos de Matemática para Ciência da Computação I
-## Séries, Sequências e Somas
+---
+title: Séries, Sequências e Somas
+---
 
 ### Sumário
  - [Sequências](#sequncias)

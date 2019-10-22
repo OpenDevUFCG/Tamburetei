@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.footer {
+  background-color: var(--color-surface-accent);
+  color: var(--on-surface-accent);
+  min-height: 200px;
+  margin-top: auto;
+}
+
+.footerContainer {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+@media only screen and (max-width: 1254px) {
+  .footerContainer {
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.copyRight {
+  margin: 0;
+}

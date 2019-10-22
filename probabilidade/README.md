@@ -1,4 +1,6 @@
-# Introdução à Probabilidade 
+---
+title: Introdução à Probabilidade 
+---
 
 ## O que tem?
 

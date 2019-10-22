@@ -1,4 +1,6 @@
-# Lista de Exercícios 3
+---
+title: Lista de Exercícios 3
+---
 
 - **Disciplina:** Teoria da Computação
 - **Período:** 2017.1

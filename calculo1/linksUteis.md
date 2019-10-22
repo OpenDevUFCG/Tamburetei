@@ -1,4 +1,6 @@
-# Links Úteis
+---
+title: Links Úteis
+---
 
 Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 
@@ -26,14 +28,15 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 ## Ferramentas
 
 - [Symbolab](https://www.symbolab.com/)
-- [Wolfram Alpha](http://www.wolframalpha.com/)
+- [Wolfram Alpha](https://www.wolframalpha.com/)
 - [Desmos](https://www.desmos.com/calculator)
 - [Geogebra](https://www.geogebra.org/graphing)
 
 ## Fóruns
 
-- [Math Stack Exchange](http://math.stackexchange.com/)
-- [Math Overflow](http://mathoverflow.net/)
+- [Math Stack Exchange](https://math.stackexchange.com/)
+- [Math Overflow](https://mathoverflow.net/)
+- [AoPS Online](https://artofproblemsolving.com/community)
 
 ## Blogs
 
@@ -44,3 +47,5 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 - [Cálculo 1 com Ferretto](https://www.youtube.com/watch?v=DkCHV5Kbx4o&list=PLTPg64KdGgYhACfQUtMf3CuhWOfLoTf_a)
 - [Cálculo 1 com Grings](https://www.youtube.com/watch?v=v-VYli2XQo0&list=PL95JHFoW6_nwDfye0AjWC2UZcLDek1LG-)
 - [Pré-cálculo com Matemática Rio](https://www.youtube.com/playlist?list=PL83s8LGM84J62ahewE-sVGbnJdOqGp8lJ)
+- [Cálculo 1 com Sacha Friedli](https://www.youtube.com/playlist?list=PLOiKHlNoCwd2s7rq1P4fGQ0iqf-eWi0Wo)
+- [Cálculo 1 com USP](https://www.youtube.com/watch?v=WgHUHPlJETs&list=PLAudUnJeNg4tr-aiNyYCXE46L3qEZ2Nzx)
