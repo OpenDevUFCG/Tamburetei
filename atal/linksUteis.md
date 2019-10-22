@@ -10,5 +10,4 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 
 ## Material de Estudo
 
-- [Ementa do curso](http://www.dsc.ufcg.edu.br/~abrantes/atal.html)
 - [Introdução](http://www.dsc.ufcg.edu.br/~abrantes/CursosAnteriores/ATAL051/IntroducaoInformal.pdf)

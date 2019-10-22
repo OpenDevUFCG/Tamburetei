@@ -75,6 +75,7 @@ Agora basta informar o nome da disciplina e a nova pasta será criada!
 
 ### Sétimo Período
 
+- [Análise e Técnicas de Algoritmos](compiladores)
 - [Compiladores](compiladores)
 
 ### Oitavo Período
