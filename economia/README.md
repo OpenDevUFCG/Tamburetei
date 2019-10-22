@@ -1,4 +1,6 @@
-# Economia
+---
+title: Economia
+---
 
 ## O que tem?
 
