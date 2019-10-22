@@ -4,19 +4,19 @@ Informações que irão auxiliá-lo a cursar bem a disciplina e a compreender su
 
 ## Ementa
 
-- Introdução ao estudo da ciência econômica.
-- A natureza da atividade econômica.
-- Introdução à Microeconomia: A Demaanda e a Oferta de Bens
-- O Equilíbrio de Mercado
-- Elasticidade da Demanda
-- Tipos de Mercado
-- Introdução à Macroeconomia
-- O Sistema Econômico
-- Os Agregados Econômicos
-- O Consumo e a Poupança
-- O INvestimento
-- O Setor Público
-- O Sistema Tributário Nacional
+- Introdução ao estudo da ciência econômica
+- A natureza da atividade econômica
+- Introdução à microeconomia: a demanda e a oferta de bens
+- O equilíbrio de mercado
+- Elasticidade da demanda
+- Tipos de mercado
+- Introdução à macroeconomia
+- O sistema econômico
+- Os agregados Econômicos
+- O consumo e a poupança
+- O investimento
+- O setor público
+- O sistema tributário nacional
 
 ## Visão Geral 
 
@@ -24,5 +24,5 @@ A disciplina visa apresentar o aluno aos elementos teóricos básicos da ciênci
 
 ## Dicas
 
-- É bom praticar utilizando os exercícios do livro Introdução à Economia de Paulo E. V. Vicenti.
-- Revisar as notas de aula, que possuem o conteúdo de maneira resumida e objetiva.
+- É bom praticar utilizando os exercícios do livro *Introdução à Economia* de Paulo E. V. Vicenti.
+- Revise as notas de aula, elas possuem o conteúdo de maneira resumida e objetiva.
