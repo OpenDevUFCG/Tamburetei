@@ -81,7 +81,11 @@ Agora basta informar o nome da disciplina e a nova pasta será criada!
 
 - [Projeto de Trabalho de Conclusão de Curso](ptcc)
 
-### Optativas
+### Optativas Gerais
+
+- [Economia](economia)
+
+### Optativas Específicas
 
 - [Visualização de Dados](visu)
 
