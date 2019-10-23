@@ -30,6 +30,7 @@ e esse projeto adere a [Semantic Versioning](https://semver.org/lang/pt-BR/spec/
 - Novas implementações de questões do URI em Programação I.
 - Novos links úteis em Programação II.
 - Novo resumo de introdução em Compiladores.
+- Tabela com alguns erros do TST.
 
 ### Modificado
 - Tutoriais de Python em Programação I agora utilizam Python 3.5+.
