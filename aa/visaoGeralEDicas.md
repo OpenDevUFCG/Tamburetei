@@ -24,7 +24,7 @@ Algoritmos Avançados é uma cadeira para o aprendizado de algoritmos mais compl
 
 - Sempre fazer as primeiras listas, provavelmente vão existir mais questões do que pontos que se pode obter e as primeiras listas são mais fáceis, logo é melhor maximizar sua nota com elas.
 
-- É bastante importante propurar os instrutores ou outro membro da turma para discutir um assunto que não tenha ficado claro, é bastante fácil começar uma bola de neve de não entendimento.
+- É bastante importante procurar os instrutores ou outro membro da turma para discutir um assunto que não tenha ficado claro, é bastante fácil começar uma bola de neve de não entendimento.
 
 - Discuta as questões que você já resolveu com seus colegas ou com o instrutor, talvez exista um jeito mais fácil de fazer o mesmo problema.
 
