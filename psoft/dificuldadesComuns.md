@@ -4,12 +4,10 @@ title: Dificuldades Comuns
 
 Uma lista de comentários sobre as principais dificuldades enfrentadas pelos alunos enquanto cursam a disciplina.
 
-- Não fazer os labs em sala, passados pelos professores.
-- Ter vergonha e não pedir ajuda a monitores.
-- Acumular assunto.
-- Não procurar material por fora.
-- Achar que no final vai dar tempo.
-- Novas linguagens pra se aprender, dentre elas:
-    - HTML
-    - JS
-    - CSS
+### Meios de aprendizagem
+
+Os laboratórios são atividades muito importantes para absorver os assuntos abordados na disciplinas, então é importante fazê-los. Para aprender adequadamente *HTML*, *CSS* e *Javascript* também pode ser necessário buscar material de fontes externas e é importante não se sentir constrangido em buscar ajuda dos monitores.
+
+### Gestão do tempo
+
+O calendário da disciplina pode ser um pouco corrido às vezes, então é vital que os alunos não acumulem assunto ou deixem para fazer suas atividades em cima da hora.
