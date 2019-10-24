@@ -4,7 +4,6 @@ title: Dificuldades Comuns
 
 Uma lista de comentários sobre as principais dificuldades enfrentadas pelos alunos enquanto cursam a disciplina.
 
-Basicamente:
-    - Não vir as aulas.
-    - Não prestar atenção na explicação.
-    - Não fazer os exercícios.
+### Atenção à disciplina
+
+No geral, os alunos passam a ter dificuldades na disciplina quando tem muitas faltas, não dão atenção às aulas e/ou não fazem os exercícios.
