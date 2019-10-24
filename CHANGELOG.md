@@ -23,6 +23,14 @@ e esse projeto adere a [Semantic Versioning](https://semver.org/lang/pt-BR/spec/
 - Resumos em Fundamentos da Matemática para Ciência da Computação I.
 - Visão geral e dicas em Programação II e Banco de Dados I.
 - Novas dicas em Programação I e Programação II.
+- Novos links úteis e ementa em Visualização de Dados.
+- Sub-diretório para a disciplina Economia, já contém visão geral e dicas.
+- Resumo sobre história da computação em Introdução à Computação.
+- Sub-diretório para a disciplina Análise e Técnicas de Algoritmos, já contém ementa e links úteis.
+- Novas implementações de questões do URI em Programação I.
+- Novos links úteis em Programação II.
+- Novo resumo de introdução em Compiladores.
+- Tabela com alguns erros do TST.
 
 ### Modificado
 - Tutoriais de Python em Programação I agora utilizam Python 3.5+.
@@ -30,7 +38,6 @@ e esse projeto adere a [Semantic Versioning](https://semver.org/lang/pt-BR/spec/
 
 ### Corrigido
 - Referências de conteúdo `http` para `https`.
-
 
 ## [1.0.3] - 28/09/2019
 

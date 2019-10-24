@@ -4,11 +4,10 @@ title: Dificuldades Comuns
 
 Uma lista de comentários sobre as principais dificuldades enfrentadas pelos alunos enquanto cursam a disciplina.
 
-- A disciplina é basica em si, porém demanda tempo, já que você irá fazer o projeto em três linguagens diferentes "novas" pra quem não teve contato fora do curso com tais.
-- As linguagens são C ou C++, Haskel e Prolog
-- As principais dificuldades são:
-    - Deixar o projeto pra ultima hora, terminando na sala (sempre rsrs).
-    - Não pensar a longo prazo, quando se escolhe o tema e a execução do projeto.
-    - Uso de listas e strings, já que em C é mais dificil mexer em tais.
-    - Laços, pois em Haskel e Prolog não temos, então tudo será feito com recursão.
-    - Acumular assunto, pois tem bastante detalhe e slides grandes pra se estudarem de véspera.
+### Aprendizado de várias novas linguagens
+
+Apesar de não trazer conceitos de programação que não tenham sido abordados em outras disciplinas (como Programação I e Programação II), os alunos precisarão aprender até 3 novas linguagens. Isso demanda bastante tempo, sobretudo pela quantidade de assunto visto em cada estágio e pela necessidade de aplicar conceitos dos diferentes paradigmas no projeto. Isso é ainda mais perceptível em assuntos como strings, listas e laços nos paradigmas funcional e lógico.
+
+### Entrada e saída em Haskell
+ 
+É bastante recorrente que os alunos tenham dificuldade com entradas na etapa de paradigma funcional. Em Haskell se usa o tipo IO para receber String, Int ou outro tipo de IO desejado, mas para usar esses dados recebidos é necessário antes desencapsulá-los do IO. Geralmente é feita uma aula com os monitores só sobre esse assunto. Apesar de ser consideravelmente simples, ele é responsável por atrapalhar muitos alunos nas avaliações de programação funcional.

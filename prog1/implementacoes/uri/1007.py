@@ -1,7 +1,8 @@
-A = int(raw_input())
-B = int(raw_input())
-C = int(raw_input())
-D = int(raw_input())
-DIFERENCA = (A*B-C*D)
+n1 = int(input())
+n2 = int(input())
+n3 = int(input())
+n4 = int(input())
 
-print ('DIFERENCA = %i' %DIFERENCA)
+diferenca = (n1 * n2 - n3 * n4)
+
+print("DIFERENCA = %d" %diferenca)
