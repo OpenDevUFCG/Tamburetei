@@ -4,10 +4,6 @@ title: Dificuldades Comuns
 
 Uma lista de comentários sobre as principais dificuldades enfrentadas pelos alunos enquanto cursam a disciplina.
 
-- Não olhar no site as instruções das aulas que irão acontecer.
-- Não prestar atenção nas aulas de OAC.
-- Dificil entendimento do que o professor fala rsrs.
-- Não pedir ajuda aos monitores e colegas de curso que ja passaram pelas aulas ;) .
-- A falta de material.
-- Um dica importante não FALTEM.
-- Outra dica usar o tinkercad em casa e tentar fazer os circuitos antes das aulas.
+### Material escasso
+
+Há pouco material sobre os assuntos abordados na disciplina que esteja disponível e seja de fácil de compreensão, portanto é vital pedir ajuda aos monitores e aos colegas. O site da disciplina será a principal fonte de informações sobre o decorrer da disciplina e é necessário manter-se atento às atualizações dele. 
