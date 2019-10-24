@@ -20,7 +20,9 @@ e esse projeto adere a [Semantic Versioning](https://semver.org/lang/pt-BR/spec/
 - Descrição de dificuldades comuns em Projeto de Software.
 - Novos links úteis em Álgebra Linear.
 - Novos links úteis em Cálculo Diferencial e Integral I.
+- Novos links úteis em Cálculo Diferencial e Integral II.
 - Novos links úteis em Introdução à Probabilidade.
+- Novos links úteis em Programação I.
 - Novos links úteis em Programação II.
 - Novos links úteis em Visualização de Dados.
 - Descrição da ementa em Álgebra Linear.
@@ -42,6 +44,7 @@ e esse projeto adere a [Semantic Versioning](https://semver.org/lang/pt-BR/spec/
 - Resumo da disciplina (linkado) em Análise de Sistemas.
 - Resumo da disciplina (linkado) em Banco de Dados I.
 - Resumo de introdução em Compiladores.
+- Resumos sobre Fila, Pilha e Linked List em Estrutura de Dados e Algoritmos.
 - Resumos em Fundamentos da Matemática para Ciência da Computação I.
 - Resumo sobre história da computação em Introdução à Computação.
 - Resumo de alguns erros do TST em Programação I.
