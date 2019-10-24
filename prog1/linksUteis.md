@@ -31,7 +31,7 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 ## Exercícios
 
 - [Exercism](https://exercism.io/)
-- [Coding bat](https://codingbat.com/python)
+- [Coding Bat](https://codingbat.com/python)
 - [Codewars](https://www.codewars.com/)
-- [CodingGame](https://www.codingame.com/)
-- [URIonlinejudge](https://www.urionlinejudge.com.br/judge/pt/login)
+- [Coding Game](https://www.codingame.com/)
+- [URI Online Judge](https://www.urionlinejudge.com.br/judge/pt/login)

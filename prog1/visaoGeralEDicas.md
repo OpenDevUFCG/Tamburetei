@@ -45,7 +45,7 @@ As 10 unidades consistem em:
 
 - Às vezes, tentar entender a questão no papel ao invés de ir diretamente escrever o código pode economizar tempo e facilitar a compreensão.
 
-- Além das questões do TST, existem as do URI, um site onde mais de 200 questões para iniciantes podem ser encontradas, elas irão reforçar seu aprendizado e melhorar sua interpretação de problemas. Porém, é importante que as questões do TST sejão seu foco. O link para o URI pode ser encontrado no tópico "links úteis".
+- Além das questões do TST, existem as do [URI](https://www.urionlinejudge.com.br/judge/pt/login), um site onde mais de 200 questões para iniciantes podem ser encontradas, elas irão reforçar seu aprendizado e melhorar sua interpretação de problemas. Porém, é importante que as questões do TST sejão seu foco.
 
 - Preste sempre atenção no tempo durante os minitestes práticos, nem sempre vale a pena abrir mesmo que em uma unidade facil uma nova questão e arriscar perder alguns pontos por não dar tempo.
 
