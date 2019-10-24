@@ -88,6 +88,7 @@ Agora basta informar o nome da disciplina e a nova pasta será criada!
 
 ### Optativas Específicas
 
+- [Algoritmos Avançados](aa)
 - [Visualização de Dados](visu)
 
 ## Regras
