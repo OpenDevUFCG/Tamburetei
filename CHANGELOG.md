@@ -11,33 +11,44 @@ e esse projeto adere a [Semantic Versioning](https://semver.org/lang/pt-BR/spec/
 ## [Não publicado]
 
 ### Adicionado
-- Provas antigas e listas de exercícios em Cálculo Integral e Diferencial I.
-- Ementa, visão geral, dicas, dificuldades comuns e links úteis em Álgebra Linear.
-- Provas antigas e listas de exercícios em Álgebra Linear.
-- Descrição de dificuldades comuns em Fundamentos de Matemática para Ciência da Computação II.
-- Provas antigas em Cálculo Diferencial e Integral II.
-- Visão geral, dicas e links úteis em Introdução à Probabilidade.
-- Novos links úteis em Cálculo Integral e Diferencial I.
-- Resumos das disciplinas (linkados) em Análise de Sistemas e Banco de Dados I.
-- Descrição da prova sobre Camada de Transporte do 2019.2 em Redes de Computadores.
-- Resumos em Fundamentos da Matemática para Ciência da Computação I.
-- Visão geral e dicas em Programação II e Banco de Dados I.
-- Novas dicas em Programação I e Programação II.
-- Novos links úteis e ementa em Visualização de Dados.
-- Sub-diretório para a disciplina Economia, já contém visão geral e dicas.
-- Resumo sobre história da computação em Introdução à Computação.
+
 - Sub-diretório para a disciplina Análise e Técnicas de Algoritmos, já contém ementa e links úteis.
-- Novas implementações de questões do URI em Programação I.
+- Sub-diretório para a disciplina Economia, já contém visão geral e dicas.
+- Descrição de dificuldades comuns em Fundamentos de Matemática para Ciência da Computação II.
+- Descrição de dificuldades comuns em Organização e Arquitetura de Computadores.
+- Descrição de dificuldades comuns em Paradigmas de Linguagem de Programação.
+- Descrição de dificuldades comuns em Projeto de Software.
+- Novos links úteis em Álgebra Linear.
+- Novos links úteis em Cálculo Diferencial e Integral I.
+- Novos links úteis em Introdução à Probabilidade.
 - Novos links úteis em Programação II.
-- Novo resumo de introdução em Compiladores.
-- Tabela com alguns erros do TST.
+- Novos links úteis em Visualização de Dados.
+- Descrição da ementa em Álgebra Linear.
+- Descrição da ementa em Visualização de Dados.
+- Descrição da visão geral em Álgebra Linear.
+- Descrição da visão geral em Introdução à Probabilidade.
+- Novas dicas em Álgebra Linear.
+- Novas dicas em Banco de Dados I.
+- Novas dicas em Introdução à Probabilidade.
+- Novas dicas em Programação I.
+- Novas dicas em Programação II.
+- Descrição da prova sobre Camada de Transporte do 2019.2 em Redes de Computadores.
+- Provas antigas em Álgebra Linear.
+- Provas antigas em Cálculo Diferencial e Integral I.
+- Provas antigas em Cálculo Diferencial e Integral II.
+- Listas de exercícios em Cálculo Diferencial e Integral I.
+- Listas de exercícios em Cálculo Diferencial e Integral II.
+- Novas implementações de questões do URI em Programação I.
+- Resumo da disciplina (linkado) em Análise de Sistemas.
+- Resumo da disciplina (linkado) em Banco de Dados I.
+- Resumo de introdução em Compiladores.
+- Resumos em Fundamentos da Matemática para Ciência da Computação I.
+- Resumo sobre história da computação em Introdução à Computação.
+- Resumo de alguns erros do TST em Programação I.
 
 ### Modificado
 - Tutoriais de Python em Programação I agora utilizam Python 3.5+.
 - Padrão para links utilizados no repositório de `http` para `https`.
-
-### Corrigido
-- Referências de conteúdo `http` para `https`.
 
 ## [1.0.3] - 28/09/2019
 
