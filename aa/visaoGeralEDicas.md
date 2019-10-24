@@ -30,4 +30,4 @@ Algoritmos Avançados é uma cadeira para o aprendizado de algoritmos mais compl
 
 - Não tenha medo de ler discussões online sobre o problema, errado é copiar o código, mas é sempre bom um empurrãozinho caso fique empacado em alguma questão.
 
-- Toda competições de programação online vale ponto extra, não hesite em fazer o máximo possível.
+- Toda competição de programação online vale ponto extra, não hesite em fazer o máximo possível.
