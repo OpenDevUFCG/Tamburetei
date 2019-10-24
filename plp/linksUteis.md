@@ -6,6 +6,7 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 
 ## Sumário
 
+- [Material de Estudo](#material-de-estudo)
 - [Projetos Antigos](#projetos-antigos)
 
 ## Projetos Antigos
@@ -16,5 +17,6 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 
 - [Crimson Plague](https://github.com/LukeHxH/crimson-plague) - O projeto que foi utilizado em 2018.2. Consiste em criar um jogo de RPG, contendo diferentes finais alcançados a partir de suas escolhas durante a história, batalhas contra monstros, diferentes estilos de personagem (mago, ladino e guerreiro), uso de magias e sistema de inventário (incluindo poder utilizar itens em batalhas).
 
-## Slide (monitores) IO/entrada/saída em Haskell
-- [IO Haskell] (bit.ly/aulaio)
+## Material de Estudo
+
+- [Apresentação sobre IO de Haskell](bit.ly/aulaio)
