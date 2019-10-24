@@ -4,20 +4,17 @@ title: Fila
 
 ## O que é?
 
-É uma estrutura de dado do tipo FIFO (first-in first-out). Os elementos são inseridos no fim (cauda) e removidos do início (cabeça).
+É uma estrutura de dados do tipo **FIFO** (*first-in, first-out*). Os elementos são inseridos exclusivamente no fim da fila (chamada de *tail*) e removidos exclusivamente do início da fila (chamado de *head*).
 
 ## Representação
-
-Exemplo de uma *Fila*:
-
 
 ![alt](https://www.cos.ufrj.br/~rfarias/cos121/fila1.png)
 
 ## Operações
 
-* Criar uma fila vazia - create()
-* Inserir/Enfileirar - enqueue()  **O(n)** 
-* Remover - dequeue()  **O(n)** 
-* Acessar elemento da cabeça - head()  **O(n)** 
-* Verifica se está vazia - isEmpty()  **O(n)** 
-* Verifica se está cheia - isFull()  **O(n)** 
+- `create()`: Criar uma fila vazia. 
+- `enqueue()`: Inserir/Enfileirar elemento da fila, realizado em **O(1)**. 
+- `dequeue()`: Remover elemento da fila, realizado em **O(1)**.
+- `head()`: Acessar elemento da cabeça da fila, realizado em **O(1)**. 
+- `isEmpty()`: Verificar se a fila está vazia, realizado em **O(1)**.
+- `isFull()`: Verificar se a fila está cheia, realizado em **O(1)**.
