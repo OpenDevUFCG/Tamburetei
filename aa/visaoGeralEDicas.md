@@ -28,6 +28,6 @@ Algoritmos Avançados é uma cadeira para o aprendizado de algoritmos mais compl
 
 - Discuta as questões que você já resolveu com seus colegas ou com o instrutor, talvez exista um jeito mais fácil de fazer o mesmo problema.
 
-- Não tenha medo de ler discussões online sobre o problema, errado é copiar o código, mas é sempre bom um empurrãzinho caso fique empacado em alguma questão.
+- Não tenha medo de ler discussões online sobre o problema, errado é copiar o código, mas é sempre bom um empurrãozinho caso fique empacado em alguma questão.
 
 - Toda competições de programação online vale ponto extra, não hesite em fazer o máximo possível.
