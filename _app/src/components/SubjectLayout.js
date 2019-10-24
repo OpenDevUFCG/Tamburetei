@@ -42,12 +42,12 @@ const SubjectLayout = ({ children, location }) => {
           <div className={styles.sideNavToggle}>
             <button
               className={styles.sideNavToggleButton}
-              aria-label="Menu"
+              aria-label={sideNavOpen ? 'Abrir menu' : 'Fechar menu'}
               onClick={() => {
                 setSideNavOpen(prevOpen => !prevOpen)
               }}
             >
-              <IconMenu />
+              <IconMenu close={sideNavOpen} />
             </button>{' '}
             <span className={styles.sideNavToggleText}>Disciplinas</span>
           </div>
