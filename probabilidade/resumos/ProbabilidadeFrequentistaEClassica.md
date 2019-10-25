@@ -75,7 +75,7 @@ Ac ∩ Bc | Ac U Bc
 3. F(A) = 0, quando A nunca ocorrer nas n repetições.
 4. Se A e B forem dois eventos mutuamente excludentes, então:
 
-***F(A U B) = F(A) + F(B).
+***F(A U B) = F(A) + F(B)***.
 
 - **Se  Ω for um espaço finito e equiprovável**
 P(A) = número de casos favoráveis a A / número de casos possíveis = #A / # Ω, sendo #, a cardinalidade do evento.
