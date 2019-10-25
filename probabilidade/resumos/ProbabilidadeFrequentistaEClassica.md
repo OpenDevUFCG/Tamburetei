@@ -1,5 +1,5 @@
 ---
-title: Conceitos iniciais
+title: Conceitos iniciais, probabilidade frequentista e clássica
 ---
 
 Feito baseando-se neste [slide](https://drive.google.com/file/d/10GVEsvGkBSQPMtB0i2p02zQO8D95QFHB/view) e [esse](https://drive.google.com/file/d/1j6BX4wBWKtZwoAHzoyYeraTwlRaMw56s/view).
