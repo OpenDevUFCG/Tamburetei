@@ -61,7 +61,7 @@ Ac ∩ Bc | Ac U Bc
 
 - Uma maneira de calcular a probabilidade de um evento é em termos de sua ***frequência relativa***.
 
-***F(A) = n(A) / n****, sendo ***n(A)*** a quantidade de vezes que o evento A ocorreu e ***n*** o numéro de repetições.
+***F(A) = n(A) / n***, sendo ***n(A)*** a quantidade de vezes que o evento A ocorreu e ***n*** o numéro de repetições.
 
 ## Definição frequentista de probabilidade
 
