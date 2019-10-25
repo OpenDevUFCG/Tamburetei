@@ -12,6 +12,7 @@ e esse projeto adere a [Semantic Versioning](https://semver.org/lang/pt-BR/spec/
 
 ### Adicionado
 
+- Sub-diretório para a disciplina Algoritmos Avançados, já contém todos os conteúdos esperados para AA Iniciante.
 - Sub-diretório para a disciplina Análise e Técnicas de Algoritmos, já contém ementa e links úteis.
 - Sub-diretório para a disciplina Economia, já contém visão geral e dicas.
 - Descrição de dificuldades comuns em Fundamentos de Matemática para Ciência da Computação II.
