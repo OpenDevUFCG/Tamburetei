@@ -4,7 +4,7 @@ title: Definição axiomática, probabilidade condicional e independência
 
 Feito com base neste [slide](https://drive.google.com/file/d/16xZUxh5myoZMejHGkduMg2iyrn_G0qur/view) e [esse](https://drive.google.com/file/d/1-ZuWC2Ix2gmukjkP4BYoydTcuIJDDrKc/view).
 
-- ** Sobre retrospectiva de espaço amostral **:
+- **Sobre retrospectiva de espaço amostral**:
 - Para cada evento A do espaço amostral Ω, associaremos um número real, representado por P(A) e denominado de probabilidade de A que satisfaça os três axiomas a seguir:
 
 1. Axioma 1: 0 <= P(A) <= 1.
