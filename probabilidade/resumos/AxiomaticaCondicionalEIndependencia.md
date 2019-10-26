@@ -32,7 +32,7 @@ Feito com base neste [slide](https://drive.google.com/file/d/16xZUxh5myoZMejHGkd
 
 - ***P(A / B) --> Probabilidade de A em ocorrência de B***. Sendo assim, o espaço amostral diminuiu!
 
-### Passo para calcular a ***probabilidade condicional*** sem diminuir o espaço amostral.
+### Passo a passo para calcular a probabilidade condicional sem diminuir o espaço amostral.
 
 - **P(B / A) = P(A ∩ B) / P(A)**, ou
 - **P(A / B) = P(A ∩ B) / P(B)**.
