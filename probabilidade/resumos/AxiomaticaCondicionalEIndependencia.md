@@ -47,12 +47,30 @@ Feito com base neste [slide](https://drive.google.com/file/d/16xZUxh5myoZMejHGkd
 - **As propriedades condionais satisfazem os axiomas das propriedades comuns**.
 
 
-## REGRA DO PRODUTO DE PROBABILIDADES
+## Regra do produto de probabilidades
 
-- P(A ∩ B) = P(B) . P(A / B), se P(B) > 0 ou - P(A ∩ B) = P(A) . P(B / A), se P(A) > 0.
+- P(A ∩ B) = P(B) x P(A / B), se P(B) > 0 ou - P(A ∩ B) = P(A) x P(B / A), se P(A) > 0.
 
 ### Generalização da regra do produto
 
 - **P(A1 ∩ A2 ∩ A3... An) =  P(A1) x P(A2 / A1) x P(A3 / A1 ∩ A2) x ... P(An / A1 ∩ A2... An-1)**.
+
+## Eventos independentes
+
+- **Dois eventos são independentes se, e somente se:
+P(A / B) = P(A) ou P(B / A) = P(B)
+
+### Equivalência
+
+- **P(A ∩ B) = P(A) x P(B)
+- **P(Ac ∩ B) = P(Ac) x P(B)
+- **P(A ∩ Bc) = P(A) x p(Bc)
+
+## Logo, dizemos que eventos aleatórios A, B e C são( coletivamente) independentes se, e somente se
+- P(A ∩ B) = P(A) x P(B)
+- P(A ∩ C) = P(A) x P(C)
+- P(B ∩ C) = P(B) x P(C), se apenas essas condições forem atendidas, são independentes ***aos pares***.
+- P(A ∩ B ∩ C) = P(B) x P(B) x P(C).
+
 
 
