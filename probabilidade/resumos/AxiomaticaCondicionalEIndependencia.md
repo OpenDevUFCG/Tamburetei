@@ -66,7 +66,7 @@ P(A / B) = P(A) ou P(B / A) = P(B)
 - **P(Ac ∩ B) = P(Ac) x P(B)
 - **P(A ∩ Bc) = P(A) x p(Bc)
 
-## Logo, dizemos que eventos aleatórios A, B e C são( coletivamente) independentes se, e somente se
+Dizemos que eventos aleatórios A, B e C são( coletivamente) independentes se, e somente se:
 - P(A ∩ B) = P(A) x P(B)
 - P(A ∩ C) = P(A) x P(C)
 - P(B ∩ C) = P(B) x P(C), se apenas essas condições forem atendidas, são independentes ***aos pares***.
