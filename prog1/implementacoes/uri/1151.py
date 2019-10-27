@@ -11,4 +11,4 @@ def fibonacci_facil(num):
 		string += " " + str(valores[i])
 	return string
 
-print fibonacci_facil(int(raw_input()))
+print(fibonacci_facil(int(input())))
