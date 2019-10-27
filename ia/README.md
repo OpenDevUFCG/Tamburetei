@@ -1,5 +1,5 @@
 ---
-title: ia
+title: Inteligência Artificial
 ---
 
 ## O que tem?
