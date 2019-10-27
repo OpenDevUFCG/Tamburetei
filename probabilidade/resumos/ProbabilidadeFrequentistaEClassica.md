@@ -29,7 +29,7 @@ Seja Ω um espaço amostral associado ao evento estudado, logo, o evento é qual
 - Como os eventos do espaço amostral são conjuntos, toda o conceito aplicados em conjuntos pode ser relembrado por aqui.
 
 
-## A e B são dois eventos, então:
+## Se A e B são dois eventos, então:
 - **A U B**: ocorrerá se, e somente se, A ocorrer, ou B ocorrer ou ambos ocorrerem.
 - **A ∩ B**: ocorrerá se, e somente se, A e B ocorrerem simultaneamente.
 - **Ac** são eventos que A não ocorre, logo:
@@ -79,10 +79,3 @@ Ac ∩ Bc | Ac U Bc
 
 - **Se  Ω for um espaço finito e equiprovável**
 P(A) = número de casos favoráveis a A / número de casos possíveis = #A / # Ω, sendo #, a cardinalidade do evento.
-
-
-
-
-
-
-
