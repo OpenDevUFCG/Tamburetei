@@ -10,8 +10,8 @@ const Header = ({ siteTitle = '' }) => (
     <div className={styles.container}>
       <h1 className={styles.heading}>
         <Link to="/" className={styles.homeLink}>
-          <Logo className={styles.logo} size={32} />
-          {siteTitle}
+          <Logo className={styles.logo} />
+          <span className={styles.headerText}>{siteTitle}</span>
         </Link>
       </h1>
     </div>
