@@ -1,4 +1,4 @@
-numero = int(raw_input())
+numero = int(input())
 i = 1
 while(i <= numero):
 	if(i%2 != 0):
