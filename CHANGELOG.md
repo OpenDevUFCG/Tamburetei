@@ -15,6 +15,7 @@ e esse projeto adere a [Semantic Versioning](https://semver.org/lang/pt-BR/spec/
 - Sub-diretório para a disciplina Algoritmos Avançados, já contém todos os conteúdos esperados para AA Iniciante.
 - Sub-diretório para a disciplina Análise e Técnicas de Algoritmos, já contém ementa e links úteis.
 - Sub-diretório para a disciplina Economia, já contém visão geral e dicas.
+- Sub-diretório para a disciplina Inteligência Artificial, já contém visão geral e dicas.
 - Descrição de dificuldades comuns em Fundamentos de Matemática para Ciência da Computação II.
 - Descrição de dificuldades comuns em Organização e Arquitetura de Computadores.
 - Descrição de dificuldades comuns em Paradigmas de Linguagem de Programação.
@@ -48,6 +49,7 @@ e esse projeto adere a [Semantic Versioning](https://semver.org/lang/pt-BR/spec/
 - Resumos sobre Fila, Pilha e Linked List em Estrutura de Dados e Algoritmos.
 - Resumos em Fundamentos da Matemática para Ciência da Computação I.
 - Resumo sobre história da computação em Introdução à Computação.
+- Resumos em Introdução à Probabilidade.
 - Resumo de alguns erros do TST em Programação I.
 
 ### Modificado
