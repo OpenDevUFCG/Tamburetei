@@ -73,6 +73,10 @@ Agora basta informar o nome da disciplina e a nova pasta será criada!
 - [Sistemas Operacionais](so)
 - [Teoria da Computação](tc)
 
+### Sexto Período
+
+- [Inteligência Artificial](ia)
+
 ### Sétimo Período
 
 - [Análise e Técnicas de Algoritmos](atal)
