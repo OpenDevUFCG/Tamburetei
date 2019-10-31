@@ -5,7 +5,7 @@ title: Dificuldades Comuns
 Uma lista de comentários sobre as principais dificuldades enfrentadas pelos alunos enquanto cursam a disciplina.
 
 ### Dificuldade Prévia
-Há necessidade de um bom entendimento da disciplina Cálculo 1 antes de cursar Cálculo, pois geralmente o professor já subentende que os estudos referentes a Cálculo 1 já foram bem entendidos.
+Há necessidade de um bom entendimento da disciplina Cálculo 1 antes de cursar Cálculo 2, pois geralmente o professor já subentende que os estudos referentes a Cálculo 1 já foram bem entendidos.
 
 ### Motivação
 O índice de reprovação da disciplina causa intimidação nos alunos que ainda não cursaram/estão cursando, mas o ideal é focar e estudar bem que você consegue ser aprovado.
