@@ -10,8 +10,13 @@ e esse projeto adere a [Semantic Versioning](https://semver.org/lang/pt-BR/spec/
 
 ## [Não publicado]
 
+- 
+
+## [1.1.0] - 02/11/2019
+
 ### Adicionado
 
+- [Portal do Tamburetei](https://tamburetei.opendevufcg.org/); 
 - Sub-diretório para a disciplina Algoritmos Avançados, já contém todos os conteúdos esperados para AA Iniciante.
 - Sub-diretório para a disciplina Análise e Técnicas de Algoritmos, já contém ementa e links úteis.
 - Sub-diretório para a disciplina Economia, já contém visão geral e dicas.
@@ -20,6 +25,7 @@ e esse projeto adere a [Semantic Versioning](https://semver.org/lang/pt-BR/spec/
 - Descrição de dificuldades comuns em Organização e Arquitetura de Computadores.
 - Descrição de dificuldades comuns em Paradigmas de Linguagem de Programação.
 - Descrição de dificuldades comuns em Projeto de Software.
+- Descrição de dificuldades comuns em Cálculo 2.
 - Novos links úteis em Álgebra Linear.
 - Novos links úteis em Cálculo Diferencial e Integral I.
 - Novos links úteis em Cálculo Diferencial e Integral II.
@@ -27,6 +33,7 @@ e esse projeto adere a [Semantic Versioning](https://semver.org/lang/pt-BR/spec/
 - Novos links úteis em Programação I.
 - Novos links úteis em Programação II.
 - Novos links úteis em Visualização de Dados.
+- Novos links úteis em Economia.
 - Descrição da ementa em Álgebra Linear.
 - Descrição da ementa em Visualização de Dados.
 - Descrição da visão geral em Álgebra Linear.
