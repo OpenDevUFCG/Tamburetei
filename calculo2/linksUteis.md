@@ -39,8 +39,8 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 
 ## Exercícios
 
-- [Exercícios USP](http://conteudo.icmc.usp.br/pessoas/regilene/sma332/Listas.htm)
-- [Exercícios Unicamp](http://www2.ime.unicamp.br/~ma211/Exercicios.php)
-- [Exercícios UFPB](http://www.mat.ufpb.br/lenimar/historia/marivaldo_calculo2.pdf)
-- [Exercícios UFCG - Página com 8 listas](http://www.ccta.ufcg.edu.br/index.php?action=view_page&page=503)
+- [Exercícios da USP](http://conteudo.icmc.usp.br/pessoas/regilene/sma332/Listas.htm)
+- [Exercícios da Unicamp](http://www2.ime.unicamp.br/~ma211/Exercicios.php)
+- [Exercícios da UFPB](http://www.mat.ufpb.br/lenimar/historia/marivaldo_calculo2.pdf)
+- [Exercícios da UFCG - Página com 8 listas](http://www.ccta.ufcg.edu.br/index.php?action=view_page&page=503)
 

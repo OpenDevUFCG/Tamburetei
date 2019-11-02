@@ -10,6 +10,8 @@
 
 .logo {
   margin-right: .5rem;
+  width: 32px;
+  height: 32px;
 }
 
 .homeLink {
@@ -23,4 +25,19 @@
   display: inline-block;
   margin: 0;
   font-family: Rhetoric, sans-serif;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: .75rem 20px;
+  }
+
+  .logo {
+    width: 28px;
+    height: 28px;
+  }
+
+  .headerText {
+    font-size: 1.5rem;
+  }
 }

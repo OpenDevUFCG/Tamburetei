@@ -1,0 +1,115 @@
+$menu-breakpoint: 600px;
+
+.container {
+  display: flex;
+  height: 100%;
+
+  @media (max-width: $menu-breakpoint) {
+    flex-direction: column;
+  }
+}
+
+.content {
+  flex: 2;
+  order: 1;
+  padding: 25px 80px;
+
+  @media (max-width: $menu-breakpoint) {
+    padding: 0 20px;
+  }
+}
+
+.sideNavContainer {
+  position: relative;
+  order: 2;
+  flex: 1;
+
+  @media (max-width: 900px) {
+    flex: 2;
+  }
+
+  @media (max-width: $menu-breakpoint) {
+    order: 0;
+  }
+}
+
+.sideNavToggle {
+  display: none;
+  padding: 5px 20px;
+  color: var(--on-surface-accent);
+  background-color: var(--color-surface-accent);
+  border-bottom: 1px solid var(--color-border);
+  align-items: center;
+
+  @media (max-width: $menu-breakpoint) {
+    display: flex;
+  }
+}
+
+.sideNavToggleButton {
+  display: flex;
+  border: none;
+  background-color: transparent;
+}
+
+.sideNavToggleText {
+  margin-left: 5px;
+}
+
+.sideNav {
+  background-color: var(--color-surface-accent);
+  color: var(--on-surface-accent);
+  border-left: 1px solid var(--color-border);
+
+  @media (max-width: $menu-breakpoint) {
+    display: none;
+    position: absolute;
+    border: none;
+
+    &.sideNavOpen {
+      display: block;
+    }
+  }
+}
+
+.innerNav {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 50px 40px;
+  padding-right: 0;
+
+  @media (max-width: $menu-breakpoint) {
+    padding: 15px 20px;
+  }
+}
+
+.linkWrapper {
+  display: inline-block;
+  border-radius: 3px;
+  padding: .5rem 1rem;
+  color: inherit;
+  text-decoration: none;
+  align-self: flex-start;
+  margin: 8px 0;
+}
+
+.linkWrapper:first-child {
+  margin-top: 0;
+}
+
+.linkWrapper:last-child {
+  margin-bottom: 0;
+}
+
+.linkWrapper:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+  color: var(--on-surface-accent-hover);
+}
+
+.linkActive {
+  border-left: 5px solid var(--color-primary);
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-left: -5px;
+}

@@ -9,6 +9,7 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 - [D3](#d3)
 - [Visualizações](#visualizações)
 - [Cores](#cores)
+- [Diversos](#diversos)
 
 ## D3
 
@@ -25,4 +26,7 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 
 - [Guia de cores para mapas](http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3)
 - [Gerador de paletas](https://coolors.co/)
+
+## Diversos
+- [data-viz recursos](https://github.com/fanny/data-vis)
 
