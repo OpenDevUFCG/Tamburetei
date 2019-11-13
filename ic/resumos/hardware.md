@@ -89,7 +89,7 @@ title: Conceitos de Hardware
           - N - nº de bits de cada célula
           - M - 2 elevado ao nº de linhas.
     
-     - Memória Secundária
+   - Memória Secundária
     Maior capacidade e permanência.
     - Tempo de acesso: 8 a 15 ns
     - Capacidade: Alta
@@ -109,8 +109,8 @@ title: Conceitos de Hardware
   - Comunicação Serial:
       - bits transferidos de um a um (para longas distâncias)
   ### Transmições
-   - Sincrona de caractere: intervalo de tempo fixo.
-   - Assincrona de caractere: não fixo, para após 8 bits. Envia 1s até chegar em uma info(0)
+   - Síncrona de caractere: intervalo de tempo fixo.
+   - Assíncrona de caractere: não fixo, para após 8 bits. Envia 1s até chegar em uma info(0)
    
    - Simplex:
    Transfere apenas do transmissor para o receptor em uma via única.
