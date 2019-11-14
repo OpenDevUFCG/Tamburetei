@@ -13,6 +13,7 @@ e esse projeto adere a [Semantic Versioning](https://semver.org/lang/pt-BR/spec/
 ### Adicionado
 
 - Novos links úteis em Teoria dos Grafos.
+- Novos resumos de IC.
 
 ## [1.1.0] - 02/11/2019
 
