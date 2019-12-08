@@ -85,6 +85,8 @@ que o outro o acorde de forma que nenhum consiga ser acordado nem acordar o outr
 
 - Semáforo é um contado de wakeups.
 
+- Mecanismo alternativo a sincronização de processos e exclusão mútua na região crítica, usando recursos implementados pelo SO
+
 - Contêm duas operações principais *down(sem)* e *up(sem)*
 ```javascript
   down(sem){
