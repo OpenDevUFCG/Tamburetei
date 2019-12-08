@@ -104,7 +104,7 @@ que o outro o acorde de forma que nenhum consiga ser acordado nem acordar o outr
 - É importante que não haja interrupção entre o teste e a ação. Por isso, existem comandos chamados de
 **TSL** (test and set lock) para realizar o teste e a modificação de um registrador em um só comando.
 
-- Sempre que quero implementar exclusão mútua na região crítica o valor do semáforo é sempre 1.
+- Sempre que quero implementar exclusão mútua na região crítica o valor do semáforo é sempre 1, pois é o número de processos que você quer que esteja na região crítica. Ele é iniciado com 1 pra afirmar que a região crítica está disponível e são feitas operações de up(incremento) e down(decremento) sobre o mesmo.
 
 - **Monitores** são mecanismos de alto nível cujo objetivo principal é garantir a exclusão mútua de 
 execução.
