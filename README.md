@@ -1,5 +1,5 @@
 
-# Tamburetei [![chat on Discord](https://img.shields.io/discord/558293573494112257.svg?logo=discord)](https://discordapp.com/invite/vFFGGEE)
+# Tamburetei [![Financial Contributors on Open Collective](https://opencollective.com/opendevufcg/all/badge.svg?label=financial+contributors)](https://opencollective.com/opendevufcg) [![chat on Discord](https://img.shields.io/discord/558293573494112257.svg?logo=discord)](https://discordapp.com/invite/vFFGGEE)
 ![Tamburetei Logo](https://i.imgur.com/FOgBKcI.png)
 
 Tamburetei vai te ajudar a fazer de tamburete aquela cadeira de CC. Direcionado ao curso de Ciência da Computação da UFCG, esse repositório é um trabalho colaborativo contendo dicas, links úteis e leites das disciplinas do curso. A ideia é que veteranos ajudem os novatos e ninguém mais passe sufoco em nenhuma cadeira. :)
@@ -112,3 +112,33 @@ Leia o [CONTRIBUTING.md](CONTRIBUTING.md)!
 ## Tambureteiros
 
 [![](https://sourcerer.io/fame/thayannevls/OpenDevUFCG/Tamburetei/images/0)](https://sourcerer.io/fame/thayannevls/OpenDevUFCG/Tamburetei/links/0)[![](https://sourcerer.io/fame/thayannevls/OpenDevUFCG/Tamburetei/images/1)](https://sourcerer.io/fame/thayannevls/OpenDevUFCG/Tamburetei/links/1)[![](https://sourcerer.io/fame/thayannevls/OpenDevUFCG/Tamburetei/images/2)](https://sourcerer.io/fame/thayannevls/OpenDevUFCG/Tamburetei/links/2)[![](https://sourcerer.io/fame/thayannevls/OpenDevUFCG/Tamburetei/images/3)](https://sourcerer.io/fame/thayannevls/OpenDevUFCG/Tamburetei/links/3)[![](https://sourcerer.io/fame/thayannevls/OpenDevUFCG/Tamburetei/images/4)](https://sourcerer.io/fame/thayannevls/OpenDevUFCG/Tamburetei/links/4)[![](https://sourcerer.io/fame/thayannevls/OpenDevUFCG/Tamburetei/images/5)](https://sourcerer.io/fame/thayannevls/OpenDevUFCG/Tamburetei/links/5)[![](https://sourcerer.io/fame/thayannevls/OpenDevUFCG/Tamburetei/images/6)](https://sourcerer.io/fame/thayannevls/OpenDevUFCG/Tamburetei/links/6)[![](https://sourcerer.io/fame/thayannevls/OpenDevUFCG/Tamburetei/images/7)](https://sourcerer.io/fame/thayannevls/OpenDevUFCG/Tamburetei/links/7)
+
+## Contributors
+
+### Code Contributors
+
+This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
+<a href="https://github.com/OpenDevUFCG/Tamburetei/graphs/contributors"><img src="https://opencollective.com/opendevufcg/contributors.svg?width=890&button=false" /></a>
+
+### Financial Contributors
+
+Become a financial contributor and help us sustain our community. [[Contribute](https://opencollective.com/opendevufcg/contribute)]
+
+#### Individuals
+
+<a href="https://opencollective.com/opendevufcg"><img src="https://opencollective.com/opendevufcg/individuals.svg?width=890"></a>
+
+#### Organizations
+
+Support this project with your organization. Your logo will show up here with a link to your website. [[Contribute](https://opencollective.com/opendevufcg/contribute)]
+
+<a href="https://opencollective.com/opendevufcg/organization/0/website"><img src="https://opencollective.com/opendevufcg/organization/0/avatar.svg"></a>
+<a href="https://opencollective.com/opendevufcg/organization/1/website"><img src="https://opencollective.com/opendevufcg/organization/1/avatar.svg"></a>
+<a href="https://opencollective.com/opendevufcg/organization/2/website"><img src="https://opencollective.com/opendevufcg/organization/2/avatar.svg"></a>
+<a href="https://opencollective.com/opendevufcg/organization/3/website"><img src="https://opencollective.com/opendevufcg/organization/3/avatar.svg"></a>
+<a href="https://opencollective.com/opendevufcg/organization/4/website"><img src="https://opencollective.com/opendevufcg/organization/4/avatar.svg"></a>
+<a href="https://opencollective.com/opendevufcg/organization/5/website"><img src="https://opencollective.com/opendevufcg/organization/5/avatar.svg"></a>
+<a href="https://opencollective.com/opendevufcg/organization/6/website"><img src="https://opencollective.com/opendevufcg/organization/6/avatar.svg"></a>
+<a href="https://opencollective.com/opendevufcg/organization/7/website"><img src="https://opencollective.com/opendevufcg/organization/7/avatar.svg"></a>
+<a href="https://opencollective.com/opendevufcg/organization/8/website"><img src="https://opencollective.com/opendevufcg/organization/8/avatar.svg"></a>
+<a href="https://opencollective.com/opendevufcg/organization/9/website"><img src="https://opencollective.com/opendevufcg/organization/9/avatar.svg"></a>
