@@ -95,7 +95,7 @@ Ao final da disciplina o aluno terá aprendido conceitos e algoritmos importante
 - Procure sempre tirar suas dúvidas, faça uso da monitoria.
   Converse com o(a) monitor(a) e/ou com a professora, não guarde suas dúvidas.
 
-- Pratique bastante! Ao praticar utilizando os exercícios conceituais e em paralelo utilizar as ferramentas propostas, você irá fixar muito mais cada conceito e saberá pôs-los em prática.
+- Pratique bastante! Ao praticar utilizando os exercícios conceituais e em paralelo utilizar as ferramentas propostas, você irá fixar muito mais cada conceito e saberá pô-los em prática.
 
 - Não deixe de fazer os quizzes, e tente fazê-los logo após as aulas, pois desse modo você consegue também perceber suas dificuldades e assim focar seus estudos nelas, além de estar praticando.
 
