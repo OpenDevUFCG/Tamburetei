@@ -78,7 +78,7 @@ Não há provas na disciplina, a avaliação é realizada através de:
 - **MTG** - Minitestes teóricos (escritos) em grupo de 3 a 4 integrantes.
 
 - **EPG** - Exercícios práticos em grupo, que consiste na resolução de problemas utilizando a teoria ministrada e a(s) ferramenta(s) disponibilizada(s).
-O EPG é dividido em duas etapas, a primeira etapa é realizada em sala, onde o planejamento da solução é feito, registrado e entregue `à professora, a segunda etapa consiste na implementação da solução propriamente dita.
+O EPG é dividido em duas etapas, a primeira etapa é realizada em sala, onde o planejamento da solução é feito, registrado e entregue à professora, a segunda etapa consiste na implementação da solução propriamente dita.
 
 A nota é **acumulativa** e calculada da seguinte maneira:
 - **Média:** ((MTG1+MTI1+MTG2) + (MTI2+MTG3+MTG4) + (MTI3+MTG5+MTG6) + (EPG1+EPG2+EPG3+EPG))/4
