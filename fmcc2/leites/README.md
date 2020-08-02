@@ -52,7 +52,6 @@ O [Overleaf](https://www.overleaf.com/) é um editor online de LaTeX que dispõe
 1 | Técnicas de Demonstração | [Link](https://drive.google.com/file/d/1GZsfdvxMpdEP5fbpQ80psqVFo_dbmL49/view) |
 2 | Indução | [Link](https://drive.google.com/file/d/1PSl4jgIdeTpJgvBZtUJIxwMFzgcm2sWH/view) |
 3 | Recursividade e Relações de Recorrência | [Link](https://drive.google.com/file/d/1oK6cGDA0pzEKTwmWXY0UQrghu4xToOJV/view) |
-4 | Teoria dos Números | [Link]() |
-5 | Congruências e Aritmética Modular| [Link](https://drive.google.com/file/d/1sLuioaRHx3q_u2-Fnhq5LRmZBJcfgmLn/view) |
+4 | Congruências e Aritmética Modular| [Link](https://drive.google.com/file/d/1sLuioaRHx3q_u2-Fnhq5LRmZBJcfgmLn/view) |
 
 
