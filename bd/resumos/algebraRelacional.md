@@ -26,7 +26,7 @@ title: Álgebra Relacional
     - [GENERALIZED PROJECTION](#Generalized-Projection)
     - [AGGREGATE FUNCTION](#Operação-de-funções-de-agregação-e-Agrupamento)
     - [RECURSIVE CLOSURE](#Fechamento-Recursivo)
-    - [OUTER JOiN](#OUTER-JOiN)
+    - [OUTER JOIN](#OUTER-JOIN)
     - [OUTER UNION](#OUTER-UNION)
 
 ## Introdução
@@ -602,7 +602,7 @@ O fechamento recursivo é uma operação em que existe um **relacionamento recur
 Caso seja requisitado os ids de todos os funcionários que estejam sendo supervisionados pelo funcionário X, ou por aqueles que ele supervisiona. Será necessário acessar os supervisionados do X, depois os supervisionados dos supervisionados de X e assim em diante.
 
 ---
-### **OUTER JOiN**
+### **OUTER JOIN**
 
 A operação `outer join` possui o mesmo princípio de um [`join`](#join) comum, todavia, ao fazer o "matching" das duas relações ela não descarta as tuplas que não possuem par, ao invés disso, associa essas tuplas a valores *NULL*.
 
