@@ -56,13 +56,11 @@ Informações que irão auxiliá-lo a cursar bem a disciplina e a compreender su
 ## Visão Geral
 
 A disciplina é pautada em apresentar a teoria que embasa todo o estudo e as aplicações dos grafos na Ciência da Computação, porém não está focada apenas em aspectos teóricos. Também são apresentadas ferramentas para o desenvolvimento de aplicações, visualização e fixação dos conceitos ministrados. São estas:
-
 - [yEd](https://www.yworks.com/products/yed)
   - Esta é a primeira ferramenta que o aluno tem contato, com ela é possível construir vários tipos de representações, dos tipos de grafos mais simples até um dos mais complexos principalmente em termos de visualização.
 
 - [API JgraphT](https://jgrapht.org/)
-  - É uma API desenvolvida em Java e que traz todos os conceitos estudados modelados e em sua grande maioria implementados
-e disponíveis para uso. Ao usá-la é possível enxergar resultados e aplicações práticas dos conceitos expostos em sala de aula.
+  - É uma API desenvolvida em Java e que traz todos os conceitos estudados modelados e em sua grande maioria implementados e disponíveis para uso. Ao usá-la é possível enxergar resultados e aplicações práticas dos conceitos expostos em sala de aula
 
 - [Neo4J e Cypher](https://neo4j.com/sandbox/)
   - O Neo4j é um sistema de gerenciamento e armazenamento de dados através de grafos (graph database).
@@ -104,6 +102,6 @@ Ao final da disciplina o aluno terá aprendido conceitos e algoritmos importante
 - Faça uso da JgraphT, além de você está se aperfeiçoando também na linguagem Java, você aprenderá sobre classes e métodos que poderão facilitar a resolução de problemas comuns, além de tornar a sua aplicação eficiente e prática usando grafos.
 
 - Teoria dos grafos é uma disciplina muito importante, pode-se apontá-la como um dos pilares da Ciência da Computação, não negligencie! Todo o aprendizado adquirido, facilitará o seu entendimento em outras disciplinas e áreas da computação.
-Um profissional que consegue modelar problemas utilizando os conceitos e a estrutura de grafos, é muito valorizado no mercado, além de desenvolver ótimas soluções para problemas, pois seu pensamento abstrato e o seu conhecimento sobre padrões e ferramentas são eficientes, e tudo isso pode ser concretizado com a ajuda dos conceitos da teoria dos grafos.
+  Um profissional que consegue modelar problemas utilizando os conceitos e a estrutura de grafos, é muito valorizado no mercado, além de desenvolver ótimas soluções para problemas, pois seu pensamento abstrato e o seu conhecimento sobre padrões e ferramentas são eficientes, e tudo isso pode ser concretizado com a ajuda dos conceitos da teoria dos grafos.
 
 - Recomendo que você escute este podcast sobre a [A beleza matemática dos Grafos](https://open.spotify.com/episode/3NNGjltaoLbkjn4SU5qVHA?si=V1tF2jNTSFC1pjl56X4-sQ), vai lhe dar uma ótima dimensão sobre aplicações da teoria dos grafos.
