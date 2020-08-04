@@ -21,7 +21,7 @@ Dificuldades de cada ferramenta que a disciplina faz uso:
 - [API JgraphT](https://jgrapht.org/)
     - Na maioria dos casos, os alunos sentem mais dificuldades com a API JgraphT, usada para auxiliar na manipulação e resolução de problemas envolvendo grafos. É uma biblioteca que possui uma boa documentação, porém, não há grande disponibilidade de tutoriais e materiais de fácil acesso, por isso é muito importante que o aluno use todos os materiais disponibilizados e também o repositório da disciplina como fonte de consulta.
 
-    - Inicialmente, há dificuldades para instalar as dependências da JgraphT junto ao [repositório da disciplina](https://github.com/pdlmachado/GraphTheory-JGraphT),mas o aluno não deve se preocupar, pois a própria professora disponibiliza um tutorial para explicar como proceder.
+    - Inicialmente, há dificuldades para instalar as dependências da JgraphT junto ao [repositório da disciplina](https://github.com/pdlmachado/GraphTheory-JGraphT), mas o aluno não deve se preocupar, pois a própria professora disponibiliza um tutorial para explicar como proceder.
 
 - [Neo4J e a linguagem Cypher](https://neo4j.com/sandbox/)
    - Embora o Neo4J seja uma ótima ferramenta, a dificuldade do uso dela e da Cypher se caracteriza pela escassez de materiais disponíveis na internet. Recomenda-se então que você siga o material da disciplina com o auxílio de algumas informações no site do Neo4J e procure informações com os monitores, caso precisar. 
