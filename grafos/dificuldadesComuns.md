@@ -24,4 +24,4 @@ Dificuldades de cada ferramenta que a disciplina faz uso:
     - Inicialmente, há dificuldades para instalar as dependências da JgraphT junto ao [repositório da disciplina](https://github.com/pdlmachado/GraphTheory-JGraphT), mas o aluno não deve se preocupar, pois a própria professora disponibiliza um tutorial para explicar como proceder.
 
 - [Neo4J e a linguagem Cypher](https://neo4j.com/sandbox/)
-   - Embora o Neo4J seja uma ótima ferramenta, a dificuldade do uso dela e da Cypher se caracteriza pela escassez de materiais disponíveis na internet. Recomenda-se então que você siga o material da disciplina com o auxílio de algumas informações no site do Neo4J e procure informações com os monitores, caso precisar. 
+   - Embora Neo4J e Cypher sejam ótimas ferramentas, possuem certa dificuldade de utilização, por causa da escassez de materiais disponíveis na internet. Recomenda-se então que você siga o material da disciplina com o auxílio de algumas informações no site do Neo4J e procure informações com os monitores, caso precisar. 
