@@ -6,7 +6,7 @@ Uma lista de comentários sobre as principais dificuldades enfrentadas pelos alu
 
 ## Organização
 
-Uma das principais dificuldades enfrentadas por alunos que cursam a disciplina é a questão da quantidade de conceitos, absorvê-los e colocá-los em prática. No início, em alguns casos, se torna um pouco dificultoso, principalmente pela gama conceitual e a facilidade de confusão entre definições semelhantes. Por isso, é importante que o aluno organize o seu tempo para estudar bem cada conceito com antecedência e não deixar de fazer os exercícios e implementações. Fazendo isso será possível absorver bem o que a disciplina oferece e enxergar as suas deficiências sobre cada assunto, lembrando que, assim que forem identificadas, procure o(s) monitore(s) e/ou a professora.
+Uma das principais dificuldades enfrentadas por alunos que cursam a disciplina é a questão da quantidade de conceitos, absorvê-los e colocá-los em prática. No início, em alguns casos, se torna um pouco difícil, principalmente pela gama conceitual e a facilidade de confusão entre definições semelhantes. Por isso, é importante que o aluno organize o seu tempo para estudar bem cada conceito com antecedência e não deixar de fazer os exercícios e implementações. Fazendo isso será possível absorver bem o que a disciplina oferece e enxergar as suas deficiências sobre cada assunto, lembrando que, assim que forem identificadas, procure o(s) monitore(s) e/ou a professora.
 
 ## Tempo
 
