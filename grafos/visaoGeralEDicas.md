@@ -62,7 +62,7 @@ A disciplina é pautada em apresentar a teoria que embasa todo o estudo e as apl
 
 - [API JgraphT](https://jgrapht.org/)
   - É uma API desenvolvida em Java e que traz todos os conceitos estudados modelados e em sua grande maioria implementados
-e disponíveis para uso. Ao usá-la é possível enxergar resultados e aplicações dos conceitos, antes, apenas expostos.
+e disponíveis para uso. Ao usá-la é possível enxergar resultados e aplicações práticas dos conceitos expostos em sala de aula.
 
 - [Neo4J e Cypher](https://neo4j.com/sandbox/)
   - O Neo4j é um sistema de gerenciamento e armazenamento de dados através de grafos (graph database).
