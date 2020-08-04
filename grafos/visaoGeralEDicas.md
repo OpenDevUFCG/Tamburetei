@@ -55,7 +55,7 @@ Informações que irão auxiliá-lo a cursar bem a disciplina e a compreender su
 
 ## Visão Geral
 
-A disciplina é pautada em apresentar a teoria que embasa todo o estudo e as aplicações dos grafos na Ciência da Computação. Porém, não está focada apenas em aspectos teóricos, também são apresentadas ferramentas para o desenvolvimento de aplicações, visualização e fixação dos conceitos ministrados. São estas:
+A disciplina é pautada em apresentar a teoria que embasa todo o estudo e as aplicações dos grafos na Ciência da Computação, porém não está focada apenas em aspectos teóricos. Também são apresentadas ferramentas para o desenvolvimento de aplicações, visualização e fixação dos conceitos ministrados. São estas:
 
 - [yEd](https://www.yworks.com/products/yed)
   - Esta é a primeira ferramenta que o aluno tem contato, com ela é possível construir vários tipos de representações, dos tipos de grafos mais simples até um dos mais complexos principalmente em termos de visualização.
