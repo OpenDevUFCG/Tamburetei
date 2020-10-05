@@ -20,7 +20,7 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 
 ## Conversores
 
-- [Cnversor Online Binary-Decimal (conversão binário <-> decimal)](http://www.binaryconvert.com/index.html)
+- [Conversor Online Binary-Decimal (conversão binário <-> decimal)](http://www.binaryconvert.com/index.html)
 
 ## Simuladores
 
