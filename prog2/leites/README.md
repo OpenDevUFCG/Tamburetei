@@ -52,7 +52,7 @@ Uma coleção de materiais úteis que foram utilizados na disciplina em período
 2º estágio | Não | [Link](https://docs.google.com/document/d/e/2PACX-1vT8irafkW8r-r6WjlT6R7EfZhX_B8BChfdwGfoheOc5xLVwhCtpXB5pWxMMGSg0Dr0vJrhQ3z47BvZV/pub) |
 2º estágio | Sim | [Link](https://docs.google.com/document/d/e/2PACX-1vRCAHJkK71xDDCgxivp4KwyOQbmB0HfZzAnTRBrcZgu9aMccvjb16aZ4wn-2X-BWA-m51XtHTgxiDpr/pub) |
 
-### 2020.RAE
+### 2020.0
 **Prova** | **Reposição?** | **Links** |
 :---: | :---: | :---: |
 Lab 02 | Não | [Link](https://docs.google.com/document/d/1IrHJo41u2EAfmczhK5wz6mkB20V8HWDfu2Z6cPF84RE/edit) |
