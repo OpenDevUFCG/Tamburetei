@@ -22,6 +22,7 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 ## Blogs
 
 - [basecs](https://medium.com/basecs/tagged/data-structures)
+- [João Arthur Brunet](https://joaoarthurbm.github.io/eda/posts/)
 
 ## Implementações
 
