@@ -22,3 +22,9 @@ Uma coleção de materiais úteis que foram utilizados na disciplina em período
 11 | Análise Combinatória | [Link](https://drive.google.com/open?id=1Z7oUikTESQFRRsYteY5rNho1aSceGRGe) |
 12 | Binômio de Newton | [Link](https://drive.google.com/open?id=1dR5TbQtmtCURSOQT0uYPvWlxBtD7roha) |
 13 | Somatórios, PA e PG | [Link](https://drive.google.com/open?id=1vtXOqE7LdvzyRo3sZNO5D0S_E7uYLsh0) |
+
+### 2020.3 (RAE)
+**Lista** | **Assunto** | **Links**  |
+:---: | :---:| :---: |
+1 | Lógica Proposicional | [Link](https://drive.google.com/file/d/1iBZ9hPe9SbDe0vm4FUazQ1gIHWk5pQ6Q) |
+2 | Lógica de Predicados | [Link](https://drive.google.com/file/d/1duWOd6wt3cujkNJrn4r7VhHl2NspqbaM) |
