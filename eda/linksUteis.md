@@ -24,6 +24,7 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 
 - [basecs](https://medium.com/basecs/tagged/data-structures)
 - [Notas de Aula - João Arthur](https://joaoarthurbm.github.io/eda/)
+- [programiz - eda](https://www.programiz.com/dsa)
 
 ## Implementações
 
