@@ -31,4 +31,4 @@ Informações que irão auxiliá-lo a cursar bem a disciplina e a compreender su
 
 ## Dicas
 
-> Ainda não temos dicas para essa disciplina. Você pode nos ajudar com isso? (:
+Procure garantir uma boa nota em OAC, as duas disciplinas possuem um sistema de transferência de pontos em que você pode transferir até 1,5 ponto de uma disciplina para a outra, portanto ter pontos sobrando em OAC pode salvar LOAC para você.
