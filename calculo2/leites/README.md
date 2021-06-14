@@ -6,6 +6,16 @@ Uma coleção de materiais úteis que foram utilizados na disciplina em período
 
 ## Provas
 
+### 2020.1e
+**Prova** | **Reposição?** | **Links**  |
+:---: | :---:| :---: |
+1º estágio - Tarde | Não | [Link](https://drive.google.com/file/d/1w5HOptx3vmwvOHxaqY6gh6xOKGJE63o3/view?usp=sharing) |
+2º estágio - Tarde | Não | [Link](https://drive.google.com/file/d/1JhM6XlMcYgVdV3fswiQS61lEj6h69IdW/view?usp=sharing) |
+3° estágio - Tarde | Não | [Link](https://drive.google.com/file/d/1Cmh5uVkLX68hb9vg5fRklXHACvKIpChj/view?usp=sharing) |
+1º estágio - Tarde | Sim | [Link](https://drive.google.com/file/d/1Pnh74Gd_ZkodRIS3DNajEm02L3qpmNE0/view?usp=sharing) |
+2º estágio - Tarde | Sim | [Link](https://drive.google.com/file/d/1ntYXXr4xLD_TPTjnTU45PftI3o4HVaHu/view?usp=sharing) |
+
+
 ### 2018.2
 **Prova** | **Reposição?** | **Links**  |
 :---: | :---:| :---: |
