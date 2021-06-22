@@ -53,5 +53,8 @@
     "eslint-plugin-react-hooks": "^2.1.2",
     "prettier": "^1.18.2",
     "typescript": "^3.6.3"
+  },
+  "resolutions": {
+    "@babel/runtime": "^7.12.5"
   }
 }

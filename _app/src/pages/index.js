@@ -1,11 +1,11 @@
 import { Link } from 'gatsby'
 import React from 'react'
+import 'antd/dist/antd.css'
 
 import SEO from '../components/SEO'
 import Button from '../components/Button'
 import Logo from '../components/Logo'
 import Layout from '../components/Layout'
-
 import styles from './index.module.css'
 
 const IndexPage = () => (
@@ -22,7 +22,6 @@ const IndexPage = () => (
           trabalho colaborativo contendo dicas, links úteis e leites das
           disciplinas do curso.
         </span>
-
         <Button className={styles.cta} as={Link} to="/cadeiras" size="large">
           Ver Cadeiras
         </Button>
