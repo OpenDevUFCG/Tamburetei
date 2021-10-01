@@ -14,7 +14,8 @@ Uma coleção de materiais úteis que foram utilizados na disciplina em período
 3° estágio - Tarde | Não | [Link](https://drive.google.com/file/d/1Cmh5uVkLX68hb9vg5fRklXHACvKIpChj/view?usp=sharing) |
 1º estágio - Tarde | Sim | [Link](https://drive.google.com/file/d/1Pnh74Gd_ZkodRIS3DNajEm02L3qpmNE0/view?usp=sharing) |
 2º estágio - Tarde | Sim | [Link](https://drive.google.com/file/d/1ntYXXr4xLD_TPTjnTU45PftI3o4HVaHu/view?usp=sharing) |
-
+3° estágio - Tarde | Sim | [Link](https://drive.google.com/file/d/1xn3mleep2i8qNpY4EhKZWqqcG0pG4v9Q/view?usp=sharing) |
+Final - Tarde | - | [Link](https://drive.google.com/file/d/194WgQprE4d4G3Kic9GEFdcpWI-XJI8sK/view?usp=sharing) |
 
 ### 2018.2
 **Prova** | **Reposição?** | **Links**  |
