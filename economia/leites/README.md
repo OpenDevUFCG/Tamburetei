@@ -7,7 +7,7 @@ Uma coleção de materiais úteis que foram utilizados na disciplina em período
 
 ## Listas de Exercícios
 
-### 2021.2
+### 2020.2
 **Lista** | **Assunto** | **Links**  |
 :---: | :---: | :---: |
 1 | 1º estágio | [Link](https://docs.google.com/document/d/1kp_IDyNWIYHuj6jOKZ9A7Ac5RanO3IE8gl0RONV6Umo/edit?usp=sharing) |
