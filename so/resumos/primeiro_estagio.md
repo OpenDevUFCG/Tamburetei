@@ -10,7 +10,7 @@ title: Resumo do Primeiro Estágio
 
 ## Processos
 
-- Processos são estrutura de dados que representam instâncias de programas em execução e o seu contexto.
+- **Processos são estrutura de dados que representam instâncias de programas em execução e o seu contexto.**
 O contexto é formado por valores de variáveis, valores de registradores (Incluindo o Program Counter e 
 o Stack Pointer) e os recursos utilizados (arquivos abertos, processos relacionados ...).
 
@@ -85,6 +85,8 @@ que o outro o acorde de forma que nenhum consiga ser acordado nem acordar o outr
 
 - Semáforo é um contado de wakeups.
 
+- Mecanismo alternativo a sincronização de processos e exclusão mútua na região crítica, usando recursos implementados pelo SO
+
 - Contêm duas operações principais *down(sem)* e *up(sem)*
 ```javascript
   down(sem){
@@ -103,6 +105,8 @@ que o outro o acorde de forma que nenhum consiga ser acordado nem acordar o outr
 
 - É importante que não haja interrupção entre o teste e a ação. Por isso, existem comandos chamados de
 **TSL** (test and set lock) para realizar o teste e a modificação de um registrador em um só comando.
+
+- Sempre que quero implementar exclusão mútua na região crítica o valor do semáforo é sempre 1, pois é o número de processos que você quer que esteja na região crítica. Ele é iniciado com 1 pra afirmar que a região crítica está disponível e são feitas operações de up(incremento) e down(decremento) sobre o mesmo.
 
 - **Monitores** são mecanismos de alto nível cujo objetivo principal é garantir a exclusão mútua de 
 execução.

@@ -36,7 +36,7 @@ Exemplos de comportamentos inaceitáveis por parte dos participantes incluem:
 * Ser desesrespeitoso ou comentar opiniões pessoas sobre qualquer professor.
 * Publicar soluções de atividades avaliativas das disciplinas que se repetem todos os períodos, tais como os roteiros de LEDA e os laboratórios de LP2.
 
-## Nossas responsibilidades
+## Nossas responsabilidades
 
 Os administradores do projeto são responsáveis por esclarecer os padrões de
 comportamento e deverão tomar ação corretiva apropriada e justa em resposta

@@ -22,6 +22,7 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 - [Udacity](https://br.udacity.com)
 - [Learn Python the Hard Way](http://learnpythonthehardway.org/book/)
 - [University of Reddit](http://ureddit.com/category/23442/computer-science)
+- [Udemy](https://www.udemy.com/pt/)
 
 ## Ferramentas
 
@@ -30,6 +31,7 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 ## Exercícios
 
 - [Exercism](https://exercism.io/)
-- [Coding bat](https://codingbat.com/python)
+- [Coding Bat](https://codingbat.com/python)
 - [Codewars](https://www.codewars.com/)
-- [CodingGame](https://www.codingame.com/)
+- [Coding Game](https://www.codingame.com/)
+- [URI Online Judge](https://www.urionlinejudge.com.br/judge/pt/login)

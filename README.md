@@ -1,5 +1,5 @@
 
-# Tamburetei [![chat on Discord](https://img.shields.io/discord/558293573494112257.svg?logo=discord)](https://discordapp.com/invite/vFFGGEE)
+# Tamburetei [![chat on Discord](https://img.shields.io/discord/558293573494112257.svg?logo=discord)](https://discord.gg/UgR5WrY)
 ![Tamburetei Logo](https://i.imgur.com/FOgBKcI.png)
 
 Tamburetei vai te ajudar a fazer de tamburete aquela cadeira de CC. Direcionado ao curso de Ciência da Computação da UFCG, esse repositório é um trabalho colaborativo contendo dicas, links úteis e leites das disciplinas do curso. A ideia é que veteranos ajudem os novatos e ninguém mais passe sufoco em nenhuma cadeira. :)
@@ -73,16 +73,26 @@ Agora basta informar o nome da disciplina e a nova pasta será criada!
 - [Sistemas Operacionais](so)
 - [Teoria da Computação](tc)
 
+### Sexto Período
+
+- [Inteligência Artificial](ia)
+
 ### Sétimo Período
 
+- [Análise e Técnicas de Algoritmos](atal)
 - [Compiladores](compiladores)
 
 ### Oitavo Período
 
 - [Projeto de Trabalho de Conclusão de Curso](ptcc)
 
-### Optativas
+### Optativas Gerais
 
+- [Economia](economia)
+
+### Optativas Específicas
+
+- [Algoritmos Avançados](aa)
 - [Visualização de Dados](visu)
 
 ## Regras

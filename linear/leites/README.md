@@ -14,6 +14,22 @@ Uma coleção de materiais úteis que foram utilizados na disciplina em período
 
 ## Provas
 
+### 2019.2
+**Prova** | **Reposição?** | **Links**  |
+:---: | :---:| :---: |
+1° estágio - Manhã | Não | [Link](https://drive.google.com/open?id=1V4SKswum3Wwd-ZsTZjXPxj5ld3dGHkns) |
+1° estágio - Manhã | Sim | [Link](https://drive.google.com/open?id=1MjQtAf5WpzAXMqbTrIvDCVlXpOjB7Zod) |
+1° estágio - Tarde | Não | [Link](https://drive.google.com/open?id=1P08UDr4rbh3K3bGjVDaF4VmyGhVkhdwF) |
+1° estágio - Tarde | Sim | [Link](https://drive.google.com/open?id=1n8ZyO5GKt4xpBwo3LSl3R109-altPFtg) |
+2º estágio - Manhã | Não | [Link](https://drive.google.com/file/d/1Jae6p1VtFfdkOv8-wNVA_UsbrHoCo3IJ/view?usp=sharing) |
+2º estágio - Manhã | Sim | [Link](https://drive.google.com/open?id=1Lk5jrDe8PUIonodR289A7w2KMKknBnwY) |
+2º estágio - Tarde | Não | [Link](https://drive.google.com/open?id=1qO8sQM2XCRskFRT7ElmkI3IgZPhmv5DT) |
+2º estágio - Tarde | Sim | [Link](https://drive.google.com/open?id=1fHvRywu4h3YzRMuHagsIBsrTsZ5Z-an1) |
+3º estágio - Manhã | Não | [Link](https://drive.google.com/open?id=159GA-5rlerxoVdCG6wLa-AIErp0GfcRN) |
+3º estágio - Manhã | Sim | [Link](https://drive.google.com/open?id=17dkeX2VEZ5LmTy6DIuYhgfW8oaXCFiuy) |
+3º estágio - Tarde | Não | [Link](https://drive.google.com/open?id=1g7sS-Euh_xQDsggSlP_Wk2vSrRP9-78U) |
+3º estágio - Tarde | Sim | [Link](https://drive.google.com/open?id=1WiGQ1MEvYaPo81C8AW_Fsj9WZXTZIWb2) |
+
 ### 2019.1
 **Prova** | **Reposição?** | **Links**  |
 :---: | :---:| :---: |
