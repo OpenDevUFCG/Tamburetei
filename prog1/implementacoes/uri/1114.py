@@ -1,3 +1,6 @@
+# Questão 1114 - Senha fixa
+# Link da questão - https://www.urionlinejudge.com.br/judge/pt/problems/view/1114
+
 correta = False # Flag que indica se a senha indicada foi a correta
 
 while not correta:

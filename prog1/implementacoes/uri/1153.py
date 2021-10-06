@@ -1,3 +1,6 @@
+# Questão 1153 - Fatorial Simples
+# Link da questão - https://www.urionlinejudge.com.br/judge/pt/problems/view/1153
+
 # Calculo de fatorial utilizando abordagem iterativa
 
 n = int(input()) # Dado um numero da entrada...

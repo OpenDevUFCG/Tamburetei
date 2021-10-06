@@ -1,3 +1,6 @@
+# Questão 1159 - Soma de Pares Consecutivos
+# Link da questão - https://www.urionlinejudge.com.br/judge/pt/problems/view/1159
+
 eh_zero = True # Flag para indicar se o ultimo numero encontrado é zero
 
 while eh_par: # Enquanto encontrar numeros pares...
