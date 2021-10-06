@@ -1,3 +1,6 @@
+# Questão 1241 - Encaixa ou Não II
+# Link da questão - https://www.urionlinejudge.com.br/judge/pt/problems/view/1241
+
 n = int(input())
 
 for i in range(n):

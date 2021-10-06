@@ -1,3 +1,6 @@
+# Questão 1235 - De Dentro para Fora
+# Link da questão - https://www.urionlinejudge.com.br/judge/pt/problems/view/1235
+
 n = int(input())
 
 lista = list()
