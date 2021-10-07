@@ -24,6 +24,12 @@ Uma coleção de materiais úteis que foram utilizados na disciplina em período
 
 ## Provas
 
+### 2020.2
+**Prova** | **Reposição?** | **Links**  |
+:---: | :---:| :---: |
+1º estágio | Não | [Link](https://drive.google.com/file/d/1oG-ZVLc7PfYyixi7KlwOYbpT35OKAX9T/view?usp=sharing) |
+2º estágio | Não | [Link](https://drive.google.com/file/d/1QJaZNn6_bQCGSwizwyR1d6gghVVaF65O/view?usp=sharing) |
+
 ### 2020.1
 **Prova** | **Reposição?** | **Links**  |
 :---: | :---:| :---: |
