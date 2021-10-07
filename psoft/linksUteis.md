@@ -52,6 +52,7 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 
 - [Scotch](https://scotch.io/)
 - [Team threehouse](http://blog.teamtreehouse.com/)
+- [Refactoring and Design patterns](https://refactoring.guru/) 
 
 ## Imagens
 
