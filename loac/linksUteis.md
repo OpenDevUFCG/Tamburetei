@@ -9,8 +9,10 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 - [Livros e Apostilas](#livros-e-apostilas)
 - [Ferramentas](#ferramentas)
 
-## Código para cálculo de centavos
+## Como saber sua Nota
+
 - [Soma de centavos em shell](http://lad.ufcg.edu.br/loac/uploads/OAC/sum_cents)
+- [Notas Registradas](http://lad.ufcg.edu.br/loac/uploads/OAC/anon.txt)
 
 ## Livros e Apostilas
 
