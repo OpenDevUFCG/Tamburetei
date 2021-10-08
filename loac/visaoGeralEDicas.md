@@ -31,4 +31,15 @@ Informações que irão auxiliá-lo a cursar bem a disciplina e a compreender su
 
 ## Dicas
 
-> Ainda não temos dicas para essa disciplina. Você pode nos ajudar com isso? (:
+- Não Acumule atividades
+- Vise sempre focar em exercíos que valem mais centavos
+- Foque em Falstad e FPGA
+- No início da disciplina, busque projetos livres
+- Participe através de envio de links úteis por email e chat
+
+### Dicas de Projetos Livres - Pode ser feito em qualquer momento 
+- Energia Eletrostática e componentes eletrônicos (90 centavos)
+- Limites práticos de Fan-in Fan-out (100 centavos)
+- Tecnologia de processadores (100 centavos)
+- PS4 vs PS5 (100 centavos)
+
