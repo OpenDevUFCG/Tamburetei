@@ -36,7 +36,7 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 - [Cálculo 2 com Grings](https://www.youtube.com/watch?v=CdEUV9mcEJ8&list=PL9EZC6SyyK48SK4LKXvYpvvLhdENXmaYE)
 - [Cálculo 2 com Me Salva](https://www.youtube.com/watch?v=oJY-91rMgpo&list=PLf1lowbdbFIAGzFSFAB-MRrXgJKV-YAHc)
 - [Cálculo 2 Projeto Newton](https://www.youtube.com/watch?v=_sqp_KOqgtk&list=PLRDl822XzDzb4qzoiX19pBBGnsViHSYiU)
-- [Calculus 2 - Full College Course] (https://www.youtube.com/watch?v=7gigNsz4Oe8)
+- [Calculus 2 - Full College Course](https://www.youtube.com/watch?v=7gigNsz4Oe8)
 
 ## Exercícios
 
