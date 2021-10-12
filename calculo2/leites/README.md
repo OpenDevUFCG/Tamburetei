@@ -9,10 +9,10 @@ Uma coleção de materiais úteis que foram utilizados na disciplina em período
 ### 2020.2e
 **Prova** | **Reposição?** | **Links**  |
 :---: | :---:| :---: |
-1º estágio - Tarde | Não | [Link](https://drive.google.com/file/d/1ZmKm9EqoSCj1e1n_VkcRoqYoaFq-1DWi/view?usp=sharing) |
-2º estágio - Tarde | Não | [Link](https://drive.google.com/file/d/1DRvS0yrSm-AEkDXAty8507_TVR5VtU9Z/view?usp=sharing) |
-1º estágio - Tarde | Sim | [Link](https://drive.google.com/file/d/1N5NX2yIupZz-eVngC5b3bJtcMtRdszJb/view?usp=sharing) |
-2º estágio - Tarde | Sim | [Link](https://drive.google.com/file/d/15wgu729KUwsnwCyCoXSpmYt-camx8Fe6/view?usp=sharing) |
+1º estágio - Tarde | Não | [Link](https://drive.google.com/file/d/1_IUuwWspXrg4SnFk3hdGw6pfqb8CSMxY/view?usp=sharing) |
+2º estágio - Tarde | Não | [Link](https://drive.google.com/file/d/1OxIDDHqTK8QUOtLEAkbg7-IZfa71UNNo/view?usp=sharing) |
+1º estágio - Tarde | Sim | [Link](https://drive.google.com/file/d/1hwDxtblr5Sm7y3kZ2np9DSWUSe-gB2is/view?usp=sharing) |
+2º estágio - Tarde | Sim | [Link](https://drive.google.com/file/d/1NneHrkHpnPf5HnKnSfcwwknyVjBkC3Bc/view?usp=sharing) |
 
 ### 2020.1e
 **Prova** | **Reposição?** | **Links**  |
