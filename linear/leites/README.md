@@ -12,6 +12,12 @@ Uma coleção de materiais úteis que foram utilizados na disciplina em período
 2 | Espaços Vetoriais | [Link](https://drive.google.com/open?id=1oA6-1_JVObauZyw7b8fNfzis7DvfZ3jU) |
 3 | Transformações Lineares | [Link](https://drive.google.com/open?id=10WvB50Y_U0X4zDUczofdFrWcVKphq5yP) |
 
+### 2020.2
+**Lista** | **Assunto** | **Links** |
+:---: | :---: | :---: |
+6 | Polinômio Característico | [Link](https://www.ime.unicamp.br/~marcia/AlgebraLinear/Arquivos%20PDF/exemplos_polinomio.pdf)
+7 | Diagonalização de Operadores Lineares | [Link](https://www.ime.unicamp.br/~marcia/AlgebraLinear/Arquivos%20PDF/exemplos_diagonalizacao.pdf)
+
 ## Provas
 
 ### 2019.2

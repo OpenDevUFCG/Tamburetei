@@ -14,6 +14,7 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 
 - [Material de Lógica da *DAINF*](http://www.dainf.ct.utfpr.edu.br/~adolfo/Disciplinas/LogicaParaComputacao_novo/)
 - [Dedução Natural](https://galdino.catalao.ufg.br/up/635/o/deducaonatural.pdf)
+- [Introdução e Histórico - Tiago Massoni](https://tiagomassoni.github.io/logic-texts/Introdu%C3%A7%C3%A3o%20e%20Hist%C3%B3rico%20802c6309efb0482da14a2b862918e51e.html)
 
 ## Exercícios 
 
