@@ -1,4 +1,4 @@
-% Verifica se a variável "Busca" existe numa lista, retornando true ou false.
+% Verifica se o parâmetro Busca existe numa lista de listas, retornando true ou false.
 ehMember(_, [], false).
 ehMember(Busca, [H|T], R):-
     (member(Busca, H) -> R = true ; ehMember(Busca, T, R)
