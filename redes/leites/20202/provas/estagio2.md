@@ -30,10 +30,10 @@ Uma das facilidades que mais contribuem para o crescimento da Internet é a poss
 
 Sempre que o servidor DNS primário estiver em manutenção, não será possível resolver nomes de domínio e, portanto, toda requisição será abortada e nenhum nome poderá ser resolvido no sistema.
 
-### Questão 5
+#### Questão 5
 
 Uma prática muito comum adotada pelos administradores de redes para permitir uma diminuição no tráfego que é enviado para a Internet e também para melhorar o tempo de resposta para os usuário é a adoção de servidores de cache para conteúdo web que é requisitado. Apesar das vantagens, um problema que surge é como gerenciar se os conteúdos estão atualizados ou não. Como é possível realizar essa verificação através do protocolo HTTP? Explique como é realizado esse procedimento.
 
-### Questão 6
+#### Questão 6
 
 Como conseguimos fazer o registro das operações realizadas pelos usuários de um site através de Cookies?

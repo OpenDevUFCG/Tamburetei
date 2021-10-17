@@ -28,10 +28,10 @@ Como o TCP compatibiliza a quantidade de informações que podem ser transmitida
 
 Ao iniciar uma conexão, o TCP tenta descobrir a que taxa pode transmitir sem que congestione a rede que interliga as duas estações. Para tanto ele faz uso do mecanismo de controle de congestionamento, que se baseia no monitoramento de dois eventos que geram erros em uma comunicação. Quais são esses dois eventos e quais as reações do protocolo com cada um deles?
 
-### Questão 5
+#### Questão 5
 
 Na camada de transporte do modelo TCP/IP pode-se utilizar os protocolos TCP e UDP. Por que é necessária a implementação de mais de um protocolo nessa camada?
 
-### Questão 6
+#### Questão 6
 
 Cada camada da pilha de protocolos possui um identificador que é utilizado para permitir diferenciar unicamente as entidades envolvidas em uma comunicação. No caso da camada de transporte (mais especificamente usando o protocolo TCP), quais informações um processo rodando em um host utiliza para identificar um outro processo rodando em um outro host? E se os processos estiverem num mesmo host, como esta identificação acontece?

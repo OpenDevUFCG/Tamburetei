@@ -28,10 +28,10 @@ Ao usarmos multiplexação podemos transmitir diversos sinais sem que eles gerem
 
 Tanto o modelo OSI quanto o TCP/IP são baseados em uma arquitetura em camadas. Qual o objetivo principal de organizar a arquitetura dessa maneira e quais os benefícios que a sua utilização traz?
 
-### Questão 5
+#### Questão 5
 
 Ao falarmos de comutação temos duas soluções principais que podem ser encontradas: comutação por circuitos e comutação por pacotes. Em que situações é mais recomendada a utilização de cada uma dessas soluções?
 
-### Questão 6
+#### Questão 6
 
 Ao falarmos de arquiteturas em camadas temos várias características positivas para essa organização, mas temos também aspectos que podem prejudicar o seu funcionamento. Discuta uma possível desvantagem do uso de protocolos dispostos em camadas.
