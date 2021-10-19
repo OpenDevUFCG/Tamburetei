@@ -17,6 +17,10 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 
 - [Crimson Plague](https://github.com/LukeHxH/crimson-plague) - O projeto que foi utilizado em 2018.2. Consiste em criar um jogo de RPG, contendo diferentes finais alcançados a partir de suas escolhas durante a história, batalhas contra monstros, diferentes estilos de personagem (mago, ladino e guerreiro), uso de magias e sistema de inventário (incluindo poder utilizar itens em batalhas).
 
+- [Estacionamento](https://github.com/GuilhermeAureliano/projetosPLP) - O projeto é baseado em CRUD(create, read, update e delete) de dados. Consiste em apresentar 3 telas diferentes para clientes, funcionários e dono, contendo várias funcionalidades para esses três. Em Haskell foi usado arquivo txt para salvar os dados, já em Prolog foi usado arquivos csv. 
+
 ## Material de Estudo
 
-- [Apresentação sobre IO de Haskell](bit.ly/aulaio)
+- [Curso grátis de Haskell na Udemy](https://www.udemy.com/course/curso-haskell/)
+- [Excelente tutorial de Haskell](http://haskell.tailorfontela.com.br/)
+- [Tutorial de Prolog](http://www.let.rug.nl/bos/lpn//)
