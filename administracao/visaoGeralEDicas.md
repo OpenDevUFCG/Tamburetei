@@ -8,7 +8,7 @@ Informações que irão auxiliá-lo a cursar bem a disciplina e a compreender su
 
 - Definição de Administração
 - Funções do Administrador
-- Funções do Administrador
+- Teorias da Administração
 - Funções Empresariais
 - Gestão de Estoques
 - Empreendedorismo
