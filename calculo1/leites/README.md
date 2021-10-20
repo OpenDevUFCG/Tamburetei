@@ -25,15 +25,15 @@ Uma coleção de materiais úteis que foram utilizados na disciplina em período
 ## Provas
 
 ### 2020.1
-**Prova** | **Reposição?** | **Links**  |
-:---: | :---:| :---: |
-1º estágio | Não | [Link](https://drive.google.com/file/d/147hsiWqqIGourS-fLz-86QTRV91EmIM5/view?usp=sharing) |
-1º estágio | Sim | [Link](https://drive.google.com/file/d/1IJdzl1V_IvCFPXATliCHvi6SUjpBc2Do/view?usp=sharing) |
-2º estágio | Não | [Link](https://drive.google.com/file/d/1xNWs4G-KICexfDPja-Z7uS8g2XSA4jMY/view?usp=sharing) |
-2º estágio | Sim | [Link](https://drive.google.com/file/d/1QM3Cbjc4nUQaiI7Puu0G39mVC8ZduJIg/view?usp=sharing) |
-3º estágio | Não | [Link](https://drive.google.com/file/d/1ggwJ4h8e_1t1s5qpiGEW0AJY4hAjfLSP/view?usp=sharing) |
-3º estágio | Sim | [Link](https://drive.google.com/file/d/1VN7R81MSyulvvNEWXH48eSMZLrQLd9hY/view?usp=sharing) |
-Final | - | [Link](https://drive.google.com/file/d/1iPjOOJ9l_NzbnOKhGg43LGLy_HUWS86h/view?usp=sharing) |
+**Prova** | **Reposição?** | **Links**  | **Resolução** |
+:---: | :---:| :---: | :---: |
+1º estágio | Não | [Link](https://drive.google.com/file/d/147hsiWqqIGourS-fLz-86QTRV91EmIM5/view?usp=sharing) | [Link](https://docs.google.com/document/d/1nq8U6N7jup9sM7_TJTamBbuxfpykUm0qSkxq-n1J5SE/edit?usp=sharing) |
+1º estágio | Sim | [Link](https://drive.google.com/file/d/1IJdzl1V_IvCFPXATliCHvi6SUjpBc2Do/view?usp=sharing) | [Link] |
+2º estágio | Não | [Link](https://drive.google.com/file/d/1xNWs4G-KICexfDPja-Z7uS8g2XSA4jMY/view?usp=sharing) | [Link] |
+2º estágio | Sim | [Link](https://drive.google.com/file/d/1QM3Cbjc4nUQaiI7Puu0G39mVC8ZduJIg/view?usp=sharing) | [Link] |
+3º estágio | Não | [Link](https://drive.google.com/file/d/1ggwJ4h8e_1t1s5qpiGEW0AJY4hAjfLSP/view?usp=sharing) | [Link] |
+3º estágio | Sim | [Link](https://drive.google.com/file/d/1VN7R81MSyulvvNEWXH48eSMZLrQLd9hY/view?usp=sharing) | [Link] |
+Final | - | [Link](https://drive.google.com/file/d/1iPjOOJ9l_NzbnOKhGg43LGLy_HUWS86h/view?usp=sharing) | [Link] |
 
 
 
