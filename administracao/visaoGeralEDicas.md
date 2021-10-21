@@ -12,7 +12,3 @@ Informações que irão auxiliá-lo a cursar bem a disciplina e a compreender su
 - Funções Empresariais
 - Gestão de Estoques
 - Empreendedorismo
-
-# Visão Geral
-
-## Dicas
