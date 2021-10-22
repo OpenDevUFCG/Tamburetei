@@ -115,7 +115,7 @@ def merge_sort(values, low, high):
     o algoritmo Merge Sort.
 
     Baseado na estratégia de dividir-conquistar, o Merge Sort
-    ordena uma lista de valores recursivamente. Durante cada
+    ordena uma lista de valores recursivamente. Durante
     cada chamada da funcao merge_sort(values, low, high), 
     a lista é dividida pela metade até que possua um único elemento 
     (este é caso base - trivialmente, se len(lista) == 1, a lista está ordenada). 
