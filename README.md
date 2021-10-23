@@ -89,6 +89,7 @@ Agora basta informar o nome da disciplina e a nova pasta será criada!
 ### Optativas Gerais
 
 - [Economia](economia)
+- [Administração e Empreendedorismo](administracao)
 
 ### Optativas Específicas
 
