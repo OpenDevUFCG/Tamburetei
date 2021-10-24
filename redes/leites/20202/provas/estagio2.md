@@ -1,5 +1,5 @@
 ---
-title: 2ª Prova
+title: Prova 2º estagio
 ---
 
 - **Disciplina:** Redes de Computadores
