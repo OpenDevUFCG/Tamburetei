@@ -27,4 +27,6 @@ Informações que irão auxiliá-lo a cursar bem a disciplina e a compreender su
 
 ## Dicas
 
-> Ainda não temos dicas para essa disciplina. Você pode nos ajudar com isso? (:
+- O assunto da matéria é totalmente cumulativo, do início ao fim. Sendo assim, é **importante** manter uma sequência constante nos estudos com o intuito de não acumular conteúdos.
+- Por se tratar de uma matéria teórica, é interessante o uso de alguma ferramenta para auxiliar a visualização dos conceitos vistos em aula. O JFLAP é recomendado.
+- Faça os exercícios de fixação (que não valem nota). Com eles você vai conseguir levar dúvidas para as aulas e conseguir resolver os exercícios avaliativos mais facilmente.
