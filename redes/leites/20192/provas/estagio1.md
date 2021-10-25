@@ -29,10 +29,10 @@ Em uma certa empresa, constatou-se que o acesso à rede por parte dos funcionár
 
 A frase "nota-se que o web caching ou servidor proxy pode ser tanto cliente quanto servidor" é verdadeira ou falsa? Justifique.
 
-### Questão 5
+#### Questão 5
 
 Uma requisição HTTP não encontrou resultado na cache da rede local e para buscar a informação no servidor original, teve que passar por **quatro** consultas DNS para resolução do domínio. Cada uma dessas consultas tem um tempo de resposta *T1, T2, ..., Tn*. Sem considerar o tempo de envio (tráfego na rede) do objeto de resposta, qual será o tempo total para que a requisição saia da máquina local do cliente e retorne com a resposta desejada?
 
-### Questão 6
+#### Questão 6
 
 Fale sobre as **vantagens e desvantagens** de se utilizar comutação por circuito ou comutação por pacotes.
