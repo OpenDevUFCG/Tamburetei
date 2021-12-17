@@ -21,14 +21,38 @@ Informações e conteúdos extras sobre a disciplina.
 TST é o sistema de submissão das questões resolvidas por alunos nas provas e exercícios. Aqui vai um guia de como usar a ferramenta.
 
 ### Instalar
-O script abaixo baixa e configura o tst de maneira automática. Não use a permissão root nele.
-
+Primeiro, verifique se você já tem o PIP instalado.
 ```sh
-bash -c "$(curl -q -sSL http://bit.ly/tst084)"
+pip3 --version
+```
+ou
+```sh
+pip --version
+```
+Caso você não tenha o PIP instalado, rode o seguinte comando:
+```sh
+sudo apt install python3-pip
+```
+ **Observe que pode ser necessário reiniciar o terminal para que ele reconheça o comando 'pip'**
+
+
+Agora, você poder executar o comando abaixo para instalar o TST.
+```sh
+pip install --user p1ufcg
+```
+
+Após reiniciar o terminal e rodar 'p1', a saída esperada é a seguinte:
+```sh
+uso: p1 [login | logout | checkout | commit | info]
+```
+E a do comando 'tst' é:
+```sh
+No tst tests found
 ```
 
 ### Comandos
-** O comando `tst --help` mostra todos os comandos disponíveis do tst. Além disso, o `tst <command> -- help` vai mostrar mais detalhes sobre o comando específico.
+** O comando `tst --help` mostra todos os comandos disponíveis do tst. Atualmente, o comando 'tst' só é utilizado para rodar os testes locais das questões.
+Todos os outros comandos, como o 'login' e o 'checkout' utilizam o comando 'p1'.
 
 Agora uma lista de todos os comandos:
 
@@ -37,9 +61,7 @@ Comando | Descrição
 **checkout** | Baixa uma questão do TST, cria um objeto e um diretório contendo o nome da questão passada como argumento.
 **commit** | Envia a sua resposta para o servidor.
 **login** | Faz o login para o tst-online usando um token e seu email. Automaticamente abrirá uma página no seu browser requisitando o token.
-**ls** | Lista todos os objetos do TST disponíveis.
-**test** | Valida sua resposta e roda os testes.
-**update** | Atualiza o TST para a última versão estável.
+**tst** | Valida sua resposta e roda os testes.
 
 ### Exemplo de Uso
 Nessa seção iremos simular o primeiro uso do TST, fazendo o login, resolvendo uma questão do TST, testando-a e  a submetendo para o servidor.
@@ -48,23 +70,17 @@ Nessa seção iremos simular o primeiro uso do TST, fazendo o login, resolvendo 
 Primeiro você precisar se logar no [TST-ONLINE](http://tst-online.appspot.com/) e, depois, logar-se no seu terminal usando sua conta. Para isso, use:
 
 ```sh
-tst login
+p1 login
 ```
 
-Esse comando irá abrir uma nova aba no seu browser mostrando o token necessário para realizar o login e seu e-mail usado no TST-Online. Copie o Token e cole no terminal como indicado.
-
-Além dessa maneira, você pode fazer o seguinte:
-
-Logar no [TST-ONLINE](http://tst-online.appspot.com/) e depois acessar diretamente o [LINK PARA GERAR O TOKEN](http://tst-online.appspot.com/activate). Por último logar no terminal usando:
-```sh
-tst login <token>
-```
+Após isso, você vai ser perguntado se deseja abrir uma janela no navegador padrão. Caso escolha "Não", você receberá um link que deve ser colado e copiado
+no seu navegador. Você deve fazer o login social com sua conta Google "@ccc.ufcg.edu.br".
 
 ### Checkout
 Agora vamos resolver uma questão, copie o checkout código de alguma questão do [TST](http://tst-online.appspot.com/#/) que você queria resolver e rode o seguinte comando:
 
 ```sh
-tst checkout <codigo_questao>
+p1 checkout <codigo_questao>
 ```
 Esse comando irá criar um novo diretório, vá para o diretório e comece a implementar a sua solução:
 
@@ -74,7 +90,7 @@ cd <codigo_questao>
 Caso queira fazer o checkout com um nome mais amigável, como por exemplo o nome da própria questão ao invés de seu código, também é possível fazer diretamente no checkout:
 
 ```sh
-tst checkout <codigo_questao> <nome_questao>
+p1 checkout <codigo_questao> <nome_questao>
 ```
 E em seguida:
 ```sh
@@ -84,7 +100,7 @@ cd <nome_questao>
 ### Testando
 Após implementar sua solução, você pode testá-la usando:
 ```sh
-tst test <arquivo_da_questao>
+tst <arquivo_da_questao>
 ```
 Onde `<arquivo_da_questao>` é seu arquivo **.py**.
 
@@ -99,13 +115,9 @@ Se você recebeu uma saída contendo apenas pontos( Ex: `.`, `...`), vocês pass
 Envie sua questão para o servidor:
 
 ```sh
-tst commit <arquivo_da_questao>
+p1 commit <arquivo_da_questao>
 ```
-Para verificar se você passou em todos os testes do servidor e sua resposta foi aceita use:
 
-```sh
-tst -s
-```
 
 ### Respostas de erro
 

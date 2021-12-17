@@ -34,4 +34,4 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 - [Coding Bat](https://codingbat.com/python)
 - [Codewars](https://www.codewars.com/)
 - [Coding Game](https://www.codingame.com/)
-- [URI Online Judge](https://www.urionlinejudge.com.br/judge/pt/login)
+- [Beecrowd Online Judge](https://www.beecrowd.com.br/judge/pt/login) (Antiga URI Online Judge)
