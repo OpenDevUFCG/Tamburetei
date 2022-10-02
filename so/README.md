@@ -6,6 +6,7 @@ title: Sistemas Operacionais
 
 - [Dificuldades Comuns](dificuldadesComuns.md)
 - [Extras](extras.md)
+- [Leites](leites)
 - [Links Úteis](linksUteis.md)
 - [Resumos](resumos/README.md)
 - [Visão Geral e Dicas](visaoGeralEDicas.md)
