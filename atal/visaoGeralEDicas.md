@@ -11,7 +11,7 @@ Informações que irão auxiliá-lo a cursar bem a disciplina e a compreender su
 - Divisão e conquista
 - Problemas de otimização
 - Algoritmos gulosos
-- Programaçao dinâmica
+- Programação dinâmica
 - Backtracking
 - Problemas NP-Completos
 - Aplicações. 
