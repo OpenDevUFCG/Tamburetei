@@ -35,19 +35,19 @@ Agora basta informar o nome da disciplina e a nova pasta será criada!
 
 ## Disciplinas
 
-### Primeiro Periodo
+### Primeiro Período
 
 - [Fundamentos de Matemática para Ciência da Computação I](fmcc1)
 - [Introdução à Computação](ic)
 - [Programação I](prog1)
 
-### Segundo Periodo
+### Segundo Período
 
 - [Cálculo Diferencial e Integral I](calculo1)
 - [Fundamentos de Matemática para Ciência da Computação II](fmcc2)
 - [Programação II](prog2)
 
-### Terceiro Periodo
+### Terceiro Período
 
 - [Álgebra Linear I](linear)
 - [Cálculo Diferencial e Integral II](calculo2)
@@ -95,6 +95,7 @@ Agora basta informar o nome da disciplina e a nova pasta será criada!
 
 - [Algoritmos Avançados](aa)
 - [Visualização de Dados](visu)
+- [Programação para Web](progweb)
 
 ## Regras
 

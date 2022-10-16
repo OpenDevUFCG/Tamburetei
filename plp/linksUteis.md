@@ -24,3 +24,4 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 - [Curso grátis de Haskell na Udemy](https://www.udemy.com/course/curso-haskell/)
 - [Excelente tutorial de Haskell](http://haskell.tailorfontela.com.br/)
 - [Tutorial de Prolog](http://www.let.rug.nl/bos/lpn//)
+- [Playlist introdutória de Haskell (Em inglês)](https://www.youtube.com/playlist?list=PLF1Z-APd9zK7usPMx3LGMZEHrECUGodd3)

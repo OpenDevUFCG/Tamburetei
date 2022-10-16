@@ -27,7 +27,7 @@ O protocolo TCP realiza todo o controle da comunicação, inclusive evitando a s
 
 Quais são as duas fases que o protocolo TCP usa dentro de uma conexão para controlar o congestionamento? Como elas se alternam?
 
-### Questão 5
+#### Questão 5
 
 Um aluno resolveu implementar uma variação do mecanismo de controle de congestionamento do TCP fazendo duas alterações:
 
@@ -36,7 +36,7 @@ Um aluno resolveu implementar uma variação do mecanismo de controle de congest
 
 Ao testar sua implementação, ele identificou que conseguiu uma melhora de desempenho em relação ao que estava tendo anteriormente. Por que isso aconteceu?
 
-### Questão 6
+#### Questão 6
 
 Assuma protocolo TCP com retransmissão rápida e limiar inicial de 100 segmentos. Mostre a evolução da janela e do limiar de congestionamento em função da rodada de transmissão considerando os seguintes eventos (assuma `JANELA = 1` para `RODADA = 1`):
 
