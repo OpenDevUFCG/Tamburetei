@@ -66,7 +66,6 @@ A disciplina é pautada em apresentar a teoria que embasa todo o estudo e as apl
   - O Neo4j é um sistema de gerenciamento e armazenamento de dados através de grafos (graph database).
   - Cypher é uma linguagem de consulta semelhante a SQL que se baseia no uso de padrões de nós e relacionamentos em um grafo.
 
-
 ### Avaliação
 
 Não há provas na disciplina, a avaliação é realizada através de:
