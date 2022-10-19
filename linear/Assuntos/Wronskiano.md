@@ -122,7 +122,7 @@ $$
 W2(t) = det \begin{bmatrix}
 e^{t} & 0 & sen(t)\\
 e^{t} & 0 & cos(t)\\
-e^{t} & 0 & -sen(t)
+e^{t} & e^{-t}sen(t) & -sen(t)
 \end{bmatrix} = sen(t)(sen(t) + cos(t)) = sen^{2}(t) - sen(t)cos(t) ≠ 0
 $$
 
@@ -235,7 +235,7 @@ $$
 w3(t) = det \begin{bmatrix}
 e^{t} & cos(t) & 0\\
 e^{t} & -sen(t) & 0\\
-e^{t} & -cos(t) & 0
+e^{t} & -cos(t) & e^{-t}sen(t)
 \end{bmatrix} = sen(t)(-sen(t) - cos(t)) = -sen^{2}(t) - sen(t)cos(t)
 $$
 
