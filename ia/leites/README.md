@@ -13,5 +13,5 @@ Uma coleção de materiais úteis que foram utilizados na disciplina em período
 ## Listas de Exercícios
 | Período | Links |
 | :--: | :--: |
-| Lista 1 2021.2 | [Link](https://github.com/OpenDevUFCG/Tamburetei/blob/master/ia/leites/listas/2021.2/lista1.md) |
-| Lista 2 2021.2 | [Link](https://github.com/OpenDevUFCG/Tamburetei/blob/master/ia/leites/listas/2021.2/lista2.md) |
+| Lista 1 2021.2 |  |
+| Lista 2 2021.2 |  |
