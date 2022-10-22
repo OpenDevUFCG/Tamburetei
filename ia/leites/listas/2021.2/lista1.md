@@ -1,7 +1,7 @@
 ---
 title: Lista de questões discursivas para estudo
 ---
-
+### Guia de Estudo para a Mini Prova 1
 #### Assuntos :   Introdução a IA, Agentes Inteligentes, Resolução de Problemas, Representação do Conhecimento, Tratamento de Incerteza, Aprendizagem
 
 
