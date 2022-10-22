@@ -2,7 +2,7 @@
 title: Lista de questões discursivas para estudo
 ---
 
-### Assuntos :   Introdução a IA, Agentes Inteligentes, Resolução de Problemas, Representação do Conhecimento, Tratamento de Incerteza, Aprendizagem
+#### Assuntos :   Introdução a IA, Agentes Inteligentes, Resolução de Problemas, Representação do Conhecimento, Tratamento de Incerteza, Aprendizagem
 
 
 1) Escolha e apresente a definição de IA em pelo menos 2 das 4 correntes (dimensões)  vistas em sala de aula (pensando/agindo humanamente/racionalmente)
