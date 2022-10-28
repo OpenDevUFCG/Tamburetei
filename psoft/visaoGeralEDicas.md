@@ -36,3 +36,11 @@ Especificamente, espera-se capacitar o aluno para:
 - Design Patterns com Java: Projeto orientado a objetos guiado por padrões
 - Refatoração: Aperfeiçoando o Projeto de Código Existente
 - A Philosophy of Software Design
+
+##Dicas
+
+Os laboratórios da disciplina (que compõem 40% da nota total) são cumulativos. Ou seja, é necessário corrigir os erros de um laboratório no próximo ou então a nota continuará sendo descontada em cada entrega.
+É importante estar tento a correção dos monitores e buscar a ajuda deles (caso sinta necessidade) para tais correções assim que possível.
+Os labs não são tão complexos, mas as vezes algum detalhe pode te pegar desprevinido e tomar bastante tempo. O ideal é começar o quão antes e ir tirando as dúvidas com os monitores antes do prazo de entrega "apertar".
+
+Quanto ao projeto da disciplina. É importante que haja uma boa divisão de tarefas entre o grupo e que se planeje bem a implementação antes de começá-la defato. Desse jeito, na hora de programar vai ser muito mais tranquilo.
