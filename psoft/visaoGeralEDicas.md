@@ -24,6 +24,12 @@ Especificamente, espera-se capacitar o aluno para:
 
 ## Avaliação
 
+A avaliação da disciplina é composta por questionários (peso 20%),laboratórios (peso 40%) e um projeto da disciplina (peso 40%).
+- Os questionários são semanais e abordam o conteúdo apresentado naquela semana.
+- Os laboratórios tem prazo de aproximadamente uma semana, e são a atualização do lab anterior (ou seja, problemas no lab de número x 
+precisam ser corrigidos no lab x+1 e seguintes. Do contrário continuarão sendo descontados da nota).
+- O projeto da disciplina tem o prazo de aproximadamente um mês e é passado no final do período. Ele é feito em grupos de 5.
+
 ## Bibliografia recomendada
 
 - Engenharia de Software Moderna
