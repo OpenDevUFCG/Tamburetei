@@ -23,6 +23,8 @@ Especificamente, espera-se capacitar o aluno para:
 ## Metodologia
 
 ## Avaliação
+
+** ⚠️ OBS: Avaliação do período 2022.1, talvez mude no futuro** 
 A avaliação da disciplina é composta por questionários (peso 20%),laboratórios (peso 40%) e um projeto da disciplina (peso 40%).
 - Os questionários são semanais e abordam o conteúdo apresentado naquela semana.
 - Os laboratórios tem prazo de aproximadamente uma semana, e são a atualização do lab anterior (ou seja, problemas no lab de número x 
