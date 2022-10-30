@@ -36,3 +36,4 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 - [Coding Game](https://www.codingame.com/)
 - [Beecrownd](https://www.beecrowd.com.br/judge/en/login)
 - [Dirlididi](http://dirlididi.com/client/index.html#)
+
