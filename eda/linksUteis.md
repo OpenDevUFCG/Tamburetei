@@ -10,6 +10,7 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 - [Ferramentas](#ferramentas)
 - [Implementações](#implementacoes)
 - [Vídeoaulas](#videoaulas)
+- [Sites para praticar](#sites-para-praticar)
 
 ## Livros e Apostilas
 
@@ -39,3 +40,9 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 - [Vídeo aulas - João Arthur](https://www.youtube.com/channel/UC4NsU3jarSjsR93NIn4PyPA)
 - [Curso - Introduction to Algorithms (MIT)](https://www.youtube.com/playlist?list=PL8B24C31197EC371C)
 
+## Sites para praticar
+- [Beecrowd (antigo URI)](https://www.beecrowd.com.br/)
+- [Leetcode](https://leetcode.com/)
+- [Codewars](https://www.codewars.com/)
+- [Hackerrank](https://www.hackerrank.com/)
+- [Exercism](https://exercism.org/)
