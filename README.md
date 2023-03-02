@@ -76,6 +76,7 @@ Agora basta informar o nome da disciplina e a nova pasta será criada!
 ### Sexto Período
 
 - [Inteligência Artificial](ia)
+- [Programação Concorrente](concorrente)
 
 ### Sétimo Período
 
