@@ -76,6 +76,7 @@ Agora basta informar o nome da disciplina e a nova pasta será criada!
 ### Sexto Período
 
 - [Inteligência Artificial](ia)
+- [Programação Concorrente](prog_concorrente)
 
 ### Sétimo Período
 
@@ -88,14 +89,20 @@ Agora basta informar o nome da disciplina e a nova pasta será criada!
 
 ### Optativas Gerais
 
+- [Álgebra Vetorial e Geometria Analítica](vetorial)
 - [Economia](economia)
 - [Administração e Empreendedorismo](administracao)
 
 ### Optativas Específicas
 
 - [Algoritmos Avançados](aa)
+
+- [Percepção Computacional](percepcao)
 - [Visualização de Dados](visu)
+- [Processamento de Linguagem Natural](pln)
 - [Programação para Web](progweb)
+- [Transformação Digital](td)
+- [Visualização de Dados](visu)
 
 ## Regras
 
