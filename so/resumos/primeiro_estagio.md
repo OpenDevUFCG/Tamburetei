@@ -104,7 +104,7 @@ que o outro o acorde de forma que nenhum consiga ser acordado nem acordar o outr
 - É importante que não haja interrupção entre o teste e a ação. Por isso, existem comandos chamados de
 **TSL** (test and set lock) para realizar o teste e a modificação de um registrador em um só comando.
 
-- **Monitores** objetivo de encapsular as chamadas do semáforo em abstrações de alto nível, facilitando a vida do programador e garantindo a exclusão mútua de execução.
+- **Monitores** são mecanismos que possuem objetivo de encapsular as chamadas do semáforo em abstrações de alto nível, facilitando a vida do programador e garantindo a exclusão mútua de execução.
 
 ## Escalonamento de Processos
 
