@@ -1,6 +1,7 @@
 ---
-Title: Regra de Crammer
+title: Regra de Crammer
 ---
+
 ### O que é a Regra de Crammer?
 
 A Regra de Crammer é uma das formas de achar os valores dos coeficeintes em um sistema linear usando determinantes.
