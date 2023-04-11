@@ -96,7 +96,10 @@ Agora basta informar o nome da disciplina e a nova pasta será criada!
 ### Optativas Específicas
 
 - [Algoritmos Avançados](aa)
+
 - [Percepção Computacional](percepcao)
+- [Visualização de Dados](visu)
+- [Processamento de Linguagem Natural](pln)
 - [Programação para Web](progweb)
 - [Transformação Digital](td)
 - [Visualização de Dados](visu)
