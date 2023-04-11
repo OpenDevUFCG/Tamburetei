@@ -24,6 +24,34 @@ Uma coleção de materiais úteis que foram utilizados na disciplina em período
 
 ## Provas
 
+### 2020.2
+**Prova** | **Reposição?** | **Links**  |
+:---: | :---:| :---: |
+1º estágio | Não | [Link](https://drive.google.com/file/d/1oG-ZVLc7PfYyixi7KlwOYbpT35OKAX9T/view?usp=sharing) |
+2º estágio | Não | [Link](https://drive.google.com/file/d/1QJaZNn6_bQCGSwizwyR1d6gghVVaF65O/view?usp=sharing) |
+
+### 2020.1
+**Prova** | **Reposição?** | **Links**  |
+:---: | :---:| :---: |
+1º estágio | Não | [Link](https://drive.google.com/file/d/147hsiWqqIGourS-fLz-86QTRV91EmIM5/view?usp=sharing) |
+1º estágio | Sim | [Link](https://drive.google.com/file/d/1IJdzl1V_IvCFPXATliCHvi6SUjpBc2Do/view?usp=sharing) |
+2º estágio | Não | [Link](https://drive.google.com/file/d/1xNWs4G-KICexfDPja-Z7uS8g2XSA4jMY/view?usp=sharing) |
+2º estágio | Sim | [Link](https://drive.google.com/file/d/1QM3Cbjc4nUQaiI7Puu0G39mVC8ZduJIg/view?usp=sharing) |
+3º estágio | Não | [Link](https://drive.google.com/file/d/1ggwJ4h8e_1t1s5qpiGEW0AJY4hAjfLSP/view?usp=sharing) |
+3º estágio | Sim | [Link](https://drive.google.com/file/d/1VN7R81MSyulvvNEWXH48eSMZLrQLd9hY/view?usp=sharing) |
+Final | - | [Link](https://drive.google.com/file/d/1iPjOOJ9l_NzbnOKhGg43LGLy_HUWS86h/view?usp=sharing) |
+
+
+### 2019.2
+**Prova** | **Reposição?** | **Links**  |
+:---: | :---:| :---: |
+1º estágio | Não | [Link](https://drive.google.com/file/d/1W7EQMEVptMasu6yL_0otSGjeUb6L24mB/view?usp=sharing) |
+1º estágio | Sim | [Link](https://drive.google.com/file/d/1YTSui3jnuu2jXakzXVxYeltStCFffUbs/view?usp=sharing) |
+2º estágio | Não | [Link](https://drive.google.com/file/d/1xLPq2_oUFL010ipywOaEs-YDFdq640x-/view?usp=sharing) |
+2º estágio | Sim | [Link](https://drive.google.com/file/d/1CwP3Q214zmJHSPSEZwvS9z_vyRS-84vj/view?usp=sharing) |
+3º estágio | Não | [Link](https://drive.google.com/file/d/1v-qTD_Bz7XgRmxL-YBW6r6vz7YlEc6I9/view?usp=sharing) |
+3º estágio | Não | [Link](https://drive.google.com/file/d/1j9ro75z61fB2Jhh5bte1BfmLlxdlOfLr/view?usp=sharing) |
+
 ### 2019.1
 **Prova** | **Reposição?** | **Links**  |
 :---: | :---:| :---: |

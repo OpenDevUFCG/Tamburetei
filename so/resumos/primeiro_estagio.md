@@ -85,6 +85,8 @@ que o outro o acorde de forma que nenhum consiga ser acordado nem acordar o outr
 
 - Semáforo é um contado de wakeups.
 
+- Mecanismo alternativo a sincronização de processos e exclusão mútua na região crítica, usando recursos implementados pelo SO
+
 - Contêm duas operações principais *down(sem)* e *up(sem)*
 ```javascript
   down(sem){
@@ -104,7 +106,10 @@ que o outro o acorde de forma que nenhum consiga ser acordado nem acordar o outr
 - É importante que não haja interrupção entre o teste e a ação. Por isso, existem comandos chamados de
 **TSL** (test and set lock) para realizar o teste e a modificação de um registrador em um só comando.
 
-- **Monitores** são mecanismos que possuem objetivo de encapsular as chamadas do semáforo em abstrações de alto nível, facilitando a vida do programador e garantindo a exclusão mútua de execução.
+- Sempre que quero implementar exclusão mútua na região crítica o valor do semáforo é sempre 1, pois é o número de processos que você quer que esteja na região crítica. Ele é iniciado com 1 pra afirmar que a região crítica está disponível e são feitas operações de up(incremento) e down(decremento) sobre o mesmo.
+
+- **Monitores** são mecanismos de alto nível cujo objetivo principal é garantir a exclusão mútua de 
+execução.
 
 ## Escalonamento de Processos
 

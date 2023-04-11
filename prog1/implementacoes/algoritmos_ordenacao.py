@@ -109,6 +109,72 @@ def partition(values, low, high):
     values[i+1],values[high] = values[high],values[i+1]
     return i + 1
 
+
+def merge_sort(values, low, high):
+    """Ordena uma lista, em ordem crescente, utilizando
+    o algoritmo Merge Sort.
+
+    Baseado na estratégia de dividir-conquistar, o Merge Sort
+    ordena uma lista de valores recursivamente. Durante
+    cada chamada da funcao merge_sort(values, low, high), 
+    a lista é dividida pela metade até que possua um único elemento 
+    (este é caso base - trivialmente, se len(lista) == 1, a lista está ordenada). 
+    Quando len(lista) == 1, a função merge(values, low, mid, high) começa a 
+    ser chamada e fica responsável por unificar as metades produzindo uma 
+    única lista de valores ordenada. No pior dos casos, a complexidade 
+    do algoritmo é O(nlogn).
+
+
+    Parameters
+    ----------
+    values: list
+        A lista que deve ser ordenada.
+    low: int
+        Índice que indica a partir de qual
+        posição a ordenação começar.
+    high: int
+        Índice da lista que indica em qual posição
+        a ordenação deve encerrar.
+
+    """
+    if low < high:
+        mid = (low + high) // 2
+        merge_sort(values, low, mid)
+        merge_sort(values, mid + 1, high)
+        merge(values, low, mid, high)
+
+
+def merge(values, low, mid, high):
+    # Calcula o tamanho de cada metade. 
+    n = mid - low + 1
+    m = high - mid
+    # Copia os valores da subsequência values[low..mid]
+    # e values[mid + 1..high] para a metade da esquerda
+    # e para a metade da direita, respectivamente.
+    left = []
+    right = []
+    for i in range(n):
+        left.append(values[low + i])
+    for j in range(m):
+        right.append(values[mid + j + 1])
+    # Adiciona sentinelas para evitar com que
+    # fiquemos checando se todos elementos de uma
+    # metade ja foram adicionados.
+    left.append(float("inf"))
+    right.append(float("inf"))
+    # Junta a metade da esquerda com a metade da direita
+    # produzindo uma unica subsequência  ordenada values[low..high].
+    i = 0
+    j = 0
+    for k in range(low, high + 1):
+        if left[i] <= right[j]:
+            values[k] = left[i]
+            i += 1
+        else:
+            values[k] = right[j]
+            j += 1
+    
+
 # DEMONSTRAÇÃO
 #
 # O código abaixo pode ser executado para observação do funcionamento
@@ -162,3 +228,10 @@ values = random_list(10, 1000)
 print (values)                      # Imprime lista não-ordenada.
 quick_sort(values)                 
 print (values)                      # Imprime lista ordenada.
+
+print("\nMerge Sort")
+values = random_list(10, 1000) 
+print(values)                       # Imprime lista não-ordenada.
+merge_sort(values, 0, len(values) - 1)
+print(values)                       # Imprime lista ordenada.
+

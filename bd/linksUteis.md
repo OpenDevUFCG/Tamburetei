@@ -4,6 +4,11 @@ title: Links Úteis
 
 Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 
+## Plataformas para Gerar Modelos de Entidade Relacional(MER)
+
+- [brModelo](https://sourceforge.net/projects/brmodelo/files/latest/download)
+- [Diagrams.net](https://app.diagrams.net/)
+
 ## Sumário
 
 - [Material de Estudo](#material-de-estudo)

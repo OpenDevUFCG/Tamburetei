@@ -7,10 +7,10 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 ## Sumário
 
 - [Material de Estudo](#material-de-estudo)
-    - [Front-end](#front-end)
+  - [Front-end](#front-end)
 - [Ferramentas](#ferramentas)
-    - [IDEs](#ides)
-    - [Outros](#outros)
+  - [IDEs](#ides)
+  - [Outros](#outros)
 - [Blogs](#blogs)
 - [Imagens](#imagens)
 - [Ícones](#ícones)
@@ -20,21 +20,29 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 ## Material de Estudo
 
 ### Front-end
+
 - [FreeCodeCamp](https://learn.freecodecamp.org/)
 - [Google Web Design Fundamentals](https://developers.google.com/web/fundamentals/)
 - [Team Threehouse](http://teamtreehouse.com/)
 - [SitePoint](http://www.sitepoint.com/)
 - [Khan Academy](https://www.khanacademy.org/computing/cs)
 
+### Design Patterns
+
+- [Source Making](https://sourcemaking.com/design_patterns)
+- [Engenharia de Software Moderna](https://engsoftmoderna.info/cap5.html)
+
 ## Ferramentas
 
 ### IDES
+
 - [VSCode](https://code.visualstudio.com/download)
 - [Sublime](http://www.sublimetext.com/)
 - [Brackets](http://brackets.io/)
 - [Atom](https://atom.io/)
 
 ### Outros
+
 - [Codepen](http://codepen.io/)
 - [JsFiddle](http://jsfiddle.net/)
 - [jsBeutify](http://tool.lu/js/)
@@ -44,6 +52,7 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 
 - [Scotch](https://scotch.io/)
 - [Team threehouse](http://blog.teamtreehouse.com/)
+- [Refactoring and Design patterns](https://refactoring.guru/) 
 
 ## Imagens
 

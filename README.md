@@ -1,5 +1,5 @@
 
-# Tamburetei [![chat on Discord](https://img.shields.io/discord/558293573494112257.svg?logo=discord)](https://discordapp.com/invite/vFFGGEE)
+# Tamburetei [![chat on Discord](https://img.shields.io/discord/558293573494112257.svg?logo=discord)](https://discord.gg/UgR5WrY)
 ![Tamburetei Logo](https://i.imgur.com/FOgBKcI.png)
 
 Tamburetei vai te ajudar a fazer de tamburete aquela cadeira de CC. Direcionado ao curso de Ciência da Computação da UFCG, esse repositório é um trabalho colaborativo contendo dicas, links úteis e leites das disciplinas do curso. A ideia é que veteranos ajudem os novatos e ninguém mais passe sufoco em nenhuma cadeira. :)
@@ -35,19 +35,19 @@ Agora basta informar o nome da disciplina e a nova pasta será criada!
 
 ## Disciplinas
 
-### Primeiro Periodo
+### Primeiro Período
 
 - [Fundamentos de Matemática para Ciência da Computação I](fmcc1)
 - [Introdução à Computação](ic)
 - [Programação I](prog1)
 
-### Segundo Periodo
+### Segundo Período
 
 - [Cálculo Diferencial e Integral I](calculo1)
 - [Fundamentos de Matemática para Ciência da Computação II](fmcc2)
 - [Programação II](prog2)
 
-### Terceiro Periodo
+### Terceiro Período
 
 - [Álgebra Linear I](linear)
 - [Cálculo Diferencial e Integral II](calculo2)
@@ -89,11 +89,13 @@ Agora basta informar o nome da disciplina e a nova pasta será criada!
 ### Optativas Gerais
 
 - [Economia](economia)
+- [Administração e Empreendedorismo](administracao)
 
 ### Optativas Específicas
 
 - [Algoritmos Avançados](aa)
 - [Visualização de Dados](visu)
+- [Programação para Web](progweb)
 
 ## Regras
 
