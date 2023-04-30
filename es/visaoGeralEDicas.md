@@ -22,7 +22,7 @@ Apesar de envolver muitos conhecimentos teóricos, que terão profundo impacto n
 
 ## Dicas
 
-- Consideranto o impacto dos minitestes na nota final da disciplina, é importante evitar acumular assuntos e estudar com uma frequência constante, preferencialmente acompanhando os conteúdos vistos a cada aula. Pelo mesmo motivo, evite faltar muitas aulas.
+- Considerando o impacto dos minitestes na nota final da disciplina, é importante evitar acumular assuntos e estudar com uma frequência constante, preferencialmente acompanhando os conteúdos vistos a cada aula. Pelo mesmo motivo, evite faltar muitas aulas.
 
 - No projeto da disciplina, a produção da documentação impacta mais a nota do que o desenvolvimento em si. Lembre-se que é através dela que você e sua equipe poderão mostrar a compreensão que tem sobre os assuntos abordados na disciplina. Não deixe que a parte prática ocupe-os o suficiente para atrapalhar o processo de documentação.
 

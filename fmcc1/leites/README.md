@@ -28,3 +28,9 @@ Uma coleção de materiais úteis que foram utilizados na disciplina em período
 :---: | :---:| :---: |
 1 | Lógica Proposicional | [Link](https://drive.google.com/file/d/1iBZ9hPe9SbDe0vm4FUazQ1gIHWk5pQ6Q) |
 2 | Lógica de Predicados | [Link](https://drive.google.com/file/d/1duWOd6wt3cujkNJrn4r7VhHl2NspqbaM) |
+
+## Material de APoio
+
+**Material** | **Assunto** | **Links**  |
+:---: | :---:| :---: |
+1 | Lógica Booleana | [Link](https://drive.google.com/file/d/1ZYXoG2azIqMFtYz_cgsA7wo96836PYMe/view?usp=sharing) |
