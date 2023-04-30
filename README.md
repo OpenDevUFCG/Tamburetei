@@ -101,6 +101,7 @@ Agora basta informar o nome da disciplina e a nova pasta será criada!
 - [Visualização de Dados](visu)
 - [Processamento de Linguagem Natural](pln)
 - [Programação para Web](progweb)
+- [Programação Funcional](funcional)
 - [Transformação Digital](td)
 - [Visualização de Dados](visu)
 
