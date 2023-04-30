@@ -3,6 +3,7 @@ title: Resumos
 ---
 
 - [Aula Introdutória](aula1_revisao.md)
+- [Conceitos Iniciais](conceitosIniciais.md) 
 - [1° Estágio](primeiro_estagio.md)
 - [Condição de Corrida](condicaoDeCorrida.md)
 - [Gerência de Memoria](gerenciaDeMemoria.md) 
