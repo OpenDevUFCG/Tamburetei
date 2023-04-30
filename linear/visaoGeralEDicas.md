@@ -6,7 +6,7 @@ Informações que irão auxiliá-lo a cursar bem a disciplina e a compreender su
 ## Ementa
 
 - Matrizes.
-- Sistemas de equações lineares.
+- [Sistemas de equações lineares](./Assuntos/RegraCrammer.md).
 - Espaços Vetoriais.
 - Transformações Lineares.
 - Autovalores e Auto-vetores.

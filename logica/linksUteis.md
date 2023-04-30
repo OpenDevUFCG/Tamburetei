@@ -12,6 +12,7 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 
 ## Material de Estudo
 
+- [Ebook Lógica de Programacao para iniciantes - Gustavo Furtado de Oliveira Alves](https://dicasdeprogramacao.com.br/download/ebook-logica-de-programacao-para-iniciantes.pdf)
 - [Material de Lógica da *DAINF*](http://www.dainf.ct.utfpr.edu.br/~adolfo/Disciplinas/LogicaParaComputacao_novo/)
 - [Dedução Natural](https://galdino.catalao.ufg.br/up/635/o/deducaonatural.pdf)
 - [Introdução e Histórico - Tiago Massoni](https://tiagomassoni.github.io/logic-texts/Introdu%C3%A7%C3%A3o%20e%20Hist%C3%B3rico%20802c6309efb0482da14a2b862918e51e.html)
@@ -19,6 +20,11 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 ## Exercícios 
 
 - [Listas de Exercícios (2014 a 2018)](https://sites.google.com/site/logicamatematicaufcg/listas-de-exercicios) 
+
+## Ferramentas para estudo
+
+- [Gerador de tabelas verdade](https://web.stanford.edu/class/cs103/tools/truth-table-tool/)
+- [Gerador de tableau semântico](https://www.umsu.de/trees/)
 
 ## Projetos Antigos
 
