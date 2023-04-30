@@ -6,6 +6,7 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 
 ## Sumário
 
+- [Sumário](#sumário)
 - [Material de Estudo](#material-de-estudo)
 - [Plataformas de Estudo](#plataformas-de-estudo)
 - [Ferramentas](#ferramentas)
@@ -20,6 +21,8 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 - [Resumo - Derivadas](https://drive.google.com/file/d/15z71vsm-tQbQ2RQ1S5-AgXlq0pXZ11Pa/view?usp=sharing)
 - [Resumo - Integrais](https://drive.google.com/file/d/1kLzx57zw-m0PncroJ8TFegA_1aaeN33k/view?usp=sharing)
 - [MA111 - Cálculo I](https://cursos.ime.unicamp.br/disciplinas/calculo/)
+- [Notas de Aula - UAMat - 2020.1e](https://drive.google.com/file/d/1VlNohVfO14aklmowGtWq2i5kt0BXGbbG/view?usp=sharing)
+- [Livro de James Stewart](https://drive.google.com/file/d/1s9sARqZHemhI_RfRrEqOShprn4s6hlXO/view?usp=share_link)
 
 ## Plataformas de Estudo
 

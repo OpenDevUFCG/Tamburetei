@@ -21,6 +21,11 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 
 - [Listas de Exercícios (2014 a 2018)](https://sites.google.com/site/logicamatematicaufcg/listas-de-exercicios) 
 
+## Ferramentas para estudo
+
+- [Gerador de tabelas verdade](https://web.stanford.edu/class/cs103/tools/truth-table-tool/)
+- [Gerador de tableau semântico](https://www.umsu.de/trees/)
+
 ## Projetos Antigos
 
 - [Arquivos](https://github.com/AndersonVidal/ProjetoAlloy)
