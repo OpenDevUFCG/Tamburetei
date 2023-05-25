@@ -52,7 +52,7 @@ Uma coleção de materiais úteis que foram utilizados na disciplina em período
 2º estágio | Não | [Link](https://docs.google.com/document/d/e/2PACX-1vT8irafkW8r-r6WjlT6R7EfZhX_B8BChfdwGfoheOc5xLVwhCtpXB5pWxMMGSg0Dr0vJrhQ3z47BvZV/pub) |
 2º estágio | Sim | [Link](https://docs.google.com/document/d/e/2PACX-1vRCAHJkK71xDDCgxivp4KwyOQbmB0HfZzAnTRBrcZgu9aMccvjb16aZ4wn-2X-BWA-m51XtHTgxiDpr/pub) |
 
-### 2020.RAE
+### 2020.0
 **Prova** | **Reposição?** | **Links** |
 :---: | :---: | :---: |
 Lab 02 | Não | [Link](https://docs.google.com/document/d/1IrHJo41u2EAfmczhK5wz6mkB20V8HWDfu2Z6cPF84RE/edit) |
@@ -61,6 +61,12 @@ Lab 04 | Não | [Link](https://docs.google.com/document/d/1Y0kDI_gyY9HXqo7IDSwEd
 Lab 05 | Não | [Link](https://docs.google.com/document/d/17hAlr7XmbsPBuuvTUVm50mWJqgGxtKMmyT--r1Ly-Xw/edit) |
 Lab 06 | Não | [Link](https://docs.google.com/document/d/1CYqenLqalQ6bR8hYsCpPqcjugVJFHmjU09DxB9CS9Bo/edit) |
 Lab 07 | Não | [Link](https://docs.google.com/document/d/e/2PACX-1vQr1u6oM_Bms7BTv1EP4krNhrfXaVoai5yoErdED6V_Clhvqq9WHBrD6Oc8UluMKkoNsSAeusBVOC-8/pub) |
+### 2019.2
+**Prova** | **Reposição?** | **Links** |
+:---: | :---:| :---: |
+1º simulado | Não | [Link](https://docs.google.com/document/d/e/2PACX-1vTlLIvbFZljlcKtELtD7COKBn8S13Eoa2D06on4SfpA1mvyDzOsS7ynhMY8DvpLYRsUx5mWxwxh5c-Q/pub) |
+2º estágio | Não | [Link](https://docs.google.com/document/d/e/2PACX-1vSowexvMOgxE93kIVwWHwhX1UxgqTpsQ41WKaOKjLp78o86jHPx6DgwhV4m0PL_vZl79-o77jATV2Yg/pub) |
+2º estágio | Sim | [Link](https://docs.google.com/document/d/e/2PACX-1vRDsuO7P7AyaEOj7ivsXgJYdnjFYShXlUp2o2HWK_4opYpOp3USRz_nlAeiyadQCbcJSDBKubTeikud/pub) |
 
 ## Outros
 

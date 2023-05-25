@@ -26,6 +26,7 @@ Em Programação 2, você aprenderá os principais conceitos da programação or
 - Procure sempre resolver os exercícios de design em sala de aula (diagrama UML). A prova sempre pede que você faça o diagrama de situações bem semelhantes, além de questões sobre os conceitos vistos em sala.
 
 - Procure algum curso online (nas plataformas Coursera, EDX, Codecademy...) sobre Java, ajuda bastante a absorver os assuntos e colocá-los em prática.
+    -[Este](https://www.sololearn.com/learning/1068) curso, apesar de cobrir a parte prática com pequenos trechos de códigos e projetos, ele cobre muito bem a parte teórica de forma concisa e direta, com ótimos exemplos. O site é originalmente em inglês, mas dá para traduzir a página. 
 
 - Procure sempre resolver provas passadas com os conteúdos aprendidos em sala. Por mais que as provas não exijam certas especificações, sempre tente implementar os diagramas UML de provas que você já fez mas de novas formas (usando coleções, herança, interfaces etc).
 
