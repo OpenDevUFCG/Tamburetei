@@ -51,48 +51,6 @@
 					</execution>
 				</executions>
 			</plugin>
-			<!-- PARA LIMPAR OS IMPORTS QUE NAO SAO UTILIZADOS -->			
-			<plugin>
-				<groupId>org.walkmod</groupId>
-				<artifactId>maven-walkmod-plugin</artifactId>
-				<version>1.3</version>
-				<configuration>
-					<configFile>walkmod.xml</configFile>
-				</configuration>
-				<executions>
-					<execution>
-						<phase>package</phase>
-						<goals>
-							<goal>apply</goal>
-						</goals>
-						<configuration>
-							<skipWalkmod>false</skipWalkmod>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin>
-			<plugin>
-				<groupId>br.edu.ufcg.ccc</groupId>
-				<artifactId>leda-compactor-tool</artifactId>
-				<version>1.0.0-SNAPSHOT</version>
-				<executions>
-					<execution>
-						<phase>install</phase>
-						<goals>
-							<goal>compact</goal>
-						</goals>
-						<configuration>
-							<!-- insira sua matricula -->
-							<matricula>117210697</matricula>
-							<!-- insira o ID correto da atividade e a turma -->
-							<roteiro>PP2-01</roteiro>
-							<!-- NÃO MODIFIQUE AS TAGS ABAIXO -->
-							<semestre>2018.2</semestre>
-							<url>http://150.165.85.29:81/submitAtividade</url>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin>
 		</plugins>
 	</build>
 </project>
