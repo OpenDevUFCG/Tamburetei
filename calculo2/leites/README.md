@@ -7,10 +7,10 @@ Uma coleção de materiais úteis que foram utilizados na disciplina em período
 ## Provas
 
 ### 2021.2
-
-|     **Prova**      | **Reposição?** |                                          **Links**                                          |
-| :----------------: | :------------: | :-----------------------------------------------------------------------------------------: |
-| 1º estágio - Tarde |      Não       | [Link](https://drive.google.com/file/d/1oRo1mFAwN0TvZiqSOd8VD7VUnSS4X-LS/view?usp=drivesdk) |
+|    **Prova**      | **Reposição?** | **Links** |
+|:----------------: | :------------: | :-------: |
+1º estágio - Manhã | Não | [Link](https://drive.google.com/file/d/18dS61Ve0QbHDnQvz0hx6htzGQGCoCqHD/view?usp=sharing) |
+1º estágio - Tarde | Não | [Link](https://drive.google.com/file/d/1ovl_PFDYo1VBwSvA7knRix_iPeGFqgdV/view?usp=sharing) |
 
 ### 2020.2e
 
@@ -61,5 +61,5 @@ Uma coleção de materiais úteis que foram utilizados na disciplina em período
 |     **Prova**      | **Reposição?** |                                 **Links**                                  |
 | :----------------: | :------------: | :------------------------------------------------------------------------: |
 |     3º estágio     |      Não       | [Link](https://drive.google.com/open?id=1LVqcSX1h8Hny_jMncuf0ag45kL-hAjvL) |
-| 3º estágio - Tarde |      Som       | [Link](https://drive.google.com/open?id=1wAEa1zivQw1sauT9e3BTVrrnmQr_rcFd) |
+| 3º estágio - Tarde |      Sim       | [Link](https://drive.google.com/open?id=1wAEa1zivQw1sauT9e3BTVrrnmQr_rcFd) |
 |       Final        |       -        | [Link](https://drive.google.com/open?id=1bE17azD4RjRfFOzO4HNSm1f9rFtTnu76) |
