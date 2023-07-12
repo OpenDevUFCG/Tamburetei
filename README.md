@@ -4,6 +4,12 @@
 
 Tamburetei vai te ajudar a fazer de tamburete aquela cadeira de CC. Direcionado ao curso de Ciência da Computação da UFCG, esse repositório é um trabalho colaborativo contendo dicas, links úteis e leites das disciplinas do curso. A ideia é que veteranos ajudem os novatos e ninguém mais passe sufoco em nenhuma cadeira. :)
 
+## Como contribuir
+
+Leia o [CONTRIBUTING.md](CONTRIBUTING.md)!
+
+É normal uma disciplina mude de metodologia ao longo do tempo. Se você notou alguma informação defasada, abra uma issue alertando-nos sobre o fato e, quem sabe, contribua para resolvermos o problema.
+
 
 ## Como funciona?
 
@@ -31,6 +37,12 @@ E, em seguida, execute o comando:
 ```
 
 Agora basta informar o nome da disciplina e a nova pasta será criada!
+
+## Regras
+
+- Respeite o código de conduta.
+- Proibido falar mal dos professores. Evite, ao máximo, comentar opiniões pessoais de qualquer natureza sobre professores.
+- Proibido publicar soluções de atividades avaliativas das disciplinas que se repetem todos os períodos, tais como os roteiros de LEDA e os laboratórios de LP2.
 
 
 ## Disciplinas
@@ -105,18 +117,10 @@ Agora basta informar o nome da disciplina e a nova pasta será criada!
 - [Transformação Digital](td)
 - [Visualização de Dados](visu)
 
-## Regras
-
-- Respeite o código de conduta.
-- Proibido falar mal dos professores. Evite, ao máximo, comentar opiniões pessoais de qualquer natureza sobre professores.
-- Proibido publicar soluções de atividades avaliativas das disciplinas que se repetem todos os períodos, tais como os roteiros de LEDA e os laboratórios de LP2.
 
 
-## Como contribuir
 
-Leia o [CONTRIBUTING.md](CONTRIBUTING.md)!
 
-É normal uma disciplina mude de metodologia ao longo do tempo. Se você notou alguma informação defasada, abra uma issue alertando-nos sobre o fato e, quem sabe, contribua para resolvermos o problema.
 
 
 ## Tambureteiros
