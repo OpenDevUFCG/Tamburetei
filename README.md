@@ -47,57 +47,14 @@ Agora basta informar o nome da disciplina e a nova pasta será criada!
 
 ## Disciplinas
 
-### Primeiro Período
-
-- [Fundamentos de Matemática para Ciência da Computação I](fmcc1)
-- [Introdução à Computação](ic)
-- [Programação I](prog1)
-
-### Segundo Período
-
-- [Cálculo Diferencial e Integral I](calculo1)
-- [Fundamentos de Matemática para Ciência da Computação II](fmcc2)
-- [Programação II](prog2)
-
-### Terceiro Período
-
-- [Álgebra Linear I](linear)
-- [Cálculo Diferencial e Integral II](calculo2)
-- [Estrutura de Dados e Algoritmos](eda)
-- [Lógica para Computação](logica)
-- [Teoria dos Grafos](grafos)
-
-### Quarto Período
-
-- [Banco de Dados I](bd)
-- [Introdução à Probabilidade](probabilidade)
-- [Laboratório de Organização e Arquitetura de Computadores](loac)
-- [Organização e Arquitetura de Computadores](oac)
-- [Paradigmas de Linguagem de Programação](plp)
-- [Projeto de Software](psoft)
-
-### Quinto Período
-
-- [Análise de Sistemas](as)
-- [Engenharia de Software](es)
-- [Estatística Aplicada](estatistica)
-- [Redes de Computadores](redes)
-- [Sistemas Operacionais](so)
-- [Teoria da Computação](tc)
-
-### Sexto Período
-
-- [Inteligência Artificial](ia)
-- [Programação Concorrente](prog_concorrente)
-
-### Sétimo Período
-
-- [Análise e Técnicas de Algoritmos](atal)
-- [Compiladores](compiladores)
-
-### Oitavo Período
-
-- [Projeto de Trabalho de Conclusão de Curso](ptcc)
+|   **1° Período**   | **2° Período**    | **3° Período**  | **3° Período**  | **5° Período**   | **6° Período**   | **7° Período**    | **8° Período**    | **9° Período**     |
+| ---------------------------- | -------------------------------- | --------------------------------- | ----------------------------- | ----------------------- | ------------------------- | ------------ | ----------------------- | ------------------------ |
+| [FMCC I](fmcc1/)  | [FMCC II](fmcc2/)  | [Álgebra<br>Linear](linear/) | [Introdução à Probabilidade](probabilidade/) | [Estatística<br>aplicada](estatistica/) | [Metodologia<br>Cientifica]() | [ATAL](atal/)         | [Projeto em Computação I]() | [Projeto em Computação II]() |
+| [Programação I]() | [Programação II]() | [Estrutura de Dados](eda/)  | [OAC](oac/) | [SO](so/)    | [Programação Concorrente](prog_concorrente/)   | [Compiladores](compiladores/) | [Pré-TCC]() | [TCC]() |
+| [Laboratório de Programação I]() | [Laboratório de Programação II]()    | [Laboratório de Estrutura de Dados]() | [LOAC](loac/) | [Redes](redes/) | [Inteligência Artificial](ia/) | Optativa Geral | Optativa Geral | Optativa Específica |
+| [Introdução à Computação](ic/)      | [Cálculo Diferencial e Integral I](calculo1/) | [Cálculo Diferencial e Integral II](calculo2/) | [Banco de Dados I](bd/)   | [Teoria da Computação](tc/) | Optativa Específica | Optativa Específica | Optativa Específica | Optativa Específica      
+| Optativa Geral | [Lógica para Computação](logica/) | [Teoria dos grafos](grafos/)    | [Psoft](psoft/)   | [Engenharia de Software](es/)  |  Optativa Específica | Optativa Específica  |  Optativa Específica   | Optativa Específica |
+| | Optativa Geral | [PLP](plp/) | [Análise de Sistemas](as/) | | | | | Optativa Específica|
 
 ### Optativas Gerais
 
