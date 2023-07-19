@@ -1,7 +1,5 @@
 # Guia para o Primeiro Pull Request (PR)
 
-## Introdução
-
 Olá tambureteiro, este guia tem como objetivo fornecer um passo-a-passo para realizar sua primeira contribuição para este repositório. Pull Requests são uma forma de contribuir para projetos de código aberto, permitindo que você proponha alterações para o código existente, documentação ou correção de erros. No nosso caso, servirá para você adicionar, corrigir ou aprimorar conteúdos referentes as disciplinas ofertadas no curso.
 
 ## Passos para o seu primeiro Pull Request
@@ -49,7 +47,7 @@ Parabéns! Você fez o seu primeiro Pull Request!
 
 ## Dicas adicionais
 
-- Antes de começar a contribuir para um projeto, verifique as [diretrizes de contribuição]() do projeto.
+- Antes de começar a contribuir para um projeto, verifique as [diretrizes de contribuição](https://github.com/OpenDevUFCG/Tamburetei/blob/master/CONTRIBUTING.md) do projeto.
 
 - Mantenha o seu Pull Request pequeno e focado em uma única tarefa. Isso facilitará a revisão e a aceitação das suas alterações.
 
