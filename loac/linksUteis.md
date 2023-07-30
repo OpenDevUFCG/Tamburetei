@@ -16,6 +16,7 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 
 ## Livros e Apostilas
 
+- [Introdução ao Verilog - UFPE](https://www.cin.ufpe.br/~voo/sd/Aula6)
 - [Curso Básico de Verilog - UFTPR](http://paginapessoal.utfpr.edu.br/chiesse/disciplinas/logica-reconfiguravel/verilog/Curso%20Basico%20de%20Verilog.pdf/view)
 
 ## Ferramentas
