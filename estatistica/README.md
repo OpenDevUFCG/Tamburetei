@@ -8,5 +8,5 @@ title: Estatística Aplicada
 - [Extras](extras.md)
 - [Leites](leites)
 - [Links Úteis](linksUteis.md)
-- [Resumo](resumos)
+- [Resumos](resumos)
 - [Visão Geral e Dicas](visaoGeralEDicas.md)
