@@ -1,5 +1,5 @@
 ---
-title: Programação para Web
+title: Programação Funcional
 ---
 
 ## O que tem?
