@@ -1,7 +1,5 @@
 # Guia para o Primeiro Pull Request (PR)
 
-## Introdução
-
 Olá tambureteiro, este guia tem como objetivo fornecer um passo-a-passo para realizar sua primeira contribuição para este repositório. Pull Requests são uma forma de contribuir para projetos de código aberto, permitindo que você proponha alterações para o código existente, documentação ou correção de erros. No nosso caso, servirá para você adicionar, corrigir ou aprimorar conteúdos referentes as disciplinas ofertadas no curso.
 
 ## Passos para o seu primeiro Pull Request
