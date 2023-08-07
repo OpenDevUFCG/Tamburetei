@@ -120,15 +120,23 @@ git commit -m "Breve descrição das alterações"
 
 -----
 
-7. Antes de enviar o Pull Request, **verifique se o seu repositório remoto (no seu GitHub) está atualizado.** Use o seguinte comando para enviar o branch e as alterações para o seu repositório no GitHub:
+**7. Antes de enviar o Pull Request, verifique se o seu repositório remoto (no seu GitHub) está atualizado.**
 
 ```
-git push origin main
+git pull origin master
 ```
 
 -----
 
-**8. Agora que você enviou o branch com as alterações para o seu repositório no GitHub, você pode criar o Pull Request.**
+**8. Use o seguinte comando para enviar o branch e as alterações para o seu repositório no GitHub:**
+
+```
+git push origin master
+```
+
+-----
+
+**9. Agora que você enviou o branch com as alterações para o seu repositório no GitHub, você pode criar o Pull Request.**
 
 No seu repositório no GitHub, vá para a página do branch que você enviou e clique no botão "Compare & pull request". Preencha as informações necessárias para o Pull Request e clique em "Create pull request".
 
@@ -140,7 +148,7 @@ No seu repositório no GitHub, vá para a página do branch que você enviou e c
 
 -----
 
-**9. Aguarde a revisão e aceitação**
+**10. Aguarde a revisão e aceitação**
 
 Agora o seu PR foi criado e o core team do OpenDev será notificado sobre a sua contribuição. Aguarde a revisão das suas alterações e, se necessário, faça as correções solicitadas pelos revisores. Se tudo estiver certo, seu PR será aceito e suas alterações serão incorporadas ao projeto.
 
