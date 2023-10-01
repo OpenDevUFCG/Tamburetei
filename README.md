@@ -6,7 +6,7 @@ Tamburetei vai te ajudar a fazer de tamburete aquela cadeira de CC. Direcionado 
 
 ## Como contribuir
 
-Leia o [CONTRIBUTING.md](CONTRIBUTING.md)!
+Leia o  [Guia do Primeiro PR](GuiaPrimeiroPR.md) ou se você jé é experiente no mundo open source [CONTRIBUTING.md](CONTRIBUTING.md)!
 
 É normal uma disciplina mude de metodologia ao longo do tempo. Se você notou alguma informação defasada, abra uma issue alertando-nos sobre o fato e, quem sabe, contribua para resolvermos o problema.
 
