@@ -23,6 +23,7 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 
 - [Khan Academy](https://pt.khanacademy.org/math)
 - [Responde Aí](https://www.respondeai.com.br)
+- [omatematico.com](https://omatematico.com/integrais/)
 
 ## Ferramentas
 - [Symbolab](https://www.symbolab.com/)
