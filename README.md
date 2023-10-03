@@ -47,7 +47,7 @@ Agora basta informar o nome da disciplina e a nova pasta será criada!
 
 ## Disciplinas
 
-|   **1° Período**   | **2° Período**    | **3° Período**  | **3° Período**  | **5° Período**   | **6° Período**   | **7° Período**    | **8° Período**    | **9° Período**     |
+|   **1° Período**   | **2° Período**    | **4° Período**  | **3° Período**  | **5° Período**   | **6° Período**   | **7° Período**    | **8° Período**    | **9° Período**     |
 | ---------------------------- | -------------------------------- | --------------------------------- | ----------------------------- | ----------------------- | ------------------------- | ------------ | ----------------------- | ------------------------ |
 | [FMCC I](fmcc1/)  | [FMCC II](fmcc2/)  | [Álgebra<br>Linear](linear/) | [Introdução à Probabilidade](probabilidade/) | [Estatística<br>aplicada](estatistica/) | [Metodologia<br>Cientifica]() | [ATAL](atal/)         | [Projeto em Computação I]() | [Projeto em Computação II]() |
 | [Programação I]() | [Programação II]() | [Estrutura de Dados](eda/)  | [OAC](oac/) | [SO](so/) | [Programação Concorrente](prog_concorrente/) | [Compiladores](compiladores/) | [Pré-TCC]() | [TCC]() |
