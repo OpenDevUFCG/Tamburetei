@@ -2,4 +2,4 @@
 title: Dificuldades Comuns
 ---
 
-Uma lista de comentários sobre as principais dificuldades enfrentadas pelos alunos enquanto cursam a disciplina.
+1. OCL é o conteúdo mais diferente da disciplina, ele é geralmente o primeiro tópico do segundo estágio, vale muito a pena focar bastante nele.
