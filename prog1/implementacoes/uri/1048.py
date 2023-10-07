@@ -27,4 +27,4 @@ def reajuste(salario):
 	return "Novo salario: %.2f\nReajuste ganho: %.2f\nEm percentual: %i %%" %(novo_salario, reajuste, percentual)
 
 
-print reajuste(float(raw_input()))
+print(reajuste(float(input())))
