@@ -4,6 +4,13 @@ title: Leites
 
 Uma coleção de materiais úteis que foram utilizados na disciplina em períodos passados.
 
+## Provas 
+
+### 2022.1
+**Prova** | **Reposição?** | **Links**  |
+:---: | :---:| :---: |
+1º estágio | Não | [Link](https://drive.google.com/drive/folders/1Sa-w6BKKdPQfTapeGES35KG8O4uqQ-dn?usp=sharing) |
+
 ## Arquivos .tex
 
 Alguns dos leites apresentados aqui estão em arquivos .tex, um formato especialmente amigável para desenvolvimentos matemáticos como os da disciplina Fundamentos de Matemática para Ciência da Computação II.
