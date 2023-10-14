@@ -1,6 +1,14 @@
 ---
 title: Leites
 ---
+## Provas 
+
+### 2022.2
+**Prova** | **Reposição?** | **Links**  |
+:---: | :---:| :---: |
+EI 1 | Não | [Link](https://drive.google.com/file/d/1TNT6zb0XyYo0rsVeXEaa0JS9WFT0a9TI/view?usp=drive_link) |
+EI 2 | Não | [Link](https://drive.google.com/file/d/196YDbcEdVJC3whh6bMfbACEdy95ZGCQH/view?usp=drive_link) |
+EI 3 | Não | [Link](https://drive.google.com/file/d/1DE4Gbbu2qJyLSxZrsZDRB-jdRumiV_b0/view?usp=drive_link) |
 
 ## Exercícios Práticos
 
