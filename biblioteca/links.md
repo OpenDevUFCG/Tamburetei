@@ -31,4 +31,4 @@ Livros que podem auxiliar durante a graduação.
 - [Navathe - Sistema de banco de dados](https://drive.google.com/file/d/11Z7UrpfGUnnQUF7TEKAmlk_ct0kcNYeO/view?usp=sharing)
 
 ## EDA
-- [Cormen - Algoritmos Teoria e Prática](https://drive.google.com/file/d/11Z7UrpfGUnnQUF7TEKAmlk_ct0kcNYeO/view?usp=sharing)
+- [Cormen - Algoritmos Teoria e Prática](https://drive.google.com/file/d/1Lzy8i2NFk_BqmU-smGYKOplQL6GGN1uV/view?usp=sharing)
