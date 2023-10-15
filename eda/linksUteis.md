@@ -6,13 +6,13 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 
 ## Sumário
 
-- [Cormen - Algoritmos Teoria e Prática](https://drive.google.com/file/d/1Lzy8i2NFk_BqmU-smGYKOplQL6GGN1uV/view?usp=sharing)
 - [Livros e Apostilas](#livros-e-apostilas)
 - [Ferramentas](#ferramentas)
 - [Sites para praticar](#sites-para-praticar)
 
 ## Livros e Apostilas
 
+- [Cormen - Algoritmos Teoria e Prática](https://drive.google.com/file/d/1Lzy8i2NFk_BqmU-smGYKOplQL6GGN1uV/view?usp=sharing)
 - [Cracking the Coding Interview](https://www.pdfdrive.com/cracking-the-coding-interview-e52072841.html)
 
 ## Ferramentas
