@@ -6,7 +6,7 @@ title: Programação Concorrente
 
 - [Dificuldades Comuns](dificuldadesComuns.md)
 - [Extras](extras.md)
-- [Leites](leites)
+- [Provas](./provas)
 - [Links Úteis](linksUteis.md)
 - [Resumos](resumos/README.md)
 - [Visão Geral e Dicas](visaoGeralEDicas.md)
