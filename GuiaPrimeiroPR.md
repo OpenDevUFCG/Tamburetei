@@ -134,6 +134,9 @@ git pull origin master
 git push origin master
 ```
 
+> Caso encontre um erro após o comando acima, mais especificamente após inserir a sua senha, leia o seguinte artigo:<br>
+[Tokens - Github](https://www.alura.com.br/artigos/nova-exigencia-do-git-de-autenticacao-por-token-o-que-e-o-que-devo-fazer)
+
 -----
 
 **9. Agora que você enviou o branch com as alterações para o seu repositório no GitHub, você pode criar o Pull Request.**
