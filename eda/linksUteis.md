@@ -8,6 +8,8 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 
 - [Livros e Apostilas](#livros-e-apostilas)
 - [Ferramentas](#ferramentas)
+- [Implementações](#implementações)
+- [Vídeoaulas](#vídeoaulas)
 - [Sites para praticar](#sites-para-praticar)
 
 ## Livros e Apostilas
