@@ -6,6 +6,7 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 
 ## Bibliografias
 
+- [Harris and Harris - Terceira edição](https://drive.google.com/file/d/1l3fyyxx0yqgTfy6rzFssvk3kE9eA3eQw/view?usp=sharing)
 - [HARRIS, D. M. and HARRIS, S. L., Digital Design and Computer Architecture, Elsevier, Second Edition, 2013.](https://www.academia.edu/11907174/_Digital_Design_and_Computer_Architecture_by_David_Money_Harris_and_Sarah_L_Harris_)
 - [WATERMAN, A., Design of the RISC-V Instruction Set Architecture, 2016.](https://people.eecs.berkeley.edu/~krste/papers/EECS-2016-1.pdf)
 - [WATERMAN et al, A., The RISC-V Instruction Set Manual Volume II: Privileged Architecture Version 1.7, 2015.](https://riscv.org/wp-content/uploads/2017/05/riscv-privileged-v1.10.pdf)
