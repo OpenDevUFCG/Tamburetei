@@ -6,10 +6,9 @@ Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 
 ## Sumário
 
+- [Cormen - Algoritmos Teoria e Prática](https://drive.google.com/file/d/1Lzy8i2NFk_BqmU-smGYKOplQL6GGN1uV/view?usp=sharing)
 - [Livros e Apostilas](#livros-e-apostilas)
 - [Ferramentas](#ferramentas)
-- [Implementações](#implementacoes)
-- [Vídeoaulas](#videoaulas)
 - [Sites para praticar](#sites-para-praticar)
 
 ## Livros e Apostilas
