@@ -5,7 +5,8 @@ title: Links Úteis
 Uma lista de links que irão auxiliá-lo no estudo da disciplina.
 
 ## Sumário
-
+- [Programming Languagens Design Concepts](https://drive.google.com/file/d/1TzRX02zBcFx0WyxGuugodrDffT3cCAgS/view?usp=sharing)
+- [Conceitos PLP](https://drive.google.com/file/d/1v3N_05H3u4G_y9Eceihq5Wsk2eez_4mo/view?usp=sharing)
 - [Material de Estudo](#material-de-estudo)
 - [Projetos Antigos](#projetos-antigos)
 
