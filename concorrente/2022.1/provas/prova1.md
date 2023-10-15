@@ -4,6 +4,8 @@
 ## Disciplina: Programação Concorrente
 ### Professor: Thiago Emmanuel Pereira
 #### Prova 1
+```
+
 
 **Q1** - Considere a API abaixo. A função gateway deve criar nthreads threads diferentes. O código executado por cada thread deve ser o da função request. A função request deve sortear um número aleatório n e dormir n segundos. Após criar as threads, a função gateway deve esperar que até wait_nthreads terminem. Após a espera, a função gateway deve retornar a soma dos valores n sorteados nas funções request.
 
