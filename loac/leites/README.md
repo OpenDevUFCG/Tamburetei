@@ -2,6 +2,9 @@
 title: Leites
 ---
 
+## Roteiros
+- [Pipeline](roteiros/LOAC20222_Roteiro08_Pipeline.pdf)
+
 ## Máquinas de Estados
 
 - [Ar-Condicionado](maquinasDeEstados/arcondicionado.md)
