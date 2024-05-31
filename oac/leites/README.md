@@ -21,11 +21,3 @@ Uma coleção de materiais úteis que foram utilizados na disciplina em período
 :---: | :---:| :---: |
 2º estágio (MP1) | Não | [Link](https://drive.google.com/open?id=1zvB_X6zCef8U_U4J55pezIO1JcF_wCoy) |
 
-
- ### 2023.1
-
- 
- | **Prova**      | **Reposição?** |                                         **Links**                                            |
- | :-------:      | :------------: | :----------------------------------------------------------------------------------------:   |
- |   1o estágio   |      Não       | [Link](https://drive.google.com/drive/folders/1e7XVRFOADb4a18_K9sCtm3SLfgQJ-Vgf?usp=sharing) |
-
