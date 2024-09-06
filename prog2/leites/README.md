@@ -68,6 +68,12 @@ Lab 07 | Não | [Link](https://docs.google.com/document/d/e/2PACX-1vQr1u6oM_Bms7
 2º estágio | Não | [Link](https://docs.google.com/document/d/e/2PACX-1vSowexvMOgxE93kIVwWHwhX1UxgqTpsQ41WKaOKjLp78o86jHPx6DgwhV4m0PL_vZl79-o77jATV2Yg/pub) |
 2º estágio | Sim | [Link](https://docs.google.com/document/d/e/2PACX-1vRDsuO7P7AyaEOj7ivsXgJYdnjFYShXlUp2o2HWK_4opYpOp3USRz_nlAeiyadQCbcJSDBKubTeikud/pub) |
 
+### 2023.2
+**Prova** | **Reposição?** | **Links** |
+:---: | :---:| :---: |
+1º simulado | Não | [link](https://docs.google.com/document/d/e/2PACX-1vR7zduCjjko6aWDctUojnsOYnw1_E88-ErH7JZbL3awffuD7pVY7eXRASV7R7vuOrV6LZT7DiP-In17/pub)
+1º estágio | Não | [link](https://docs.google.com/document/d/e/2PACX-1vSJvyGWNa3O8kQiwKo1Cq_1elnf_Aivxyi0a78vpBI_sGPQYF7-Fjpjj_COp3G4MiDSFSSSnxZEoUix/pub)
+
 ## Outros
 
 Título | Descrição | Links

@@ -11,6 +11,13 @@ Uma coleção de materiais úteis que foram utilizados na disciplina em período
 :---: | :---:| :---: |
 1º estágio | Não | [Link](https://drive.google.com/drive/folders/1Sa-w6BKKdPQfTapeGES35KG8O4uqQ-dn?usp=sharing) |
 
+### 2023.2
+**Prova** | **Reposição?** | **Links** |
+:---: | :---:| :---: |
+1º estágio | Não | [Link](https://drive.google.com/file/d/14p4JpOwIFDzRj8dQoPRdMLEzrPzg6SCa/view?usp=sharing) |
+2º estágio | Não | [Link](https://drive.google.com/file/d/1uil6_h9ktD8ivvsYkB6AI25mPtxQKYcu/view?usp=sharing) |
+Final | Não | [Link](https://drive.google.com/file/d/1_M1vLn4NivARwuICJCvQjUKQ9cUBSiGP/view?usp=sharing) |
+
 ## Arquivos .tex
 
 Alguns dos leites apresentados aqui estão em arquivos .tex, um formato especialmente amigável para desenvolvimentos matemáticos como os da disciplina Fundamentos de Matemática para Ciência da Computação II.
@@ -60,5 +67,3 @@ O [Overleaf](https://www.overleaf.com/) é um editor online de LaTeX que dispõe
 2 | Indução | [Link](https://drive.google.com/file/d/1PSl4jgIdeTpJgvBZtUJIxwMFzgcm2sWH/view) |
 3 | Recursividade e Relações de Recorrência | [Link](https://drive.google.com/file/d/1oK6cGDA0pzEKTwmWXY0UQrghu4xToOJV/view) |
 4 | Congruências e Aritmética Modular| [Link](https://drive.google.com/file/d/1sLuioaRHx3q_u2-Fnhq5LRmZBJcfgmLn/view) |
-
-
