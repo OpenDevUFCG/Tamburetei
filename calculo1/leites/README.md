@@ -24,6 +24,16 @@ Uma coleção de materiais úteis que foram utilizados na disciplina em período
 
 ## Provas
 
+### 2023.2
+**Prova** | **Reposição?** | **Links**  |
+:---: | :---:| :---: |
+1º estágio | Não | [Link](https://drive.google.com/file/d/1DbH1GZcftiNLhN3LYj28kIjZbE1rEaHa/view?usp=sharing) |
+2º estágio | Não | [Link](https://drive.google.com/file/d/1uuxweK0OI_C3O4sUTKvWd7KyjDSVV4jc/view?usp=sharing) |
+3º estágio | Não | [Link](https://drive.google.com/file/d/1DaOA2AfqZDTjZ6ZAJsNadp1OHaTCxhOv/view?usp=sharing) |
+1º estágio | Sim | [Link](https://drive.google.com/file/d/14MjsBGhDJw9WgVvdbd6g1d3rXGAPAPvQ/view?usp=sharing) |
+3º estágio | Sim | [Link](https://drive.google.com/file/d/1agj-CUkuyv_krlI93Zqq3oFgLJUYFY6r/view?usp=sharing) |
+Final | Não | [Link](https://drive.google.com/file/d/1yqNUyGjgHkRDt--5d6XmnwOP8Bj__GRG/view?usp=sharing) |
+
 ### 2022.2
 **Prova** | **Reposição?** | **Links**  |
 :---: | :---:| :---: |
