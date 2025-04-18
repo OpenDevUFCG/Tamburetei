@@ -4,6 +4,19 @@ title: Leites
 
 Uma coleção de materiais úteis que foram utilizados na disciplina em períodos passados.
 
+## Provas
+
+### 2024.2
+
+**Prova** | **Reposição?** | **Links**  |
+:---: | :---: | :---: |
+2º estágio | Sim | [Link](https://drive.google.com/file/d/1yDVcWUJZ-pl8TgMjtaMsm2bKKQFGCKfR/view?usp=sharing) |
+2º estágio | Não | [Link](https://drive.google.com/file/d/1lJKzYLKnnnRBnsxWq9bSsVHj4Ny0Omah/view?usp=sharing) |
+2º estágio | Não | [Link](https://drive.google.com/file/d/11W_bLHim-eTGqf92DrSpru5OOrz1coAX/view?usp=sharing) |
+3º estágio | Sim | [Link](https://drive.google.com/file/d/1lsg-wbGkV9w-upeoxZydox_4uGK_2l05/view?usp=sharing) |
+3º estágio | Não | [Link](https://drive.google.com/file/d/1-qHR6j0cV1nVIKk7At0UN_nzQF7ft_ci/view?usp=sharing) |
+3º estágio | Não | [Link](https://drive.google.com/file/d/13zxCOoI-0pOwgcie6Jv8TpNkP0u_yGI8/view?usp=sharing) |
+
 ## Listas de Exercícios
 
 ### 2018.2
@@ -29,8 +42,9 @@ Uma coleção de materiais úteis que foram utilizados na disciplina em período
 1 | Lógica Proposicional | [Link](https://drive.google.com/file/d/1iBZ9hPe9SbDe0vm4FUazQ1gIHWk5pQ6Q) |
 2 | Lógica de Predicados | [Link](https://drive.google.com/file/d/1duWOd6wt3cujkNJrn4r7VhHl2NspqbaM) |
 
-## Material de APoio
+## Material de Apoio
 
 **Material** | **Assunto** | **Links**  |
 :---: | :---:| :---: |
 1 | Lógica Booleana | [Link](https://drive.google.com/file/d/1ZYXoG2azIqMFtYz_cgsA7wo96836PYMe/view?usp=sharing) |
+
