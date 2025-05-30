@@ -31,6 +31,15 @@ Uma coleção de materiais úteis que foram utilizados na disciplina em período
 3º estágio - Manhã | Não | [Link](https://drive.google.com/file/d/19WD4hTRbcauaVewdJlPGsWBZ0bkFQaO0/view) |
 3º estágio - Tarde | Não | [Link](https://drive.google.com/file/d/1lGTsBYcfENsixh_A2It0pkhBhC05WeQW/view) |
 
+### 2023.1
+**Prova** | **Reposição?** | **Links**  |
+:---: | :---:| :---: |
+1° estágio - Tarde | Não | [Link](https://drive.google.com/file/d/1o0XVC6QdWlsp7forSfO2fbY-ZdVWC0oz/view) |
+2° estágio - Manhã | Não | [Link](https://drive.google.com/file/d/1X_EzsQZqxnpxiayN6jWOJa-tPRSiQOkJ/view) |
+2° estágio - Tarde | Não | [Link](https://drive.google.com/file/d/1fr5kZqI6IpXNoj95eoEIjpnUQcV0D6qB/view) |
+3° estágio - Manhã | Não | [Link](https://drive.google.com/file/d/1wMIocfYTmhcFJf3TB6HQmy6I2dN-UlY8/view) |
+3° estágio - Tarde | Não | [Link](https://drive.google.com/file/d/1HfhS18EJqH-dYtgvThn1ky_iWstWD1Ea/view) |
+
 ### 2022.2
 **Prova** | **Reposição?** | **Links**  |
 :---: | :---:| :---: |
