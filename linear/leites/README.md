@@ -20,6 +20,41 @@ Uma coleção de materiais úteis que foram utilizados na disciplina em período
 
 ## Provas
 
+### 2024.2
+**Prova** | **Reposição?** | **Links**  |
+:---: | :---:| :---: |
+1° estágio - Manhã | Não | [Link](https://drive.google.com/file/d/1I2ZIp-LznuwyipKkXteq0SRwW69lw_PC/view) |
+1° estágio - Tarde | Não | [Link](https://drive.google.com/file/d/1n_u-R-CQ_wcxLtul_IXPhfI3Om2lUdVB/view) |
+1° estágio - Manhã | Sim | [Link](https://drive.google.com/file/d/1XzWp2b_e7qOVgoZ8trGxdFrVNlwXa0jy/view) |
+1° estágio - Tarde | Sim | [Link](https://drive.google.com/file/d/1ze7GWg9qigsv_dLTDcMZg8FN-Cgi9OAH/view) |
+2º estágio - Tarde | Não | [Link](https://drive.google.com/file/d/1t4Mo2l08K96dzRjlx7JU8bnOIlFu55AL/view) |
+3º estágio - Manhã | Não | [Link](https://drive.google.com/file/d/19WD4hTRbcauaVewdJlPGsWBZ0bkFQaO0/view) |
+3º estágio - Tarde | Não | [Link](https://drive.google.com/file/d/1lGTsBYcfENsixh_A2It0pkhBhC05WeQW/view) |
+
+### 2024.1
+**Prova** | **Reposição?** | **Links**  |
+:---: | :---:| :---: |
+1° estágio - Manhã | Não | [Link](https://drive.google.com/file/d/1N51unTs6vGojZGd2mFTthJN2rFEvjlaW/view) |
+2° estágio - Manhã | Não | [Link](https://drive.google.com/file/d/1nzbwvhADGA_CMb_fLzzXBYqxz6Q9YTAi/view) |
+3º estágio - Manhã | Não | [Link](https://drive.google.com/file/d/126SOHgIHryh7dMnoQX9EuPN46qXx6Kzs/view) |
+3º estágio - Tarde | Não | [Link](https://drive.google.com/file/d/1Byl_EIZzalAZceDMsiFONq74UTCMt5S5/view) |
+
+### 2023.2
+**Prova** | **Reposição?** | **Links**  |
+:---: | :---:| :---: |
+2° estágio - Manhã | Não | [Link](https://drive.google.com/file/d/1pGfe4j5jK8nUK_5y1uyJ7Jo3Zb1qUQk3/view) |
+3° estágio - Manhã | Não | [Link](https://drive.google.com/file/d/1TC5S_smBbEKncv5oT0DyS6ClBQ2sSmyY/view) |
+3° estágio - Manhã | Sim | [Link](https://drive.google.com/file/d/15zwQTECSx7Hg2t9PFspwUTumHUJ8QbDG/view) |
+
+### 2023.1
+**Prova** | **Reposição?** | **Links**  |
+:---: | :---:| :---: |
+1° estágio - Tarde | Não | [Link](https://drive.google.com/file/d/1o0XVC6QdWlsp7forSfO2fbY-ZdVWC0oz/view) |
+2° estágio - Manhã | Não | [Link](https://drive.google.com/file/d/1X_EzsQZqxnpxiayN6jWOJa-tPRSiQOkJ/view) |
+2° estágio - Tarde | Não | [Link](https://drive.google.com/file/d/1fr5kZqI6IpXNoj95eoEIjpnUQcV0D6qB/view) |
+3° estágio - Manhã | Não | [Link](https://drive.google.com/file/d/1wMIocfYTmhcFJf3TB6HQmy6I2dN-UlY8/view) |
+3° estágio - Tarde | Não | [Link](https://drive.google.com/file/d/1HfhS18EJqH-dYtgvThn1ky_iWstWD1Ea/view) |
+
 ### 2022.2
 **Prova** | **Reposição?** | **Links**  |
 :---: | :---:| :---: |
