@@ -20,6 +20,18 @@ Uma coleção de materiais úteis que foram utilizados na disciplina em período
 
 ## Provas
 
+### 2025.2
+**Prova** | **Reposição?** | **Links**  |
+:---: | :---:| :---: |
+1° estágio - Manhã | Não | [Link](https://drive.google.com/file/d/1WZFB-4Vzionl_boU-tvWhJH4NgWUM60M/view?usp=sharing) |
+1° estágio - Tarde | Não | [Link](https://drive.google.com/file/d/1bMZvc3WtuEMal4qUmiMEB9AF23P4Vetr/view?usp=sharing) |
+1° estágio - Manhã | Sim | [Link](https://drive.google.com/file/d/1wLf8wKENagMOMf2VrrKuVebEvhh1Ehei/view?usp=sharing) |
+1° estágio - Tarde | Sim | [Link](https://drive.google.com/file/d/1i5X1OjWE9UcfXhwyJB4EehMDSnCRG7Q3/view?usp=sharing) |
+2° estágio - Manhã e Tarde | Não | [Link](https://drive.google.com/file/d/1ruElicSyhtHSXh63BZU3HyVphYR2G_a_/view?usp=sharing) |
+2° estágio - Manhã e Tarde | Sim | [Link](https://drive.google.com/file/d/17n4MwEMmBAjCkmTlI4sJDtig2NxSBak2/view?usp=sharing) |
+3° estágio - Manhã e Tarde | Não | [Link](https://drive.google.com/file/d/1WDuQOBv7q4HteUeHDoUzsoiCf8lnQmLc/view?usp=sharing) |
+3° estágio - Manhã e Tarde | Sim | [Link](https://drive.google.com/file/d/19n3aEsVI8qspcb9FbkCTyGa12gqPdHZF/view?usp=sharing) |
+
 ### 2024.2
 **Prova** | **Reposição?** | **Links**  |
 :---: | :---:| :---: |
