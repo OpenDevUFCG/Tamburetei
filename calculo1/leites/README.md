@@ -6,7 +6,28 @@ Uma coleção de materiais úteis que foram utilizados na disciplina em período
 
 - [Resoluções de Provas (Monitores)](https://drive.google.com/drive/folders/1lVZSXtxi0V3bX_ocKgseFmdgWVgwPP29?usp=sharing)
 
+## Livros
+
+**Livro** | **Links**  |
+:---: | :---: |
+Stewart 1 | [Link](https://1drv.ms/b/c/975ec841994373bd/IQBy9SspAh0rSKKKYzu2OuaOAUx94NbYuNxNkKfWfsoMd5o?e=BNFDgn) |
+George B Thomas | [Link](https://1drv.ms/b/c/975ec841994373bd/IQA8MT_1sCkHQo_5g_n7o7vfAUja4t0PPYS07y3467l5Q1o?e=jwTHwF) |
+
 ## Listas de Exercícios
+
+### 2025.1 / 2025.2 / 2024.1
+**Lista** | **Assunto** | **Links**  |
+:---: | :---: | :---: |
+1 | Limites | [Link](https://1drv.ms/b/c/975ec841994373bd/IQBAcKaregNgTZbl72o2FbLcAY2t5worOQoB8F3iepQTQlc?e=Od074W) |
+2 | Derivadas | [Link](https://1drv.ms/b/c/975ec841994373bd/IQAOlt2RPuD5T6NO1GPRjLGpAUslIoNjqRP2M7qrZhPBwNs?e=ifRUax) |
+3 | Integrais | [Link](https://1drv.ms/b/c/975ec841994373bd/IQB7jVyo4GUKQYUUunCd8dlZAcJEuKS1Qq4_TWFP34O--4Y?e=5hJHXl) |
+| Lista de Integrais | [Link](https://1drv.ms/b/c/975ec841994373bd/IQCI5zUinlCyQYSpoXTpLU3YAaGYpCHaxntasdJCKfl_AYc?e=CgYLJ5) |
+
+## Provas Anteriores
+
+**Provas** | **Links**  |
+:---: | :---: |
+Provas Anteriores | [Link](https://1drv.ms/b/c/975ec841994373bd/IQDxX8TwoJ5bR4pBQOeFbTC_ASFUmpZ3yi7mY3-t_dJIZC4?e=zhM5zB) |
 
 ### 2019.2
 **Lista** | **Assunto** | **Links**  |
@@ -21,8 +42,6 @@ Uma coleção de materiais úteis que foram utilizados na disciplina em período
 1 | Limites e Continuidade | [Link](https://drive.google.com/file/d/1WyAWoOdSHYRCMPl6V7TgUX8-KncM05ax/view?usp=sharing) |
 2 | Derivadas e Aplicações | [Link](https://drive.google.com/file/d/1QWy9owE9676K64B0fOkHUzFVrCaT1RN5/view?usp=sharing) |
 3 | Integração | [Link](https://drive.google.com/file/d/12Zg1vUKkeNfvmR2pmHdCbHt79Ird3p47/view?usp=sharing) |
-
-## Provas
 
 ### 2023.2
 **Prova** | **Reposição?** | **Links**  |
